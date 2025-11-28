@@ -14,10 +14,14 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                checkout scm
+                checkout([$class: 'GitSCM',
+                    branches: [[name: 'v5-stable']],
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: [[$class: 'CloneOption', depth: 1, shallow: true, noTags: false, reference: '', timeout: 20]],
+                    userRemoteConfigs: [[url: 'https://github.com/invoiceninja/invoiceninja.git']]
+                ])
             }
         }
-
         stage('Setup PHP') {
             steps {
                 sh 'sudo apt update'
