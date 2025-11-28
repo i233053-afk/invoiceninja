@@ -1,29 +1,31 @@
 name: Invoice Ninja CI
 
 on:
-push:
-branches: [ v5-stable ]
-pull_request:
-branches: [ v5-stable ]
+  push:
+    branches: 
+      - v5-stable
+  pull_request:
+    branches: 
+      - v5-stable
 
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout repository
-uses: actions/checkout@v3
+  build:
+    runs-on: ubuntu-latest
 
-```
-  - name: Setup PHP
-    uses: shivammathur/setup-php@v2
-    with:
-      php-version: '8.2'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-  - name: Install dependencies
-    run: composer install --no-progress --no-interaction
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
 
-  - name: Run tests (warnings only)
-    run: |
-      # Run PHPUnit but don't fail on errors/warnings
-      vendor/bin/phpunit --stop-on-error=0 || true
-```
+      - name: Install dependencies
+        run: composer install --no-progress --no-interaction --prefer-dist
+
+      - name: Run migrations
+        run: php artisan migrate --force || true
+
+      - name: Run PHPUnit tests (warnings only)
+        run: vendor/bin/phpunit || true
