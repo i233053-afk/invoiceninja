@@ -12,6 +12,30 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: invoiceninja
+          MYSQL_USER: ninja
+          MYSQL_PASSWORD: Ninja@1234
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --silent"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
+    env:
+      DB_CONNECTION: mysql
+      DB_HOST: 127.0.0.1
+      DB_PORT: 3306
+      DB_DATABASE: invoiceninja
+      DB_USERNAME: ninja
+      DB_PASSWORD: Ninja@1234
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -23,6 +47,14 @@ jobs:
 
       - name: Install dependencies
         run: composer install --no-progress --no-interaction --prefer-dist
+
+      - name: Wait for MySQL
+        run: |
+          for i in {1..30}; do
+            mysqladmin ping -h 127.0.0.1 -u ninja -pNinja@1234 && break
+            echo "Waiting for MySQL..."
+            sleep 2
+          done
 
       - name: Run migrations
         run: php artisan migrate --force || true
