@@ -12,20 +12,13 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        stage('Setup PHP & Composer') {
             steps {
-                checkout([$class: 'GitSCM',
-                    branches: [[name: 'v5-stable']],
-                    doGenerateSubmoduleConfigurations: false,
-                    extensions: [[$class: 'CloneOption', depth: 1, shallow: true, noTags: false, reference: '', timeout: 20]],
-                    userRemoteConfigs: [[url: 'https://github.com/invoiceninja/invoiceninja.git']]
-                ])
-            }
-        }
-        stage('Setup PHP') {
-            steps {
-                sh 'sudo apt update'
-                sh 'sudo apt install -y php php-mbstring php-xml php-mysql composer'
+                sh '''
+                    sudo apt update
+                    sudo apt install -y php php-mbstring php-xml php-mysql unzip composer
+                    composer --version
+                '''
             }
         }
 
@@ -36,26 +29,42 @@ pipeline {
                     mysql -u root -proot -e "CREATE DATABASE IF NOT EXISTS invoiceninja;"
                     mysql -u root -proot -e "CREATE USER IF NOT EXISTS 'ninja'@'%' IDENTIFIED BY 'Ninja@1234';"
                     mysql -u root -proot -e "GRANT ALL PRIVILEGES ON invoiceninja.* TO 'ninja'@'%';"
+                    mysql -u root -proot -e "FLUSH PRIVILEGES;"
                 '''
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                sh 'composer install --no-interaction --prefer-dist'
+                dir('/home/hp/invoiceninja') { // Replace with your local repo path
+                    sh 'composer install --no-interaction --prefer-dist --optimize-autoloader'
+                }
             }
         }
 
         stage('Run Migrations') {
             steps {
-                sh 'php artisan migrate --force || true'
+                dir('/home/hp/invoiceninja') {
+                    sh 'php artisan migrate --force || echo "Migrations may have already run."'
+                }
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'vendor/bin/phpunit || true'
+                dir('/home/hp/invoiceninja') {
+                    sh 'vendor/bin/phpunit || echo "Some tests failed, check logs."'
+                }
             }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline finished.'
+        }
+        failure {
+            echo 'Pipeline failed! Check logs for details.'
         }
     }
 }
