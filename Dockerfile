@@ -55,9 +55,10 @@ RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 RUN npm install && npm run production
 
 # -----------------------------
-# Laravel setup and optimizations
+# Setup Laravel environment
 # -----------------------------
-RUN php artisan key:generate \
+RUN cp .env.example .env \
+    && php artisan key:generate \
     && php artisan optimize \
     && php artisan config:cache \
     && php artisan route:cache
