@@ -34,11 +34,12 @@ jobs:
             php artisan config:cache
             php artisan route:cache
 
-      - setup_remote_docker    # <-- FIXED
+      - setup_remote_docker
 
       - run:
           name: Build Docker Image
           command: docker build -t invoiceninja-app:latest .
+
       - run:
           name: Save Docker Image
           command: docker save invoiceninja-app:latest -o invoiceninja-app.tar
@@ -51,11 +52,12 @@ jobs:
       - store_artifacts:
           path: ./vendor
           destination: php-vendor
+
       - store_artifacts:
           path: ./public/build
           destination: frontend-build
 
-       - run:
+      - run:
           name: Login to Docker Hub
           command: echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USERNAME --password-stdin
 
@@ -66,6 +68,7 @@ jobs:
       - run:
           name: Push Docker Image to Docker Hub
           command: docker push $DOCKERHUB_USERNAME/invoiceninja-app:latest
+
 workflows:
   build-workflow:
     jobs:
