@@ -39,7 +39,21 @@ jobs:
       - run:
           name: Build Docker Image
           command: docker build -t invoiceninja-app:latest .
+      - run:
+          name: Save Docker Image
+          command: docker save invoiceninja-app:latest -o invoiceninja-app.tar
 
+      - store_artifacts:
+          path: invoiceninja-app.tar
+          destination: docker-image
+
+      # Optional: save compiled assets/vendor folder
+      - store_artifacts:
+          path: ./vendor
+          destination: php-vendor
+      - store_artifacts:
+          path: ./public/build
+          destination: frontend-build
 workflows:
   build-workflow:
     jobs:
