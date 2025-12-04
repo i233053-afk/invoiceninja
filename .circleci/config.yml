@@ -1,0 +1,17 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Test CircleCI Trigger
+          command: echo "CircleCI pipeline triggered successfully!"
+
+workflows:
+  version: 2.1
+  test-pipeline:
+    jobs:
+      - build
