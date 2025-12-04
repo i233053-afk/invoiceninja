@@ -3,15 +3,47 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/php:8.1-node
     steps:
       - checkout
+
       - run:
-          name: Test CircleCI Trigger
-          command: echo "CircleCI pipeline triggered successfully!"
+          name: Update System
+          command: sudo apt-get update
+
+      - run:
+          name: Install Composer
+          command: sudo apt-get install composer -y
+
+      - run:
+          name: Install PHP Dependencies
+          command: composer install --no-interaction --prefer-dist --optimize-autoloader
+
+      - run:
+          name: Install Node Dependencies
+          command: npm install
+
+      - run:
+          name: Build Frontend
+          command: npm run production
+
+      - run:
+          name: Laravel Build Optimizations
+          command: |
+            php artisan optimize
+            php artisan config:cache
+            php artisan route:cache
+
+      - setup_remote_docker:
+          version: 20.10.6
+
+      - run:
+          name: Build Docker Image
+          command: docker build -t invoiceninja-app:latest .
 
 workflows:
   version: 2.1
-  test-pipeline:
+  build-workflow:
     jobs:
       - build
+
