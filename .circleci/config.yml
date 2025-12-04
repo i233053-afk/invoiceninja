@@ -34,16 +34,13 @@ jobs:
             php artisan config:cache
             php artisan route:cache
 
-      - setup_remote_docker:
-          version: 20.10.6
+      - setup_remote_docker    # <-- FIXED
 
       - run:
           name: Build Docker Image
           command: docker build -t invoiceninja-app:latest .
 
 workflows:
-  version: 2.1
   build-workflow:
     jobs:
       - build
-
