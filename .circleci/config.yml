@@ -63,11 +63,11 @@ jobs:
 
       - run:
           name: Tag Docker Image for Docker Hub
-          command: docker tag invoiceninja-app:latest $DOCKERHUB_USERNAME/invoiceninja-app:latest
+          command: docker tag invoiceninja-app:latest $DOCKERHUB_USERNAME/invoiceninja:latest
 
       - run:
           name: Push Docker Image to Docker Hub
-          command: docker push $DOCKERHUB_USERNAME/invoiceninja-app:latest
+          command: docker push $DOCKERHUB_USERNAME/invoiceninja:latest
 
 workflows:
   build-workflow:
