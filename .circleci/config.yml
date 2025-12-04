@@ -54,6 +54,18 @@ jobs:
       - store_artifacts:
           path: ./public/build
           destination: frontend-build
+
+       - run:
+          name: Login to Docker Hub
+          command: echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USERNAME --password-stdin
+
+      - run:
+          name: Tag Docker Image for Docker Hub
+          command: docker tag invoiceninja-app:latest $DOCKERHUB_USERNAME/invoiceninja-app:latest
+
+      - run:
+          name: Push Docker Image to Docker Hub
+          command: docker push $DOCKERHUB_USERNAME/invoiceninja-app:latest
 workflows:
   build-workflow:
     jobs:
