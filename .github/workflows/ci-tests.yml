@@ -24,7 +24,7 @@ jobs:
           --health-timeout=5s
           --health-retries=3
 
-       steps:
+    steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
@@ -51,7 +51,6 @@ jobs:
         echo "DB_DATABASE=test_db" >> .env
         echo "DB_USERNAME=root" >> .env
         echo "DB_PASSWORD=root" >> .env
-
 
     - name: Composer install
       run: composer install --no-interaction --prefer-dist
@@ -101,3 +100,4 @@ jobs:
       with:
         name: cypress-results
         path: cypress/videos
+
