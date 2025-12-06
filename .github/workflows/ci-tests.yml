@@ -83,9 +83,14 @@ jobs:
       - name: Run PHPUnit tests with coverage
         run: php artisan test --coverage-clover coverage.xml || true
 
-      - name: Upload PHP test results
+      - name: Generate HTML coverage report
+        run: |
+          mkdir -p coverage-html
+          php vendor/bin/phpcov merge coverage.xml --html coverage-html
+
+      - name: Upload HTML coverage report
         uses: actions/upload-artifact@v4
         with:
-          name: phpunit-coverage
-          path: coverage.xml
+          name: phpunit-coverage-html
+          path: coverage-html
 
