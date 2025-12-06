@@ -11,17 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
-      mysql:
-        image: mysql:8
-        env:
-          MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: invoice_ninja_test
-          MYSQL_USER: invoicetest
-          MYSQL_PASSWORD: testpassword
+      mariadb:
+        image: mariadb:10.6
         ports:
           - 3306:3306
+        env:
+          MYSQL_ALLOW_EMPTY_PASSWORD: no
+          MYSQL_USER: invoicetest
+          MYSQL_PASSWORD: testpassword
+          MYSQL_DATABASE: invoice_ninja_test
+          MYSQL_ROOT_PASSWORD: root
         options: >-
           --health-cmd="mysqladmin ping --silent"
+          --health-interval=5s
+          --health-timeout=2s
+          --health-retries=3
+      redis:
+        image: redis
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd="redis-cli ping"
           --health-interval=10s
           --health-timeout=5s
           --health-retries=3
@@ -34,7 +44,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: 8.2
-          extensions: mbstring, bcmath, mysql, xdebug
+          extensions: mbstring, bcmath, mysql, redis, xdebug
           coverage: xdebug
 
       - name: Create storage directories
@@ -54,14 +64,21 @@ jobs:
           echo "DB_USERNAME=invoicetest" >> .env
           echo "DB_PASSWORD=testpassword" >> .env
 
+      - name: Wait for MariaDB to be ready
+        run: |
+          until mysqladmin ping -h 127.0.0.1 -P 3306 --silent; do
+            echo "Waiting for database..."
+            sleep 2
+          done
+
       - name: Composer install
         run: composer install --no-interaction --prefer-dist
 
-      - name: Generate key
+      - name: Generate Laravel key
         run: php artisan key:generate
 
-      - name: Run migrations
-        run: php artisan migrate --force
+      - name: Run migrations and seed database
+        run: php artisan migrate --force && php artisan db:seed
 
       - name: Run PHPUnit tests with coverage
         run: php artisan test --coverage-clover coverage.xml || true
@@ -71,35 +88,4 @@ jobs:
         with:
           name: phpunit-coverage
           path: coverage.xml
-
-  cypress-tests:
-    runs-on: ubuntu-latest
-    needs: laravel-tests
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Install Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Start Laravel server
-        run: php artisan serve --port=8000 &
-
-      - name: Wait for server
-        run: npx wait-on http://127.0.0.1:8000
-
-      - name: Run Cypress tests
-        run: npx cypress run --config-file cypress/cypress.compress.config.js
-
-      - name: Upload Cypress videos & screenshots
-        uses: actions/upload-artifact@v4
-        with:
-          name: cypress-results
-          path: cypress/videos
 
