@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/PaymentDrivers/Stripe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">PaymentDrivers</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Stripe</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ACH.php.html#39">App\PaymentDrivers\Stripe\ACH</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#35">App\PaymentDrivers\Stripe\ACSS</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#27">App\PaymentDrivers\Stripe\Alipay</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApplePay.php.html#21">App\PaymentDrivers\Stripe\ApplePay</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#29">App\PaymentDrivers\Stripe\BACS</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#26">App\PaymentDrivers\Stripe\BECS</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#24">App\PaymentDrivers\Stripe\Bancontact</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#28">App\PaymentDrivers\Stripe\BankTransfer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#33">App\PaymentDrivers\Stripe\BrowserPay</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Charge.php.html#30">App\PaymentDrivers\Stripe\Charge</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/Account.php.html#15">App\PaymentDrivers\Stripe\Connect\Account</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/ConnectOauth.php.html#17">App\PaymentDrivers\Stripe\Connect\ConnectOauth</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/Verify.php.html#20">App\PaymentDrivers\Stripe\Connect\Verify</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#28">App\PaymentDrivers\Stripe\CreditCard</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#24">App\PaymentDrivers\Stripe\EPS</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#25">App\PaymentDrivers\Stripe\FPX</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#24">App\PaymentDrivers\Stripe\GIROPAY</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#29">App\PaymentDrivers\Stripe\ImportCustomers</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/ChargeRefunded.php.html#32">App\PaymentDrivers\Stripe\Jobs\ChargeRefunded</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentFailureWebhook.php.html#27">App\PaymentDrivers\Stripe\Jobs\PaymentIntentFailureWebhook</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentPartiallyFundedWebhook.php.html#27">App\PaymentDrivers\Stripe\Jobs\PaymentIntentPartiallyFundedWebhook</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentProcessingWebhook.php.html#33">App\PaymentDrivers\Stripe\Jobs\PaymentIntentProcessingWebhook</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#34">App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/StripeWebhook.php.html#25">App\PaymentDrivers\Stripe\Jobs\StripeWebhook</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateCustomer.php.html#26">App\PaymentDrivers\Stripe\Jobs\UpdateCustomer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#24">App\PaymentDrivers\Stripe\Klarna</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#24">App\PaymentDrivers\Stripe\PRZELEWY24</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#26">App\PaymentDrivers\Stripe\SEPA</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#24">App\PaymentDrivers\Stripe\SOFORT</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#24">App\PaymentDrivers\Stripe\UpdatePaymentMethods</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#24">App\PaymentDrivers\Stripe\iDeal</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Utilities.php.html#15">App\PaymentDrivers\Stripe\Utilities</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ACH.php.html#39">App\PaymentDrivers\Stripe\ACH</a></td><td class="text-right">5402</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#34">App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook</a></td><td class="text-right">1980</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#29">App\PaymentDrivers\Stripe\ImportCustomers</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#24">App\PaymentDrivers\Stripe\UpdatePaymentMethods</a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="BankTransfer.php.html#28">App\PaymentDrivers\Stripe\BankTransfer</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="ACSS.php.html#35">App\PaymentDrivers\Stripe\ACSS</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="Charge.php.html#30">App\PaymentDrivers\Stripe\Charge</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentProcessingWebhook.php.html#33">App\PaymentDrivers\Stripe\Jobs\PaymentIntentProcessingWebhook</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="CreditCard.php.html#28">App\PaymentDrivers\Stripe\CreditCard</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="BrowserPay.php.html#33">App\PaymentDrivers\Stripe\BrowserPay</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="BACS.php.html#29">App\PaymentDrivers\Stripe\BACS</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="SEPA.php.html#26">App\PaymentDrivers\Stripe\SEPA</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Alipay.php.html#27">App\PaymentDrivers\Stripe\Alipay</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Jobs/ChargeRefunded.php.html#32">App\PaymentDrivers\Stripe\Jobs\ChargeRefunded</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="BECS.php.html#26">App\PaymentDrivers\Stripe\BECS</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentFailureWebhook.php.html#27">App\PaymentDrivers\Stripe\Jobs\PaymentIntentFailureWebhook</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Bancontact.php.html#24">App\PaymentDrivers\Stripe\Bancontact</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="EPS.php.html#24">App\PaymentDrivers\Stripe\EPS</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="GIROPAY.php.html#24">App\PaymentDrivers\Stripe\GIROPAY</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Klarna.php.html#24">App\PaymentDrivers\Stripe\Klarna</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#24">App\PaymentDrivers\Stripe\PRZELEWY24</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="iDeal.php.html#24">App\PaymentDrivers\Stripe\iDeal</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="FPX.php.html#25">App\PaymentDrivers\Stripe\FPX</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="SOFORT.php.html#24">App\PaymentDrivers\Stripe\SOFORT</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentPartiallyFundedWebhook.php.html#27">App\PaymentDrivers\Stripe\Jobs\PaymentIntentPartiallyFundedWebhook</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="ApplePay.php.html#21">App\PaymentDrivers\Stripe\ApplePay</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Jobs/StripeWebhook.php.html#25">App\PaymentDrivers\Stripe\Jobs\StripeWebhook</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Jobs/UpdateCustomer.php.html#26">App\PaymentDrivers\Stripe\Jobs\UpdateCustomer</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Connect/Verify.php.html#20">App\PaymentDrivers\Stripe\Connect\Verify</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Utilities.php.html#15">App\PaymentDrivers\Stripe\Utilities</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ACH.php.html#46"><abbr title="App\PaymentDrivers\Stripe\ACH::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#54"><abbr title="App\PaymentDrivers\Stripe\ACH::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#61"><abbr title="App\PaymentDrivers\Stripe\ACH::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#95"><abbr title="App\PaymentDrivers\Stripe\ACH::updateBankAccount">updateBankAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#111"><abbr title="App\PaymentDrivers\Stripe\ACH::verificationView">verificationView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#166"><abbr title="App\PaymentDrivers\Stripe\ACH::processVerification">processVerification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#201"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#213"><abbr title="App\PaymentDrivers\Stripe\ACH::tokenBilling">tokenBilling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#265"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentIntentTokenBilling">paymentIntentTokenBilling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#361"><abbr title="App\PaymentDrivers\Stripe\ACH::handlePaymentIntentResponse">handlePaymentIntentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#411"><abbr title="App\PaymentDrivers\Stripe\ACH::processPendingPaymentIntent">processPendingPaymentIntent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#441"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#509"><abbr title="App\PaymentDrivers\Stripe\ACH::processPendingPayment">processPendingPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#539"><abbr title="App\PaymentDrivers\Stripe\ACH::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#560"><abbr title="App\PaymentDrivers\Stripe\ACH::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#602"><abbr title="App\PaymentDrivers\Stripe\ACH::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACH.php.html#607"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#42"><abbr title="App\PaymentDrivers\Stripe\ACSS::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#54"><abbr title="App\PaymentDrivers\Stripe\ACSS::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#90"><abbr title="App\PaymentDrivers\Stripe\ACSS::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#148"><abbr title="App\PaymentDrivers\Stripe\ACSS::tokenIntent">tokenIntent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#169"><abbr title="App\PaymentDrivers\Stripe\ACSS::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#229"><abbr title="App\PaymentDrivers\Stripe\ACSS::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#259"><abbr title="App\PaymentDrivers\Stripe\ACSS::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#273"><abbr title="App\PaymentDrivers\Stripe\ACSS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#300"><abbr title="App\PaymentDrivers\Stripe\ACSS::tokenBilling">tokenBilling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#327"><abbr title="App\PaymentDrivers\Stripe\ACSS::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#351"><abbr title="App\PaymentDrivers\Stripe\ACSS::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#387"><abbr title="App\PaymentDrivers\Stripe\ACSS::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ACSS.php.html#411"><abbr title="App\PaymentDrivers\Stripe\ACSS::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#32"><abbr title="App\PaymentDrivers\Stripe\Alipay::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#37"><abbr title="App\PaymentDrivers\Stripe\Alipay::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#45"><abbr title="App\PaymentDrivers\Stripe\Alipay::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#54"><abbr title="App\PaymentDrivers\Stripe\Alipay::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#84"><abbr title="App\PaymentDrivers\Stripe\Alipay::processSuccesfulRedirect">processSuccesfulRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#111"><abbr title="App\PaymentDrivers\Stripe\Alipay::processUnsuccesfulRedirect">processUnsuccesfulRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#137"><abbr title="App\PaymentDrivers\Stripe\Alipay::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Alipay.php.html#145"><abbr title="App\PaymentDrivers\Stripe\Alipay::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApplePay.php.html#26"><abbr title="App\PaymentDrivers\Stripe\ApplePay::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApplePay.php.html#31"><abbr title="App\PaymentDrivers\Stripe\ApplePay::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApplePay.php.html#58"><abbr title="App\PaymentDrivers\Stripe\ApplePay::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApplePay.php.html#87"><abbr title="App\PaymentDrivers\Stripe\ApplePay::registerDomain">registerDomain</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#33"><abbr title="App\PaymentDrivers\Stripe\BACS::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#38"><abbr title="App\PaymentDrivers\Stripe\BACS::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#50"><abbr title="App\PaymentDrivers\Stripe\BACS::buildAuthorizeUrl">buildAuthorizeUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#58"><abbr title="App\PaymentDrivers\Stripe\BACS::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#71"><abbr title="App\PaymentDrivers\Stripe\BACS::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#77"><abbr title="App\PaymentDrivers\Stripe\BACS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#117"><abbr title="App\PaymentDrivers\Stripe\BACS::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#144"><abbr title="App\PaymentDrivers\Stripe\BACS::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#165"><abbr title="App\PaymentDrivers\Stripe\BACS::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#190"><abbr title="App\PaymentDrivers\Stripe\BACS::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BACS.php.html#199"><abbr title="App\PaymentDrivers\Stripe\BACS::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#31"><abbr title="App\PaymentDrivers\Stripe\BECS::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#37"><abbr title="App\PaymentDrivers\Stripe\BECS::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#42"><abbr title="App\PaymentDrivers\Stripe\BECS::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#49"><abbr title="App\PaymentDrivers\Stripe\BECS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#66"><abbr title="App\PaymentDrivers\Stripe\BECS::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#90"><abbr title="App\PaymentDrivers\Stripe\BECS::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#118"><abbr title="App\PaymentDrivers\Stripe\BECS::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#141"><abbr title="App\PaymentDrivers\Stripe\BECS::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BECS.php.html#174"><abbr title="App\PaymentDrivers\Stripe\BECS::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#29"><abbr title="App\PaymentDrivers\Stripe\Bancontact::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#34"><abbr title="App\PaymentDrivers\Stripe\Bancontact::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#39"><abbr title="App\PaymentDrivers\Stripe\Bancontact::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#47"><abbr title="App\PaymentDrivers\Stripe\Bancontact::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#56"><abbr title="App\PaymentDrivers\Stripe\Bancontact::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#68"><abbr title="App\PaymentDrivers\Stripe\Bancontact::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#102"><abbr title="App\PaymentDrivers\Stripe\Bancontact::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#125"><abbr title="App\PaymentDrivers\Stripe\Bancontact::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Bancontact.php.html#157"><abbr title="App\PaymentDrivers\Stripe\Bancontact::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#35"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#40"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#52"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::resolveBankType">resolveBankType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#68"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#83"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#126"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::formatDataForUk">formatDataForUk</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#147"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::formatDataforMx">formatDataforMx</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#169"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::formatDataforEur">formatDataforEur</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#189"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::formatDataforJp">formatDataforJp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#214"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::formatDataforUs">formatDataforUs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#237"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::processSuccesfulRedirect">processSuccesfulRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#269"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::processUnsuccesfulRedirect">processUnsuccesfulRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#292"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransfer.php.html#329"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#37"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#52"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#63"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#69"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#101"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#114"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#134"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#173"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#202"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::ensureApplePayDomainIsValidated">ensureApplePayDomainIsValidated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#227"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::getAppleDomain">getAppleDomain</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BrowserPay.php.html#244"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Charge.php.html#37"><abbr title="App\PaymentDrivers\Stripe\Charge::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Charge.php.html#49"><abbr title="App\PaymentDrivers\Stripe\Charge::tokenBilling">tokenBilling</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Charge.php.html#180"><abbr title="App\PaymentDrivers\Stripe\Charge::formatGatewayResponse">formatGatewayResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Charge.php.html#194"><abbr title="App\PaymentDrivers\Stripe\Charge::transformPaymentTypeToConstant">transformPaymentTypeToConstant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/Account.php.html#20"><abbr title="App\PaymentDrivers\Stripe\Connect\Account::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/Account.php.html#36"><abbr title="App\PaymentDrivers\Stripe\Connect\Account::link">link</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/ConnectOauth.php.html#29"><abbr title="App\PaymentDrivers\Stripe\Connect\ConnectOauth::getAccountId">getAccountId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/ConnectOauth.php.html#49"><abbr title="App\PaymentDrivers\Stripe\Connect\ConnectOauth::revoke">revoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/Verify.php.html#27"><abbr title="App\PaymentDrivers\Stripe\Connect\Verify::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connect/Verify.php.html#32"><abbr title="App\PaymentDrivers\Stripe\Connect\Verify::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#32"><abbr title="App\PaymentDrivers\Stripe\CreditCard::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#37"><abbr title="App\PaymentDrivers\Stripe\CreditCard::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#48"><abbr title="App\PaymentDrivers\Stripe\CreditCard::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#69"><abbr title="App\PaymentDrivers\Stripe\CreditCard::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#92"><abbr title="App\PaymentDrivers\Stripe\CreditCard::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#99"><abbr title="App\PaymentDrivers\Stripe\CreditCard::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#104"><abbr title="App\PaymentDrivers\Stripe\CreditCard::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#137"><abbr title="App\PaymentDrivers\Stripe\CreditCard::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#187"><abbr title="App\PaymentDrivers\Stripe\CreditCard::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditCard.php.html#208"><abbr title="App\PaymentDrivers\Stripe\CreditCard::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#29"><abbr title="App\PaymentDrivers\Stripe\EPS::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#34"><abbr title="App\PaymentDrivers\Stripe\EPS::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#39"><abbr title="App\PaymentDrivers\Stripe\EPS::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#46"><abbr title="App\PaymentDrivers\Stripe\EPS::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#55"><abbr title="App\PaymentDrivers\Stripe\EPS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#67"><abbr title="App\PaymentDrivers\Stripe\EPS::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#102"><abbr title="App\PaymentDrivers\Stripe\EPS::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#125"><abbr title="App\PaymentDrivers\Stripe\EPS::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EPS.php.html#156"><abbr title="App\PaymentDrivers\Stripe\EPS::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#30"><abbr title="App\PaymentDrivers\Stripe\FPX::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#35"><abbr title="App\PaymentDrivers\Stripe\FPX::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#40"><abbr title="App\PaymentDrivers\Stripe\FPX::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#47"><abbr title="App\PaymentDrivers\Stripe\FPX::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#56"><abbr title="App\PaymentDrivers\Stripe\FPX::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#68"><abbr title="App\PaymentDrivers\Stripe\FPX::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#97"><abbr title="App\PaymentDrivers\Stripe\FPX::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#125"><abbr title="App\PaymentDrivers\Stripe\FPX::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FPX.php.html#156"><abbr title="App\PaymentDrivers\Stripe\FPX::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#29"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#34"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#39"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#46"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#55"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#67"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#100"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#123"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GIROPAY.php.html#154"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#41"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#46"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#73"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::addCustomer">addCustomer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#170"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::importCustomer">importCustomer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#193"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::match">match</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/ChargeRefunded.php.html#46"><abbr title="App\PaymentDrivers\Stripe\Jobs\ChargeRefunded::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/ChargeRefunded.php.html#50"><abbr title="App\PaymentDrivers\Stripe\Jobs\ChargeRefunded::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/ChargeRefunded.php.html#174"><abbr title="App\PaymentDrivers\Stripe\Jobs\ChargeRefunded::middleware">middleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentFailureWebhook.php.html#47"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentFailureWebhook::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentFailureWebhook.php.html#54"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentFailureWebhook::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentPartiallyFundedWebhook.php.html#39"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentPartiallyFundedWebhook::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentPartiallyFundedWebhook.php.html#43"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentPartiallyFundedWebhook::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentProcessingWebhook.php.html#53"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentProcessingWebhook::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentProcessingWebhook.php.html#61"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentProcessingWebhook::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentProcessingWebhook.php.html#190"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentProcessingWebhook::updateAchPayment">updateAchPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#54"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#61"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#225"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::updateAchPayment">updateAchPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#296"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::updateCreditCardPayment">updateCreditCardPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#326"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/StripeWebhook.php.html#54"><abbr title="App\PaymentDrivers\Stripe\Jobs\StripeWebhook::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/StripeWebhook.php.html#60"><abbr title="App\PaymentDrivers\Stripe\Jobs\StripeWebhook::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/StripeWebhook.php.html#92"><abbr title="App\PaymentDrivers\Stripe\Jobs\StripeWebhook::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateCustomer.php.html#44"><abbr title="App\PaymentDrivers\Stripe\Jobs\UpdateCustomer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateCustomer.php.html#51"><abbr title="App\PaymentDrivers\Stripe\Jobs\UpdateCustomer::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#29"><abbr title="App\PaymentDrivers\Stripe\Klarna::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#34"><abbr title="App\PaymentDrivers\Stripe\Klarna::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#39"><abbr title="App\PaymentDrivers\Stripe\Klarna::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#46"><abbr title="App\PaymentDrivers\Stripe\Klarna::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#55"><abbr title="App\PaymentDrivers\Stripe\Klarna::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#67"><abbr title="App\PaymentDrivers\Stripe\Klarna::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#100"><abbr title="App\PaymentDrivers\Stripe\Klarna::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#123"><abbr title="App\PaymentDrivers\Stripe\Klarna::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Klarna.php.html#156"><abbr title="App\PaymentDrivers\Stripe\Klarna::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#29"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#34"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#39"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#46"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#55"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#67"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#101"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#124"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#155"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#31"><abbr title="App\PaymentDrivers\Stripe\SEPA::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#38"><abbr title="App\PaymentDrivers\Stripe\SEPA::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#50"><abbr title="App\PaymentDrivers\Stripe\SEPA::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#57"><abbr title="App\PaymentDrivers\Stripe\SEPA::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#75"><abbr title="App\PaymentDrivers\Stripe\SEPA::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#99"><abbr title="App\PaymentDrivers\Stripe\SEPA::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#122"><abbr title="App\PaymentDrivers\Stripe\SEPA::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#156"><abbr title="App\PaymentDrivers\Stripe\SEPA::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SEPA.php.html#205"><abbr title="App\PaymentDrivers\Stripe\SEPA::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#29"><abbr title="App\PaymentDrivers\Stripe\SOFORT::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#34"><abbr title="App\PaymentDrivers\Stripe\SOFORT::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#39"><abbr title="App\PaymentDrivers\Stripe\SOFORT::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#47"><abbr title="App\PaymentDrivers\Stripe\SOFORT::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#56"><abbr title="App\PaymentDrivers\Stripe\SOFORT::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#68"><abbr title="App\PaymentDrivers\Stripe\SOFORT::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#96"><abbr title="App\PaymentDrivers\Stripe\SOFORT::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#119"><abbr title="App\PaymentDrivers\Stripe\SOFORT::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SOFORT.php.html#150"><abbr title="App\PaymentDrivers\Stripe\SOFORT::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#31"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#36"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::updateMethods">updateMethods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#106"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::importPMBankAccounts">importPMBankAccounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#158"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::importBankAccounts">importBankAccounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#201"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::addOrUpdateCard">addOrUpdateCard</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#230"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::buildPaymentMethodMeta">buildPaymentMethodMeta</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#29"><abbr title="App\PaymentDrivers\Stripe\iDeal::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#34"><abbr title="App\PaymentDrivers\Stripe\iDeal::authorizeView">authorizeView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#39"><abbr title="App\PaymentDrivers\Stripe\iDeal::paymentView">paymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#46"><abbr title="App\PaymentDrivers\Stripe\iDeal::buildReturnUrl">buildReturnUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#55"><abbr title="App\PaymentDrivers\Stripe\iDeal::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#67"><abbr title="App\PaymentDrivers\Stripe\iDeal::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#100"><abbr title="App\PaymentDrivers\Stripe\iDeal::processUnsuccessfulPayment">processUnsuccessfulPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#123"><abbr title="App\PaymentDrivers\Stripe\iDeal::paymentData">paymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="iDeal.php.html#154"><abbr title="App\PaymentDrivers\Stripe\iDeal::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Utilities.php.html#18"><abbr title="App\PaymentDrivers\Stripe\Utilities::convertFromStripeAmount">convertFromStripeAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Utilities.php.html#27"><abbr title="App\PaymentDrivers\Stripe\Utilities::convertToStripeAmount">convertToStripeAmount</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#61"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::handle">handle</abbr></a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#73"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::addCustomer">addCustomer</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentProcessingWebhook.php.html#61"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentProcessingWebhook::handle">handle</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Charge.php.html#49"><abbr title="App\PaymentDrivers\Stripe\Charge::tokenBilling">tokenBilling</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="ACH.php.html#265"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentIntentTokenBilling">paymentIntentTokenBilling</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Jobs/ChargeRefunded.php.html#50"><abbr title="App\PaymentDrivers\Stripe\Jobs\ChargeRefunded::handle">handle</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentFailureWebhook.php.html#54"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentFailureWebhook::handle">handle</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="BankTransfer.php.html#83"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ACH.php.html#111"><abbr title="App\PaymentDrivers\Stripe\ACH::verificationView">verificationView</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ACH.php.html#441"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="CreditCard.php.html#137"><abbr title="App\PaymentDrivers\Stripe\CreditCard::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentPartiallyFundedWebhook.php.html#43"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentPartiallyFundedWebhook::handle">handle</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#158"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::importBankAccounts">importBankAccounts</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ACSS.php.html#90"><abbr title="App\PaymentDrivers\Stripe\ACSS::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#230"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::buildPaymentMethodMeta">buildPaymentMethodMeta</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ACH.php.html#95"><abbr title="App\PaymentDrivers\Stripe\ACH::updateBankAccount">updateBankAccount</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ACH.php.html#213"><abbr title="App\PaymentDrivers\Stripe\ACH::tokenBilling">tokenBilling</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ACH.php.html#361"><abbr title="App\PaymentDrivers\Stripe\ACH::handlePaymentIntentResponse">handlePaymentIntentResponse</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ACH.php.html#607"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentData">paymentData</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="BankTransfer.php.html#52"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::resolveBankType">resolveBankType</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Charge.php.html#194"><abbr title="App\PaymentDrivers\Stripe\Charge::transformPaymentTypeToConstant">transformPaymentTypeToConstant</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#46"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::run">run</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#36"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::updateMethods">updateMethods</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ACH.php.html#560"><abbr title="App\PaymentDrivers\Stripe\ACH::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Alipay.php.html#54"><abbr title="App\PaymentDrivers\Stripe\Alipay::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#170"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::importCustomer">importCustomer</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ImportCustomers.php.html#193"><abbr title="App\PaymentDrivers\Stripe\ImportCustomers::match">match</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SEPA.php.html#57"><abbr title="App\PaymentDrivers\Stripe\SEPA::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#201"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::addOrUpdateCard">addOrUpdateCard</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ACH.php.html#166"><abbr title="App\PaymentDrivers\Stripe\ACH::processVerification">processVerification</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ACSS.php.html#229"><abbr title="App\PaymentDrivers\Stripe\ACSS::paymentView">paymentView</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CreditCard.php.html#104"><abbr title="App\PaymentDrivers\Stripe\CreditCard::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentProcessingWebhook.php.html#190"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentProcessingWebhook::updateAchPayment">updateAchPayment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#225"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::updateAchPayment">updateAchPayment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Jobs/StripeWebhook.php.html#60"><abbr title="App\PaymentDrivers\Stripe\Jobs\StripeWebhook::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Jobs/UpdateCustomer.php.html#51"><abbr title="App\PaymentDrivers\Stripe\Jobs\UpdateCustomer::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UpdatePaymentMethods.php.html#106"><abbr title="App\PaymentDrivers\Stripe\UpdatePaymentMethods::importPMBankAccounts">importPMBankAccounts</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ACSS.php.html#273"><abbr title="App\PaymentDrivers\Stripe\ACSS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ACSS.php.html#300"><abbr title="App\PaymentDrivers\Stripe\ACSS::tokenBilling">tokenBilling</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ApplePay.php.html#87"><abbr title="App\PaymentDrivers\Stripe\ApplePay::registerDomain">registerDomain</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BACS.php.html#165"><abbr title="App\PaymentDrivers\Stripe\BACS::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BECS.php.html#49"><abbr title="App\PaymentDrivers\Stripe\BECS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BrowserPay.php.html#202"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::ensureApplePayDomainIsValidated">ensureApplePayDomainIsValidated</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BrowserPay.php.html#227"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::getAppleDomain">getAppleDomain</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Connect/Verify.php.html#32"><abbr title="App\PaymentDrivers\Stripe\Connect\Verify::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SEPA.php.html#122"><abbr title="App\PaymentDrivers\Stripe\SEPA::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ACH.php.html#61"><abbr title="App\PaymentDrivers\Stripe\ACH::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ACH.php.html#201"><abbr title="App\PaymentDrivers\Stripe\ACH::paymentView">paymentView</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ACH.php.html#411"><abbr title="App\PaymentDrivers\Stripe\ACH::processPendingPaymentIntent">processPendingPaymentIntent</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ACH.php.html#509"><abbr title="App\PaymentDrivers\Stripe\ACH::processPendingPayment">processPendingPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ACSS.php.html#169"><abbr title="App\PaymentDrivers\Stripe\ACSS::paymentData">paymentData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ACSS.php.html#387"><abbr title="App\PaymentDrivers\Stripe\ACSS::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ACSS.php.html#411"><abbr title="App\PaymentDrivers\Stripe\ACSS::livewirePaymentView">livewirePaymentView</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Alipay.php.html#84"><abbr title="App\PaymentDrivers\Stripe\Alipay::processSuccesfulRedirect">processSuccesfulRedirect</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Alipay.php.html#145"><abbr title="App\PaymentDrivers\Stripe\Alipay::paymentData">paymentData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ApplePay.php.html#58"><abbr title="App\PaymentDrivers\Stripe\ApplePay::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BACS.php.html#58"><abbr title="App\PaymentDrivers\Stripe\BACS::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BACS.php.html#77"><abbr title="App\PaymentDrivers\Stripe\BACS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BECS.php.html#118"><abbr title="App\PaymentDrivers\Stripe\BECS::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Bancontact.php.html#56"><abbr title="App\PaymentDrivers\Stripe\Bancontact::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Bancontact.php.html#68"><abbr title="App\PaymentDrivers\Stripe\Bancontact::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BankTransfer.php.html#237"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::processSuccesfulRedirect">processSuccesfulRedirect</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BankTransfer.php.html#292"><abbr title="App\PaymentDrivers\Stripe\BankTransfer::paymentData">paymentData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BrowserPay.php.html#114"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BrowserPay.php.html#134"><abbr title="App\PaymentDrivers\Stripe\BrowserPay::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CreditCard.php.html#37"><abbr title="App\PaymentDrivers\Stripe\CreditCard::authorizeView">authorizeView</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CreditCard.php.html#48"><abbr title="App\PaymentDrivers\Stripe\CreditCard::authorizeResponse">authorizeResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CreditCard.php.html#208"><abbr title="App\PaymentDrivers\Stripe\CreditCard::storePaymentMethod">storePaymentMethod</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EPS.php.html#55"><abbr title="App\PaymentDrivers\Stripe\EPS::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EPS.php.html#67"><abbr title="App\PaymentDrivers\Stripe\EPS::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FPX.php.html#56"><abbr title="App\PaymentDrivers\Stripe\FPX::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GIROPAY.php.html#55"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GIROPAY.php.html#67"><abbr title="App\PaymentDrivers\Stripe\GIROPAY::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#296"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::updateCreditCardPayment">updateCreditCardPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Jobs/PaymentIntentWebhook.php.html#326"><abbr title="App\PaymentDrivers\Stripe\Jobs\PaymentIntentWebhook::failed">failed</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Klarna.php.html#55"><abbr title="App\PaymentDrivers\Stripe\Klarna::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Klarna.php.html#67"><abbr title="App\PaymentDrivers\Stripe\Klarna::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#55"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PRZELEWY24.php.html#67"><abbr title="App\PaymentDrivers\Stripe\PRZELEWY24::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SOFORT.php.html#56"><abbr title="App\PaymentDrivers\Stripe\SOFORT::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="iDeal.php.html#55"><abbr title="App\PaymentDrivers\Stripe\iDeal::paymentResponse">paymentResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="iDeal.php.html#67"><abbr title="App\PaymentDrivers\Stripe\iDeal::processSuccessfulPayment">processSuccessfulPayment</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Utilities.php.html#18"><abbr title="App\PaymentDrivers\Stripe\Utilities::convertFromStripeAmount">convertFromStripeAmount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Utilities.php.html#27"><abbr title="App\PaymentDrivers\Stripe\Utilities::convertToStripeAmount">convertToStripeAmount</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([32,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([221,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,73,"<a href=\"ACH.php.html#39\">App\\PaymentDrivers\\Stripe\\ACH<\/a>"],[0,29,"<a href=\"ACSS.php.html#35\">App\\PaymentDrivers\\Stripe\\ACSS<\/a>"],[0,14,"<a href=\"Alipay.php.html#27\">App\\PaymentDrivers\\Stripe\\Alipay<\/a>"],[0,7,"<a href=\"ApplePay.php.html#21\">App\\PaymentDrivers\\Stripe\\ApplePay<\/a>"],[0,15,"<a href=\"BACS.php.html#29\">App\\PaymentDrivers\\Stripe\\BACS<\/a>"],[0,12,"<a href=\"BECS.php.html#26\">App\\PaymentDrivers\\Stripe\\BECS<\/a>"],[0,11,"<a href=\"Bancontact.php.html#24\">App\\PaymentDrivers\\Stripe\\Bancontact<\/a>"],[0,30,"<a href=\"BankTransfer.php.html#28\">App\\PaymentDrivers\\Stripe\\BankTransfer<\/a>"],[0,17,"<a href=\"BrowserPay.php.html#33\">App\\PaymentDrivers\\Stripe\\BrowserPay<\/a>"],[0,29,"<a href=\"Charge.php.html#30\">App\\PaymentDrivers\\Stripe\\Charge<\/a>"],[0,2,"<a href=\"Connect\/Account.php.html#15\">App\\PaymentDrivers\\Stripe\\Connect\\Account<\/a>"],[0,2,"<a href=\"Connect\/ConnectOauth.php.html#17\">App\\PaymentDrivers\\Stripe\\Connect\\ConnectOauth<\/a>"],[0,4,"<a href=\"Connect\/Verify.php.html#20\">App\\PaymentDrivers\\Stripe\\Connect\\Verify<\/a>"],[0,23,"<a href=\"CreditCard.php.html#28\">App\\PaymentDrivers\\Stripe\\CreditCard<\/a>"],[0,11,"<a href=\"EPS.php.html#24\">App\\PaymentDrivers\\Stripe\\EPS<\/a>"],[0,10,"<a href=\"FPX.php.html#25\">App\\PaymentDrivers\\Stripe\\FPX<\/a>"],[0,11,"<a href=\"GIROPAY.php.html#24\">App\\PaymentDrivers\\Stripe\\GIROPAY<\/a>"],[0,41,"<a href=\"ImportCustomers.php.html#29\">App\\PaymentDrivers\\Stripe\\ImportCustomers<\/a>"],[0,13,"<a href=\"Jobs\/ChargeRefunded.php.html#32\">App\\PaymentDrivers\\Stripe\\Jobs\\ChargeRefunded<\/a>"],[0,12,"<a href=\"Jobs\/PaymentIntentFailureWebhook.php.html#27\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentFailureWebhook<\/a>"],[0,9,"<a href=\"Jobs\/PaymentIntentPartiallyFundedWebhook.php.html#27\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentPartiallyFundedWebhook<\/a>"],[0,28,"<a href=\"Jobs\/PaymentIntentProcessingWebhook.php.html#33\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentProcessingWebhook<\/a>"],[0,44,"<a href=\"Jobs\/PaymentIntentWebhook.php.html#34\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentWebhook<\/a>"],[0,6,"<a href=\"Jobs\/StripeWebhook.php.html#25\">App\\PaymentDrivers\\Stripe\\Jobs\\StripeWebhook<\/a>"],[0,5,"<a href=\"Jobs\/UpdateCustomer.php.html#26\">App\\PaymentDrivers\\Stripe\\Jobs\\UpdateCustomer<\/a>"],[0,11,"<a href=\"Klarna.php.html#24\">App\\PaymentDrivers\\Stripe\\Klarna<\/a>"],[0,11,"<a href=\"PRZELEWY24.php.html#24\">App\\PaymentDrivers\\Stripe\\PRZELEWY24<\/a>"],[0,15,"<a href=\"SEPA.php.html#26\">App\\PaymentDrivers\\Stripe\\SEPA<\/a>"],[0,10,"<a href=\"SOFORT.php.html#24\">App\\PaymentDrivers\\Stripe\\SOFORT<\/a>"],[0,31,"<a href=\"UpdatePaymentMethods.php.html#24\">App\\PaymentDrivers\\Stripe\\UpdatePaymentMethods<\/a>"],[0,11,"<a href=\"iDeal.php.html#24\">App\\PaymentDrivers\\Stripe\\iDeal<\/a>"],[0,4,"<a href=\"Utilities.php.html#15\">App\\PaymentDrivers\\Stripe\\Utilities<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ACH.php.html#46\">App\\PaymentDrivers\\Stripe\\ACH::__construct<\/a>"],[0,1,"<a href=\"ACH.php.html#54\">App\\PaymentDrivers\\Stripe\\ACH::authorizeView<\/a>"],[0,2,"<a href=\"ACH.php.html#61\">App\\PaymentDrivers\\Stripe\\ACH::authorizeResponse<\/a>"],[0,6,"<a href=\"ACH.php.html#95\">App\\PaymentDrivers\\Stripe\\ACH::updateBankAccount<\/a>"],[0,8,"<a href=\"ACH.php.html#111\">App\\PaymentDrivers\\Stripe\\ACH::verificationView<\/a>"],[0,4,"<a href=\"ACH.php.html#166\">App\\PaymentDrivers\\Stripe\\ACH::processVerification<\/a>"],[0,2,"<a href=\"ACH.php.html#201\">App\\PaymentDrivers\\Stripe\\ACH::paymentView<\/a>"],[0,6,"<a href=\"ACH.php.html#213\">App\\PaymentDrivers\\Stripe\\ACH::tokenBilling<\/a>"],[0,12,"<a href=\"ACH.php.html#265\">App\\PaymentDrivers\\Stripe\\ACH::paymentIntentTokenBilling<\/a>"],[0,6,"<a href=\"ACH.php.html#361\">App\\PaymentDrivers\\Stripe\\ACH::handlePaymentIntentResponse<\/a>"],[0,2,"<a href=\"ACH.php.html#411\">App\\PaymentDrivers\\Stripe\\ACH::processPendingPaymentIntent<\/a>"],[0,8,"<a href=\"ACH.php.html#441\">App\\PaymentDrivers\\Stripe\\ACH::paymentResponse<\/a>"],[0,2,"<a href=\"ACH.php.html#509\">App\\PaymentDrivers\\Stripe\\ACH::processPendingPayment<\/a>"],[0,1,"<a href=\"ACH.php.html#539\">App\\PaymentDrivers\\Stripe\\ACH::processUnsuccessfulPayment<\/a>"],[0,5,"<a href=\"ACH.php.html#560\">App\\PaymentDrivers\\Stripe\\ACH::storePaymentMethod<\/a>"],[0,1,"<a href=\"ACH.php.html#602\">App\\PaymentDrivers\\Stripe\\ACH::livewirePaymentView<\/a>"],[0,6,"<a href=\"ACH.php.html#607\">App\\PaymentDrivers\\Stripe\\ACH::paymentData<\/a>"],[0,1,"<a href=\"ACSS.php.html#42\">App\\PaymentDrivers\\Stripe\\ACSS::__construct<\/a>"],[0,1,"<a href=\"ACSS.php.html#54\">App\\PaymentDrivers\\Stripe\\ACSS::authorizeView<\/a>"],[0,7,"<a href=\"ACSS.php.html#90\">App\\PaymentDrivers\\Stripe\\ACSS::authorizeResponse<\/a>"],[0,1,"<a href=\"ACSS.php.html#148\">App\\PaymentDrivers\\Stripe\\ACSS::tokenIntent<\/a>"],[0,2,"<a href=\"ACSS.php.html#169\">App\\PaymentDrivers\\Stripe\\ACSS::paymentData<\/a>"],[0,4,"<a href=\"ACSS.php.html#229\">App\\PaymentDrivers\\Stripe\\ACSS::paymentView<\/a>"],[0,1,"<a href=\"ACSS.php.html#259\">App\\PaymentDrivers\\Stripe\\ACSS::buildReturnUrl<\/a>"],[0,3,"<a href=\"ACSS.php.html#273\">App\\PaymentDrivers\\Stripe\\ACSS::paymentResponse<\/a>"],[0,3,"<a href=\"ACSS.php.html#300\">App\\PaymentDrivers\\Stripe\\ACSS::tokenBilling<\/a>"],[0,1,"<a href=\"ACSS.php.html#327\">App\\PaymentDrivers\\Stripe\\ACSS::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"ACSS.php.html#351\">App\\PaymentDrivers\\Stripe\\ACSS::processUnsuccessfulPayment<\/a>"],[0,2,"<a href=\"ACSS.php.html#387\">App\\PaymentDrivers\\Stripe\\ACSS::storePaymentMethod<\/a>"],[0,2,"<a href=\"ACSS.php.html#411\">App\\PaymentDrivers\\Stripe\\ACSS::livewirePaymentView<\/a>"],[0,1,"<a href=\"Alipay.php.html#32\">App\\PaymentDrivers\\Stripe\\Alipay::__construct<\/a>"],[0,1,"<a href=\"Alipay.php.html#37\">App\\PaymentDrivers\\Stripe\\Alipay::paymentView<\/a>"],[0,1,"<a href=\"Alipay.php.html#45\">App\\PaymentDrivers\\Stripe\\Alipay::buildReturnUrl<\/a>"],[0,5,"<a href=\"Alipay.php.html#54\">App\\PaymentDrivers\\Stripe\\Alipay::paymentResponse<\/a>"],[0,2,"<a href=\"Alipay.php.html#84\">App\\PaymentDrivers\\Stripe\\Alipay::processSuccesfulRedirect<\/a>"],[0,1,"<a href=\"Alipay.php.html#111\">App\\PaymentDrivers\\Stripe\\Alipay::processUnsuccesfulRedirect<\/a>"],[0,1,"<a href=\"Alipay.php.html#137\">App\\PaymentDrivers\\Stripe\\Alipay::livewirePaymentView<\/a>"],[0,2,"<a href=\"Alipay.php.html#145\">App\\PaymentDrivers\\Stripe\\Alipay::paymentData<\/a>"],[0,1,"<a href=\"ApplePay.php.html#26\">App\\PaymentDrivers\\Stripe\\ApplePay::__construct<\/a>"],[0,1,"<a href=\"ApplePay.php.html#31\">App\\PaymentDrivers\\Stripe\\ApplePay::paymentView<\/a>"],[0,2,"<a href=\"ApplePay.php.html#58\">App\\PaymentDrivers\\Stripe\\ApplePay::paymentResponse<\/a>"],[0,3,"<a href=\"ApplePay.php.html#87\">App\\PaymentDrivers\\Stripe\\ApplePay::registerDomain<\/a>"],[0,1,"<a href=\"BACS.php.html#33\">App\\PaymentDrivers\\Stripe\\BACS::__construct<\/a>"],[0,1,"<a href=\"BACS.php.html#38\">App\\PaymentDrivers\\Stripe\\BACS::authorizeView<\/a>"],[0,1,"<a href=\"BACS.php.html#50\">App\\PaymentDrivers\\Stripe\\BACS::buildAuthorizeUrl<\/a>"],[0,2,"<a href=\"BACS.php.html#58\">App\\PaymentDrivers\\Stripe\\BACS::authorizeResponse<\/a>"],[0,1,"<a href=\"BACS.php.html#71\">App\\PaymentDrivers\\Stripe\\BACS::paymentView<\/a>"],[0,2,"<a href=\"BACS.php.html#77\">App\\PaymentDrivers\\Stripe\\BACS::paymentResponse<\/a>"],[0,1,"<a href=\"BACS.php.html#117\">App\\PaymentDrivers\\Stripe\\BACS::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"BACS.php.html#144\">App\\PaymentDrivers\\Stripe\\BACS::processUnsuccessfulPayment<\/a>"],[0,3,"<a href=\"BACS.php.html#165\">App\\PaymentDrivers\\Stripe\\BACS::storePaymentMethod<\/a>"],[0,1,"<a href=\"BACS.php.html#190\">App\\PaymentDrivers\\Stripe\\BACS::paymentData<\/a>"],[0,1,"<a href=\"BACS.php.html#199\">App\\PaymentDrivers\\Stripe\\BACS::livewirePaymentView<\/a>"],[0,1,"<a href=\"BECS.php.html#31\">App\\PaymentDrivers\\Stripe\\BECS::__construct<\/a>"],[0,1,"<a href=\"BECS.php.html#37\">App\\PaymentDrivers\\Stripe\\BECS::authorizeView<\/a>"],[0,1,"<a href=\"BECS.php.html#42\">App\\PaymentDrivers\\Stripe\\BECS::paymentView<\/a>"],[0,3,"<a href=\"BECS.php.html#49\">App\\PaymentDrivers\\Stripe\\BECS::paymentResponse<\/a>"],[0,1,"<a href=\"BECS.php.html#66\">App\\PaymentDrivers\\Stripe\\BECS::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"BECS.php.html#90\">App\\PaymentDrivers\\Stripe\\BECS::processUnsuccessfulPayment<\/a>"],[0,2,"<a href=\"BECS.php.html#118\">App\\PaymentDrivers\\Stripe\\BECS::storePaymentMethod<\/a>"],[0,1,"<a href=\"BECS.php.html#141\">App\\PaymentDrivers\\Stripe\\BECS::paymentData<\/a>"],[0,1,"<a href=\"BECS.php.html#174\">App\\PaymentDrivers\\Stripe\\BECS::livewirePaymentView<\/a>"],[0,1,"<a href=\"Bancontact.php.html#29\">App\\PaymentDrivers\\Stripe\\Bancontact::__construct<\/a>"],[0,1,"<a href=\"Bancontact.php.html#34\">App\\PaymentDrivers\\Stripe\\Bancontact::authorizeView<\/a>"],[0,1,"<a href=\"Bancontact.php.html#39\">App\\PaymentDrivers\\Stripe\\Bancontact::paymentView<\/a>"],[0,1,"<a href=\"Bancontact.php.html#47\">App\\PaymentDrivers\\Stripe\\Bancontact::buildReturnUrl<\/a>"],[0,2,"<a href=\"Bancontact.php.html#56\">App\\PaymentDrivers\\Stripe\\Bancontact::paymentResponse<\/a>"],[0,2,"<a href=\"Bancontact.php.html#68\">App\\PaymentDrivers\\Stripe\\Bancontact::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"Bancontact.php.html#102\">App\\PaymentDrivers\\Stripe\\Bancontact::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"Bancontact.php.html#125\">App\\PaymentDrivers\\Stripe\\Bancontact::paymentData<\/a>"],[0,1,"<a href=\"Bancontact.php.html#157\">App\\PaymentDrivers\\Stripe\\Bancontact::livewirePaymentView<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#35\">App\\PaymentDrivers\\Stripe\\BankTransfer::__construct<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#40\">App\\PaymentDrivers\\Stripe\\BankTransfer::paymentView<\/a>"],[0,6,"<a href=\"BankTransfer.php.html#52\">App\\PaymentDrivers\\Stripe\\BankTransfer::resolveBankType<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#68\">App\\PaymentDrivers\\Stripe\\BankTransfer::buildReturnUrl<\/a>"],[0,10,"<a href=\"BankTransfer.php.html#83\">App\\PaymentDrivers\\Stripe\\BankTransfer::paymentResponse<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#126\">App\\PaymentDrivers\\Stripe\\BankTransfer::formatDataForUk<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#147\">App\\PaymentDrivers\\Stripe\\BankTransfer::formatDataforMx<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#169\">App\\PaymentDrivers\\Stripe\\BankTransfer::formatDataforEur<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#189\">App\\PaymentDrivers\\Stripe\\BankTransfer::formatDataforJp<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#214\">App\\PaymentDrivers\\Stripe\\BankTransfer::formatDataforUs<\/a>"],[0,2,"<a href=\"BankTransfer.php.html#237\">App\\PaymentDrivers\\Stripe\\BankTransfer::processSuccesfulRedirect<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#269\">App\\PaymentDrivers\\Stripe\\BankTransfer::processUnsuccesfulRedirect<\/a>"],[0,2,"<a href=\"BankTransfer.php.html#292\">App\\PaymentDrivers\\Stripe\\BankTransfer::paymentData<\/a>"],[0,1,"<a href=\"BankTransfer.php.html#329\">App\\PaymentDrivers\\Stripe\\BankTransfer::livewirePaymentView<\/a>"],[0,1,"<a href=\"BrowserPay.php.html#37\">App\\PaymentDrivers\\Stripe\\BrowserPay::__construct<\/a>"],[0,1,"<a href=\"BrowserPay.php.html#52\">App\\PaymentDrivers\\Stripe\\BrowserPay::authorizeView<\/a>"],[0,1,"<a href=\"BrowserPay.php.html#63\">App\\PaymentDrivers\\Stripe\\BrowserPay::authorizeResponse<\/a>"],[0,1,"<a href=\"BrowserPay.php.html#69\">App\\PaymentDrivers\\Stripe\\BrowserPay::paymentData<\/a>"],[0,1,"<a href=\"BrowserPay.php.html#101\">App\\PaymentDrivers\\Stripe\\BrowserPay::paymentView<\/a>"],[0,2,"<a href=\"BrowserPay.php.html#114\">App\\PaymentDrivers\\Stripe\\BrowserPay::paymentResponse<\/a>"],[0,2,"<a href=\"BrowserPay.php.html#134\">App\\PaymentDrivers\\Stripe\\BrowserPay::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"BrowserPay.php.html#173\">App\\PaymentDrivers\\Stripe\\BrowserPay::processUnsuccessfulPayment<\/a>"],[0,3,"<a href=\"BrowserPay.php.html#202\">App\\PaymentDrivers\\Stripe\\BrowserPay::ensureApplePayDomainIsValidated<\/a>"],[0,3,"<a href=\"BrowserPay.php.html#227\">App\\PaymentDrivers\\Stripe\\BrowserPay::getAppleDomain<\/a>"],[0,1,"<a href=\"BrowserPay.php.html#244\">App\\PaymentDrivers\\Stripe\\BrowserPay::livewirePaymentView<\/a>"],[0,1,"<a href=\"Charge.php.html#37\">App\\PaymentDrivers\\Stripe\\Charge::__construct<\/a>"],[0,21,"<a href=\"Charge.php.html#49\">App\\PaymentDrivers\\Stripe\\Charge::tokenBilling<\/a>"],[0,1,"<a href=\"Charge.php.html#180\">App\\PaymentDrivers\\Stripe\\Charge::formatGatewayResponse<\/a>"],[0,6,"<a href=\"Charge.php.html#194\">App\\PaymentDrivers\\Stripe\\Charge::transformPaymentTypeToConstant<\/a>"],[0,1,"<a href=\"Connect\/Account.php.html#20\">App\\PaymentDrivers\\Stripe\\Connect\\Account::create<\/a>"],[0,1,"<a href=\"Connect\/Account.php.html#36\">App\\PaymentDrivers\\Stripe\\Connect\\Account::link<\/a>"],[0,1,"<a href=\"Connect\/ConnectOauth.php.html#29\">App\\PaymentDrivers\\Stripe\\Connect\\ConnectOauth::getAccountId<\/a>"],[0,1,"<a href=\"Connect\/ConnectOauth.php.html#49\">App\\PaymentDrivers\\Stripe\\Connect\\ConnectOauth::revoke<\/a>"],[0,1,"<a href=\"Connect\/Verify.php.html#27\">App\\PaymentDrivers\\Stripe\\Connect\\Verify::__construct<\/a>"],[0,3,"<a href=\"Connect\/Verify.php.html#32\">App\\PaymentDrivers\\Stripe\\Connect\\Verify::run<\/a>"],[0,1,"<a href=\"CreditCard.php.html#32\">App\\PaymentDrivers\\Stripe\\CreditCard::__construct<\/a>"],[0,2,"<a href=\"CreditCard.php.html#37\">App\\PaymentDrivers\\Stripe\\CreditCard::authorizeView<\/a>"],[0,2,"<a href=\"CreditCard.php.html#48\">App\\PaymentDrivers\\Stripe\\CreditCard::authorizeResponse<\/a>"],[0,1,"<a href=\"CreditCard.php.html#69\">App\\PaymentDrivers\\Stripe\\CreditCard::paymentData<\/a>"],[0,1,"<a href=\"CreditCard.php.html#92\">App\\PaymentDrivers\\Stripe\\CreditCard::paymentView<\/a>"],[0,1,"<a href=\"CreditCard.php.html#99\">App\\PaymentDrivers\\Stripe\\CreditCard::livewirePaymentView<\/a>"],[0,4,"<a href=\"CreditCard.php.html#104\">App\\PaymentDrivers\\Stripe\\CreditCard::paymentResponse<\/a>"],[0,8,"<a href=\"CreditCard.php.html#137\">App\\PaymentDrivers\\Stripe\\CreditCard::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"CreditCard.php.html#187\">App\\PaymentDrivers\\Stripe\\CreditCard::processUnsuccessfulPayment<\/a>"],[0,2,"<a href=\"CreditCard.php.html#208\">App\\PaymentDrivers\\Stripe\\CreditCard::storePaymentMethod<\/a>"],[0,1,"<a href=\"EPS.php.html#29\">App\\PaymentDrivers\\Stripe\\EPS::__construct<\/a>"],[0,1,"<a href=\"EPS.php.html#34\">App\\PaymentDrivers\\Stripe\\EPS::authorizeView<\/a>"],[0,1,"<a href=\"EPS.php.html#39\">App\\PaymentDrivers\\Stripe\\EPS::paymentView<\/a>"],[0,1,"<a href=\"EPS.php.html#46\">App\\PaymentDrivers\\Stripe\\EPS::buildReturnUrl<\/a>"],[0,2,"<a href=\"EPS.php.html#55\">App\\PaymentDrivers\\Stripe\\EPS::paymentResponse<\/a>"],[0,2,"<a href=\"EPS.php.html#67\">App\\PaymentDrivers\\Stripe\\EPS::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"EPS.php.html#102\">App\\PaymentDrivers\\Stripe\\EPS::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"EPS.php.html#125\">App\\PaymentDrivers\\Stripe\\EPS::paymentData<\/a>"],[0,1,"<a href=\"EPS.php.html#156\">App\\PaymentDrivers\\Stripe\\EPS::livewirePaymentView<\/a>"],[0,1,"<a href=\"FPX.php.html#30\">App\\PaymentDrivers\\Stripe\\FPX::__construct<\/a>"],[0,1,"<a href=\"FPX.php.html#35\">App\\PaymentDrivers\\Stripe\\FPX::authorizeView<\/a>"],[0,1,"<a href=\"FPX.php.html#40\">App\\PaymentDrivers\\Stripe\\FPX::paymentView<\/a>"],[0,1,"<a href=\"FPX.php.html#47\">App\\PaymentDrivers\\Stripe\\FPX::buildReturnUrl<\/a>"],[0,2,"<a href=\"FPX.php.html#56\">App\\PaymentDrivers\\Stripe\\FPX::paymentResponse<\/a>"],[0,1,"<a href=\"FPX.php.html#68\">App\\PaymentDrivers\\Stripe\\FPX::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"FPX.php.html#97\">App\\PaymentDrivers\\Stripe\\FPX::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"FPX.php.html#125\">App\\PaymentDrivers\\Stripe\\FPX::paymentData<\/a>"],[0,1,"<a href=\"FPX.php.html#156\">App\\PaymentDrivers\\Stripe\\FPX::livewirePaymentView<\/a>"],[0,1,"<a href=\"GIROPAY.php.html#29\">App\\PaymentDrivers\\Stripe\\GIROPAY::__construct<\/a>"],[0,1,"<a href=\"GIROPAY.php.html#34\">App\\PaymentDrivers\\Stripe\\GIROPAY::authorizeView<\/a>"],[0,1,"<a href=\"GIROPAY.php.html#39\">App\\PaymentDrivers\\Stripe\\GIROPAY::paymentView<\/a>"],[0,1,"<a href=\"GIROPAY.php.html#46\">App\\PaymentDrivers\\Stripe\\GIROPAY::buildReturnUrl<\/a>"],[0,2,"<a href=\"GIROPAY.php.html#55\">App\\PaymentDrivers\\Stripe\\GIROPAY::paymentResponse<\/a>"],[0,2,"<a href=\"GIROPAY.php.html#67\">App\\PaymentDrivers\\Stripe\\GIROPAY::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"GIROPAY.php.html#100\">App\\PaymentDrivers\\Stripe\\GIROPAY::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"GIROPAY.php.html#123\">App\\PaymentDrivers\\Stripe\\GIROPAY::paymentData<\/a>"],[0,1,"<a href=\"GIROPAY.php.html#154\">App\\PaymentDrivers\\Stripe\\GIROPAY::livewirePaymentView<\/a>"],[0,1,"<a href=\"ImportCustomers.php.html#41\">App\\PaymentDrivers\\Stripe\\ImportCustomers::__construct<\/a>"],[0,6,"<a href=\"ImportCustomers.php.html#46\">App\\PaymentDrivers\\Stripe\\ImportCustomers::run<\/a>"],[0,24,"<a href=\"ImportCustomers.php.html#73\">App\\PaymentDrivers\\Stripe\\ImportCustomers::addCustomer<\/a>"],[0,5,"<a href=\"ImportCustomers.php.html#170\">App\\PaymentDrivers\\Stripe\\ImportCustomers::importCustomer<\/a>"],[0,5,"<a href=\"ImportCustomers.php.html#193\">App\\PaymentDrivers\\Stripe\\ImportCustomers::match<\/a>"],[0,1,"<a href=\"Jobs\/ChargeRefunded.php.html#46\">App\\PaymentDrivers\\Stripe\\Jobs\\ChargeRefunded::__construct<\/a>"],[0,11,"<a href=\"Jobs\/ChargeRefunded.php.html#50\">App\\PaymentDrivers\\Stripe\\Jobs\\ChargeRefunded::handle<\/a>"],[0,1,"<a href=\"Jobs\/ChargeRefunded.php.html#174\">App\\PaymentDrivers\\Stripe\\Jobs\\ChargeRefunded::middleware<\/a>"],[0,1,"<a href=\"Jobs\/PaymentIntentFailureWebhook.php.html#47\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentFailureWebhook::__construct<\/a>"],[0,11,"<a href=\"Jobs\/PaymentIntentFailureWebhook.php.html#54\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentFailureWebhook::handle<\/a>"],[0,1,"<a href=\"Jobs\/PaymentIntentPartiallyFundedWebhook.php.html#39\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentPartiallyFundedWebhook::__construct<\/a>"],[0,8,"<a href=\"Jobs\/PaymentIntentPartiallyFundedWebhook.php.html#43\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentPartiallyFundedWebhook::handle<\/a>"],[0,1,"<a href=\"Jobs\/PaymentIntentProcessingWebhook.php.html#53\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentProcessingWebhook::__construct<\/a>"],[0,23,"<a href=\"Jobs\/PaymentIntentProcessingWebhook.php.html#61\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentProcessingWebhook::handle<\/a>"],[0,4,"<a href=\"Jobs\/PaymentIntentProcessingWebhook.php.html#190\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentProcessingWebhook::updateAchPayment<\/a>"],[0,1,"<a href=\"Jobs\/PaymentIntentWebhook.php.html#54\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentWebhook::__construct<\/a>"],[0,35,"<a href=\"Jobs\/PaymentIntentWebhook.php.html#61\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentWebhook::handle<\/a>"],[0,4,"<a href=\"Jobs\/PaymentIntentWebhook.php.html#225\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentWebhook::updateAchPayment<\/a>"],[0,2,"<a href=\"Jobs\/PaymentIntentWebhook.php.html#296\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentWebhook::updateCreditCardPayment<\/a>"],[0,2,"<a href=\"Jobs\/PaymentIntentWebhook.php.html#326\">App\\PaymentDrivers\\Stripe\\Jobs\\PaymentIntentWebhook::failed<\/a>"],[0,1,"<a href=\"Jobs\/StripeWebhook.php.html#54\">App\\PaymentDrivers\\Stripe\\Jobs\\StripeWebhook::__construct<\/a>"],[0,4,"<a href=\"Jobs\/StripeWebhook.php.html#60\">App\\PaymentDrivers\\Stripe\\Jobs\\StripeWebhook::handle<\/a>"],[0,1,"<a href=\"Jobs\/StripeWebhook.php.html#92\">App\\PaymentDrivers\\Stripe\\Jobs\\StripeWebhook::failed<\/a>"],[0,1,"<a href=\"Jobs\/UpdateCustomer.php.html#44\">App\\PaymentDrivers\\Stripe\\Jobs\\UpdateCustomer::__construct<\/a>"],[0,4,"<a href=\"Jobs\/UpdateCustomer.php.html#51\">App\\PaymentDrivers\\Stripe\\Jobs\\UpdateCustomer::handle<\/a>"],[0,1,"<a href=\"Klarna.php.html#29\">App\\PaymentDrivers\\Stripe\\Klarna::__construct<\/a>"],[0,1,"<a href=\"Klarna.php.html#34\">App\\PaymentDrivers\\Stripe\\Klarna::authorizeView<\/a>"],[0,1,"<a href=\"Klarna.php.html#39\">App\\PaymentDrivers\\Stripe\\Klarna::paymentView<\/a>"],[0,1,"<a href=\"Klarna.php.html#46\">App\\PaymentDrivers\\Stripe\\Klarna::buildReturnUrl<\/a>"],[0,2,"<a href=\"Klarna.php.html#55\">App\\PaymentDrivers\\Stripe\\Klarna::paymentResponse<\/a>"],[0,2,"<a href=\"Klarna.php.html#67\">App\\PaymentDrivers\\Stripe\\Klarna::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"Klarna.php.html#100\">App\\PaymentDrivers\\Stripe\\Klarna::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"Klarna.php.html#123\">App\\PaymentDrivers\\Stripe\\Klarna::paymentData<\/a>"],[0,1,"<a href=\"Klarna.php.html#156\">App\\PaymentDrivers\\Stripe\\Klarna::livewirePaymentView<\/a>"],[0,1,"<a href=\"PRZELEWY24.php.html#29\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::__construct<\/a>"],[0,1,"<a href=\"PRZELEWY24.php.html#34\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::authorizeView<\/a>"],[0,1,"<a href=\"PRZELEWY24.php.html#39\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::paymentView<\/a>"],[0,1,"<a href=\"PRZELEWY24.php.html#46\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::buildReturnUrl<\/a>"],[0,2,"<a href=\"PRZELEWY24.php.html#55\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::paymentResponse<\/a>"],[0,2,"<a href=\"PRZELEWY24.php.html#67\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"PRZELEWY24.php.html#101\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"PRZELEWY24.php.html#124\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::paymentData<\/a>"],[0,1,"<a href=\"PRZELEWY24.php.html#155\">App\\PaymentDrivers\\Stripe\\PRZELEWY24::livewirePaymentView<\/a>"],[0,1,"<a href=\"SEPA.php.html#31\">App\\PaymentDrivers\\Stripe\\SEPA::__construct<\/a>"],[0,1,"<a href=\"SEPA.php.html#38\">App\\PaymentDrivers\\Stripe\\SEPA::authorizeView<\/a>"],[0,1,"<a href=\"SEPA.php.html#50\">App\\PaymentDrivers\\Stripe\\SEPA::paymentView<\/a>"],[0,5,"<a href=\"SEPA.php.html#57\">App\\PaymentDrivers\\Stripe\\SEPA::paymentResponse<\/a>"],[0,1,"<a href=\"SEPA.php.html#75\">App\\PaymentDrivers\\Stripe\\SEPA::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"SEPA.php.html#99\">App\\PaymentDrivers\\Stripe\\SEPA::processUnsuccessfulPayment<\/a>"],[0,3,"<a href=\"SEPA.php.html#122\">App\\PaymentDrivers\\Stripe\\SEPA::storePaymentMethod<\/a>"],[0,1,"<a href=\"SEPA.php.html#156\">App\\PaymentDrivers\\Stripe\\SEPA::paymentData<\/a>"],[0,1,"<a href=\"SEPA.php.html#205\">App\\PaymentDrivers\\Stripe\\SEPA::livewirePaymentView<\/a>"],[0,1,"<a href=\"SOFORT.php.html#29\">App\\PaymentDrivers\\Stripe\\SOFORT::__construct<\/a>"],[0,1,"<a href=\"SOFORT.php.html#34\">App\\PaymentDrivers\\Stripe\\SOFORT::authorizeView<\/a>"],[0,1,"<a href=\"SOFORT.php.html#39\">App\\PaymentDrivers\\Stripe\\SOFORT::paymentView<\/a>"],[0,1,"<a href=\"SOFORT.php.html#47\">App\\PaymentDrivers\\Stripe\\SOFORT::buildReturnUrl<\/a>"],[0,2,"<a href=\"SOFORT.php.html#56\">App\\PaymentDrivers\\Stripe\\SOFORT::paymentResponse<\/a>"],[0,1,"<a href=\"SOFORT.php.html#68\">App\\PaymentDrivers\\Stripe\\SOFORT::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"SOFORT.php.html#96\">App\\PaymentDrivers\\Stripe\\SOFORT::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"SOFORT.php.html#119\">App\\PaymentDrivers\\Stripe\\SOFORT::paymentData<\/a>"],[0,1,"<a href=\"SOFORT.php.html#150\">App\\PaymentDrivers\\Stripe\\SOFORT::livewirePaymentView<\/a>"],[0,1,"<a href=\"UpdatePaymentMethods.php.html#31\">App\\PaymentDrivers\\Stripe\\UpdatePaymentMethods::__construct<\/a>"],[0,6,"<a href=\"UpdatePaymentMethods.php.html#36\">App\\PaymentDrivers\\Stripe\\UpdatePaymentMethods::updateMethods<\/a>"],[0,4,"<a href=\"UpdatePaymentMethods.php.html#106\">App\\PaymentDrivers\\Stripe\\UpdatePaymentMethods::importPMBankAccounts<\/a>"],[0,8,"<a href=\"UpdatePaymentMethods.php.html#158\">App\\PaymentDrivers\\Stripe\\UpdatePaymentMethods::importBankAccounts<\/a>"],[0,5,"<a href=\"UpdatePaymentMethods.php.html#201\">App\\PaymentDrivers\\Stripe\\UpdatePaymentMethods::addOrUpdateCard<\/a>"],[0,7,"<a href=\"UpdatePaymentMethods.php.html#230\">App\\PaymentDrivers\\Stripe\\UpdatePaymentMethods::buildPaymentMethodMeta<\/a>"],[0,1,"<a href=\"iDeal.php.html#29\">App\\PaymentDrivers\\Stripe\\iDeal::__construct<\/a>"],[0,1,"<a href=\"iDeal.php.html#34\">App\\PaymentDrivers\\Stripe\\iDeal::authorizeView<\/a>"],[0,1,"<a href=\"iDeal.php.html#39\">App\\PaymentDrivers\\Stripe\\iDeal::paymentView<\/a>"],[0,1,"<a href=\"iDeal.php.html#46\">App\\PaymentDrivers\\Stripe\\iDeal::buildReturnUrl<\/a>"],[0,2,"<a href=\"iDeal.php.html#55\">App\\PaymentDrivers\\Stripe\\iDeal::paymentResponse<\/a>"],[0,2,"<a href=\"iDeal.php.html#67\">App\\PaymentDrivers\\Stripe\\iDeal::processSuccessfulPayment<\/a>"],[0,1,"<a href=\"iDeal.php.html#100\">App\\PaymentDrivers\\Stripe\\iDeal::processUnsuccessfulPayment<\/a>"],[0,1,"<a href=\"iDeal.php.html#123\">App\\PaymentDrivers\\Stripe\\iDeal::paymentData<\/a>"],[0,1,"<a href=\"iDeal.php.html#154\">App\\PaymentDrivers\\Stripe\\iDeal::livewirePaymentView<\/a>"],[0,2,"<a href=\"Utilities.php.html#18\">App\\PaymentDrivers\\Stripe\\Utilities::convertFromStripeAmount<\/a>"],[0,2,"<a href=\"Utilities.php.html#27\">App\\PaymentDrivers\\Stripe\\Utilities::convertToStripeAmount<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Livewire/BillingPortal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Livewire</a></li>
+         <li class="breadcrumb-item"><a href="index.html">BillingPortal</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#24">App\Livewire\BillingPortal\Authentication\ClientRegisterService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#25">App\Livewire\BillingPortal\Authentication\Login</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#22">App\Livewire\BillingPortal\Authentication\Register</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#26">App\Livewire\BillingPortal\Authentication\RegisterOrLogin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Cart.php.html#21">App\Livewire\BillingPortal\Cart\Cart</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#20">App\Livewire\BillingPortal\Cart\Coupon</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OneTimeProducts.php.html#20">App\Livewire\BillingPortal\Cart\OneTimeProducts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalOneTimeProducts.php.html#20">App\Livewire\BillingPortal\Cart\OptionalOneTimeProducts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalRecurringProducts.php.html#20">App\Livewire\BillingPortal\Cart\OptionalRecurringProducts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/RecurringProducts.php.html#20">App\Livewire\BillingPortal\Cart\RecurringProducts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Example.php.html#17">App\Livewire\BillingPortal\Example</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payments/Methods.php.html#20">App\Livewire\BillingPortal\Payments\Methods</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#30">App\Livewire\BillingPortal\Purchase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RFF.php.html#22">App\Livewire\BillingPortal\RFF</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Setup.php.html#17">App\Livewire\BillingPortal\Setup</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submit.php.html#19">App\Livewire\BillingPortal\Submit</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#25">App\Livewire\BillingPortal\Summary</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Summary.php.html#25">App\Livewire\BillingPortal\Summary</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#26">App\Livewire\BillingPortal\Authentication\RegisterOrLogin</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#24">App\Livewire\BillingPortal\Authentication\ClientRegisterService</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#25">App\Livewire\BillingPortal\Authentication\Login</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Purchase.php.html#30">App\Livewire\BillingPortal\Purchase</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#22">App\Livewire\BillingPortal\Authentication\Register</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#20">App\Livewire\BillingPortal\Cart\Coupon</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="RFF.php.html#22">App\Livewire\BillingPortal\RFF</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Payments/Methods.php.html#20">App\Livewire\BillingPortal\Payments\Methods</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#28"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#34"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#67"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::createClient">createClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#91"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::createClientContact">createClientContact</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#108"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::mappings">mappings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#46"><abbr title="App\Livewire\BillingPortal\Authentication\Login::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#52"><abbr title="App\Livewire\BillingPortal\Authentication\Login::initial">initial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#75"><abbr title="App\Livewire\BillingPortal\Authentication\Login::withPassword">withPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#95"><abbr title="App\Livewire\BillingPortal\Authentication\Login::withOtp">withOtp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#121"><abbr title="App\Livewire\BillingPortal\Authentication\Login::handleOtp">handleOtp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#151"><abbr title="App\Livewire\BillingPortal\Authentication\Login::handlePassword">handlePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#173"><abbr title="App\Livewire\BillingPortal\Authentication\Login::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#182"><abbr title="App\Livewire\BillingPortal\Authentication\Login::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#48"><abbr title="App\Livewire\BillingPortal\Authentication\Register::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#54"><abbr title="App\Livewire\BillingPortal\Authentication\Register::initial">initial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#73"><abbr title="App\Livewire\BillingPortal\Authentication\Register::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#99"><abbr title="App\Livewire\BillingPortal\Authentication\Register::registerForm">registerForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#161"><abbr title="App\Livewire\BillingPortal\Authentication\Register::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#170"><abbr title="App\Livewire\BillingPortal\Authentication\Register::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#54"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#60"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::initial">initial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#89"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::withPassword">withPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#103"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::handlePassword">handlePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#123"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::withOtp">withOtp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#157"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::handleOtp">handleOtp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#189"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#214"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::registerForm">registerForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#276"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#286"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Cart.php.html#29"><abbr title="App\Livewire\BillingPortal\Cart\Cart::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Cart.php.html#39"><abbr title="App\Livewire\BillingPortal\Cart\Cart::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Cart.php.html#45"><abbr title="App\Livewire\BillingPortal\Cart\Cart::handleSubmit">handleSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Cart.php.html#50"><abbr title="App\Livewire\BillingPortal\Cart\Cart::showOptionalProductsLabel">showOptionalProductsLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Cart.php.html#60"><abbr title="App\Livewire\BillingPortal\Cart\Cart::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#32"><abbr title="App\Livewire\BillingPortal\Cart\Coupon::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#44"><abbr title="App\Livewire\BillingPortal\Cart\Coupon::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#50"><abbr title="App\Livewire\BillingPortal\Cart\Coupon::applyCoupon">applyCoupon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#74"><abbr title="App\Livewire\BillingPortal\Cart\Coupon::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OneTimeProducts.php.html#28"><abbr title="App\Livewire\BillingPortal\Cart\OneTimeProducts::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OneTimeProducts.php.html#34"><abbr title="App\Livewire\BillingPortal\Cart\OneTimeProducts::quantity">quantity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OneTimeProducts.php.html#39"><abbr title="App\Livewire\BillingPortal\Cart\OneTimeProducts::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalOneTimeProducts.php.html#28"><abbr title="App\Livewire\BillingPortal\Cart\OptionalOneTimeProducts::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalOneTimeProducts.php.html#34"><abbr title="App\Livewire\BillingPortal\Cart\OptionalOneTimeProducts::quantity">quantity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalOneTimeProducts.php.html#39"><abbr title="App\Livewire\BillingPortal\Cart\OptionalOneTimeProducts::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalRecurringProducts.php.html#28"><abbr title="App\Livewire\BillingPortal\Cart\OptionalRecurringProducts::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalRecurringProducts.php.html#34"><abbr title="App\Livewire\BillingPortal\Cart\OptionalRecurringProducts::quantity">quantity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/OptionalRecurringProducts.php.html#41"><abbr title="App\Livewire\BillingPortal\Cart\OptionalRecurringProducts::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/RecurringProducts.php.html#28"><abbr title="App\Livewire\BillingPortal\Cart\RecurringProducts::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/RecurringProducts.php.html#34"><abbr title="App\Livewire\BillingPortal\Cart\RecurringProducts::quantity">quantity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cart/RecurringProducts.php.html#39"><abbr title="App\Livewire\BillingPortal\Cart\RecurringProducts::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Example.php.html#21"><abbr title="App\Livewire\BillingPortal\Example::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Example.php.html#27"><abbr title="App\Livewire\BillingPortal\Example::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payments/Methods.php.html#30"><abbr title="App\Livewire\BillingPortal\Payments\Methods::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payments/Methods.php.html#40"><abbr title="App\Livewire\BillingPortal\Payments\Methods::handleSelect">handleSelect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payments/Methods.php.html#82"><abbr title="App\Livewire\BillingPortal\Payments\Methods::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#71"><abbr title="App\Livewire\BillingPortal\Purchase::handleContext">handleContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#85"><abbr title="App\Livewire\BillingPortal\Purchase::handleNext">handleNext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#94"><abbr title="App\Livewire\BillingPortal\Purchase::handleForward">handleForward</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#102"><abbr title="App\Livewire\BillingPortal\Purchase::component">component</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#108"><abbr title="App\Livewire\BillingPortal\Purchase::componentUniqueId">componentUniqueId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#114"><abbr title="App\Livewire\BillingPortal\Purchase::summaryUniqueId">summaryUniqueId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#120"><abbr title="App\Livewire\BillingPortal\Purchase::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#126"><abbr title="App\Livewire\BillingPortal\Purchase::defaultSteps">defaultSteps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#134"><abbr title="App\Livewire\BillingPortal\Purchase::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purchase.php.html#184"><abbr title="App\Livewire\BillingPortal\Purchase::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RFF.php.html#34"><abbr title="App\Livewire\BillingPortal\RFF::continue">continue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RFF.php.html#42"><abbr title="App\Livewire\BillingPortal\RFF::handleSubmit">handleSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RFF.php.html#64"><abbr title="App\Livewire\BillingPortal\RFF::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RFF.php.html#71"><abbr title="App\Livewire\BillingPortal\RFF::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Setup.php.html#21"><abbr title="App\Livewire\BillingPortal\Setup::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Setup.php.html#27"><abbr title="App\Livewire\BillingPortal\Setup::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submit.php.html#23"><abbr title="App\Livewire\BillingPortal\Submit::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Submit.php.html#38"><abbr title="App\Livewire\BillingPortal\Submit::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#33"><abbr title="App\Livewire\BillingPortal\Summary::subscription">subscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#39"><abbr title="App\Livewire\BillingPortal\Summary::mount">mount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#98"><abbr title="App\Livewire\BillingPortal\Summary::oneTimePurchasesTotal">oneTimePurchasesTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#119"><abbr title="App\Livewire\BillingPortal\Summary::recurringPurchasesTotal">recurringPurchasesTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#140"><abbr title="App\Livewire\BillingPortal\Summary::calculateSubtotal">calculateSubtotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#149"><abbr title="App\Livewire\BillingPortal\Summary::discount">discount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#168"><abbr title="App\Livewire\BillingPortal\Summary::subtotal">subtotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#180"><abbr title="App\Livewire\BillingPortal\Summary::total">total</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#189"><abbr title="App\Livewire\BillingPortal\Summary::items">items</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#242"><abbr title="App\Livewire\BillingPortal\Summary::refresh">refresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Summary.php.html#248"><abbr title="App\Livewire\BillingPortal\Summary::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#34"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::rules">rules</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Summary.php.html#189"><abbr title="App\Livewire\BillingPortal\Summary::items">items</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#67"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::createClient">createClient</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#99"><abbr title="App\Livewire\BillingPortal\Authentication\Register::registerForm">registerForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#214"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::registerForm">registerForm</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Summary.php.html#39"><abbr title="App\Livewire\BillingPortal\Summary::mount">mount</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#32"><abbr title="App\Livewire\BillingPortal\Cart\Coupon::mount">mount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Summary.php.html#149"><abbr title="App\Livewire\BillingPortal\Summary::discount">discount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#52"><abbr title="App\Livewire\BillingPortal\Authentication\Login::initial">initial</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#121"><abbr title="App\Livewire\BillingPortal\Authentication\Login::handleOtp">handleOtp</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#60"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::initial">initial</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#123"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::withOtp">withOtp</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#157"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::handleOtp">handleOtp</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Cart/Coupon.php.html#50"><abbr title="App\Livewire\BillingPortal\Cart\Coupon::applyCoupon">applyCoupon</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Purchase.php.html#85"><abbr title="App\Livewire\BillingPortal\Purchase::handleNext">handleNext</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Purchase.php.html#134"><abbr title="App\Livewire\BillingPortal\Purchase::mount">mount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Authentication/ClientRegisterService.php.html#91"><abbr title="App\Livewire\BillingPortal\Authentication\ClientRegisterService::createClientContact">createClientContact</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#75"><abbr title="App\Livewire\BillingPortal\Authentication\Login::withPassword">withPassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#95"><abbr title="App\Livewire\BillingPortal\Authentication\Login::withOtp">withOtp</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#151"><abbr title="App\Livewire\BillingPortal\Authentication\Login::handlePassword">handlePassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/Login.php.html#173"><abbr title="App\Livewire\BillingPortal\Authentication\Login::mount">mount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#54"><abbr title="App\Livewire\BillingPortal\Authentication\Register::initial">initial</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/Register.php.html#161"><abbr title="App\Livewire\BillingPortal\Authentication\Register::mount">mount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#89"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::withPassword">withPassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#103"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::handlePassword">handlePassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Authentication/RegisterOrLogin.php.html#276"><abbr title="App\Livewire\BillingPortal\Authentication\RegisterOrLogin::mount">mount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Payments/Methods.php.html#40"><abbr title="App\Livewire\BillingPortal\Payments\Methods::handleSelect">handleSelect</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Purchase.php.html#71"><abbr title="App\Livewire\BillingPortal\Purchase::handleContext">handleContext</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RFF.php.html#71"><abbr title="App\Livewire\BillingPortal\RFF::render">render</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Summary.php.html#98"><abbr title="App\Livewire\BillingPortal\Summary::oneTimePurchasesTotal">oneTimePurchasesTotal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Summary.php.html#119"><abbr title="App\Livewire\BillingPortal\Summary::recurringPurchasesTotal">recurringPurchasesTotal</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([17,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([84,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,20,"<a href=\"Authentication\/ClientRegisterService.php.html#24\">App\\Livewire\\BillingPortal\\Authentication\\ClientRegisterService<\/a>"],[0,16,"<a href=\"Authentication\/Login.php.html#25\">App\\Livewire\\BillingPortal\\Authentication\\Login<\/a>"],[0,12,"<a href=\"Authentication\/Register.php.html#22\">App\\Livewire\\BillingPortal\\Authentication\\Register<\/a>"],[0,23,"<a href=\"Authentication\/RegisterOrLogin.php.html#26\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin<\/a>"],[0,5,"<a href=\"Cart\/Cart.php.html#21\">App\\Livewire\\BillingPortal\\Cart\\Cart<\/a>"],[0,9,"<a href=\"Cart\/Coupon.php.html#20\">App\\Livewire\\BillingPortal\\Cart\\Coupon<\/a>"],[0,3,"<a href=\"Cart\/OneTimeProducts.php.html#20\">App\\Livewire\\BillingPortal\\Cart\\OneTimeProducts<\/a>"],[0,3,"<a href=\"Cart\/OptionalOneTimeProducts.php.html#20\">App\\Livewire\\BillingPortal\\Cart\\OptionalOneTimeProducts<\/a>"],[0,3,"<a href=\"Cart\/OptionalRecurringProducts.php.html#20\">App\\Livewire\\BillingPortal\\Cart\\OptionalRecurringProducts<\/a>"],[0,3,"<a href=\"Cart\/RecurringProducts.php.html#20\">App\\Livewire\\BillingPortal\\Cart\\RecurringProducts<\/a>"],[0,2,"<a href=\"Example.php.html#17\">App\\Livewire\\BillingPortal\\Example<\/a>"],[0,4,"<a href=\"Payments\/Methods.php.html#20\">App\\Livewire\\BillingPortal\\Payments\\Methods<\/a>"],[0,15,"<a href=\"Purchase.php.html#30\">App\\Livewire\\BillingPortal\\Purchase<\/a>"],[0,5,"<a href=\"RFF.php.html#22\">App\\Livewire\\BillingPortal\\RFF<\/a>"],[0,2,"<a href=\"Setup.php.html#17\">App\\Livewire\\BillingPortal\\Setup<\/a>"],[0,2,"<a href=\"Submit.php.html#19\">App\\Livewire\\BillingPortal\\Submit<\/a>"],[0,25,"<a href=\"Summary.php.html#25\">App\\Livewire\\BillingPortal\\Summary<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Authentication\/ClientRegisterService.php.html#28\">App\\Livewire\\BillingPortal\\Authentication\\ClientRegisterService::__construct<\/a>"],[0,11,"<a href=\"Authentication\/ClientRegisterService.php.html#34\">App\\Livewire\\BillingPortal\\Authentication\\ClientRegisterService::rules<\/a>"],[0,5,"<a href=\"Authentication\/ClientRegisterService.php.html#67\">App\\Livewire\\BillingPortal\\Authentication\\ClientRegisterService::createClient<\/a>"],[0,2,"<a href=\"Authentication\/ClientRegisterService.php.html#91\">App\\Livewire\\BillingPortal\\Authentication\\ClientRegisterService::createClientContact<\/a>"],[0,1,"<a href=\"Authentication\/ClientRegisterService.php.html#108\">App\\Livewire\\BillingPortal\\Authentication\\ClientRegisterService::mappings<\/a>"],[0,1,"<a href=\"Authentication\/Login.php.html#46\">App\\Livewire\\BillingPortal\\Authentication\\Login::subscription<\/a>"],[0,3,"<a href=\"Authentication\/Login.php.html#52\">App\\Livewire\\BillingPortal\\Authentication\\Login::initial<\/a>"],[0,2,"<a href=\"Authentication\/Login.php.html#75\">App\\Livewire\\BillingPortal\\Authentication\\Login::withPassword<\/a>"],[0,2,"<a href=\"Authentication\/Login.php.html#95\">App\\Livewire\\BillingPortal\\Authentication\\Login::withOtp<\/a>"],[0,3,"<a href=\"Authentication\/Login.php.html#121\">App\\Livewire\\BillingPortal\\Authentication\\Login::handleOtp<\/a>"],[0,2,"<a href=\"Authentication\/Login.php.html#151\">App\\Livewire\\BillingPortal\\Authentication\\Login::handlePassword<\/a>"],[0,2,"<a href=\"Authentication\/Login.php.html#173\">App\\Livewire\\BillingPortal\\Authentication\\Login::mount<\/a>"],[0,1,"<a href=\"Authentication\/Login.php.html#182\">App\\Livewire\\BillingPortal\\Authentication\\Login::render<\/a>"],[0,1,"<a href=\"Authentication\/Register.php.html#48\">App\\Livewire\\BillingPortal\\Authentication\\Register::subscription<\/a>"],[0,2,"<a href=\"Authentication\/Register.php.html#54\">App\\Livewire\\BillingPortal\\Authentication\\Register::initial<\/a>"],[0,1,"<a href=\"Authentication\/Register.php.html#73\">App\\Livewire\\BillingPortal\\Authentication\\Register::register<\/a>"],[0,5,"<a href=\"Authentication\/Register.php.html#99\">App\\Livewire\\BillingPortal\\Authentication\\Register::registerForm<\/a>"],[0,2,"<a href=\"Authentication\/Register.php.html#161\">App\\Livewire\\BillingPortal\\Authentication\\Register::mount<\/a>"],[0,1,"<a href=\"Authentication\/Register.php.html#170\">App\\Livewire\\BillingPortal\\Authentication\\Register::render<\/a>"],[0,1,"<a href=\"Authentication\/RegisterOrLogin.php.html#54\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::subscription<\/a>"],[0,3,"<a href=\"Authentication\/RegisterOrLogin.php.html#60\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::initial<\/a>"],[0,2,"<a href=\"Authentication\/RegisterOrLogin.php.html#89\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::withPassword<\/a>"],[0,2,"<a href=\"Authentication\/RegisterOrLogin.php.html#103\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::handlePassword<\/a>"],[0,3,"<a href=\"Authentication\/RegisterOrLogin.php.html#123\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::withOtp<\/a>"],[0,3,"<a href=\"Authentication\/RegisterOrLogin.php.html#157\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::handleOtp<\/a>"],[0,1,"<a href=\"Authentication\/RegisterOrLogin.php.html#189\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::register<\/a>"],[0,5,"<a href=\"Authentication\/RegisterOrLogin.php.html#214\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::registerForm<\/a>"],[0,2,"<a href=\"Authentication\/RegisterOrLogin.php.html#276\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::mount<\/a>"],[0,1,"<a href=\"Authentication\/RegisterOrLogin.php.html#286\">App\\Livewire\\BillingPortal\\Authentication\\RegisterOrLogin::render<\/a>"],[0,1,"<a href=\"Cart\/Cart.php.html#29\">App\\Livewire\\BillingPortal\\Cart\\Cart::mount<\/a>"],[0,1,"<a href=\"Cart\/Cart.php.html#39\">App\\Livewire\\BillingPortal\\Cart\\Cart::subscription<\/a>"],[0,1,"<a href=\"Cart\/Cart.php.html#45\">App\\Livewire\\BillingPortal\\Cart\\Cart::handleSubmit<\/a>"],[0,1,"<a href=\"Cart\/Cart.php.html#50\">App\\Livewire\\BillingPortal\\Cart\\Cart::showOptionalProductsLabel<\/a>"],[0,1,"<a href=\"Cart\/Cart.php.html#60\">App\\Livewire\\BillingPortal\\Cart\\Cart::render<\/a>"],[0,4,"<a href=\"Cart\/Coupon.php.html#32\">App\\Livewire\\BillingPortal\\Cart\\Coupon::mount<\/a>"],[0,1,"<a href=\"Cart\/Coupon.php.html#44\">App\\Livewire\\BillingPortal\\Cart\\Coupon::subscription<\/a>"],[0,3,"<a href=\"Cart\/Coupon.php.html#50\">App\\Livewire\\BillingPortal\\Cart\\Coupon::applyCoupon<\/a>"],[0,1,"<a href=\"Cart\/Coupon.php.html#74\">App\\Livewire\\BillingPortal\\Cart\\Coupon::render<\/a>"],[0,1,"<a href=\"Cart\/OneTimeProducts.php.html#28\">App\\Livewire\\BillingPortal\\Cart\\OneTimeProducts::subscription<\/a>"],[0,1,"<a href=\"Cart\/OneTimeProducts.php.html#34\">App\\Livewire\\BillingPortal\\Cart\\OneTimeProducts::quantity<\/a>"],[0,1,"<a href=\"Cart\/OneTimeProducts.php.html#39\">App\\Livewire\\BillingPortal\\Cart\\OneTimeProducts::render<\/a>"],[0,1,"<a href=\"Cart\/OptionalOneTimeProducts.php.html#28\">App\\Livewire\\BillingPortal\\Cart\\OptionalOneTimeProducts::subscription<\/a>"],[0,1,"<a href=\"Cart\/OptionalOneTimeProducts.php.html#34\">App\\Livewire\\BillingPortal\\Cart\\OptionalOneTimeProducts::quantity<\/a>"],[0,1,"<a href=\"Cart\/OptionalOneTimeProducts.php.html#39\">App\\Livewire\\BillingPortal\\Cart\\OptionalOneTimeProducts::render<\/a>"],[0,1,"<a href=\"Cart\/OptionalRecurringProducts.php.html#28\">App\\Livewire\\BillingPortal\\Cart\\OptionalRecurringProducts::subscription<\/a>"],[0,1,"<a href=\"Cart\/OptionalRecurringProducts.php.html#34\">App\\Livewire\\BillingPortal\\Cart\\OptionalRecurringProducts::quantity<\/a>"],[0,1,"<a href=\"Cart\/OptionalRecurringProducts.php.html#41\">App\\Livewire\\BillingPortal\\Cart\\OptionalRecurringProducts::render<\/a>"],[0,1,"<a href=\"Cart\/RecurringProducts.php.html#28\">App\\Livewire\\BillingPortal\\Cart\\RecurringProducts::subscription<\/a>"],[0,1,"<a href=\"Cart\/RecurringProducts.php.html#34\">App\\Livewire\\BillingPortal\\Cart\\RecurringProducts::quantity<\/a>"],[0,1,"<a href=\"Cart\/RecurringProducts.php.html#39\">App\\Livewire\\BillingPortal\\Cart\\RecurringProducts::render<\/a>"],[0,1,"<a href=\"Example.php.html#21\">App\\Livewire\\BillingPortal\\Example::mount<\/a>"],[0,1,"<a href=\"Example.php.html#27\">App\\Livewire\\BillingPortal\\Example::render<\/a>"],[0,1,"<a href=\"Payments\/Methods.php.html#30\">App\\Livewire\\BillingPortal\\Payments\\Methods::mount<\/a>"],[0,2,"<a href=\"Payments\/Methods.php.html#40\">App\\Livewire\\BillingPortal\\Payments\\Methods::handleSelect<\/a>"],[0,1,"<a href=\"Payments\/Methods.php.html#82\">App\\Livewire\\BillingPortal\\Payments\\Methods::render<\/a>"],[0,2,"<a href=\"Purchase.php.html#71\">App\\Livewire\\BillingPortal\\Purchase::handleContext<\/a>"],[0,3,"<a href=\"Purchase.php.html#85\">App\\Livewire\\BillingPortal\\Purchase::handleNext<\/a>"],[0,1,"<a href=\"Purchase.php.html#94\">App\\Livewire\\BillingPortal\\Purchase::handleForward<\/a>"],[0,1,"<a href=\"Purchase.php.html#102\">App\\Livewire\\BillingPortal\\Purchase::component<\/a>"],[0,1,"<a href=\"Purchase.php.html#108\">App\\Livewire\\BillingPortal\\Purchase::componentUniqueId<\/a>"],[0,1,"<a href=\"Purchase.php.html#114\">App\\Livewire\\BillingPortal\\Purchase::summaryUniqueId<\/a>"],[0,1,"<a href=\"Purchase.php.html#120\">App\\Livewire\\BillingPortal\\Purchase::subscription<\/a>"],[0,1,"<a href=\"Purchase.php.html#126\">App\\Livewire\\BillingPortal\\Purchase::defaultSteps<\/a>"],[0,3,"<a href=\"Purchase.php.html#134\">App\\Livewire\\BillingPortal\\Purchase::mount<\/a>"],[0,1,"<a href=\"Purchase.php.html#184\">App\\Livewire\\BillingPortal\\Purchase::render<\/a>"],[0,1,"<a href=\"RFF.php.html#34\">App\\Livewire\\BillingPortal\\RFF::continue<\/a>"],[0,1,"<a href=\"RFF.php.html#42\">App\\Livewire\\BillingPortal\\RFF::handleSubmit<\/a>"],[0,1,"<a href=\"RFF.php.html#64\">App\\Livewire\\BillingPortal\\RFF::mount<\/a>"],[0,2,"<a href=\"RFF.php.html#71\">App\\Livewire\\BillingPortal\\RFF::render<\/a>"],[0,1,"<a href=\"Setup.php.html#21\">App\\Livewire\\BillingPortal\\Setup::mount<\/a>"],[0,1,"<a href=\"Setup.php.html#27\">App\\Livewire\\BillingPortal\\Setup::render<\/a>"],[0,1,"<a href=\"Submit.php.html#23\">App\\Livewire\\BillingPortal\\Submit::mount<\/a>"],[0,1,"<a href=\"Submit.php.html#38\">App\\Livewire\\BillingPortal\\Submit::render<\/a>"],[0,1,"<a href=\"Summary.php.html#33\">App\\Livewire\\BillingPortal\\Summary::subscription<\/a>"],[0,5,"<a href=\"Summary.php.html#39\">App\\Livewire\\BillingPortal\\Summary::mount<\/a>"],[0,2,"<a href=\"Summary.php.html#98\">App\\Livewire\\BillingPortal\\Summary::oneTimePurchasesTotal<\/a>"],[0,2,"<a href=\"Summary.php.html#119\">App\\Livewire\\BillingPortal\\Summary::recurringPurchasesTotal<\/a>"],[0,1,"<a href=\"Summary.php.html#140\">App\\Livewire\\BillingPortal\\Summary::calculateSubtotal<\/a>"],[0,4,"<a href=\"Summary.php.html#149\">App\\Livewire\\BillingPortal\\Summary::discount<\/a>"],[0,1,"<a href=\"Summary.php.html#168\">App\\Livewire\\BillingPortal\\Summary::subtotal<\/a>"],[0,1,"<a href=\"Summary.php.html#180\">App\\Livewire\\BillingPortal\\Summary::total<\/a>"],[0,6,"<a href=\"Summary.php.html#189\">App\\Livewire\\BillingPortal\\Summary::items<\/a>"],[0,1,"<a href=\"Summary.php.html#242\">App\\Livewire\\BillingPortal\\Summary::refresh<\/a>"],[0,1,"<a href=\"Summary.php.html#248\">App\\Livewire\\BillingPortal\\Summary::render<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

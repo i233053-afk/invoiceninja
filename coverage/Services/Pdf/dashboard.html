@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Services/Pdf</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Services</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Pdf</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DesignExtractor.php.html#18">App\Services\Pdf\DesignExtractor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markdown.php.html#15">App\Services\Pdf\Markdown</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#25">App\Services\Pdf\PdfBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#41">App\Services\Pdf\PdfConfiguration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#15">App\Services\Pdf\PdfDesigner</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#34">App\Services\Pdf\PdfMock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#31">App\Services\Pdf\PdfService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purify.php.html#5">App\Services\Pdf\Purify</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PdfBuilder.php.html#25">App\Services\Pdf\PdfBuilder</a></td><td class="text-right">113232</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#41">App\Services\Pdf\PdfConfiguration</a></td><td class="text-right">3080</td></tr>
+       <tr><td><a href="Purify.php.html#5">App\Services\Pdf\Purify</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="PdfMock.php.html#34">App\Services\Pdf\PdfMock</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="PdfService.php.html#31">App\Services\Pdf\PdfService</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="DesignExtractor.php.html#18">App\Services\Pdf\DesignExtractor</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#15">App\Services\Pdf\PdfDesigner</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DesignExtractor.php.html#22"><abbr title="App\Services\Pdf\DesignExtractor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DesignExtractor.php.html#33"><abbr title="App\Services\Pdf\DesignExtractor::setHtml">setHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DesignExtractor.php.html#40"><abbr title="App\Services\Pdf\DesignExtractor::getHtml">getHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DesignExtractor.php.html#52"><abbr title="App\Services\Pdf\DesignExtractor::getSectionHTML">getSectionHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Markdown.php.html#17"><abbr title="App\Services\Pdf\Markdown::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#56"><abbr title="App\Services\Pdf\PdfBuilder::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#77"><abbr title="App\Services\Pdf\PdfBuilder::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#98"><abbr title="App\Services\Pdf\PdfBuilder::removeEmptyElements">removeEmptyElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#167"><abbr title="App\Services\Pdf\PdfBuilder::getCompiledHTML">getCompiledHTML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#181"><abbr title="App\Services\Pdf\PdfBuilder::getTemplate">getTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#201"><abbr title="App\Services\Pdf\PdfBuilder::parseTwigElements">parseTwigElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#257"><abbr title="App\Services\Pdf\PdfBuilder::setDocument">setDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#270"><abbr title="App\Services\Pdf\PdfBuilder::getProductSections">getProductSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#289"><abbr title="App\Services\Pdf\PdfBuilder::mergeSections">mergeSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#304"><abbr title="App\Services\Pdf\PdfBuilder::setSections">setSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#317"><abbr title="App\Services\Pdf\PdfBuilder::getDeliveryNoteSections">getDeliveryNoteSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#346"><abbr title="App\Services\Pdf\PdfBuilder::getStatementSections">getStatementSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#419"><abbr title="App\Services\Pdf\PdfBuilder::statementInvoiceTableTotals">statementInvoiceTableTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#433"><abbr title="App\Services\Pdf\PdfBuilder::statementCreditTable">statementCreditTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#465"><abbr title="App\Services\Pdf\PdfBuilder::statementCreditTableTotals">statementCreditTableTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#484"><abbr title="App\Services\Pdf\PdfBuilder::statementPaymentTable">statementPaymentTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#556"><abbr title="App\Services\Pdf\PdfBuilder::statementPaymentTableTotals">statementPaymentTableTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#574"><abbr title="App\Services\Pdf\PdfBuilder::statementUnappliedPaymentTableTotals">statementUnappliedPaymentTableTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#596"><abbr title="App\Services\Pdf\PdfBuilder::statementUnappliedPaymentTable">statementUnappliedPaymentTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#636"><abbr title="App\Services\Pdf\PdfBuilder::statementAgingTable">statementAgingTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#664"><abbr title="App\Services\Pdf\PdfBuilder::statementCreditsTable">statementCreditsTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#691"><abbr title="App\Services\Pdf\PdfBuilder::getPurchaseOrderSections">getPurchaseOrderSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#718"><abbr title="App\Services\Pdf\PdfBuilder::genericSectionBuilder">genericSectionBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#744"><abbr title="App\Services\Pdf\PdfBuilder::statementInvoiceTable">statementInvoiceTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#775"><abbr title="App\Services\Pdf\PdfBuilder::parseVisibleElements">parseVisibleElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#827"><abbr title="App\Services\Pdf\PdfBuilder::buildTableBody">buildTableBody</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#959"><abbr title="App\Services\Pdf\PdfBuilder::transformLineItems">transformLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1069"><abbr title="App\Services\Pdf\PdfBuilder::getColumnVisibility">getColumnVisibility</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1117"><abbr title="App\Services\Pdf\PdfBuilder::buildTableHeader">buildTableHeader</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1210"><abbr title="App\Services\Pdf\PdfBuilder::visibilityCheck">visibilityCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1233"><abbr title="App\Services\Pdf\PdfBuilder::processTaxColumns">processTaxColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1296"><abbr title="App\Services\Pdf\PdfBuilder::getProductTotals">getProductTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1317"><abbr title="App\Services\Pdf\PdfBuilder::getProductEntityDetails">getProductEntityDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1351"><abbr title="App\Services\Pdf\PdfBuilder::buildSections">buildSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1368"><abbr title="App\Services\Pdf\PdfBuilder::statementTableTotals">statementTableTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1387"><abbr title="App\Services\Pdf\PdfBuilder::entityVariableCheck">entityVariableCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1428"><abbr title="App\Services\Pdf\PdfBuilder::getTableTotals">getTableTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1559"><abbr title="App\Services\Pdf\PdfBuilder::getProductAndTaskTables">getProductAndTaskTables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1581"><abbr title="App\Services\Pdf\PdfBuilder::getClientDetails">getClientDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1602"><abbr title="App\Services\Pdf\PdfBuilder::productTable">productTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1625"><abbr title="App\Services\Pdf\PdfBuilder::taskTable">taskTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1655"><abbr title="App\Services\Pdf\PdfBuilder::statementDetails">statementDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1682"><abbr title="App\Services\Pdf\PdfBuilder::invoiceDetails">invoiceDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1695"><abbr title="App\Services\Pdf\PdfBuilder::quoteDetails">quoteDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1713"><abbr title="App\Services\Pdf\PdfBuilder::creditDetails">creditDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1725"><abbr title="App\Services\Pdf\PdfBuilder::purchaseOrderDetails">purchaseOrderDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1738"><abbr title="App\Services\Pdf\PdfBuilder::deliveryNoteDetails">deliveryNoteDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1756"><abbr title="App\Services\Pdf\PdfBuilder::genericDetailsBuilder">genericDetailsBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1792"><abbr title="App\Services\Pdf\PdfBuilder::clientDeliveryDetails">clientDeliveryDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1837"><abbr title="App\Services\Pdf\PdfBuilder::clientDetails">clientDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1864"><abbr title="App\Services\Pdf\PdfBuilder::shippingDetails">shippingDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1890"><abbr title="App\Services\Pdf\PdfBuilder::deliveryNoteTable">deliveryNoteTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1950"><abbr title="App\Services\Pdf\PdfBuilder::processNewLines">processNewLines</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1967"><abbr title="App\Services\Pdf\PdfBuilder::companyDetails">companyDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1987"><abbr title="App\Services\Pdf\PdfBuilder::companyAddress">companyAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2007"><abbr title="App\Services\Pdf\PdfBuilder::vendorDetails">vendorDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2025"><abbr title="App\Services\Pdf\PdfBuilder::updateElementProperties">updateElementProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2050"><abbr title="App\Services\Pdf\PdfBuilder::updateElementProperty">updateElementProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2077"><abbr title="App\Services\Pdf\PdfBuilder::isMarkdown">isMarkdown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2107"><abbr title="App\Services\Pdf\PdfBuilder::createElementContent">createElementContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2160"><abbr title="App\Services\Pdf\PdfBuilder::updateVariables">updateVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2196"><abbr title="App\Services\Pdf\PdfBuilder::getEmptyElements">getEmptyElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2207"><abbr title="App\Services\Pdf\PdfBuilder::getEmptyChildren">getEmptyChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2222"><abbr title="App\Services\Pdf\PdfBuilder::isChildEmpty">isChildEmpty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#89"><abbr title="App\Services\Pdf\PdfConfiguration::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#98"><abbr title="App\Services\Pdf\PdfConfiguration::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#117"><abbr title="App\Services\Pdf\PdfConfiguration::setLocale">setLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#137"><abbr title="App\Services\Pdf\PdfConfiguration::setCurrencyForPdf">setCurrencyForPdf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#151"><abbr title="App\Services\Pdf\PdfConfiguration::setPdfVariables">setPdfVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#176"><abbr title="App\Services\Pdf\PdfConfiguration::setEntityType">setEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#243"><abbr title="App\Services\Pdf\PdfConfiguration::setTaxMap">setTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#250"><abbr title="App\Services\Pdf\PdfConfiguration::setTotalTaxMap">setTotalTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#257"><abbr title="App\Services\Pdf\PdfConfiguration::setCurrency">setCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#264"><abbr title="App\Services\Pdf\PdfConfiguration::setCountry">setCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#276"><abbr title="App\Services\Pdf\PdfConfiguration::setDesign">setDesign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#292"><abbr title="App\Services\Pdf\PdfConfiguration::formatMoney">formatMoney</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#342"><abbr title="App\Services\Pdf\PdfConfiguration::formatValueNoTrailingZeroes">formatValueNoTrailingZeroes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#370"><abbr title="App\Services\Pdf\PdfConfiguration::formatMoneyNoRounding">formatMoneyNoRounding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#436"><abbr title="App\Services\Pdf\PdfConfiguration::formatValue">formatValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#453"><abbr title="App\Services\Pdf\PdfConfiguration::setDateFormat">setDateFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#35"><abbr title="App\Services\Pdf\PdfDesigner::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#39"><abbr title="App\Services\Pdf\PdfDesigner::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#57"><abbr title="App\Services\Pdf\PdfDesigner::buildFromPartials">buildFromPartials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#76"><abbr title="App\Services\Pdf\PdfDesigner::composeFromPartials">composeFromPartials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#47"><abbr title="App\Services\Pdf\PdfMock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#51"><abbr title="App\Services\Pdf\PdfMock::setPdfService">setPdfService</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#99"><abbr title="App\Services\Pdf\PdfMock::getPdf">getPdf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#108"><abbr title="App\Services\Pdf\PdfMock::getHtml">getHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#114"><abbr title="App\Services\Pdf\PdfMock::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#123"><abbr title="App\Services\Pdf\PdfMock::initEntity">initEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#188"><abbr title="App\Services\Pdf\PdfMock::getMergedSettings">getMergedSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#210"><abbr title="App\Services\Pdf\PdfMock::getTaxMap">getTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#220"><abbr title="App\Services\Pdf\PdfMock::getTotalTaxMap">getTotalTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#230"><abbr title="App\Services\Pdf\PdfMock::getStubVariables">getStubVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#571"><abbr title="App\Services\Pdf\PdfMock::mockTranslatedLabels">mockTranslatedLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#900"><abbr title="App\Services\Pdf\PdfMock::getVendorStubVariables">getVendorStubVariables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfMock.php.html#1221"><abbr title="App\Services\Pdf\PdfMock::vendorLabels">vendorLabels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#61"><abbr title="App\Services\Pdf\PdfService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#74"><abbr title="App\Services\Pdf\PdfService::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#90"><abbr title="App\Services\Pdf\PdfService::getPdf">getPdf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#124"><abbr title="App\Services\Pdf\PdfService::getHtml">getHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#140"><abbr title="App\Services\Pdf\PdfService::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#162"><abbr title="App\Services\Pdf\PdfService::resolvePdfEngine">resolvePdfEngine</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#181"><abbr title="App\Services\Pdf\PdfService::checkEInvoice">checkEInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PdfService.php.html#215"><abbr title="App\Services\Pdf\PdfService::embedEInvoiceZuGFerD">embedEInvoiceZuGFerD</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purify.php.html#171"><abbr title="App\Services\Pdf\Purify::filterCssStyles">filterCssStyles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purify.php.html#232"><abbr title="App\Services\Pdf\Purify::isDangerousSvgElement">isDangerousSvgElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Purify.php.html#237"><abbr title="App\Services\Pdf\Purify::clean">clean</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Purify.php.html#237"><abbr title="App\Services\Pdf\Purify::clean">clean</abbr></a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#827"><abbr title="App\Services\Pdf\PdfBuilder::buildTableBody">buildTableBody</abbr></a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#959"><abbr title="App\Services\Pdf\PdfBuilder::transformLineItems">transformLineItems</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1428"><abbr title="App\Services\Pdf\PdfBuilder::getTableTotals">getTableTotals</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1117"><abbr title="App\Services\Pdf\PdfBuilder::buildTableHeader">buildTableHeader</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#484"><abbr title="App\Services\Pdf\PdfBuilder::statementPaymentTable">statementPaymentTable</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#370"><abbr title="App\Services\Pdf\PdfConfiguration::formatMoneyNoRounding">formatMoneyNoRounding</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PdfMock.php.html#230"><abbr title="App\Services\Pdf\PdfMock::getStubVariables">getStubVariables</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1069"><abbr title="App\Services\Pdf\PdfBuilder::getColumnVisibility">getColumnVisibility</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#292"><abbr title="App\Services\Pdf\PdfConfiguration::formatMoney">formatMoney</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2107"><abbr title="App\Services\Pdf\PdfBuilder::createElementContent">createElementContent</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PdfService.php.html#181"><abbr title="App\Services\Pdf\PdfService::checkEInvoice">checkEInvoice</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#596"><abbr title="App\Services\Pdf\PdfBuilder::statementUnappliedPaymentTable">statementUnappliedPaymentTable</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1233"><abbr title="App\Services\Pdf\PdfBuilder::processTaxColumns">processTaxColumns</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2222"><abbr title="App\Services\Pdf\PdfBuilder::isChildEmpty">isChildEmpty</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#433"><abbr title="App\Services\Pdf\PdfBuilder::statementCreditTable">statementCreditTable</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#775"><abbr title="App\Services\Pdf\PdfBuilder::parseVisibleElements">parseVisibleElements</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1890"><abbr title="App\Services\Pdf\PdfBuilder::deliveryNoteTable">deliveryNoteTable</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PdfMock.php.html#51"><abbr title="App\Services\Pdf\PdfMock::setPdfService">setPdfService</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Purify.php.html#171"><abbr title="App\Services\Pdf\Purify::filterCssStyles">filterCssStyles</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#98"><abbr title="App\Services\Pdf\PdfBuilder::removeEmptyElements">removeEmptyElements</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2025"><abbr title="App\Services\Pdf\PdfBuilder::updateElementProperties">updateElementProperties</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PdfMock.php.html#123"><abbr title="App\Services\Pdf\PdfMock::initEntity">initEntity</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#744"><abbr title="App\Services\Pdf\PdfBuilder::statementInvoiceTable">statementInvoiceTable</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1351"><abbr title="App\Services\Pdf\PdfBuilder::buildSections">buildSections</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1387"><abbr title="App\Services\Pdf\PdfBuilder::entityVariableCheck">entityVariableCheck</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1837"><abbr title="App\Services\Pdf\PdfBuilder::clientDetails">clientDetails</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#176"><abbr title="App\Services\Pdf\PdfConfiguration::setEntityType">setEntityType</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#556"><abbr title="App\Services\Pdf\PdfBuilder::statementPaymentTableTotals">statementPaymentTableTotals</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#574"><abbr title="App\Services\Pdf\PdfBuilder::statementUnappliedPaymentTableTotals">statementUnappliedPaymentTableTotals</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1602"><abbr title="App\Services\Pdf\PdfBuilder::productTable">productTable</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2050"><abbr title="App\Services\Pdf\PdfBuilder::updateElementProperty">updateElementProperty</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#342"><abbr title="App\Services\Pdf\PdfConfiguration::formatValueNoTrailingZeroes">formatValueNoTrailingZeroes</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfMock.php.html#188"><abbr title="App\Services\Pdf\PdfMock::getMergedSettings">getMergedSettings</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfService.php.html#90"><abbr title="App\Services\Pdf\PdfService::getPdf">getPdf</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfService.php.html#162"><abbr title="App\Services\Pdf\PdfService::resolvePdfEngine">resolvePdfEngine</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#201"><abbr title="App\Services\Pdf\PdfBuilder::parseTwigElements">parseTwigElements</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#636"><abbr title="App\Services\Pdf\PdfBuilder::statementAgingTable">statementAgingTable</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#664"><abbr title="App\Services\Pdf\PdfBuilder::statementCreditsTable">statementCreditsTable</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1317"><abbr title="App\Services\Pdf\PdfBuilder::getProductEntityDetails">getProductEntityDetails</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1756"><abbr title="App\Services\Pdf\PdfBuilder::genericDetailsBuilder">genericDetailsBuilder</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2207"><abbr title="App\Services\Pdf\PdfBuilder::getEmptyChildren">getEmptyChildren</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DesignExtractor.php.html#22"><abbr title="App\Services\Pdf\DesignExtractor::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DesignExtractor.php.html#52"><abbr title="App\Services\Pdf\DesignExtractor::getSectionHTML">getSectionHTML</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#465"><abbr title="App\Services\Pdf\PdfBuilder::statementCreditTableTotals">statementCreditTableTotals</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1210"><abbr title="App\Services\Pdf\PdfBuilder::visibilityCheck">visibilityCheck</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1625"><abbr title="App\Services\Pdf\PdfBuilder::taskTable">taskTable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1792"><abbr title="App\Services\Pdf\PdfBuilder::clientDeliveryDetails">clientDeliveryDetails</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1864"><abbr title="App\Services\Pdf\PdfBuilder::shippingDetails">shippingDetails</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1950"><abbr title="App\Services\Pdf\PdfBuilder::processNewLines">processNewLines</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2077"><abbr title="App\Services\Pdf\PdfBuilder::isMarkdown">isMarkdown</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2196"><abbr title="App\Services\Pdf\PdfBuilder::getEmptyElements">getEmptyElements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#137"><abbr title="App\Services\Pdf\PdfConfiguration::setCurrencyForPdf">setCurrencyForPdf</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#151"><abbr title="App\Services\Pdf\PdfConfiguration::setPdfVariables">setPdfVariables</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DesignExtractor.php.html#40"><abbr title="App\Services\Pdf\DesignExtractor::getHtml">getHtml</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1368"><abbr title="App\Services\Pdf\PdfBuilder::statementTableTotals">statementTableTotals</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1695"><abbr title="App\Services\Pdf\PdfBuilder::quoteDetails">quoteDetails</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1967"><abbr title="App\Services\Pdf\PdfBuilder::companyDetails">companyDetails</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#1987"><abbr title="App\Services\Pdf\PdfBuilder::companyAddress">companyAddress</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfBuilder.php.html#2007"><abbr title="App\Services\Pdf\PdfBuilder::vendorDetails">vendorDetails</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfConfiguration.php.html#276"><abbr title="App\Services\Pdf\PdfConfiguration::setDesign">setDesign</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#39"><abbr title="App\Services\Pdf\PdfDesigner::build">build</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfDesigner.php.html#76"><abbr title="App\Services\Pdf\PdfDesigner::composeFromPartials">composeFromPartials</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfMock.php.html#571"><abbr title="App\Services\Pdf\PdfMock::mockTranslatedLabels">mockTranslatedLabels</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfService.php.html#124"><abbr title="App\Services\Pdf\PdfService::getHtml">getHtml</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfService.php.html#140"><abbr title="App\Services\Pdf\PdfService::init">init</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PdfService.php.html#215"><abbr title="App\Services\Pdf\PdfService::embedEInvoiceZuGFerD">embedEInvoiceZuGFerD</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([113,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,9,"<a href=\"DesignExtractor.php.html#18\">App\\Services\\Pdf\\DesignExtractor<\/a>"],[0,1,"<a href=\"Markdown.php.html#15\">App\\Services\\Pdf\\Markdown<\/a>"],[0,336,"<a href=\"PdfBuilder.php.html#25\">App\\Services\\Pdf\\PdfBuilder<\/a>"],[0,55,"<a href=\"PdfConfiguration.php.html#41\">App\\Services\\Pdf\\PdfConfiguration<\/a>"],[0,6,"<a href=\"PdfDesigner.php.html#15\">App\\Services\\Pdf\\PdfDesigner<\/a>"],[0,43,"<a href=\"PdfMock.php.html#34\">App\\Services\\Pdf\\PdfMock<\/a>"],[0,29,"<a href=\"PdfService.php.html#31\">App\\Services\\Pdf\\PdfService<\/a>"],[0,46,"<a href=\"Purify.php.html#5\">App\\Services\\Pdf\\Purify<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"DesignExtractor.php.html#22\">App\\Services\\Pdf\\DesignExtractor::__construct<\/a>"],[0,1,"<a href=\"DesignExtractor.php.html#33\">App\\Services\\Pdf\\DesignExtractor::setHtml<\/a>"],[0,2,"<a href=\"DesignExtractor.php.html#40\">App\\Services\\Pdf\\DesignExtractor::getHtml<\/a>"],[0,3,"<a href=\"DesignExtractor.php.html#52\">App\\Services\\Pdf\\DesignExtractor::getSectionHTML<\/a>"],[0,1,"<a href=\"Markdown.php.html#17\">App\\Services\\Pdf\\Markdown::parse<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#56\">App\\Services\\Pdf\\PdfBuilder::__construct<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#77\">App\\Services\\Pdf\\PdfBuilder::build<\/a>"],[0,7,"<a href=\"PdfBuilder.php.html#98\">App\\Services\\Pdf\\PdfBuilder::removeEmptyElements<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#167\">App\\Services\\Pdf\\PdfBuilder::getCompiledHTML<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#181\">App\\Services\\Pdf\\PdfBuilder::getTemplate<\/a>"],[0,4,"<a href=\"PdfBuilder.php.html#201\">App\\Services\\Pdf\\PdfBuilder::parseTwigElements<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#257\">App\\Services\\Pdf\\PdfBuilder::setDocument<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#270\">App\\Services\\Pdf\\PdfBuilder::getProductSections<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#289\">App\\Services\\Pdf\\PdfBuilder::mergeSections<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#304\">App\\Services\\Pdf\\PdfBuilder::setSections<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#317\">App\\Services\\Pdf\\PdfBuilder::getDeliveryNoteSections<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#346\">App\\Services\\Pdf\\PdfBuilder::getStatementSections<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#419\">App\\Services\\Pdf\\PdfBuilder::statementInvoiceTableTotals<\/a>"],[0,8,"<a href=\"PdfBuilder.php.html#433\">App\\Services\\Pdf\\PdfBuilder::statementCreditTable<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#465\">App\\Services\\Pdf\\PdfBuilder::statementCreditTableTotals<\/a>"],[0,16,"<a href=\"PdfBuilder.php.html#484\">App\\Services\\Pdf\\PdfBuilder::statementPaymentTable<\/a>"],[0,5,"<a href=\"PdfBuilder.php.html#556\">App\\Services\\Pdf\\PdfBuilder::statementPaymentTableTotals<\/a>"],[0,5,"<a href=\"PdfBuilder.php.html#574\">App\\Services\\Pdf\\PdfBuilder::statementUnappliedPaymentTableTotals<\/a>"],[0,10,"<a href=\"PdfBuilder.php.html#596\">App\\Services\\Pdf\\PdfBuilder::statementUnappliedPaymentTable<\/a>"],[0,4,"<a href=\"PdfBuilder.php.html#636\">App\\Services\\Pdf\\PdfBuilder::statementAgingTable<\/a>"],[0,4,"<a href=\"PdfBuilder.php.html#664\">App\\Services\\Pdf\\PdfBuilder::statementCreditsTable<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#691\">App\\Services\\Pdf\\PdfBuilder::getPurchaseOrderSections<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#718\">App\\Services\\Pdf\\PdfBuilder::genericSectionBuilder<\/a>"],[0,6,"<a href=\"PdfBuilder.php.html#744\">App\\Services\\Pdf\\PdfBuilder::statementInvoiceTable<\/a>"],[0,8,"<a href=\"PdfBuilder.php.html#775\">App\\Services\\Pdf\\PdfBuilder::parseVisibleElements<\/a>"],[0,35,"<a href=\"PdfBuilder.php.html#827\">App\\Services\\Pdf\\PdfBuilder::buildTableBody<\/a>"],[0,27,"<a href=\"PdfBuilder.php.html#959\">App\\Services\\Pdf\\PdfBuilder::transformLineItems<\/a>"],[0,12,"<a href=\"PdfBuilder.php.html#1069\">App\\Services\\Pdf\\PdfBuilder::getColumnVisibility<\/a>"],[0,21,"<a href=\"PdfBuilder.php.html#1117\">App\\Services\\Pdf\\PdfBuilder::buildTableHeader<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#1210\">App\\Services\\Pdf\\PdfBuilder::visibilityCheck<\/a>"],[0,9,"<a href=\"PdfBuilder.php.html#1233\">App\\Services\\Pdf\\PdfBuilder::processTaxColumns<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1296\">App\\Services\\Pdf\\PdfBuilder::getProductTotals<\/a>"],[0,4,"<a href=\"PdfBuilder.php.html#1317\">App\\Services\\Pdf\\PdfBuilder::getProductEntityDetails<\/a>"],[0,6,"<a href=\"PdfBuilder.php.html#1351\">App\\Services\\Pdf\\PdfBuilder::buildSections<\/a>"],[0,2,"<a href=\"PdfBuilder.php.html#1368\">App\\Services\\Pdf\\PdfBuilder::statementTableTotals<\/a>"],[0,6,"<a href=\"PdfBuilder.php.html#1387\">App\\Services\\Pdf\\PdfBuilder::entityVariableCheck<\/a>"],[0,24,"<a href=\"PdfBuilder.php.html#1428\">App\\Services\\Pdf\\PdfBuilder::getTableTotals<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1559\">App\\Services\\Pdf\\PdfBuilder::getProductAndTaskTables<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1581\">App\\Services\\Pdf\\PdfBuilder::getClientDetails<\/a>"],[0,5,"<a href=\"PdfBuilder.php.html#1602\">App\\Services\\Pdf\\PdfBuilder::productTable<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#1625\">App\\Services\\Pdf\\PdfBuilder::taskTable<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1655\">App\\Services\\Pdf\\PdfBuilder::statementDetails<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1682\">App\\Services\\Pdf\\PdfBuilder::invoiceDetails<\/a>"],[0,2,"<a href=\"PdfBuilder.php.html#1695\">App\\Services\\Pdf\\PdfBuilder::quoteDetails<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1713\">App\\Services\\Pdf\\PdfBuilder::creditDetails<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1725\">App\\Services\\Pdf\\PdfBuilder::purchaseOrderDetails<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#1738\">App\\Services\\Pdf\\PdfBuilder::deliveryNoteDetails<\/a>"],[0,4,"<a href=\"PdfBuilder.php.html#1756\">App\\Services\\Pdf\\PdfBuilder::genericDetailsBuilder<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#1792\">App\\Services\\Pdf\\PdfBuilder::clientDeliveryDetails<\/a>"],[0,6,"<a href=\"PdfBuilder.php.html#1837\">App\\Services\\Pdf\\PdfBuilder::clientDetails<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#1864\">App\\Services\\Pdf\\PdfBuilder::shippingDetails<\/a>"],[0,8,"<a href=\"PdfBuilder.php.html#1890\">App\\Services\\Pdf\\PdfBuilder::deliveryNoteTable<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#1950\">App\\Services\\Pdf\\PdfBuilder::processNewLines<\/a>"],[0,2,"<a href=\"PdfBuilder.php.html#1967\">App\\Services\\Pdf\\PdfBuilder::companyDetails<\/a>"],[0,2,"<a href=\"PdfBuilder.php.html#1987\">App\\Services\\Pdf\\PdfBuilder::companyAddress<\/a>"],[0,2,"<a href=\"PdfBuilder.php.html#2007\">App\\Services\\Pdf\\PdfBuilder::vendorDetails<\/a>"],[0,7,"<a href=\"PdfBuilder.php.html#2025\">App\\Services\\Pdf\\PdfBuilder::updateElementProperties<\/a>"],[0,5,"<a href=\"PdfBuilder.php.html#2050\">App\\Services\\Pdf\\PdfBuilder::updateElementProperty<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#2077\">App\\Services\\Pdf\\PdfBuilder::isMarkdown<\/a>"],[0,11,"<a href=\"PdfBuilder.php.html#2107\">App\\Services\\Pdf\\PdfBuilder::createElementContent<\/a>"],[0,1,"<a href=\"PdfBuilder.php.html#2160\">App\\Services\\Pdf\\PdfBuilder::updateVariables<\/a>"],[0,3,"<a href=\"PdfBuilder.php.html#2196\">App\\Services\\Pdf\\PdfBuilder::getEmptyElements<\/a>"],[0,4,"<a href=\"PdfBuilder.php.html#2207\">App\\Services\\Pdf\\PdfBuilder::getEmptyChildren<\/a>"],[0,9,"<a href=\"PdfBuilder.php.html#2222\">App\\Services\\Pdf\\PdfBuilder::isChildEmpty<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#89\">App\\Services\\Pdf\\PdfConfiguration::__construct<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#98\">App\\Services\\Pdf\\PdfConfiguration::init<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#117\">App\\Services\\Pdf\\PdfConfiguration::setLocale<\/a>"],[0,3,"<a href=\"PdfConfiguration.php.html#137\">App\\Services\\Pdf\\PdfConfiguration::setCurrencyForPdf<\/a>"],[0,3,"<a href=\"PdfConfiguration.php.html#151\">App\\Services\\Pdf\\PdfConfiguration::setPdfVariables<\/a>"],[0,6,"<a href=\"PdfConfiguration.php.html#176\">App\\Services\\Pdf\\PdfConfiguration::setEntityType<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#243\">App\\Services\\Pdf\\PdfConfiguration::setTaxMap<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#250\">App\\Services\\Pdf\\PdfConfiguration::setTotalTaxMap<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#257\">App\\Services\\Pdf\\PdfConfiguration::setCurrency<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#264\">App\\Services\\Pdf\\PdfConfiguration::setCountry<\/a>"],[0,2,"<a href=\"PdfConfiguration.php.html#276\">App\\Services\\Pdf\\PdfConfiguration::setDesign<\/a>"],[0,12,"<a href=\"PdfConfiguration.php.html#292\">App\\Services\\Pdf\\PdfConfiguration::formatMoney<\/a>"],[0,5,"<a href=\"PdfConfiguration.php.html#342\">App\\Services\\Pdf\\PdfConfiguration::formatValueNoTrailingZeroes<\/a>"],[0,15,"<a href=\"PdfConfiguration.php.html#370\">App\\Services\\Pdf\\PdfConfiguration::formatMoneyNoRounding<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#436\">App\\Services\\Pdf\\PdfConfiguration::formatValue<\/a>"],[0,1,"<a href=\"PdfConfiguration.php.html#453\">App\\Services\\Pdf\\PdfConfiguration::setDateFormat<\/a>"],[0,1,"<a href=\"PdfDesigner.php.html#35\">App\\Services\\Pdf\\PdfDesigner::__construct<\/a>"],[0,2,"<a href=\"PdfDesigner.php.html#39\">App\\Services\\Pdf\\PdfDesigner::build<\/a>"],[0,1,"<a href=\"PdfDesigner.php.html#57\">App\\Services\\Pdf\\PdfDesigner::buildFromPartials<\/a>"],[0,2,"<a href=\"PdfDesigner.php.html#76\">App\\Services\\Pdf\\PdfDesigner::composeFromPartials<\/a>"],[0,1,"<a href=\"PdfMock.php.html#47\">App\\Services\\Pdf\\PdfMock::__construct<\/a>"],[0,8,"<a href=\"PdfMock.php.html#51\">App\\Services\\Pdf\\PdfMock::setPdfService<\/a>"],[0,1,"<a href=\"PdfMock.php.html#99\">App\\Services\\Pdf\\PdfMock::getPdf<\/a>"],[0,1,"<a href=\"PdfMock.php.html#108\">App\\Services\\Pdf\\PdfMock::getHtml<\/a>"],[0,1,"<a href=\"PdfMock.php.html#114\">App\\Services\\Pdf\\PdfMock::build<\/a>"],[0,7,"<a href=\"PdfMock.php.html#123\">App\\Services\\Pdf\\PdfMock::initEntity<\/a>"],[0,5,"<a href=\"PdfMock.php.html#188\">App\\Services\\Pdf\\PdfMock::getMergedSettings<\/a>"],[0,1,"<a href=\"PdfMock.php.html#210\">App\\Services\\Pdf\\PdfMock::getTaxMap<\/a>"],[0,1,"<a href=\"PdfMock.php.html#220\">App\\Services\\Pdf\\PdfMock::getTotalTaxMap<\/a>"],[0,13,"<a href=\"PdfMock.php.html#230\">App\\Services\\Pdf\\PdfMock::getStubVariables<\/a>"],[0,2,"<a href=\"PdfMock.php.html#571\">App\\Services\\Pdf\\PdfMock::mockTranslatedLabels<\/a>"],[0,1,"<a href=\"PdfMock.php.html#900\">App\\Services\\Pdf\\PdfMock::getVendorStubVariables<\/a>"],[0,1,"<a href=\"PdfMock.php.html#1221\">App\\Services\\Pdf\\PdfMock::vendorLabels<\/a>"],[0,1,"<a href=\"PdfService.php.html#61\">App\\Services\\Pdf\\PdfService::__construct<\/a>"],[0,1,"<a href=\"PdfService.php.html#74\">App\\Services\\Pdf\\PdfService::boot<\/a>"],[0,5,"<a href=\"PdfService.php.html#90\">App\\Services\\Pdf\\PdfService::getPdf<\/a>"],[0,2,"<a href=\"PdfService.php.html#124\">App\\Services\\Pdf\\PdfService::getHtml<\/a>"],[0,2,"<a href=\"PdfService.php.html#140\">App\\Services\\Pdf\\PdfService::init<\/a>"],[0,5,"<a href=\"PdfService.php.html#162\">App\\Services\\Pdf\\PdfService::resolvePdfEngine<\/a>"],[0,11,"<a href=\"PdfService.php.html#181\">App\\Services\\Pdf\\PdfService::checkEInvoice<\/a>"],[0,2,"<a href=\"PdfService.php.html#215\">App\\Services\\Pdf\\PdfService::embedEInvoiceZuGFerD<\/a>"],[0,8,"<a href=\"Purify.php.html#171\">App\\Services\\Pdf\\Purify::filterCssStyles<\/a>"],[0,1,"<a href=\"Purify.php.html#232\">App\\Services\\Pdf\\Purify::isDangerousSvgElement<\/a>"],[0,37,"<a href=\"Purify.php.html#237\">App\\Services\\Pdf\\Purify::clean<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

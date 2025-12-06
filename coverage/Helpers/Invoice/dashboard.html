@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Helpers/Invoice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Helpers</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Invoice</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="InvoiceItemSum.php.html#29">App\Helpers\Invoice\InvoiceItemSum</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#27">App\Helpers\Invoice\InvoiceItemSumInclusive</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#27">App\Helpers\Invoice\InvoiceSum</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#27">App\Helpers\Invoice\InvoiceSumInclusive</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProRata.php.html#20">App\Helpers\Invoice\ProRata</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CustomValuer.php.html#18">App\Helpers\Invoice\CustomValuer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discounter.php.html#18">App\Helpers\Invoice\Discounter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Taxer.php.html#18">App\Helpers\Invoice\Taxer</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="InvoiceSumInclusive.php.html#27">App\Helpers\Invoice\InvoiceSumInclusive</a></td><td class="text-right">4032</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#29">App\Helpers\Invoice\InvoiceItemSum</a></td><td class="text-right">3306</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#27">App\Helpers\Invoice\InvoiceItemSumInclusive</a></td><td class="text-right">3306</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#27">App\Helpers\Invoice\InvoiceSum</a></td><td class="text-right">2862</td></tr>
+       <tr><td><a href="ProRata.php.html#20">App\Helpers\Invoice\ProRata</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="CustomValuer.php.html#18">App\Helpers\Invoice\CustomValuer</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Taxer.php.html#18">App\Helpers\Invoice\Taxer</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Discounter.php.html#18">App\Helpers\Invoice\Discounter</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="InvoiceItemSum.php.html#149"><abbr title="App\Helpers\Invoice\InvoiceItemSum::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#167"><abbr title="App\Helpers\Invoice\InvoiceItemSum::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#179"><abbr title="App\Helpers\Invoice\InvoiceItemSum::calcLineItems">calcLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#192"><abbr title="App\Helpers\Invoice\InvoiceItemSum::shouldCalculateTax">shouldCalculateTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#223"><abbr title="App\Helpers\Invoice\InvoiceItemSum::push">push</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#234"><abbr title="App\Helpers\Invoice\InvoiceItemSum::sumLineItem">sumLineItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#241"><abbr title="App\Helpers\Invoice\InvoiceItemSum::setDiscount">setDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#262"><abbr title="App\Helpers\Invoice\InvoiceItemSum::calcTaxesAutomatically">calcTaxesAutomatically</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#296"><abbr title="App\Helpers\Invoice\InvoiceItemSum::calcTaxes">calcTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#348"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getPeppolSurchargeTaxes">getPeppolSurchargeTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#398"><abbr title="App\Helpers\Invoice\InvoiceItemSum::groupTax">groupTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#414"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getTotalDiscount">getTotalDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#419"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getTotalTaxes">getTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#424"><abbr title="App\Helpers\Invoice\InvoiceItemSum::setTotalTaxes">setTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#431"><abbr title="App\Helpers\Invoice\InvoiceItemSum::setLineTotal">setLineTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#438"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getLineTotal">getLineTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#443"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getGrossLineTotal">getGrossLineTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#448"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getLineItems">getLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#453"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getGroupedTaxes">getGroupedTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#458"><abbr title="App\Helpers\Invoice\InvoiceItemSum::setGroupedTaxes">setGroupedTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#465"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getSubTotal">getSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#470"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getGrossSubTotal">getGrossSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#475"><abbr title="App\Helpers\Invoice\InvoiceItemSum::setSubTotal">setSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#492"><abbr title="App\Helpers\Invoice\InvoiceItemSum::calcTaxesWithAmountDiscount">calcTaxesWithAmountDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#552"><abbr title="App\Helpers\Invoice\InvoiceItemSum::cleanLineItem">cleanLineItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#123"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#143"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#154"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::calcLineItems">calcLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#166"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::push">push</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#175"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::sumLineItem">sumLineItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#182"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::setDiscount">setDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#203"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::calcTaxesAutomatically">calcTaxesAutomatically</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#237"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::calcTaxes">calcTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#296"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getPeppolSurchargeTaxes">getPeppolSurchargeTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#352"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::setCustomSurchargeNetMap">setCustomSurchargeNetMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#359"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getCustomSurchargeNetMap">getCustomSurchargeNetMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#369"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::groupTax">groupTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#385"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getTotalDiscount">getTotalDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#390"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getTotalTaxes">getTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#395"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::setTotalTaxes">setTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#402"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::setLineTotal">setLineTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#411"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getLineTotal">getLineTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#416"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getGrossLineTotal">getGrossLineTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#421"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getLineItems">getLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#426"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getGroupedTaxes">getGroupedTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#431"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::setGroupedTaxes">setGroupedTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#438"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getSubTotal">getSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#443"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getGrossSubTotal">getGrossSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#448"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::setSubTotal">setSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#465"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::calcTaxesWithAmountDiscount">calcTaxesWithAmountDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#523"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::shouldCalculateTax">shouldCalculateTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#66"><abbr title="App\Helpers\Invoice\InvoiceSum::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#79"><abbr title="App\Helpers\Invoice\InvoiceSum::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#93"><abbr title="App\Helpers\Invoice\InvoiceSum::calculateLineItems">calculateLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#105"><abbr title="App\Helpers\Invoice\InvoiceSum::calculateDiscount">calculateDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#114"><abbr title="App\Helpers\Invoice\InvoiceSum::calculateCustomValues">calculateCustomValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#129"><abbr title="App\Helpers\Invoice\InvoiceSum::calculateInvoiceTaxes">calculateInvoiceTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#175"><abbr title="App\Helpers\Invoice\InvoiceSum::calculateBalance">calculateBalance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#182"><abbr title="App\Helpers\Invoice\InvoiceSum::calculatePartial">calculatePartial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#191"><abbr title="App\Helpers\Invoice\InvoiceSum::calculateTotals">calculateTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#202"><abbr title="App\Helpers\Invoice\InvoiceSum::getTempEntity">getTempEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#209"><abbr title="App\Helpers\Invoice\InvoiceSum::getInvoice">getInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#218"><abbr title="App\Helpers\Invoice\InvoiceSum::getQuote">getQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#226"><abbr title="App\Helpers\Invoice\InvoiceSum::getCredit">getCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#234"><abbr title="App\Helpers\Invoice\InvoiceSum::getPurchaseOrder">getPurchaseOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#242"><abbr title="App\Helpers\Invoice\InvoiceSum::getRecurringInvoice">getRecurringInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#256"><abbr title="App\Helpers\Invoice\InvoiceSum::setCalculatedAttributes">setCalculatedAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#284"><abbr title="App\Helpers\Invoice\InvoiceSum::roundRappen">roundRappen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#289"><abbr title="App\Helpers\Invoice\InvoiceSum::getSubTotal">getSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#294"><abbr title="App\Helpers\Invoice\InvoiceSum::setSubTotal">setSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#301"><abbr title="App\Helpers\Invoice\InvoiceSum::getGrossSubTotal">getGrossSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#306"><abbr title="App\Helpers\Invoice\InvoiceSum::setGrossSubTotal">setGrossSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#313"><abbr title="App\Helpers\Invoice\InvoiceSum::getTotalDiscount">getTotalDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#318"><abbr title="App\Helpers\Invoice\InvoiceSum::getTotalTaxes">getTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#323"><abbr title="App\Helpers\Invoice\InvoiceSum::getTotalTaxMap">getTotalTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#328"><abbr title="App\Helpers\Invoice\InvoiceSum::getTotal">getTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#333"><abbr title="App\Helpers\Invoice\InvoiceSum::getTotalSurcharges">getTotalSurcharges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#338"><abbr title="App\Helpers\Invoice\InvoiceSum::setTaxMap">setTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#382"><abbr title="App\Helpers\Invoice\InvoiceSum::getSurchargeTaxTotalForKey">getSurchargeTaxTotalForKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#405"><abbr title="App\Helpers\Invoice\InvoiceSum::getTaxMap">getTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#410"><abbr title="App\Helpers\Invoice\InvoiceSum::getBalance">getBalance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#415"><abbr title="App\Helpers\Invoice\InvoiceSum::getItemTotalTaxes">getItemTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#420"><abbr title="App\Helpers\Invoice\InvoiceSum::purgeTaxes">purgeTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#444"><abbr title="App\Helpers\Invoice\InvoiceSum::getNetSubtotal">getNetSubtotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#449"><abbr title="App\Helpers\Invoice\InvoiceSum::getSubtotalWithSurcharges">getSubtotalWithSurcharges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#64"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#75"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#89"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculateLineItems">calculateLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#100"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculateDiscount">calculateDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#109"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculateCustomValues">calculateCustomValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#129"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculateInvoiceTaxes">calculateInvoiceTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#194"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculateBalance">calculateBalance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#201"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculatePartial">calculatePartial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#210"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculateTotals">calculateTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#215"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTotalSurcharges">getTotalSurcharges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#220"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTotalNetSurcharges">getTotalNetSurcharges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#227"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getRecurringInvoice">getRecurringInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#238"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTempEntity">getTempEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#248"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getInvoice">getInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#260"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getQuote">getQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#272"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getCredit">getCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#284"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getPurchaseOrder">getPurchaseOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#297"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::setCalculatedAttributes">setCalculatedAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#326"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::roundRappen">roundRappen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#331"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getSubTotal">getSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#336"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getGrossSubTotal">getGrossSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#341"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::setSubTotal">setSubTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#348"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTotalDiscount">getTotalDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#353"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTotalTaxes">getTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#358"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTotalTaxMap">getTotalTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#363"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTotal">getTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#368"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::setTaxMap">setTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#414"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getTaxMap">getTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#419"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getBalance">getBalance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#424"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getItemTotalTaxes">getItemTotalTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#429"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::getNetSubtotal">getNetSubtotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#434"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::purgeTaxes">purgeTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProRata.php.html#32"><abbr title="App\Helpers\Invoice\ProRata::refund">refund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProRata.php.html#50"><abbr title="App\Helpers\Invoice\ProRata::charge">charge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProRata.php.html#67"><abbr title="App\Helpers\Invoice\ProRata::refundItems">refundItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProRata.php.html#101"><abbr title="App\Helpers\Invoice\ProRata::getDaysInFrequency">getDaysInFrequency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CustomValuer.php.html#20"><abbr title="App\Helpers\Invoice\CustomValuer::valuer">valuer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CustomValuer.php.html#29"><abbr title="App\Helpers\Invoice\CustomValuer::valuerTax">valuerTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CustomValuer.php.html#39"><abbr title="App\Helpers\Invoice\CustomValuer::multiInclusiveTax">multiInclusiveTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Discounter.php.html#20"><abbr title="App\Helpers\Invoice\Discounter::discount">discount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Taxer.php.html#20"><abbr title="App\Helpers\Invoice\Taxer::taxer">taxer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Taxer.php.html#25"><abbr title="App\Helpers\Invoice\Taxer::calcAmountLineTax">calcAmountLineTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Taxer.php.html#30"><abbr title="App\Helpers\Invoice\Taxer::calcInclusiveLineTax">calcInclusiveLineTax</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="InvoiceSumInclusive.php.html#129"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculateInvoiceTaxes">calculateInvoiceTaxes</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="ProRata.php.html#101"><abbr title="App\Helpers\Invoice\ProRata::getDaysInFrequency">getDaysInFrequency</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#129"><abbr title="App\Helpers\Invoice\InvoiceSum::calculateInvoiceTaxes">calculateInvoiceTaxes</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#348"><abbr title="App\Helpers\Invoice\InvoiceItemSum::getPeppolSurchargeTaxes">getPeppolSurchargeTaxes</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#492"><abbr title="App\Helpers\Invoice\InvoiceItemSum::calcTaxesWithAmountDiscount">calcTaxesWithAmountDiscount</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#237"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::calcTaxes">calcTaxes</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#296"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::getPeppolSurchargeTaxes">getPeppolSurchargeTaxes</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#465"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::calcTaxesWithAmountDiscount">calcTaxesWithAmountDiscount</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#192"><abbr title="App\Helpers\Invoice\InvoiceItemSum::shouldCalculateTax">shouldCalculateTax</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#296"><abbr title="App\Helpers\Invoice\InvoiceItemSum::calcTaxes">calcTaxes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ProRata.php.html#67"><abbr title="App\Helpers\Invoice\ProRata::refundItems">refundItems</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#523"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::shouldCalculateTax">shouldCalculateTax</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#256"><abbr title="App\Helpers\Invoice\InvoiceSum::setCalculatedAttributes">setCalculatedAttributes</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#382"><abbr title="App\Helpers\Invoice\InvoiceSum::getSurchargeTaxTotalForKey">getSurchargeTaxTotalForKey</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#297"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::setCalculatedAttributes">setCalculatedAttributes</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#552"><abbr title="App\Helpers\Invoice\InvoiceItemSum::cleanLineItem">cleanLineItem</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#143"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::process">process</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#369"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::groupTax">groupTax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CustomValuer.php.html#29"><abbr title="App\Helpers\Invoice\CustomValuer::valuerTax">valuerTax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CustomValuer.php.html#39"><abbr title="App\Helpers\Invoice\CustomValuer::multiInclusiveTax">multiInclusiveTax</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#167"><abbr title="App\Helpers\Invoice\InvoiceItemSum::process">process</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#398"><abbr title="App\Helpers\Invoice\InvoiceItemSum::groupTax">groupTax</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#182"><abbr title="App\Helpers\Invoice\InvoiceSum::calculatePartial">calculatePartial</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceSum.php.html#338"><abbr title="App\Helpers\Invoice\InvoiceSum::setTaxMap">setTaxMap</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#201"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::calculatePartial">calculatePartial</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceSumInclusive.php.html#368"><abbr title="App\Helpers\Invoice\InvoiceSumInclusive::setTaxMap">setTaxMap</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CustomValuer.php.html#20"><abbr title="App\Helpers\Invoice\CustomValuer::valuer">valuer</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#149"><abbr title="App\Helpers\Invoice\InvoiceItemSum::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#179"><abbr title="App\Helpers\Invoice\InvoiceItemSum::calcLineItems">calcLineItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InvoiceItemSum.php.html#241"><abbr title="App\Helpers\Invoice\InvoiceItemSum::setDiscount">setDiscount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#123"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#154"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::calcLineItems">calcLineItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InvoiceItemSumInclusive.php.html#182"><abbr title="App\Helpers\Invoice\InvoiceItemSumInclusive::setDiscount">setDiscount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Discounter.php.html#20"><abbr title="App\Helpers\Invoice\Discounter::discount">discount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Taxer.php.html#20"><abbr title="App\Helpers\Invoice\Taxer::taxer">taxer</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([128,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,57,"<a href=\"InvoiceItemSum.php.html#29\">App\\Helpers\\Invoice\\InvoiceItemSum<\/a>"],[0,57,"<a href=\"InvoiceItemSumInclusive.php.html#27\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive<\/a>"],[0,53,"<a href=\"InvoiceSum.php.html#27\">App\\Helpers\\Invoice\\InvoiceSum<\/a>"],[0,63,"<a href=\"InvoiceSumInclusive.php.html#27\">App\\Helpers\\Invoice\\InvoiceSumInclusive<\/a>"],[0,22,"<a href=\"ProRata.php.html#20\">App\\Helpers\\Invoice\\ProRata<\/a>"],[0,11,"<a href=\"CustomValuer.php.html#18\">App\\Helpers\\Invoice\\CustomValuer<\/a>"],[0,2,"<a href=\"Discounter.php.html#18\">App\\Helpers\\Invoice\\Discounter<\/a>"],[0,4,"<a href=\"Taxer.php.html#18\">App\\Helpers\\Invoice\\Taxer<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"InvoiceItemSum.php.html#149\">App\\Helpers\\Invoice\\InvoiceItemSum::__construct<\/a>"],[0,3,"<a href=\"InvoiceItemSum.php.html#167\">App\\Helpers\\Invoice\\InvoiceItemSum::process<\/a>"],[0,2,"<a href=\"InvoiceItemSum.php.html#179\">App\\Helpers\\Invoice\\InvoiceItemSum::calcLineItems<\/a>"],[0,6,"<a href=\"InvoiceItemSum.php.html#192\">App\\Helpers\\Invoice\\InvoiceItemSum::shouldCalculateTax<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#223\">App\\Helpers\\Invoice\\InvoiceItemSum::push<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#234\">App\\Helpers\\Invoice\\InvoiceItemSum::sumLineItem<\/a>"],[0,2,"<a href=\"InvoiceItemSum.php.html#241\">App\\Helpers\\Invoice\\InvoiceItemSum::setDiscount<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#262\">App\\Helpers\\Invoice\\InvoiceItemSum::calcTaxesAutomatically<\/a>"],[0,6,"<a href=\"InvoiceItemSum.php.html#296\">App\\Helpers\\Invoice\\InvoiceItemSum::calcTaxes<\/a>"],[0,7,"<a href=\"InvoiceItemSum.php.html#348\">App\\Helpers\\Invoice\\InvoiceItemSum::getPeppolSurchargeTaxes<\/a>"],[0,3,"<a href=\"InvoiceItemSum.php.html#398\">App\\Helpers\\Invoice\\InvoiceItemSum::groupTax<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#414\">App\\Helpers\\Invoice\\InvoiceItemSum::getTotalDiscount<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#419\">App\\Helpers\\Invoice\\InvoiceItemSum::getTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#424\">App\\Helpers\\Invoice\\InvoiceItemSum::setTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#431\">App\\Helpers\\Invoice\\InvoiceItemSum::setLineTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#438\">App\\Helpers\\Invoice\\InvoiceItemSum::getLineTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#443\">App\\Helpers\\Invoice\\InvoiceItemSum::getGrossLineTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#448\">App\\Helpers\\Invoice\\InvoiceItemSum::getLineItems<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#453\">App\\Helpers\\Invoice\\InvoiceItemSum::getGroupedTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#458\">App\\Helpers\\Invoice\\InvoiceItemSum::setGroupedTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#465\">App\\Helpers\\Invoice\\InvoiceItemSum::getSubTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#470\">App\\Helpers\\Invoice\\InvoiceItemSum::getGrossSubTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSum.php.html#475\">App\\Helpers\\Invoice\\InvoiceItemSum::setSubTotal<\/a>"],[0,7,"<a href=\"InvoiceItemSum.php.html#492\">App\\Helpers\\Invoice\\InvoiceItemSum::calcTaxesWithAmountDiscount<\/a>"],[0,4,"<a href=\"InvoiceItemSum.php.html#552\">App\\Helpers\\Invoice\\InvoiceItemSum::cleanLineItem<\/a>"],[0,2,"<a href=\"InvoiceItemSumInclusive.php.html#123\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::__construct<\/a>"],[0,4,"<a href=\"InvoiceItemSumInclusive.php.html#143\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::process<\/a>"],[0,2,"<a href=\"InvoiceItemSumInclusive.php.html#154\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::calcLineItems<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#166\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::push<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#175\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::sumLineItem<\/a>"],[0,2,"<a href=\"InvoiceItemSumInclusive.php.html#182\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::setDiscount<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#203\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::calcTaxesAutomatically<\/a>"],[0,7,"<a href=\"InvoiceItemSumInclusive.php.html#237\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::calcTaxes<\/a>"],[0,7,"<a href=\"InvoiceItemSumInclusive.php.html#296\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getPeppolSurchargeTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#352\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::setCustomSurchargeNetMap<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#359\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getCustomSurchargeNetMap<\/a>"],[0,4,"<a href=\"InvoiceItemSumInclusive.php.html#369\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::groupTax<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#385\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getTotalDiscount<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#390\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#395\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::setTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#402\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::setLineTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#411\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getLineTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#416\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getGrossLineTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#421\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getLineItems<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#426\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getGroupedTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#431\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::setGroupedTaxes<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#438\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getSubTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#443\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::getGrossSubTotal<\/a>"],[0,1,"<a href=\"InvoiceItemSumInclusive.php.html#448\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::setSubTotal<\/a>"],[0,7,"<a href=\"InvoiceItemSumInclusive.php.html#465\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::calcTaxesWithAmountDiscount<\/a>"],[0,5,"<a href=\"InvoiceItemSumInclusive.php.html#523\">App\\Helpers\\Invoice\\InvoiceItemSumInclusive::shouldCalculateTax<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#66\">App\\Helpers\\Invoice\\InvoiceSum::__construct<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#79\">App\\Helpers\\Invoice\\InvoiceSum::build<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#93\">App\\Helpers\\Invoice\\InvoiceSum::calculateLineItems<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#105\">App\\Helpers\\Invoice\\InvoiceSum::calculateDiscount<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#114\">App\\Helpers\\Invoice\\InvoiceSum::calculateCustomValues<\/a>"],[0,8,"<a href=\"InvoiceSum.php.html#129\">App\\Helpers\\Invoice\\InvoiceSum::calculateInvoiceTaxes<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#175\">App\\Helpers\\Invoice\\InvoiceSum::calculateBalance<\/a>"],[0,3,"<a href=\"InvoiceSum.php.html#182\">App\\Helpers\\Invoice\\InvoiceSum::calculatePartial<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#191\">App\\Helpers\\Invoice\\InvoiceSum::calculateTotals<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#202\">App\\Helpers\\Invoice\\InvoiceSum::getTempEntity<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#209\">App\\Helpers\\Invoice\\InvoiceSum::getInvoice<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#218\">App\\Helpers\\Invoice\\InvoiceSum::getQuote<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#226\">App\\Helpers\\Invoice\\InvoiceSum::getCredit<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#234\">App\\Helpers\\Invoice\\InvoiceSum::getPurchaseOrder<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#242\">App\\Helpers\\Invoice\\InvoiceSum::getRecurringInvoice<\/a>"],[0,5,"<a href=\"InvoiceSum.php.html#256\">App\\Helpers\\Invoice\\InvoiceSum::setCalculatedAttributes<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#284\">App\\Helpers\\Invoice\\InvoiceSum::roundRappen<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#289\">App\\Helpers\\Invoice\\InvoiceSum::getSubTotal<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#294\">App\\Helpers\\Invoice\\InvoiceSum::setSubTotal<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#301\">App\\Helpers\\Invoice\\InvoiceSum::getGrossSubTotal<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#306\">App\\Helpers\\Invoice\\InvoiceSum::setGrossSubTotal<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#313\">App\\Helpers\\Invoice\\InvoiceSum::getTotalDiscount<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#318\">App\\Helpers\\Invoice\\InvoiceSum::getTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#323\">App\\Helpers\\Invoice\\InvoiceSum::getTotalTaxMap<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#328\">App\\Helpers\\Invoice\\InvoiceSum::getTotal<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#333\">App\\Helpers\\Invoice\\InvoiceSum::getTotalSurcharges<\/a>"],[0,3,"<a href=\"InvoiceSum.php.html#338\">App\\Helpers\\Invoice\\InvoiceSum::setTaxMap<\/a>"],[0,5,"<a href=\"InvoiceSum.php.html#382\">App\\Helpers\\Invoice\\InvoiceSum::getSurchargeTaxTotalForKey<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#405\">App\\Helpers\\Invoice\\InvoiceSum::getTaxMap<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#410\">App\\Helpers\\Invoice\\InvoiceSum::getBalance<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#415\">App\\Helpers\\Invoice\\InvoiceSum::getItemTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#420\">App\\Helpers\\Invoice\\InvoiceSum::purgeTaxes<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#444\">App\\Helpers\\Invoice\\InvoiceSum::getNetSubtotal<\/a>"],[0,1,"<a href=\"InvoiceSum.php.html#449\">App\\Helpers\\Invoice\\InvoiceSum::getSubtotalWithSurcharges<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#64\">App\\Helpers\\Invoice\\InvoiceSumInclusive::__construct<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#75\">App\\Helpers\\Invoice\\InvoiceSumInclusive::build<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#89\">App\\Helpers\\Invoice\\InvoiceSumInclusive::calculateLineItems<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#100\">App\\Helpers\\Invoice\\InvoiceSumInclusive::calculateDiscount<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#109\">App\\Helpers\\Invoice\\InvoiceSumInclusive::calculateCustomValues<\/a>"],[0,24,"<a href=\"InvoiceSumInclusive.php.html#129\">App\\Helpers\\Invoice\\InvoiceSumInclusive::calculateInvoiceTaxes<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#194\">App\\Helpers\\Invoice\\InvoiceSumInclusive::calculateBalance<\/a>"],[0,3,"<a href=\"InvoiceSumInclusive.php.html#201\">App\\Helpers\\Invoice\\InvoiceSumInclusive::calculatePartial<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#210\">App\\Helpers\\Invoice\\InvoiceSumInclusive::calculateTotals<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#215\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTotalSurcharges<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#220\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTotalNetSurcharges<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#227\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getRecurringInvoice<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#238\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTempEntity<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#248\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getInvoice<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#260\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getQuote<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#272\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getCredit<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#284\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getPurchaseOrder<\/a>"],[0,5,"<a href=\"InvoiceSumInclusive.php.html#297\">App\\Helpers\\Invoice\\InvoiceSumInclusive::setCalculatedAttributes<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#326\">App\\Helpers\\Invoice\\InvoiceSumInclusive::roundRappen<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#331\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getSubTotal<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#336\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getGrossSubTotal<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#341\">App\\Helpers\\Invoice\\InvoiceSumInclusive::setSubTotal<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#348\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTotalDiscount<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#353\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#358\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTotalTaxMap<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#363\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTotal<\/a>"],[0,3,"<a href=\"InvoiceSumInclusive.php.html#368\">App\\Helpers\\Invoice\\InvoiceSumInclusive::setTaxMap<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#414\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getTaxMap<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#419\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getBalance<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#424\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getItemTotalTaxes<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#429\">App\\Helpers\\Invoice\\InvoiceSumInclusive::getNetSubtotal<\/a>"],[0,1,"<a href=\"InvoiceSumInclusive.php.html#434\">App\\Helpers\\Invoice\\InvoiceSumInclusive::purgeTaxes<\/a>"],[0,1,"<a href=\"ProRata.php.html#32\">App\\Helpers\\Invoice\\ProRata::refund<\/a>"],[0,1,"<a href=\"ProRata.php.html#50\">App\\Helpers\\Invoice\\ProRata::charge<\/a>"],[0,6,"<a href=\"ProRata.php.html#67\">App\\Helpers\\Invoice\\ProRata::refundItems<\/a>"],[0,14,"<a href=\"ProRata.php.html#101\">App\\Helpers\\Invoice\\ProRata::getDaysInFrequency<\/a>"],[0,3,"<a href=\"CustomValuer.php.html#20\">App\\Helpers\\Invoice\\CustomValuer::valuer<\/a>"],[0,4,"<a href=\"CustomValuer.php.html#29\">App\\Helpers\\Invoice\\CustomValuer::valuerTax<\/a>"],[0,4,"<a href=\"CustomValuer.php.html#39\">App\\Helpers\\Invoice\\CustomValuer::multiInclusiveTax<\/a>"],[0,2,"<a href=\"Discounter.php.html#20\">App\\Helpers\\Invoice\\Discounter::discount<\/a>"],[0,2,"<a href=\"Taxer.php.html#20\">App\\Helpers\\Invoice\\Taxer::taxer<\/a>"],[0,1,"<a href=\"Taxer.php.html#25\">App\\Helpers\\Invoice\\Taxer::calcAmountLineTax<\/a>"],[0,1,"<a href=\"Taxer.php.html#30\">App\\Helpers\\Invoice\\Taxer::calcInclusiveLineTax<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Import</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Import</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Definitions/BankTransactionMap.php.html#15">App\Import\Definitions\BankTransactionMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ClientMap.php.html#15">App\Import\Definitions\ClientMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ExpenseMap.php.html#15">App\Import\Definitions\ExpenseMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/InvoiceMap.php.html#15">App\Import\Definitions\InvoiceMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/PaymentMap.php.html#15">App\Import\Definitions\PaymentMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ProductMap.php.html#15">App\Import\Definitions\ProductMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/QuoteMap.php.html#15">App\Import\Definitions\QuoteMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/RecurringInvoiceMap.php.html#15">App\Import\Definitions\RecurringInvoiceMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/TaskMap.php.html#15">App\Import\Definitions\TaskMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/VendorMap.php.html#15">App\Import\Definitions\VendorMap</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#43">App\Import\Providers\BaseImport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#58">App\Import\Providers\Csv</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#24">App\Import\Providers\Freshbooks</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Invoice2Go.php.html#20">App\Import\Providers\Invoice2Go</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#24">App\Import\Providers\Invoicely</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#12">App\Import\Providers\QBBackup</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#35">App\Import\Providers\Wave</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#24">App\Import\Providers\Zoho</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#20">App\Import\Transformer\Bank\BankTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#40">App\Import\Transformer\BaseTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/ClientTransformer.php.html#23">App\Import\Transformer\Csv\ClientTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/ExpenseTransformer.php.html#20">App\Import\Transformer\Csv\ExpenseTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/InvoiceTransformer.php.html#23">App\Import\Transformer\Csv\InvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/PaymentTransformer.php.html#21">App\Import\Transformer\Csv\PaymentTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/ProductTransformer.php.html#20">App\Import\Transformer\Csv\ProductTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/QuoteTransformer.php.html#23">App\Import\Transformer\Csv\QuoteTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/RecurringInvoiceTransformer.php.html#24">App\Import\Transformer\Csv\RecurringInvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#21">App\Import\Transformer\Csv\TaskTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/VendorTransformer.php.html#21">App\Import\Transformer\Csv\VendorTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/ClientTransformer.php.html#22">App\Import\Transformer\Freshbooks\ClientTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/InvoiceTransformer.php.html#22">App\Import\Transformer\Freshbooks\InvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#24">App\Import\Transformer\Invoice2Go\InvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoicely/ClientTransformer.php.html#22">App\Import\Transformer\Invoicely\ClientTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoicely/InvoiceTransformer.php.html#22">App\Import\Transformer\Invoicely\InvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/ClientTransformer.php.html#22">App\Import\Transformer\Wave\ClientTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/ExpenseTransformer.php.html#20">App\Import\Transformer\Wave\ExpenseTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/InvoiceTransformer.php.html#22">App\Import\Transformer\Wave\InvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/VendorTransformer.php.html#22">App\Import\Transformer\Wave\VendorTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Zoho/ClientTransformer.php.html#22">App\Import\Transformer\Zoho\ClientTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Zoho/InvoiceTransformer.php.html#22">App\Import\Transformer\Zoho\InvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Providers/BaseImport.php.html#43">App\Import\Providers\BaseImport</a></td><td class="text-right">17292</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#40">App\Import\Transformer\BaseTransformer</a></td><td class="text-right">17292</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#58">App\Import\Providers\Csv</a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#24">App\Import\Transformer\Invoice2Go\InvoiceTransformer</a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#35">App\Import\Providers\Wave</a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#20">App\Import\Transformer\Bank\BankTransformer</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#21">App\Import\Transformer\Csv\TaskTransformer</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#12">App\Import\Providers\QBBackup</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Transformer/Wave/InvoiceTransformer.php.html#22">App\Import\Transformer\Wave\InvoiceTransformer</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Transformer/Csv/QuoteTransformer.php.html#23">App\Import\Transformer\Csv\QuoteTransformer</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Transformer/Csv/InvoiceTransformer.php.html#23">App\Import\Transformer\Csv\InvoiceTransformer</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Transformer/Zoho/InvoiceTransformer.php.html#22">App\Import\Transformer\Zoho\InvoiceTransformer</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Transformer/Csv/RecurringInvoiceTransformer.php.html#24">App\Import\Transformer\Csv\RecurringInvoiceTransformer</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/InvoiceTransformer.php.html#22">App\Import\Transformer\Freshbooks\InvoiceTransformer</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Transformer/Csv/ExpenseTransformer.php.html#20">App\Import\Transformer\Csv\ExpenseTransformer</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Transformer/Wave/ExpenseTransformer.php.html#20">App\Import\Transformer\Wave\ExpenseTransformer</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Transformer/Zoho/ClientTransformer.php.html#22">App\Import\Transformer\Zoho\ClientTransformer</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#24">App\Import\Providers\Zoho</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Transformer/Csv/ClientTransformer.php.html#23">App\Import\Transformer\Csv\ClientTransformer</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#24">App\Import\Providers\Freshbooks</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#24">App\Import\Providers\Invoicely</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformer/Invoicely/InvoiceTransformer.php.html#22">App\Import\Transformer\Invoicely\InvoiceTransformer</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformer/Wave/ClientTransformer.php.html#22">App\Import\Transformer\Wave\ClientTransformer</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformer/Csv/PaymentTransformer.php.html#21">App\Import\Transformer\Csv\PaymentTransformer</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/Csv/VendorTransformer.php.html#21">App\Import\Transformer\Csv\VendorTransformer</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Providers/Invoice2Go.php.html#20">App\Import\Providers\Invoice2Go</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/ClientTransformer.php.html#22">App\Import\Transformer\Freshbooks\ClientTransformer</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/Invoicely/ClientTransformer.php.html#22">App\Import\Transformer\Invoicely\ClientTransformer</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/Wave/VendorTransformer.php.html#22">App\Import\Transformer\Wave\VendorTransformer</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Definitions/BankTransactionMap.php.html#17"><abbr title="App\Import\Definitions\BankTransactionMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/BankTransactionMap.php.html#37"><abbr title="App\Import\Definitions\BankTransactionMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ClientMap.php.html#17"><abbr title="App\Import\Definitions\ClientMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ClientMap.php.html#61"><abbr title="App\Import\Definitions\ClientMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ExpenseMap.php.html#17"><abbr title="App\Import\Definitions\ExpenseMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ExpenseMap.php.html#48"><abbr title="App\Import\Definitions\ExpenseMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/InvoiceMap.php.html#17"><abbr title="App\Import\Definitions\InvoiceMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/InvoiceMap.php.html#78"><abbr title="App\Import\Definitions\InvoiceMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/PaymentMap.php.html#17"><abbr title="App\Import\Definitions\PaymentMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/PaymentMap.php.html#38"><abbr title="App\Import\Definitions\PaymentMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ProductMap.php.html#17"><abbr title="App\Import\Definitions\ProductMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/ProductMap.php.html#42"><abbr title="App\Import\Definitions\ProductMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/QuoteMap.php.html#17"><abbr title="App\Import\Definitions\QuoteMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/QuoteMap.php.html#78"><abbr title="App\Import\Definitions\QuoteMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/RecurringInvoiceMap.php.html#17"><abbr title="App\Import\Definitions\RecurringInvoiceMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/RecurringInvoiceMap.php.html#81"><abbr title="App\Import\Definitions\RecurringInvoiceMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/TaskMap.php.html#17"><abbr title="App\Import\Definitions\TaskMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/TaskMap.php.html#42"><abbr title="App\Import\Definitions\TaskMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/VendorMap.php.html#17"><abbr title="App\Import\Definitions\VendorMap::importable">importable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Definitions/VendorMap.php.html#53"><abbr title="App\Import\Definitions\VendorMap::import_keys">import_keys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#73"><abbr title="App\Import\Providers\BaseImport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#95"><abbr title="App\Import\Providers\BaseImport::getCsvData">getCsvData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#141"><abbr title="App\Import\Providers\BaseImport::detectDelimiter">detectDelimiter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#163"><abbr title="App\Import\Providers\BaseImport::mapCSVHeaderToKeys">mapCSVHeaderToKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#172"><abbr title="App\Import\Providers\BaseImport::groupTasks">groupTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#198"><abbr title="App\Import\Providers\BaseImport::groupClients">groupClients</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#230"><abbr title="App\Import\Providers\BaseImport::groupInvoices">groupInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#253"><abbr title="App\Import\Providers\BaseImport::getErrors">getErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#259"><abbr title="App\Import\Providers\BaseImport::runValidation">runValidation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#273"><abbr title="App\Import\Providers\BaseImport::ingest">ingest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#347"><abbr title="App\Import\Providers\BaseImport::ingestProducts">ingestProducts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#403"><abbr title="App\Import\Providers\BaseImport::ingestRecurringInvoices">ingestRecurringInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#500"><abbr title="App\Import\Providers\BaseImport::ingestTasks">ingestTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#565"><abbr title="App\Import\Providers\BaseImport::ingestInvoices">ingestInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#730"><abbr title="App\Import\Providers\BaseImport::actionInvoiceStatus">actionInvoiceStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#770"><abbr title="App\Import\Providers\BaseImport::actionQuoteStatus">actionQuoteStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#798"><abbr title="App\Import\Providers\BaseImport::ingestQuotes">ingestQuotes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#896"><abbr title="App\Import\Providers\BaseImport::getUserIDForRecord">getUserIDForRecord</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#905"><abbr title="App\Import\Providers\BaseImport::findUser">findUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#932"><abbr title="App\Import\Providers\BaseImport::finalizeImport">finalizeImport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#949"><abbr title="App\Import\Providers\BaseImport::preTransform">preTransform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#959"><abbr title="App\Import\Providers\BaseImport::preTransformCsv">preTransformCsv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#998"><abbr title="App\Import\Providers\BaseImport::convertData">convertData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#64"><abbr title="App\Import\Providers\Csv::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#84"><abbr title="App\Import\Providers\Csv::bank_transaction">bank_transaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#118"><abbr title="App\Import\Providers\Csv::client">client</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#149"><abbr title="App\Import\Providers\Csv::product">product</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#179"><abbr title="App\Import\Providers\Csv::recurring_invoice">recurring_invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#208"><abbr title="App\Import\Providers\Csv::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#238"><abbr title="App\Import\Providers\Csv::quote">quote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#267"><abbr title="App\Import\Providers\Csv::payment">payment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#297"><abbr title="App\Import\Providers\Csv::vendor">vendor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#327"><abbr title="App\Import\Providers\Csv::expense">expense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#357"><abbr title="App\Import\Providers\Csv::task">task</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#388"><abbr title="App\Import\Providers\Csv::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#28"><abbr title="App\Import\Providers\Freshbooks::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#48"><abbr title="App\Import\Providers\Freshbooks::client">client</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#75"><abbr title="App\Import\Providers\Freshbooks::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Invoice2Go.php.html#24"><abbr title="App\Import\Providers\Invoice2Go::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Invoice2Go.php.html#44"><abbr title="App\Import\Providers\Invoice2Go::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#28"><abbr title="App\Import\Providers\Invoicely::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#48"><abbr title="App\Import\Providers\Invoicely::client">client</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#76"><abbr title="App\Import\Providers\Invoicely::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#18"><abbr title="App\Import\Providers\QBBackup::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#42"><abbr title="App\Import\Providers\QBBackup::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#49"><abbr title="App\Import\Providers\QBBackup::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#53"><abbr title="App\Import\Providers\QBBackup::client">client</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#60"><abbr title="App\Import\Providers\QBBackup::product">product</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#67"><abbr title="App\Import\Providers\QBBackup::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#74"><abbr title="App\Import\Providers\QBBackup::quote">quote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#81"><abbr title="App\Import\Providers\QBBackup::payment">payment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#120"><abbr title="App\Import\Providers\QBBackup::vendor">vendor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#125"><abbr title="App\Import\Providers\QBBackup::expense">expense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#39"><abbr title="App\Import\Providers\Wave::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#59"><abbr title="App\Import\Providers\Wave::client">client</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#86"><abbr title="App\Import\Providers\Wave::product">product</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#91"><abbr title="App\Import\Providers\Wave::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#134"><abbr title="App\Import\Providers\Wave::payment">payment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#139"><abbr title="App\Import\Providers\Wave::vendor">vendor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#171"><abbr title="App\Import\Providers\Wave::expense">expense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#203"><abbr title="App\Import\Providers\Wave::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#207"><abbr title="App\Import\Providers\Wave::groupExpenses">groupExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#221"><abbr title="App\Import\Providers\Wave::ingestExpenses">ingestExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#28"><abbr title="App\Import\Providers\Zoho::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#48"><abbr title="App\Import\Providers\Zoho::client">client</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#76"><abbr title="App\Import\Providers\Zoho::invoice">invoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#27"><abbr title="App\Import\Transformer\Bank\BankTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#55"><abbr title="App\Import\Transformer\Bank\BankTransformer::calculateAmount">calculateAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#73"><abbr title="App\Import\Transformer\Bank\BankTransformer::calculateType">calculateType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#46"><abbr title="App\Import\Transformer\BaseTransformer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#51"><abbr title="App\Import\Transformer\BaseTransformer::parseDate">parseDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#72"><abbr title="App\Import\Transformer\BaseTransformer::parseDateOrNull">parseDateOrNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#101"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceTypeId">getInvoiceTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#106"><abbr title="App\Import\Transformer\BaseTransformer::getNumber">getNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#111"><abbr title="App\Import\Transformer\BaseTransformer::getString">getString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#116"><abbr title="App\Import\Transformer\BaseTransformer::getValueOrNull">getValueOrNull</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#121"><abbr title="App\Import\Transformer\BaseTransformer::getCurrencyByCode">getCurrencyByCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#140"><abbr title="App\Import\Transformer\BaseTransformer::getFrequency">getFrequency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#186"><abbr title="App\Import\Transformer\BaseTransformer::getRemainingCycles">getRemainingCycles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#196"><abbr title="App\Import\Transformer\BaseTransformer::getAutoBillFlag">getAutoBillFlag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#214"><abbr title="App\Import\Transformer\BaseTransformer::getClient">getClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#290"><abbr title="App\Import\Transformer\BaseTransformer::hasClient">hasClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#303"><abbr title="App\Import\Transformer\BaseTransformer::hasClientIdNumber">hasClientIdNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#317"><abbr title="App\Import\Transformer\BaseTransformer::hasVendor">hasVendor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#332"><abbr title="App\Import\Transformer\BaseTransformer::hasProject">hasProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#347"><abbr title="App\Import\Transformer\BaseTransformer::hasProduct">hasProduct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#363"><abbr title="App\Import\Transformer\BaseTransformer::getFloat">getFloat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#379"><abbr title="App\Import\Transformer\BaseTransformer::parseCommaFloat">parseCommaFloat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#410"><abbr title="App\Import\Transformer\BaseTransformer::getFloatOrOne">getFloatOrOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#425"><abbr title="App\Import\Transformer\BaseTransformer::getClientId">getClientId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#442"><abbr title="App\Import\Transformer\BaseTransformer::getProduct">getProduct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#459"><abbr title="App\Import\Transformer\BaseTransformer::getContact">getContact</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#480"><abbr title="App\Import\Transformer\BaseTransformer::getCountryId">getCountryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#499"><abbr title="App\Import\Transformer\BaseTransformer::getCountryIdBy2">getCountryIdBy2</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#511"><abbr title="App\Import\Transformer\BaseTransformer::getTaxRate">getTaxRate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#530"><abbr title="App\Import\Transformer\BaseTransformer::getTaxName">getTaxName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#551"><abbr title="App\Import\Transformer\BaseTransformer::getDate">getDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#570"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceNumber">getInvoiceNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#580"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceId">getInvoiceId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#597"><abbr title="App\Import\Transformer\BaseTransformer::hasInvoice">hasInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#613"><abbr title="App\Import\Transformer\BaseTransformer::hasRecurringInvoice">hasRecurringInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#626"><abbr title="App\Import\Transformer\BaseTransformer::hasExpense">hasExpense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#641"><abbr title="App\Import\Transformer\BaseTransformer::hasQuote">hasQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#656"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceClientId">getInvoiceClientId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#673"><abbr title="App\Import\Transformer\BaseTransformer::getVendorId">getVendorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#685"><abbr title="App\Import\Transformer\BaseTransformer::getVendorIdOrCreate">getVendorIdOrCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#709"><abbr title="App\Import\Transformer\BaseTransformer::getExpenseCategoryId">getExpenseCategoryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#730"><abbr title="App\Import\Transformer\BaseTransformer::getOrCreateExpenseCategry">getOrCreateExpenseCategry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#754"><abbr title="App\Import\Transformer\BaseTransformer::getProjectId">getProjectId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#770"><abbr title="App\Import\Transformer\BaseTransformer::createProject">createProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#789"><abbr title="App\Import\Transformer\BaseTransformer::getPaymentTypeId">getPaymentTypeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/ClientTransformer.php.html#30"><abbr title="App\Import\Transformer\Csv\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/ExpenseTransformer.php.html#27"><abbr title="App\Import\Transformer\Csv\ExpenseTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/InvoiceTransformer.php.html#31"><abbr title="App\Import\Transformer\Csv\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/PaymentTransformer.php.html#28"><abbr title="App\Import\Transformer\Csv\PaymentTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/ProductTransformer.php.html#27"><abbr title="App\Import\Transformer\Csv\ProductTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/QuoteTransformer.php.html#32"><abbr title="App\Import\Transformer\Csv\QuoteTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/RecurringInvoiceTransformer.php.html#33"><abbr title="App\Import\Transformer\Csv\RecurringInvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#29"><abbr title="App\Import\Transformer\Csv\TaskTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#77"><abbr title="App\Import\Transformer\Csv\TaskTransformer::parseLog">parseLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#107"><abbr title="App\Import\Transformer\Csv\TaskTransformer::resolveStartDate">resolveStartDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#150"><abbr title="App\Import\Transformer\Csv\TaskTransformer::resolveEndDate">resolveEndDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#208"><abbr title="App\Import\Transformer\Csv\TaskTransformer::getTaskStatusId">getTaskStatusId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Csv/VendorTransformer.php.html#28"><abbr title="App\Import\Transformer\Csv\VendorTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Freshbooks\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Freshbooks\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/InvoiceTransformer.php.html#82"><abbr title="App\Import\Transformer\Freshbooks\InvoiceTransformer::calcTaxRate">calcTaxRate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/InvoiceTransformer.php.html#104"><abbr title="App\Import\Transformer\Freshbooks\InvoiceTransformer::getFreshbookQuantityFloat">getFreshbookQuantityFloat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#33"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#128"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::harvestAddresses">harvestAddresses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#190"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::harvestLineItems">harvestLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#231"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::parseTaxes">parseTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#245"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::parseCsvWithNestedCsv">parseCsvWithNestedCsv</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoicely/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Invoicely\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Invoicely/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Invoicely\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Wave\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/ExpenseTransformer.php.html#27"><abbr title="App\Import\Transformer\Wave\ExpenseTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Wave\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Wave/VendorTransformer.php.html#29"><abbr title="App\Import\Transformer\Wave\VendorTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Zoho/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Zoho\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Zoho/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Zoho\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformer/Zoho/InvoiceTransformer.php.html#86"><abbr title="App\Import\Transformer\Zoho\InvoiceTransformer::harvestClient">harvestClient</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#140"><abbr title="App\Import\Transformer\BaseTransformer::getFrequency">getFrequency</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#565"><abbr title="App\Import\Providers\BaseImport::ingestInvoices">ingestInvoices</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#73"><abbr title="App\Import\Transformer\Bank\BankTransformer::calculateType">calculateType</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Transformer/Wave/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Wave\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Transformer/Csv/QuoteTransformer.php.html#32"><abbr title="App\Import\Transformer\Csv\QuoteTransformer::transform">transform</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Transformer/Csv/InvoiceTransformer.php.html#31"><abbr title="App\Import\Transformer\Csv\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Transformer/Csv/RecurringInvoiceTransformer.php.html#33"><abbr title="App\Import\Transformer\Csv\RecurringInvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#33"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#273"><abbr title="App\Import\Providers\BaseImport::ingest">ingest</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#403"><abbr title="App\Import\Providers\BaseImport::ingestRecurringInvoices">ingestRecurringInvoices</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#798"><abbr title="App\Import\Providers\BaseImport::ingestQuotes">ingestQuotes</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#221"><abbr title="App\Import\Providers\Wave::ingestExpenses">ingestExpenses</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Transformer/Csv/ExpenseTransformer.php.html#27"><abbr title="App\Import\Transformer\Csv\ExpenseTransformer::transform">transform</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#245"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::parseCsvWithNestedCsv">parseCsvWithNestedCsv</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Transformer/Wave/ExpenseTransformer.php.html#27"><abbr title="App\Import\Transformer\Wave\ExpenseTransformer::transform">transform</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Transformer/Zoho/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Zoho\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#95"><abbr title="App\Import\Providers\BaseImport::getCsvData">getCsvData</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#172"><abbr title="App\Import\Providers\BaseImport::groupTasks">groupTasks</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#347"><abbr title="App\Import\Providers\BaseImport::ingestProducts">ingestProducts</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#730"><abbr title="App\Import\Providers\BaseImport::actionInvoiceStatus">actionInvoiceStatus</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#196"><abbr title="App\Import\Transformer\BaseTransformer::getAutoBillFlag">getAutoBillFlag</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#214"><abbr title="App\Import\Transformer\BaseTransformer::getClient">getClient</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#77"><abbr title="App\Import\Transformer\Csv\TaskTransformer::parseLog">parseLog</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#150"><abbr title="App\Import\Transformer\Csv\TaskTransformer::resolveEndDate">resolveEndDate</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Transformer/Zoho/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Zoho\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#500"><abbr title="App\Import\Providers\BaseImport::ingestTasks">ingestTasks</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#72"><abbr title="App\Import\Transformer\BaseTransformer::parseDateOrNull">parseDateOrNull</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Transformer/Csv/ClientTransformer.php.html#30"><abbr title="App\Import\Transformer\Csv\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/InvoiceTransformer.php.html#82"><abbr title="App\Import\Transformer\Freshbooks\InvoiceTransformer::calcTaxRate">calcTaxRate</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#198"><abbr title="App\Import\Providers\BaseImport::groupClients">groupClients</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#27"><abbr title="App\Import\Transformer\Bank\BankTransformer::transform">transform</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformer/Invoicely/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Invoicely\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformer/Wave/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Wave\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformer/Zoho/InvoiceTransformer.php.html#86"><abbr title="App\Import\Transformer\Zoho\InvoiceTransformer::harvestClient">harvestClient</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#770"><abbr title="App\Import\Providers\BaseImport::actionQuoteStatus">actionQuoteStatus</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#959"><abbr title="App\Import\Providers\BaseImport::preTransformCsv">preTransformCsv</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#998"><abbr title="App\Import\Providers\BaseImport::convertData">convertData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#81"><abbr title="App\Import\Providers\QBBackup::payment">payment</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#91"><abbr title="App\Import\Providers\Wave::invoice">invoice</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#51"><abbr title="App\Import\Transformer\BaseTransformer::parseDate">parseDate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/Csv/PaymentTransformer.php.html#28"><abbr title="App\Import\Transformer\Csv\PaymentTransformer::transform">transform</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#107"><abbr title="App\Import\Transformer\Csv\TaskTransformer::resolveStartDate">resolveStartDate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/Csv/VendorTransformer.php.html#28"><abbr title="App\Import\Transformer\Csv\VendorTransformer::transform">transform</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/InvoiceTransformer.php.html#29"><abbr title="App\Import\Transformer\Freshbooks\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#128"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::harvestAddresses">harvestAddresses</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#190"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::harvestLineItems">harvestLineItems</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#230"><abbr title="App\Import\Providers\BaseImport::groupInvoices">groupInvoices</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#905"><abbr title="App\Import\Providers\BaseImport::findUser">findUser</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#84"><abbr title="App\Import\Providers\Csv::bank_transaction">bank_transaction</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#207"><abbr title="App\Import\Providers\Wave::groupExpenses">groupExpenses</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/Bank/BankTransformer.php.html#55"><abbr title="App\Import\Transformer\Bank\BankTransformer::calculateAmount">calculateAmount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#121"><abbr title="App\Import\Transformer\BaseTransformer::getCurrencyByCode">getCurrencyByCode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#551"><abbr title="App\Import\Transformer\BaseTransformer::getDate">getDate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/Freshbooks/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Freshbooks\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/Invoicely/ClientTransformer.php.html#29"><abbr title="App\Import\Transformer\Invoicely\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformer/Wave/VendorTransformer.php.html#29"><abbr title="App\Import\Transformer\Wave\VendorTransformer::transform">transform</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#141"><abbr title="App\Import\Providers\BaseImport::detectDelimiter">detectDelimiter</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#118"><abbr title="App\Import\Providers\Csv::client">client</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#149"><abbr title="App\Import\Providers\Csv::product">product</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#179"><abbr title="App\Import\Providers\Csv::recurring_invoice">recurring_invoice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#208"><abbr title="App\Import\Providers\Csv::invoice">invoice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#238"><abbr title="App\Import\Providers\Csv::quote">quote</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#267"><abbr title="App\Import\Providers\Csv::payment">payment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#297"><abbr title="App\Import\Providers\Csv::vendor">vendor</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#327"><abbr title="App\Import\Providers\Csv::expense">expense</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#357"><abbr title="App\Import\Providers\Csv::task">task</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#139"><abbr title="App\Import\Providers\Wave::vendor">vendor</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#171"><abbr title="App\Import\Providers\Wave::expense">expense</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#76"><abbr title="App\Import\Providers\Zoho::invoice">invoice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#101"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceTypeId">getInvoiceTypeId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#106"><abbr title="App\Import\Transformer\BaseTransformer::getNumber">getNumber</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#111"><abbr title="App\Import\Transformer\BaseTransformer::getString">getString</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#116"><abbr title="App\Import\Transformer\BaseTransformer::getValueOrNull">getValueOrNull</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#363"><abbr title="App\Import\Transformer\BaseTransformer::getFloat">getFloat</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#410"><abbr title="App\Import\Transformer\BaseTransformer::getFloatOrOne">getFloatOrOne</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#480"><abbr title="App\Import\Transformer\BaseTransformer::getCountryId">getCountryId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#685"><abbr title="App\Import\Transformer\BaseTransformer::getVendorIdOrCreate">getVendorIdOrCreate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#730"><abbr title="App\Import\Transformer\BaseTransformer::getOrCreateExpenseCategry">getOrCreateExpenseCategry</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#754"><abbr title="App\Import\Transformer\BaseTransformer::getProjectId">getProjectId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#29"><abbr title="App\Import\Transformer\Csv\TaskTransformer::transform">transform</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformer/Csv/TaskTransformer.php.html#208"><abbr title="App\Import\Transformer\Csv\TaskTransformer::getTaskStatusId">getTaskStatusId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#73"><abbr title="App\Import\Providers\BaseImport::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/BaseImport.php.html#896"><abbr title="App\Import\Providers\BaseImport::getUserIDForRecord">getUserIDForRecord</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Csv.php.html#64"><abbr title="App\Import\Providers\Csv::import">import</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#28"><abbr title="App\Import\Providers\Freshbooks::import">import</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#48"><abbr title="App\Import\Providers\Freshbooks::client">client</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Freshbooks.php.html#75"><abbr title="App\Import\Providers\Freshbooks::invoice">invoice</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Invoice2Go.php.html#24"><abbr title="App\Import\Providers\Invoice2Go::import">import</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Invoice2Go.php.html#44"><abbr title="App\Import\Providers\Invoice2Go::invoice">invoice</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#28"><abbr title="App\Import\Providers\Invoicely::import">import</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#48"><abbr title="App\Import\Providers\Invoicely::client">client</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Invoicely.php.html#76"><abbr title="App\Import\Providers\Invoicely::invoice">invoice</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#18"><abbr title="App\Import\Providers\QBBackup::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#42"><abbr title="App\Import\Providers\QBBackup::import">import</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#53"><abbr title="App\Import\Providers\QBBackup::client">client</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#60"><abbr title="App\Import\Providers\QBBackup::product">product</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#67"><abbr title="App\Import\Providers\QBBackup::invoice">invoice</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/QBBackup.php.html#74"><abbr title="App\Import\Providers\QBBackup::quote">quote</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#39"><abbr title="App\Import\Providers\Wave::import">import</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Wave.php.html#59"><abbr title="App\Import\Providers\Wave::client">client</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#28"><abbr title="App\Import\Providers\Zoho::import">import</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/Zoho.php.html#48"><abbr title="App\Import\Providers\Zoho::client">client</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#186"><abbr title="App\Import\Transformer\BaseTransformer::getRemainingCycles">getRemainingCycles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#379"><abbr title="App\Import\Transformer\BaseTransformer::parseCommaFloat">parseCommaFloat</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#425"><abbr title="App\Import\Transformer\BaseTransformer::getClientId">getClientId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#459"><abbr title="App\Import\Transformer\BaseTransformer::getContact">getContact</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#499"><abbr title="App\Import\Transformer\BaseTransformer::getCountryIdBy2">getCountryIdBy2</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#511"><abbr title="App\Import\Transformer\BaseTransformer::getTaxRate">getTaxRate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#530"><abbr title="App\Import\Transformer\BaseTransformer::getTaxName">getTaxName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#570"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceNumber">getInvoiceNumber</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#580"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceId">getInvoiceId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#656"><abbr title="App\Import\Transformer\BaseTransformer::getInvoiceClientId">getInvoiceClientId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#673"><abbr title="App\Import\Transformer\BaseTransformer::getVendorId">getVendorId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#709"><abbr title="App\Import\Transformer\BaseTransformer::getExpenseCategoryId">getExpenseCategoryId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#770"><abbr title="App\Import\Transformer\BaseTransformer::createProject">createProject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/BaseTransformer.php.html#789"><abbr title="App\Import\Transformer\BaseTransformer::getPaymentTypeId">getPaymentTypeId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformer/Invoice2Go/InvoiceTransformer.php.html#231"><abbr title="App\Import\Transformer\Invoice2Go\InvoiceTransformer::parseTaxes">parseTaxes</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([40,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([162,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"Definitions\/BankTransactionMap.php.html#15\">App\\Import\\Definitions\\BankTransactionMap<\/a>"],[0,2,"<a href=\"Definitions\/ClientMap.php.html#15\">App\\Import\\Definitions\\ClientMap<\/a>"],[0,2,"<a href=\"Definitions\/ExpenseMap.php.html#15\">App\\Import\\Definitions\\ExpenseMap<\/a>"],[0,2,"<a href=\"Definitions\/InvoiceMap.php.html#15\">App\\Import\\Definitions\\InvoiceMap<\/a>"],[0,2,"<a href=\"Definitions\/PaymentMap.php.html#15\">App\\Import\\Definitions\\PaymentMap<\/a>"],[0,2,"<a href=\"Definitions\/ProductMap.php.html#15\">App\\Import\\Definitions\\ProductMap<\/a>"],[0,2,"<a href=\"Definitions\/QuoteMap.php.html#15\">App\\Import\\Definitions\\QuoteMap<\/a>"],[0,2,"<a href=\"Definitions\/RecurringInvoiceMap.php.html#15\">App\\Import\\Definitions\\RecurringInvoiceMap<\/a>"],[0,2,"<a href=\"Definitions\/TaskMap.php.html#15\">App\\Import\\Definitions\\TaskMap<\/a>"],[0,2,"<a href=\"Definitions\/VendorMap.php.html#15\">App\\Import\\Definitions\\VendorMap<\/a>"],[100,0,"<a href=\"ImportException.php.html#5\">App\\Import\\ImportException<\/a>"],[0,131,"<a href=\"Providers\/BaseImport.php.html#43\">App\\Import\\Providers\\BaseImport<\/a>"],[0,34,"<a href=\"Providers\/Csv.php.html#58\">App\\Import\\Providers\\Csv<\/a>"],[0,6,"<a href=\"Providers\/Freshbooks.php.html#24\">App\\Import\\Providers\\Freshbooks<\/a>"],[0,4,"<a href=\"Providers\/Invoice2Go.php.html#20\">App\\Import\\Providers\\Invoice2Go<\/a>"],[0,6,"<a href=\"Providers\/Invoicely.php.html#24\">App\\Import\\Providers\\Invoicely<\/a>"],[0,20,"<a href=\"Providers\/QBBackup.php.html#12\">App\\Import\\Providers\\QBBackup<\/a>"],[0,32,"<a href=\"Providers\/Wave.php.html#35\">App\\Import\\Providers\\Wave<\/a>"],[0,7,"<a href=\"Providers\/Zoho.php.html#24\">App\\Import\\Providers\\Zoho<\/a>"],[0,27,"<a href=\"Transformer\/Bank\/BankTransformer.php.html#20\">App\\Import\\Transformer\\Bank\\BankTransformer<\/a>"],[0,131,"<a href=\"Transformer\/BaseTransformer.php.html#40\">App\\Import\\Transformer\\BaseTransformer<\/a>"],[0,7,"<a href=\"Transformer\/Csv\/ClientTransformer.php.html#23\">App\\Import\\Transformer\\Csv\\ClientTransformer<\/a>"],[0,10,"<a href=\"Transformer\/Csv\/ExpenseTransformer.php.html#20\">App\\Import\\Transformer\\Csv\\ExpenseTransformer<\/a>"],[0,14,"<a href=\"Transformer\/Csv\/InvoiceTransformer.php.html#23\">App\\Import\\Transformer\\Csv\\InvoiceTransformer<\/a>"],[0,5,"<a href=\"Transformer\/Csv\/PaymentTransformer.php.html#21\">App\\Import\\Transformer\\Csv\\PaymentTransformer<\/a>"],[0,1,"<a href=\"Transformer\/Csv\/ProductTransformer.php.html#20\">App\\Import\\Transformer\\Csv\\ProductTransformer<\/a>"],[0,16,"<a href=\"Transformer\/Csv\/QuoteTransformer.php.html#23\">App\\Import\\Transformer\\Csv\\QuoteTransformer<\/a>"],[0,13,"<a href=\"Transformer\/Csv\/RecurringInvoiceTransformer.php.html#24\">App\\Import\\Transformer\\Csv\\RecurringInvoiceTransformer<\/a>"],[0,27,"<a href=\"Transformer\/Csv\/TaskTransformer.php.html#21\">App\\Import\\Transformer\\Csv\\TaskTransformer<\/a>"],[0,5,"<a href=\"Transformer\/Csv\/VendorTransformer.php.html#21\">App\\Import\\Transformer\\Csv\\VendorTransformer<\/a>"],[0,4,"<a href=\"Transformer\/Freshbooks\/ClientTransformer.php.html#22\">App\\Import\\Transformer\\Freshbooks\\ClientTransformer<\/a>"],[0,13,"<a href=\"Transformer\/Freshbooks\/InvoiceTransformer.php.html#22\">App\\Import\\Transformer\\Freshbooks\\InvoiceTransformer<\/a>"],[0,34,"<a href=\"Transformer\/Invoice2Go\/InvoiceTransformer.php.html#24\">App\\Import\\Transformer\\Invoice2Go\\InvoiceTransformer<\/a>"],[0,4,"<a href=\"Transformer\/Invoicely\/ClientTransformer.php.html#22\">App\\Import\\Transformer\\Invoicely\\ClientTransformer<\/a>"],[0,6,"<a href=\"Transformer\/Invoicely\/InvoiceTransformer.php.html#22\">App\\Import\\Transformer\\Invoicely\\InvoiceTransformer<\/a>"],[0,6,"<a href=\"Transformer\/Wave\/ClientTransformer.php.html#22\">App\\Import\\Transformer\\Wave\\ClientTransformer<\/a>"],[0,9,"<a href=\"Transformer\/Wave\/ExpenseTransformer.php.html#20\">App\\Import\\Transformer\\Wave\\ExpenseTransformer<\/a>"],[0,17,"<a href=\"Transformer\/Wave\/InvoiceTransformer.php.html#22\">App\\Import\\Transformer\\Wave\\InvoiceTransformer<\/a>"],[0,4,"<a href=\"Transformer\/Wave\/VendorTransformer.php.html#22\">App\\Import\\Transformer\\Wave\\VendorTransformer<\/a>"],[0,9,"<a href=\"Transformer\/Zoho\/ClientTransformer.php.html#22\">App\\Import\\Transformer\\Zoho\\ClientTransformer<\/a>"],[0,14,"<a href=\"Transformer\/Zoho\/InvoiceTransformer.php.html#22\">App\\Import\\Transformer\\Zoho\\InvoiceTransformer<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Definitions\/BankTransactionMap.php.html#17\">App\\Import\\Definitions\\BankTransactionMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/BankTransactionMap.php.html#37\">App\\Import\\Definitions\\BankTransactionMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/ClientMap.php.html#17\">App\\Import\\Definitions\\ClientMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/ClientMap.php.html#61\">App\\Import\\Definitions\\ClientMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/ExpenseMap.php.html#17\">App\\Import\\Definitions\\ExpenseMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/ExpenseMap.php.html#48\">App\\Import\\Definitions\\ExpenseMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/InvoiceMap.php.html#17\">App\\Import\\Definitions\\InvoiceMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/InvoiceMap.php.html#78\">App\\Import\\Definitions\\InvoiceMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/PaymentMap.php.html#17\">App\\Import\\Definitions\\PaymentMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/PaymentMap.php.html#38\">App\\Import\\Definitions\\PaymentMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/ProductMap.php.html#17\">App\\Import\\Definitions\\ProductMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/ProductMap.php.html#42\">App\\Import\\Definitions\\ProductMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/QuoteMap.php.html#17\">App\\Import\\Definitions\\QuoteMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/QuoteMap.php.html#78\">App\\Import\\Definitions\\QuoteMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/RecurringInvoiceMap.php.html#17\">App\\Import\\Definitions\\RecurringInvoiceMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/RecurringInvoiceMap.php.html#81\">App\\Import\\Definitions\\RecurringInvoiceMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/TaskMap.php.html#17\">App\\Import\\Definitions\\TaskMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/TaskMap.php.html#42\">App\\Import\\Definitions\\TaskMap::import_keys<\/a>"],[0,1,"<a href=\"Definitions\/VendorMap.php.html#17\">App\\Import\\Definitions\\VendorMap::importable<\/a>"],[0,1,"<a href=\"Definitions\/VendorMap.php.html#53\">App\\Import\\Definitions\\VendorMap::import_keys<\/a>"],[0,2,"<a href=\"Providers\/BaseImport.php.html#73\">App\\Import\\Providers\\BaseImport::__construct<\/a>"],[0,8,"<a href=\"Providers\/BaseImport.php.html#95\">App\\Import\\Providers\\BaseImport::getCsvData<\/a>"],[0,3,"<a href=\"Providers\/BaseImport.php.html#141\">App\\Import\\Providers\\BaseImport::detectDelimiter<\/a>"],[0,1,"<a href=\"Providers\/BaseImport.php.html#163\">App\\Import\\Providers\\BaseImport::mapCSVHeaderToKeys<\/a>"],[0,8,"<a href=\"Providers\/BaseImport.php.html#172\">App\\Import\\Providers\\BaseImport::groupTasks<\/a>"],[0,6,"<a href=\"Providers\/BaseImport.php.html#198\">App\\Import\\Providers\\BaseImport::groupClients<\/a>"],[0,4,"<a href=\"Providers\/BaseImport.php.html#230\">App\\Import\\Providers\\BaseImport::groupInvoices<\/a>"],[0,1,"<a href=\"Providers\/BaseImport.php.html#253\">App\\Import\\Providers\\BaseImport::getErrors<\/a>"],[0,1,"<a href=\"Providers\/BaseImport.php.html#259\">App\\Import\\Providers\\BaseImport::runValidation<\/a>"],[0,11,"<a href=\"Providers\/BaseImport.php.html#273\">App\\Import\\Providers\\BaseImport::ingest<\/a>"],[0,8,"<a href=\"Providers\/BaseImport.php.html#347\">App\\Import\\Providers\\BaseImport::ingestProducts<\/a>"],[0,10,"<a href=\"Providers\/BaseImport.php.html#403\">App\\Import\\Providers\\BaseImport::ingestRecurringInvoices<\/a>"],[0,7,"<a href=\"Providers\/BaseImport.php.html#500\">App\\Import\\Providers\\BaseImport::ingestTasks<\/a>"],[0,20,"<a href=\"Providers\/BaseImport.php.html#565\">App\\Import\\Providers\\BaseImport::ingestInvoices<\/a>"],[0,8,"<a href=\"Providers\/BaseImport.php.html#730\">App\\Import\\Providers\\BaseImport::actionInvoiceStatus<\/a>"],[0,5,"<a href=\"Providers\/BaseImport.php.html#770\">App\\Import\\Providers\\BaseImport::actionQuoteStatus<\/a>"],[0,10,"<a href=\"Providers\/BaseImport.php.html#798\">App\\Import\\Providers\\BaseImport::ingestQuotes<\/a>"],[0,2,"<a href=\"Providers\/BaseImport.php.html#896\">App\\Import\\Providers\\BaseImport::getUserIDForRecord<\/a>"],[0,4,"<a href=\"Providers\/BaseImport.php.html#905\">App\\Import\\Providers\\BaseImport::findUser<\/a>"],[0,1,"<a href=\"Providers\/BaseImport.php.html#932\">App\\Import\\Providers\\BaseImport::finalizeImport<\/a>"],[0,1,"<a href=\"Providers\/BaseImport.php.html#949\">App\\Import\\Providers\\BaseImport::preTransform<\/a>"],[0,5,"<a href=\"Providers\/BaseImport.php.html#959\">App\\Import\\Providers\\BaseImport::preTransformCsv<\/a>"],[0,5,"<a href=\"Providers\/BaseImport.php.html#998\">App\\Import\\Providers\\BaseImport::convertData<\/a>"],[0,2,"<a href=\"Providers\/Csv.php.html#64\">App\\Import\\Providers\\Csv::import<\/a>"],[0,4,"<a href=\"Providers\/Csv.php.html#84\">App\\Import\\Providers\\Csv::bank_transaction<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#118\">App\\Import\\Providers\\Csv::client<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#149\">App\\Import\\Providers\\Csv::product<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#179\">App\\Import\\Providers\\Csv::recurring_invoice<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#208\">App\\Import\\Providers\\Csv::invoice<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#238\">App\\Import\\Providers\\Csv::quote<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#267\">App\\Import\\Providers\\Csv::payment<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#297\">App\\Import\\Providers\\Csv::vendor<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#327\">App\\Import\\Providers\\Csv::expense<\/a>"],[0,3,"<a href=\"Providers\/Csv.php.html#357\">App\\Import\\Providers\\Csv::task<\/a>"],[0,1,"<a href=\"Providers\/Csv.php.html#388\">App\\Import\\Providers\\Csv::transform<\/a>"],[0,2,"<a href=\"Providers\/Freshbooks.php.html#28\">App\\Import\\Providers\\Freshbooks::import<\/a>"],[0,2,"<a href=\"Providers\/Freshbooks.php.html#48\">App\\Import\\Providers\\Freshbooks::client<\/a>"],[0,2,"<a href=\"Providers\/Freshbooks.php.html#75\">App\\Import\\Providers\\Freshbooks::invoice<\/a>"],[0,2,"<a href=\"Providers\/Invoice2Go.php.html#24\">App\\Import\\Providers\\Invoice2Go::import<\/a>"],[0,2,"<a href=\"Providers\/Invoice2Go.php.html#44\">App\\Import\\Providers\\Invoice2Go::invoice<\/a>"],[0,2,"<a href=\"Providers\/Invoicely.php.html#28\">App\\Import\\Providers\\Invoicely::import<\/a>"],[0,2,"<a href=\"Providers\/Invoicely.php.html#48\">App\\Import\\Providers\\Invoicely::client<\/a>"],[0,2,"<a href=\"Providers\/Invoicely.php.html#76\">App\\Import\\Providers\\Invoicely::invoice<\/a>"],[0,2,"<a href=\"Providers\/QBBackup.php.html#18\">App\\Import\\Providers\\QBBackup::__construct<\/a>"],[0,2,"<a href=\"Providers\/QBBackup.php.html#42\">App\\Import\\Providers\\QBBackup::import<\/a>"],[0,1,"<a href=\"Providers\/QBBackup.php.html#49\">App\\Import\\Providers\\QBBackup::transform<\/a>"],[0,2,"<a href=\"Providers\/QBBackup.php.html#53\">App\\Import\\Providers\\QBBackup::client<\/a>"],[0,2,"<a href=\"Providers\/QBBackup.php.html#60\">App\\Import\\Providers\\QBBackup::product<\/a>"],[0,2,"<a href=\"Providers\/QBBackup.php.html#67\">App\\Import\\Providers\\QBBackup::invoice<\/a>"],[0,2,"<a href=\"Providers\/QBBackup.php.html#74\">App\\Import\\Providers\\QBBackup::quote<\/a>"],[0,5,"<a href=\"Providers\/QBBackup.php.html#81\">App\\Import\\Providers\\QBBackup::payment<\/a>"],[0,1,"<a href=\"Providers\/QBBackup.php.html#120\">App\\Import\\Providers\\QBBackup::vendor<\/a>"],[0,1,"<a href=\"Providers\/QBBackup.php.html#125\">App\\Import\\Providers\\QBBackup::expense<\/a>"],[0,2,"<a href=\"Providers\/Wave.php.html#39\">App\\Import\\Providers\\Wave::import<\/a>"],[0,2,"<a href=\"Providers\/Wave.php.html#59\">App\\Import\\Providers\\Wave::client<\/a>"],[0,1,"<a href=\"Providers\/Wave.php.html#86\">App\\Import\\Providers\\Wave::product<\/a>"],[0,5,"<a href=\"Providers\/Wave.php.html#91\">App\\Import\\Providers\\Wave::invoice<\/a>"],[0,1,"<a href=\"Providers\/Wave.php.html#134\">App\\Import\\Providers\\Wave::payment<\/a>"],[0,3,"<a href=\"Providers\/Wave.php.html#139\">App\\Import\\Providers\\Wave::vendor<\/a>"],[0,3,"<a href=\"Providers\/Wave.php.html#171\">App\\Import\\Providers\\Wave::expense<\/a>"],[0,1,"<a href=\"Providers\/Wave.php.html#203\">App\\Import\\Providers\\Wave::transform<\/a>"],[0,4,"<a href=\"Providers\/Wave.php.html#207\">App\\Import\\Providers\\Wave::groupExpenses<\/a>"],[0,10,"<a href=\"Providers\/Wave.php.html#221\">App\\Import\\Providers\\Wave::ingestExpenses<\/a>"],[0,2,"<a href=\"Providers\/Zoho.php.html#28\">App\\Import\\Providers\\Zoho::import<\/a>"],[0,2,"<a href=\"Providers\/Zoho.php.html#48\">App\\Import\\Providers\\Zoho::client<\/a>"],[0,3,"<a href=\"Providers\/Zoho.php.html#76\">App\\Import\\Providers\\Zoho::invoice<\/a>"],[0,6,"<a href=\"Transformer\/Bank\/BankTransformer.php.html#27\">App\\Import\\Transformer\\Bank\\BankTransformer::transform<\/a>"],[0,4,"<a href=\"Transformer\/Bank\/BankTransformer.php.html#55\">App\\Import\\Transformer\\Bank\\BankTransformer::calculateAmount<\/a>"],[0,17,"<a href=\"Transformer\/Bank\/BankTransformer.php.html#73\">App\\Import\\Transformer\\Bank\\BankTransformer::calculateType<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#46\">App\\Import\\Transformer\\BaseTransformer::__construct<\/a>"],[0,5,"<a href=\"Transformer\/BaseTransformer.php.html#51\">App\\Import\\Transformer\\BaseTransformer::parseDate<\/a>"],[0,7,"<a href=\"Transformer\/BaseTransformer.php.html#72\">App\\Import\\Transformer\\BaseTransformer::parseDateOrNull<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#101\">App\\Import\\Transformer\\BaseTransformer::getInvoiceTypeId<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#106\">App\\Import\\Transformer\\BaseTransformer::getNumber<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#111\">App\\Import\\Transformer\\BaseTransformer::getString<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#116\">App\\Import\\Transformer\\BaseTransformer::getValueOrNull<\/a>"],[0,4,"<a href=\"Transformer\/BaseTransformer.php.html#121\">App\\Import\\Transformer\\BaseTransformer::getCurrencyByCode<\/a>"],[0,26,"<a href=\"Transformer\/BaseTransformer.php.html#140\">App\\Import\\Transformer\\BaseTransformer::getFrequency<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#186\">App\\Import\\Transformer\\BaseTransformer::getRemainingCycles<\/a>"],[0,8,"<a href=\"Transformer\/BaseTransformer.php.html#196\">App\\Import\\Transformer\\BaseTransformer::getAutoBillFlag<\/a>"],[0,8,"<a href=\"Transformer\/BaseTransformer.php.html#214\">App\\Import\\Transformer\\BaseTransformer::getClient<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#290\">App\\Import\\Transformer\\BaseTransformer::hasClient<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#303\">App\\Import\\Transformer\\BaseTransformer::hasClientIdNumber<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#317\">App\\Import\\Transformer\\BaseTransformer::hasVendor<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#332\">App\\Import\\Transformer\\BaseTransformer::hasProject<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#347\">App\\Import\\Transformer\\BaseTransformer::hasProduct<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#363\">App\\Import\\Transformer\\BaseTransformer::getFloat<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#379\">App\\Import\\Transformer\\BaseTransformer::parseCommaFloat<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#410\">App\\Import\\Transformer\\BaseTransformer::getFloatOrOne<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#425\">App\\Import\\Transformer\\BaseTransformer::getClientId<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#442\">App\\Import\\Transformer\\BaseTransformer::getProduct<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#459\">App\\Import\\Transformer\\BaseTransformer::getContact<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#480\">App\\Import\\Transformer\\BaseTransformer::getCountryId<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#499\">App\\Import\\Transformer\\BaseTransformer::getCountryIdBy2<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#511\">App\\Import\\Transformer\\BaseTransformer::getTaxRate<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#530\">App\\Import\\Transformer\\BaseTransformer::getTaxName<\/a>"],[0,4,"<a href=\"Transformer\/BaseTransformer.php.html#551\">App\\Import\\Transformer\\BaseTransformer::getDate<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#570\">App\\Import\\Transformer\\BaseTransformer::getInvoiceNumber<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#580\">App\\Import\\Transformer\\BaseTransformer::getInvoiceId<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#597\">App\\Import\\Transformer\\BaseTransformer::hasInvoice<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#613\">App\\Import\\Transformer\\BaseTransformer::hasRecurringInvoice<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#626\">App\\Import\\Transformer\\BaseTransformer::hasExpense<\/a>"],[0,1,"<a href=\"Transformer\/BaseTransformer.php.html#641\">App\\Import\\Transformer\\BaseTransformer::hasQuote<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#656\">App\\Import\\Transformer\\BaseTransformer::getInvoiceClientId<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#673\">App\\Import\\Transformer\\BaseTransformer::getVendorId<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#685\">App\\Import\\Transformer\\BaseTransformer::getVendorIdOrCreate<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#709\">App\\Import\\Transformer\\BaseTransformer::getExpenseCategoryId<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#730\">App\\Import\\Transformer\\BaseTransformer::getOrCreateExpenseCategry<\/a>"],[0,3,"<a href=\"Transformer\/BaseTransformer.php.html#754\">App\\Import\\Transformer\\BaseTransformer::getProjectId<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#770\">App\\Import\\Transformer\\BaseTransformer::createProject<\/a>"],[0,2,"<a href=\"Transformer\/BaseTransformer.php.html#789\">App\\Import\\Transformer\\BaseTransformer::getPaymentTypeId<\/a>"],[0,7,"<a href=\"Transformer\/Csv\/ClientTransformer.php.html#30\">App\\Import\\Transformer\\Csv\\ClientTransformer::transform<\/a>"],[0,10,"<a href=\"Transformer\/Csv\/ExpenseTransformer.php.html#27\">App\\Import\\Transformer\\Csv\\ExpenseTransformer::transform<\/a>"],[0,14,"<a href=\"Transformer\/Csv\/InvoiceTransformer.php.html#31\">App\\Import\\Transformer\\Csv\\InvoiceTransformer::transform<\/a>"],[0,5,"<a href=\"Transformer\/Csv\/PaymentTransformer.php.html#28\">App\\Import\\Transformer\\Csv\\PaymentTransformer::transform<\/a>"],[0,1,"<a href=\"Transformer\/Csv\/ProductTransformer.php.html#27\">App\\Import\\Transformer\\Csv\\ProductTransformer::transform<\/a>"],[0,16,"<a href=\"Transformer\/Csv\/QuoteTransformer.php.html#32\">App\\Import\\Transformer\\Csv\\QuoteTransformer::transform<\/a>"],[0,13,"<a href=\"Transformer\/Csv\/RecurringInvoiceTransformer.php.html#33\">App\\Import\\Transformer\\Csv\\RecurringInvoiceTransformer::transform<\/a>"],[0,3,"<a href=\"Transformer\/Csv\/TaskTransformer.php.html#29\">App\\Import\\Transformer\\Csv\\TaskTransformer::transform<\/a>"],[0,8,"<a href=\"Transformer\/Csv\/TaskTransformer.php.html#77\">App\\Import\\Transformer\\Csv\\TaskTransformer::parseLog<\/a>"],[0,5,"<a href=\"Transformer\/Csv\/TaskTransformer.php.html#107\">App\\Import\\Transformer\\Csv\\TaskTransformer::resolveStartDate<\/a>"],[0,8,"<a href=\"Transformer\/Csv\/TaskTransformer.php.html#150\">App\\Import\\Transformer\\Csv\\TaskTransformer::resolveEndDate<\/a>"],[0,3,"<a href=\"Transformer\/Csv\/TaskTransformer.php.html#208\">App\\Import\\Transformer\\Csv\\TaskTransformer::getTaskStatusId<\/a>"],[0,5,"<a href=\"Transformer\/Csv\/VendorTransformer.php.html#28\">App\\Import\\Transformer\\Csv\\VendorTransformer::transform<\/a>"],[0,4,"<a href=\"Transformer\/Freshbooks\/ClientTransformer.php.html#29\">App\\Import\\Transformer\\Freshbooks\\ClientTransformer::transform<\/a>"],[0,5,"<a href=\"Transformer\/Freshbooks\/InvoiceTransformer.php.html#29\">App\\Import\\Transformer\\Freshbooks\\InvoiceTransformer::transform<\/a>"],[0,7,"<a href=\"Transformer\/Freshbooks\/InvoiceTransformer.php.html#82\">App\\Import\\Transformer\\Freshbooks\\InvoiceTransformer::calcTaxRate<\/a>"],[0,1,"<a href=\"Transformer\/Freshbooks\/InvoiceTransformer.php.html#104\">App\\Import\\Transformer\\Freshbooks\\InvoiceTransformer::getFreshbookQuantityFloat<\/a>"],[0,12,"<a href=\"Transformer\/Invoice2Go\/InvoiceTransformer.php.html#33\">App\\Import\\Transformer\\Invoice2Go\\InvoiceTransformer::transform<\/a>"],[0,5,"<a href=\"Transformer\/Invoice2Go\/InvoiceTransformer.php.html#128\">App\\Import\\Transformer\\Invoice2Go\\InvoiceTransformer::harvestAddresses<\/a>"],[0,5,"<a href=\"Transformer\/Invoice2Go\/InvoiceTransformer.php.html#190\">App\\Import\\Transformer\\Invoice2Go\\InvoiceTransformer::harvestLineItems<\/a>"],[0,2,"<a href=\"Transformer\/Invoice2Go\/InvoiceTransformer.php.html#231\">App\\Import\\Transformer\\Invoice2Go\\InvoiceTransformer::parseTaxes<\/a>"],[0,10,"<a href=\"Transformer\/Invoice2Go\/InvoiceTransformer.php.html#245\">App\\Import\\Transformer\\Invoice2Go\\InvoiceTransformer::parseCsvWithNestedCsv<\/a>"],[0,4,"<a href=\"Transformer\/Invoicely\/ClientTransformer.php.html#29\">App\\Import\\Transformer\\Invoicely\\ClientTransformer::transform<\/a>"],[0,6,"<a href=\"Transformer\/Invoicely\/InvoiceTransformer.php.html#29\">App\\Import\\Transformer\\Invoicely\\InvoiceTransformer::transform<\/a>"],[0,6,"<a href=\"Transformer\/Wave\/ClientTransformer.php.html#29\">App\\Import\\Transformer\\Wave\\ClientTransformer::transform<\/a>"],[0,9,"<a href=\"Transformer\/Wave\/ExpenseTransformer.php.html#27\">App\\Import\\Transformer\\Wave\\ExpenseTransformer::transform<\/a>"],[0,17,"<a href=\"Transformer\/Wave\/InvoiceTransformer.php.html#29\">App\\Import\\Transformer\\Wave\\InvoiceTransformer::transform<\/a>"],[0,4,"<a href=\"Transformer\/Wave\/VendorTransformer.php.html#29\">App\\Import\\Transformer\\Wave\\VendorTransformer::transform<\/a>"],[0,9,"<a href=\"Transformer\/Zoho\/ClientTransformer.php.html#29\">App\\Import\\Transformer\\Zoho\\ClientTransformer::transform<\/a>"],[0,8,"<a href=\"Transformer\/Zoho\/InvoiceTransformer.php.html#29\">App\\Import\\Transformer\\Zoho\\InvoiceTransformer::transform<\/a>"],[0,6,"<a href=\"Transformer\/Zoho\/InvoiceTransformer.php.html#86\">App\\Import\\Transformer\\Zoho\\InvoiceTransformer::harvestClient<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

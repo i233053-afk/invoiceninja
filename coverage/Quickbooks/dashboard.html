@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Services/Quickbooks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/home/amna/sqe_project/invoiceninja/app/Services</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Quickbooks</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#46">App\Services\Quickbooks\Jobs\QuickbooksImport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#23">App\Services\Quickbooks\Models\QbClient</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#25">App\Services\Quickbooks\Models\QbInvoice</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#25">App\Services\Quickbooks\Models\QbPayment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#23">App\Services\Quickbooks\Models\QbProduct</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#25">App\Services\Quickbooks\Models\QbQuote</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#37">App\Services\Quickbooks\QuickbooksService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#21">App\Services\Quickbooks\SdkWrapper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#22">App\Services\Quickbooks\Transformers\BaseTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ClientTransformer.php.html#20">App\Services\Quickbooks\Transformers\ClientTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#22">App\Services\Quickbooks\Transformers\ExpenseTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#25">App\Services\Quickbooks\Transformers\InvoiceTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#26">App\Services\Quickbooks\Transformers\PaymentTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ProductTransformer.php.html#18">App\Services\Quickbooks\Transformers\ProductTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#26">App\Services\Quickbooks\Transformers\QuoteTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/VendorTransformer.php.html#18">App\Services\Quickbooks\Transformers\VendorTransformer</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#25">App\Services\Quickbooks\Transformers\InvoiceTransformer</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#25">App\Services\Quickbooks\Models\QbInvoice</a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#25">App\Services\Quickbooks\Models\QbQuote</a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#26">App\Services\Quickbooks\Transformers\QuoteTransformer</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#26">App\Services\Quickbooks\Transformers\PaymentTransformer</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#21">App\Services\Quickbooks\SdkWrapper</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#23">App\Services\Quickbooks\Models\QbClient</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#37">App\Services\Quickbooks\QuickbooksService</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#23">App\Services\Quickbooks\Models\QbProduct</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#22">App\Services\Quickbooks\Transformers\BaseTransformer</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#46">App\Services\Quickbooks\Jobs\QuickbooksImport</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#22">App\Services\Quickbooks\Transformers\ExpenseTransformer</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#25">App\Services\Quickbooks\Models\QbPayment</a></td><td class="text-right">56</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#71"><abbr title="App\Services\Quickbooks\Jobs\QuickbooksImport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#78"><abbr title="App\Services\Quickbooks\Jobs\QuickbooksImport::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#108"><abbr title="App\Services\Quickbooks\Jobs\QuickbooksImport::processEntitySync">processEntitySync</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#235"><abbr title="App\Services\Quickbooks\Jobs\QuickbooksImport::middleware">middleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#240"><abbr title="App\Services\Quickbooks\Jobs\QuickbooksImport::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#25"><abbr title="App\Services\Quickbooks\Models\QbClient::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#29"><abbr title="App\Services\Quickbooks\Models\QbClient::find">find</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#34"><abbr title="App\Services\Quickbooks\Models\QbClient::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#81"><abbr title="App\Services\Quickbooks\Models\QbClient::importToNinja">importToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#114"><abbr title="App\Services\Quickbooks\Models\QbClient::syncToForeign">syncToForeign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#118"><abbr title="App\Services\Quickbooks\Models\QbClient::sync">sync</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#123"><abbr title="App\Services\Quickbooks\Models\QbClient::findClient">findClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#31"><abbr title="App\Services\Quickbooks\Models\QbInvoice::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#37"><abbr title="App\Services\Quickbooks\Models\QbInvoice::find">find</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#42"><abbr title="App\Services\Quickbooks\Models\QbInvoice::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#53"><abbr title="App\Services\Quickbooks\Models\QbInvoice::importToNinja">importToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#102"><abbr title="App\Services\Quickbooks\Models\QbInvoice::syncToForeign">syncToForeign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#107"><abbr title="App\Services\Quickbooks\Models\QbInvoice::qbInvoiceUpdate">qbInvoiceUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#123"><abbr title="App\Services\Quickbooks\Models\QbInvoice::findInvoice">findInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#147"><abbr title="App\Services\Quickbooks\Models\QbInvoice::sync">sync</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#183"><abbr title="App\Services\Quickbooks\Models\QbInvoice::syncNinjaInvoice">syncNinjaInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#246"><abbr title="App\Services\Quickbooks\Models\QbInvoice::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#27"><abbr title="App\Services\Quickbooks\Models\QbPayment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#31"><abbr title="App\Services\Quickbooks\Models\QbPayment::find">find</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#36"><abbr title="App\Services\Quickbooks\Models\QbPayment::importToNinja">importToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#54"><abbr title="App\Services\Quickbooks\Models\QbPayment::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#63"><abbr title="App\Services\Quickbooks\Models\QbPayment::syncToForeign">syncToForeign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#27"><abbr title="App\Services\Quickbooks\Models\QbProduct::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#34"><abbr title="App\Services\Quickbooks\Models\QbProduct::find">find</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#39"><abbr title="App\Services\Quickbooks\Models\QbProduct::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#54"><abbr title="App\Services\Quickbooks\Models\QbProduct::syncToForeign">syncToForeign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#58"><abbr title="App\Services\Quickbooks\Models\QbProduct::findProduct">findProduct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#83"><abbr title="App\Services\Quickbooks\Models\QbProduct::sync">sync</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#31"><abbr title="App\Services\Quickbooks\Models\QbQuote::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#37"><abbr title="App\Services\Quickbooks\Models\QbQuote::find">find</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#42"><abbr title="App\Services\Quickbooks\Models\QbQuote::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#53"><abbr title="App\Services\Quickbooks\Models\QbQuote::importToNinja">importToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#94"><abbr title="App\Services\Quickbooks\Models\QbQuote::syncToForeign">syncToForeign</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#99"><abbr title="App\Services\Quickbooks\Models\QbQuote::qbQuoteUpdate">qbQuoteUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#115"><abbr title="App\Services\Quickbooks\Models\QbQuote::findQuote">findQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#139"><abbr title="App\Services\Quickbooks\Models\QbQuote::sync">sync</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#175"><abbr title="App\Services\Quickbooks\Models\QbQuote::syncNinjaQuote">syncNinjaQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#238"><abbr title="App\Services\Quickbooks\Models\QbQuote::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#57"><abbr title="App\Services\Quickbooks\QuickbooksService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#62"><abbr title="App\Services\Quickbooks\QuickbooksService::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#134"><abbr title="App\Services\Quickbooks\QuickbooksService::checkToken">checkToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#155"><abbr title="App\Services\Quickbooks\QuickbooksService::ninjaAccessToken">ninjaAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#164"><abbr title="App\Services\Quickbooks\QuickbooksService::sdk">sdk</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#174"><abbr title="App\Services\Quickbooks\QuickbooksService::syncFromQb">syncFromQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#179"><abbr title="App\Services\Quickbooks\QuickbooksService::findEntityById">findEntityById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#184"><abbr title="App\Services\Quickbooks\QuickbooksService::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#196"><abbr title="App\Services\Quickbooks\QuickbooksService::syncable">syncable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#29"><abbr title="App\Services\Quickbooks\SdkWrapper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#34"><abbr title="App\Services\Quickbooks\SdkWrapper::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#43"><abbr title="App\Services\Quickbooks\SdkWrapper::getAuthorizationUrl">getAuthorizationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#48"><abbr title="App\Services\Quickbooks\SdkWrapper::getState">getState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#53"><abbr title="App\Services\Quickbooks\SdkWrapper::getRefreshToken">getRefreshToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#58"><abbr title="App\Services\Quickbooks\SdkWrapper::company">company</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#75"><abbr title="App\Services\Quickbooks\SdkWrapper::accessTokenFromCode">accessTokenFromCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#90"><abbr title="App\Services\Quickbooks\SdkWrapper::setNinjaAccessToken">setNinjaAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#116"><abbr title="App\Services\Quickbooks\SdkWrapper::refreshToken">refreshToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#132"><abbr title="App\Services\Quickbooks\SdkWrapper::setAccessToken">setAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#139"><abbr title="App\Services\Quickbooks\SdkWrapper::accessToken">accessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#144"><abbr title="App\Services\Quickbooks\SdkWrapper::saveOAuthToken">saveOAuthToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#162"><abbr title="App\Services\Quickbooks\SdkWrapper::totalRecords">totalRecords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#167"><abbr title="App\Services\Quickbooks\SdkWrapper::queryData">queryData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#172"><abbr title="App\Services\Quickbooks\SdkWrapper::fetchById">fetchById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#177"><abbr title="App\Services\Quickbooks\SdkWrapper::fetchRecords">fetchRecords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#24"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#28"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::resolveCountry">resolveCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#40"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::resolveCurrency">resolveCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#53"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getShipAddrCountry">getShipAddrCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#58"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getBillAddrCountry">getBillAddrCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#63"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getClientId">getClientId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#75"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getVendorId">getVendorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ClientTransformer.php.html#22"><abbr title="App\Services\Quickbooks\Transformers\ClientTransformer::qbToNinja">qbToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ClientTransformer.php.html#27"><abbr title="App\Services\Quickbooks\Transformers\ClientTransformer::ninjaToQb">ninjaToQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ClientTransformer.php.html#31"><abbr title="App\Services\Quickbooks\Transformers\ClientTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#24"><abbr title="App\Services\Quickbooks\Transformers\ExpenseTransformer::qbToNinja">qbToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#29"><abbr title="App\Services\Quickbooks\Transformers\ExpenseTransformer::ninjaToQb">ninjaToQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#33"><abbr title="App\Services\Quickbooks\Transformers\ExpenseTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#62"><abbr title="App\Services\Quickbooks\Transformers\ExpenseTransformer::resolveAttachedEntity">resolveAttachedEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#79"><abbr title="App\Services\Quickbooks\Transformers\ExpenseTransformer::getCategoryId">getCategoryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#27"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::qbToNinja">qbToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#32"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::ninjaToQb">ninjaToQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#36"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#62"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::checkIfDiscountAfterTax">checkIfDiscountAfterTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#85"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::calculateTotalTax">calculateTotalTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#137"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::getPayments">getPayments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#157"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::getLineItems">getLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#28"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::qbToNinja">qbToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#33"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::ninjaToQb">ninjaToQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#37"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#52"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::associatePaymentToInvoice">associatePaymentToInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#94"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::buildPayment">buildPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#138"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::createCredit">createCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#185"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::getLine">getLine</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ProductTransformer.php.html#20"><abbr title="App\Services\Quickbooks\Transformers\ProductTransformer::qbToNinja">qbToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ProductTransformer.php.html#25"><abbr title="App\Services\Quickbooks\Transformers\ProductTransformer::ninjaToQb">ninjaToQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/ProductTransformer.php.html#30"><abbr title="App\Services\Quickbooks\Transformers\ProductTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#28"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::qbToNinja">qbToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#33"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::ninjaToQb">ninjaToQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#37"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#58"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::checkIfDiscountAfterTax">checkIfDiscountAfterTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#81"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::calculateTotalTax">calculateTotalTax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#153"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::getLineItems">getLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/VendorTransformer.php.html#20"><abbr title="App\Services\Quickbooks\Transformers\VendorTransformer::qbToNinja">qbToNinja</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/VendorTransformer.php.html#25"><abbr title="App\Services\Quickbooks\Transformers\VendorTransformer::ninjaToQb">ninjaToQb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transformers/VendorTransformer.php.html#29"><abbr title="App\Services\Quickbooks\Transformers\VendorTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#157"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::getLineItems">getLineItems</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#153"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::getLineItems">getLineItems</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#52"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::associatePaymentToInvoice">associatePaymentToInvoice</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#34"><abbr title="App\Services\Quickbooks\Models\QbClient::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#53"><abbr title="App\Services\Quickbooks\Models\QbInvoice::importToNinja">importToNinja</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#108"><abbr title="App\Services\Quickbooks\Jobs\QuickbooksImport::processEntitySync">processEntitySync</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#147"><abbr title="App\Services\Quickbooks\Models\QbInvoice::sync">sync</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#183"><abbr title="App\Services\Quickbooks\Models\QbInvoice::syncNinjaInvoice">syncNinjaInvoice</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#53"><abbr title="App\Services\Quickbooks\Models\QbQuote::importToNinja">importToNinja</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#139"><abbr title="App\Services\Quickbooks\Models\QbQuote::sync">sync</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#175"><abbr title="App\Services\Quickbooks\Models\QbQuote::syncNinjaQuote">syncNinjaQuote</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#134"><abbr title="App\Services\Quickbooks\QuickbooksService::checkToken">checkToken</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#85"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::calculateTotalTax">calculateTotalTax</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#81"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::calculateTotalTax">calculateTotalTax</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#81"><abbr title="App\Services\Quickbooks\Models\QbClient::importToNinja">importToNinja</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#177"><abbr title="App\Services\Quickbooks\SdkWrapper::fetchRecords">fetchRecords</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#62"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::checkIfDiscountAfterTax">checkIfDiscountAfterTax</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#137"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::getPayments">getPayments</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#58"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::checkIfDiscountAfterTax">checkIfDiscountAfterTax</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Models/QbClient.php.html#123"><abbr title="App\Services\Quickbooks\Models\QbClient::findClient">findClient</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#123"><abbr title="App\Services\Quickbooks\Models\QbInvoice::findInvoice">findInvoice</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#58"><abbr title="App\Services\Quickbooks\Models\QbProduct::findProduct">findProduct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#83"><abbr title="App\Services\Quickbooks\Models\QbProduct::sync">sync</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#115"><abbr title="App\Services\Quickbooks\Models\QbQuote::findQuote">findQuote</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#62"><abbr title="App\Services\Quickbooks\Transformers\ExpenseTransformer::resolveAttachedEntity">resolveAttachedEntity</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#94"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::buildPayment">buildPayment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#138"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::createCredit">createCredit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Transformers/PaymentTransformer.php.html#185"><abbr title="App\Services\Quickbooks\Transformers\PaymentTransformer::getLine">getLine</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Jobs/QuickbooksImport.php.html#78"><abbr title="App\Services\Quickbooks\Jobs\QuickbooksImport::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#246"><abbr title="App\Services\Quickbooks\Models\QbInvoice::delete">delete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/QbProduct.php.html#39"><abbr title="App\Services\Quickbooks\Models\QbProduct::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#238"><abbr title="App\Services\Quickbooks\Models\QbQuote::delete">delete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#62"><abbr title="App\Services\Quickbooks\QuickbooksService::init">init</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#196"><abbr title="App\Services\Quickbooks\QuickbooksService::syncable">syncable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SdkWrapper.php.html#90"><abbr title="App\Services\Quickbooks\SdkWrapper::setNinjaAccessToken">setNinjaAccessToken</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#28"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::resolveCountry">resolveCountry</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Transformers/ExpenseTransformer.php.html#79"><abbr title="App\Services\Quickbooks\Transformers\ExpenseTransformer::getCategoryId">getCategoryId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#42"><abbr title="App\Services\Quickbooks\Models\QbInvoice::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/QbInvoice.php.html#107"><abbr title="App\Services\Quickbooks\Models\QbInvoice::qbInvoiceUpdate">qbInvoiceUpdate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#36"><abbr title="App\Services\Quickbooks\Models\QbPayment::importToNinja">importToNinja</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/QbPayment.php.html#54"><abbr title="App\Services\Quickbooks\Models\QbPayment::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#42"><abbr title="App\Services\Quickbooks\Models\QbQuote::syncToNinja">syncToNinja</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/QbQuote.php.html#99"><abbr title="App\Services\Quickbooks\Models\QbQuote::qbQuoteUpdate">qbQuoteUpdate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QuickbooksService.php.html#155"><abbr title="App\Services\Quickbooks\QuickbooksService::ninjaAccessToken">ninjaAccessToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#40"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::resolveCurrency">resolveCurrency</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#53"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getShipAddrCountry">getShipAddrCountry</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#58"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getBillAddrCountry">getBillAddrCountry</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#63"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getClientId">getClientId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformers/BaseTransformer.php.html#75"><abbr title="App\Services\Quickbooks\Transformers\BaseTransformer::getVendorId">getVendorId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformers/InvoiceTransformer.php.html#36"><abbr title="App\Services\Quickbooks\Transformers\InvoiceTransformer::transform">transform</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Transformers/QuoteTransformer.php.html#37"><abbr title="App\Services\Quickbooks\Transformers\QuoteTransformer::transform">transform</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Nov 29 18:35:59 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([16,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([109,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,12,"<a href=\"Jobs\/QuickbooksImport.php.html#46\">App\\Services\\Quickbooks\\Jobs\\QuickbooksImport<\/a>"],[0,20,"<a href=\"Models\/QbClient.php.html#23\">App\\Services\\Quickbooks\\Models\\QbClient<\/a>"],[0,33,"<a href=\"Models\/QbInvoice.php.html#25\">App\\Services\\Quickbooks\\Models\\QbInvoice<\/a>"],[0,7,"<a href=\"Models\/QbPayment.php.html#25\">App\\Services\\Quickbooks\\Models\\QbPayment<\/a>"],[0,14,"<a href=\"Models\/QbProduct.php.html#23\">App\\Services\\Quickbooks\\Models\\QbProduct<\/a>"],[0,32,"<a href=\"Models\/QbQuote.php.html#25\">App\\Services\\Quickbooks\\Models\\QbQuote<\/a>"],[0,19,"<a href=\"QuickbooksService.php.html#37\">App\\Services\\Quickbooks\\QuickbooksService<\/a>"],[0,22,"<a href=\"SdkWrapper.php.html#21\">App\\Services\\Quickbooks\\SdkWrapper<\/a>"],[0,14,"<a href=\"Transformers\/BaseTransformer.php.html#22\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer<\/a>"],[0,3,"<a href=\"Transformers\/ClientTransformer.php.html#20\">App\\Services\\Quickbooks\\Transformers\\ClientTransformer<\/a>"],[0,10,"<a href=\"Transformers\/ExpenseTransformer.php.html#22\">App\\Services\\Quickbooks\\Transformers\\ExpenseTransformer<\/a>"],[0,35,"<a href=\"Transformers\/InvoiceTransformer.php.html#25\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer<\/a>"],[0,23,"<a href=\"Transformers\/PaymentTransformer.php.html#26\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer<\/a>"],[0,3,"<a href=\"Transformers\/ProductTransformer.php.html#18\">App\\Services\\Quickbooks\\Transformers\\ProductTransformer<\/a>"],[0,30,"<a href=\"Transformers\/QuoteTransformer.php.html#26\">App\\Services\\Quickbooks\\Transformers\\QuoteTransformer<\/a>"],[0,3,"<a href=\"Transformers\/VendorTransformer.php.html#18\">App\\Services\\Quickbooks\\Transformers\\VendorTransformer<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Jobs\/QuickbooksImport.php.html#71\">App\\Services\\Quickbooks\\Jobs\\QuickbooksImport::__construct<\/a>"],[0,3,"<a href=\"Jobs\/QuickbooksImport.php.html#78\">App\\Services\\Quickbooks\\Jobs\\QuickbooksImport::handle<\/a>"],[0,6,"<a href=\"Jobs\/QuickbooksImport.php.html#108\">App\\Services\\Quickbooks\\Jobs\\QuickbooksImport::processEntitySync<\/a>"],[0,1,"<a href=\"Jobs\/QuickbooksImport.php.html#235\">App\\Services\\Quickbooks\\Jobs\\QuickbooksImport::middleware<\/a>"],[0,1,"<a href=\"Jobs\/QuickbooksImport.php.html#240\">App\\Services\\Quickbooks\\Jobs\\QuickbooksImport::failed<\/a>"],[0,1,"<a href=\"Models\/QbClient.php.html#25\">App\\Services\\Quickbooks\\Models\\QbClient::__construct<\/a>"],[0,1,"<a href=\"Models\/QbClient.php.html#29\">App\\Services\\Quickbooks\\Models\\QbClient::find<\/a>"],[0,7,"<a href=\"Models\/QbClient.php.html#34\">App\\Services\\Quickbooks\\Models\\QbClient::syncToNinja<\/a>"],[0,5,"<a href=\"Models\/QbClient.php.html#81\">App\\Services\\Quickbooks\\Models\\QbClient::importToNinja<\/a>"],[0,1,"<a href=\"Models\/QbClient.php.html#114\">App\\Services\\Quickbooks\\Models\\QbClient::syncToForeign<\/a>"],[0,1,"<a href=\"Models\/QbClient.php.html#118\">App\\Services\\Quickbooks\\Models\\QbClient::sync<\/a>"],[0,4,"<a href=\"Models\/QbClient.php.html#123\">App\\Services\\Quickbooks\\Models\\QbClient::findClient<\/a>"],[0,1,"<a href=\"Models\/QbInvoice.php.html#31\">App\\Services\\Quickbooks\\Models\\QbInvoice::__construct<\/a>"],[0,1,"<a href=\"Models\/QbInvoice.php.html#37\">App\\Services\\Quickbooks\\Models\\QbInvoice::find<\/a>"],[0,2,"<a href=\"Models\/QbInvoice.php.html#42\">App\\Services\\Quickbooks\\Models\\QbInvoice::syncToNinja<\/a>"],[0,7,"<a href=\"Models\/QbInvoice.php.html#53\">App\\Services\\Quickbooks\\Models\\QbInvoice::importToNinja<\/a>"],[0,1,"<a href=\"Models\/QbInvoice.php.html#102\">App\\Services\\Quickbooks\\Models\\QbInvoice::syncToForeign<\/a>"],[0,2,"<a href=\"Models\/QbInvoice.php.html#107\">App\\Services\\Quickbooks\\Models\\QbInvoice::qbInvoiceUpdate<\/a>"],[0,4,"<a href=\"Models\/QbInvoice.php.html#123\">App\\Services\\Quickbooks\\Models\\QbInvoice::findInvoice<\/a>"],[0,6,"<a href=\"Models\/QbInvoice.php.html#147\">App\\Services\\Quickbooks\\Models\\QbInvoice::sync<\/a>"],[0,6,"<a href=\"Models\/QbInvoice.php.html#183\">App\\Services\\Quickbooks\\Models\\QbInvoice::syncNinjaInvoice<\/a>"],[0,3,"<a href=\"Models\/QbInvoice.php.html#246\">App\\Services\\Quickbooks\\Models\\QbInvoice::delete<\/a>"],[0,1,"<a href=\"Models\/QbPayment.php.html#27\">App\\Services\\Quickbooks\\Models\\QbPayment::__construct<\/a>"],[0,1,"<a href=\"Models\/QbPayment.php.html#31\">App\\Services\\Quickbooks\\Models\\QbPayment::find<\/a>"],[0,2,"<a href=\"Models\/QbPayment.php.html#36\">App\\Services\\Quickbooks\\Models\\QbPayment::importToNinja<\/a>"],[0,2,"<a href=\"Models\/QbPayment.php.html#54\">App\\Services\\Quickbooks\\Models\\QbPayment::syncToNinja<\/a>"],[0,1,"<a href=\"Models\/QbPayment.php.html#63\">App\\Services\\Quickbooks\\Models\\QbPayment::syncToForeign<\/a>"],[0,1,"<a href=\"Models\/QbProduct.php.html#27\">App\\Services\\Quickbooks\\Models\\QbProduct::__construct<\/a>"],[0,1,"<a href=\"Models\/QbProduct.php.html#34\">App\\Services\\Quickbooks\\Models\\QbProduct::find<\/a>"],[0,3,"<a href=\"Models\/QbProduct.php.html#39\">App\\Services\\Quickbooks\\Models\\QbProduct::syncToNinja<\/a>"],[0,1,"<a href=\"Models\/QbProduct.php.html#54\">App\\Services\\Quickbooks\\Models\\QbProduct::syncToForeign<\/a>"],[0,4,"<a href=\"Models\/QbProduct.php.html#58\">App\\Services\\Quickbooks\\Models\\QbProduct::findProduct<\/a>"],[0,4,"<a href=\"Models\/QbProduct.php.html#83\">App\\Services\\Quickbooks\\Models\\QbProduct::sync<\/a>"],[0,1,"<a href=\"Models\/QbQuote.php.html#31\">App\\Services\\Quickbooks\\Models\\QbQuote::__construct<\/a>"],[0,1,"<a href=\"Models\/QbQuote.php.html#37\">App\\Services\\Quickbooks\\Models\\QbQuote::find<\/a>"],[0,2,"<a href=\"Models\/QbQuote.php.html#42\">App\\Services\\Quickbooks\\Models\\QbQuote::syncToNinja<\/a>"],[0,6,"<a href=\"Models\/QbQuote.php.html#53\">App\\Services\\Quickbooks\\Models\\QbQuote::importToNinja<\/a>"],[0,1,"<a href=\"Models\/QbQuote.php.html#94\">App\\Services\\Quickbooks\\Models\\QbQuote::syncToForeign<\/a>"],[0,2,"<a href=\"Models\/QbQuote.php.html#99\">App\\Services\\Quickbooks\\Models\\QbQuote::qbQuoteUpdate<\/a>"],[0,4,"<a href=\"Models\/QbQuote.php.html#115\">App\\Services\\Quickbooks\\Models\\QbQuote::findQuote<\/a>"],[0,6,"<a href=\"Models\/QbQuote.php.html#139\">App\\Services\\Quickbooks\\Models\\QbQuote::sync<\/a>"],[0,6,"<a href=\"Models\/QbQuote.php.html#175\">App\\Services\\Quickbooks\\Models\\QbQuote::syncNinjaQuote<\/a>"],[0,3,"<a href=\"Models\/QbQuote.php.html#238\">App\\Services\\Quickbooks\\Models\\QbQuote::delete<\/a>"],[0,1,"<a href=\"QuickbooksService.php.html#57\">App\\Services\\Quickbooks\\QuickbooksService::__construct<\/a>"],[0,3,"<a href=\"QuickbooksService.php.html#62\">App\\Services\\Quickbooks\\QuickbooksService::init<\/a>"],[0,6,"<a href=\"QuickbooksService.php.html#134\">App\\Services\\Quickbooks\\QuickbooksService::checkToken<\/a>"],[0,2,"<a href=\"QuickbooksService.php.html#155\">App\\Services\\Quickbooks\\QuickbooksService::ninjaAccessToken<\/a>"],[0,1,"<a href=\"QuickbooksService.php.html#164\">App\\Services\\Quickbooks\\QuickbooksService::sdk<\/a>"],[0,1,"<a href=\"QuickbooksService.php.html#174\">App\\Services\\Quickbooks\\QuickbooksService::syncFromQb<\/a>"],[0,1,"<a href=\"QuickbooksService.php.html#179\">App\\Services\\Quickbooks\\QuickbooksService::findEntityById<\/a>"],[0,1,"<a href=\"QuickbooksService.php.html#184\">App\\Services\\Quickbooks\\QuickbooksService::query<\/a>"],[0,3,"<a href=\"QuickbooksService.php.html#196\">App\\Services\\Quickbooks\\QuickbooksService::syncable<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#29\">App\\Services\\Quickbooks\\SdkWrapper::__construct<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#34\">App\\Services\\Quickbooks\\SdkWrapper::init<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#43\">App\\Services\\Quickbooks\\SdkWrapper::getAuthorizationUrl<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#48\">App\\Services\\Quickbooks\\SdkWrapper::getState<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#53\">App\\Services\\Quickbooks\\SdkWrapper::getRefreshToken<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#58\">App\\Services\\Quickbooks\\SdkWrapper::company<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#75\">App\\Services\\Quickbooks\\SdkWrapper::accessTokenFromCode<\/a>"],[0,3,"<a href=\"SdkWrapper.php.html#90\">App\\Services\\Quickbooks\\SdkWrapper::setNinjaAccessToken<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#116\">App\\Services\\Quickbooks\\SdkWrapper::refreshToken<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#132\">App\\Services\\Quickbooks\\SdkWrapper::setAccessToken<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#139\">App\\Services\\Quickbooks\\SdkWrapper::accessToken<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#144\">App\\Services\\Quickbooks\\SdkWrapper::saveOAuthToken<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#162\">App\\Services\\Quickbooks\\SdkWrapper::totalRecords<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#167\">App\\Services\\Quickbooks\\SdkWrapper::queryData<\/a>"],[0,1,"<a href=\"SdkWrapper.php.html#172\">App\\Services\\Quickbooks\\SdkWrapper::fetchById<\/a>"],[0,5,"<a href=\"SdkWrapper.php.html#177\">App\\Services\\Quickbooks\\SdkWrapper::fetchRecords<\/a>"],[0,1,"<a href=\"Transformers\/BaseTransformer.php.html#24\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer::__construct<\/a>"],[0,3,"<a href=\"Transformers\/BaseTransformer.php.html#28\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer::resolveCountry<\/a>"],[0,2,"<a href=\"Transformers\/BaseTransformer.php.html#40\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer::resolveCurrency<\/a>"],[0,2,"<a href=\"Transformers\/BaseTransformer.php.html#53\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer::getShipAddrCountry<\/a>"],[0,2,"<a href=\"Transformers\/BaseTransformer.php.html#58\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer::getBillAddrCountry<\/a>"],[0,2,"<a href=\"Transformers\/BaseTransformer.php.html#63\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer::getClientId<\/a>"],[0,2,"<a href=\"Transformers\/BaseTransformer.php.html#75\">App\\Services\\Quickbooks\\Transformers\\BaseTransformer::getVendorId<\/a>"],[0,1,"<a href=\"Transformers\/ClientTransformer.php.html#22\">App\\Services\\Quickbooks\\Transformers\\ClientTransformer::qbToNinja<\/a>"],[0,1,"<a href=\"Transformers\/ClientTransformer.php.html#27\">App\\Services\\Quickbooks\\Transformers\\ClientTransformer::ninjaToQb<\/a>"],[0,1,"<a href=\"Transformers\/ClientTransformer.php.html#31\">App\\Services\\Quickbooks\\Transformers\\ClientTransformer::transform<\/a>"],[0,1,"<a href=\"Transformers\/ExpenseTransformer.php.html#24\">App\\Services\\Quickbooks\\Transformers\\ExpenseTransformer::qbToNinja<\/a>"],[0,1,"<a href=\"Transformers\/ExpenseTransformer.php.html#29\">App\\Services\\Quickbooks\\Transformers\\ExpenseTransformer::ninjaToQb<\/a>"],[0,1,"<a href=\"Transformers\/ExpenseTransformer.php.html#33\">App\\Services\\Quickbooks\\Transformers\\ExpenseTransformer::transform<\/a>"],[0,4,"<a href=\"Transformers\/ExpenseTransformer.php.html#62\">App\\Services\\Quickbooks\\Transformers\\ExpenseTransformer::resolveAttachedEntity<\/a>"],[0,3,"<a href=\"Transformers\/ExpenseTransformer.php.html#79\">App\\Services\\Quickbooks\\Transformers\\ExpenseTransformer::getCategoryId<\/a>"],[0,1,"<a href=\"Transformers\/InvoiceTransformer.php.html#27\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer::qbToNinja<\/a>"],[0,1,"<a href=\"Transformers\/InvoiceTransformer.php.html#32\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer::ninjaToQb<\/a>"],[0,2,"<a href=\"Transformers\/InvoiceTransformer.php.html#36\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer::transform<\/a>"],[0,5,"<a href=\"Transformers\/InvoiceTransformer.php.html#62\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer::checkIfDiscountAfterTax<\/a>"],[0,6,"<a href=\"Transformers\/InvoiceTransformer.php.html#85\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer::calculateTotalTax<\/a>"],[0,5,"<a href=\"Transformers\/InvoiceTransformer.php.html#137\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer::getPayments<\/a>"],[0,15,"<a href=\"Transformers\/InvoiceTransformer.php.html#157\">App\\Services\\Quickbooks\\Transformers\\InvoiceTransformer::getLineItems<\/a>"],[0,1,"<a href=\"Transformers\/PaymentTransformer.php.html#28\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer::qbToNinja<\/a>"],[0,1,"<a href=\"Transformers\/PaymentTransformer.php.html#33\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer::ninjaToQb<\/a>"],[0,1,"<a href=\"Transformers\/PaymentTransformer.php.html#37\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer::transform<\/a>"],[0,8,"<a href=\"Transformers\/PaymentTransformer.php.html#52\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer::associatePaymentToInvoice<\/a>"],[0,4,"<a href=\"Transformers\/PaymentTransformer.php.html#94\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer::buildPayment<\/a>"],[0,4,"<a href=\"Transformers\/PaymentTransformer.php.html#138\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer::createCredit<\/a>"],[0,4,"<a href=\"Transformers\/PaymentTransformer.php.html#185\">App\\Services\\Quickbooks\\Transformers\\PaymentTransformer::getLine<\/a>"],[0,1,"<a href=\"Transformers\/ProductTransformer.php.html#20\">App\\Services\\Quickbooks\\Transformers\\ProductTransformer::qbToNinja<\/a>"],[0,1,"<a href=\"Transformers\/ProductTransformer.php.html#25\">App\\Services\\Quickbooks\\Transformers\\ProductTransformer::ninjaToQb<\/a>"],[0,1,"<a href=\"Transformers\/ProductTransformer.php.html#30\">App\\Services\\Quickbooks\\Transformers\\ProductTransformer::transform<\/a>"],[0,1,"<a href=\"Transformers\/QuoteTransformer.php.html#28\">App\\Services\\Quickbooks\\Transformers\\QuoteTransformer::qbToNinja<\/a>"],[0,1,"<a href=\"Transformers\/QuoteTransformer.php.html#33\">App\\Services\\Quickbooks\\Transformers\\QuoteTransformer::ninjaToQb<\/a>"],[0,2,"<a href=\"Transformers\/QuoteTransformer.php.html#37\">App\\Services\\Quickbooks\\Transformers\\QuoteTransformer::transform<\/a>"],[0,5,"<a href=\"Transformers\/QuoteTransformer.php.html#58\">App\\Services\\Quickbooks\\Transformers\\QuoteTransformer::checkIfDiscountAfterTax<\/a>"],[0,6,"<a href=\"Transformers\/QuoteTransformer.php.html#81\">App\\Services\\Quickbooks\\Transformers\\QuoteTransformer::calculateTotalTax<\/a>"],[0,15,"<a href=\"Transformers\/QuoteTransformer.php.html#153\">App\\Services\\Quickbooks\\Transformers\\QuoteTransformer::getLineItems<\/a>"],[0,1,"<a href=\"Transformers\/VendorTransformer.php.html#20\">App\\Services\\Quickbooks\\Transformers\\VendorTransformer::qbToNinja<\/a>"],[0,1,"<a href=\"Transformers\/VendorTransformer.php.html#25\">App\\Services\\Quickbooks\\Transformers\\VendorTransformer::ninjaToQb<\/a>"],[0,1,"<a href=\"Transformers\/VendorTransformer.php.html#29\">App\\Services\\Quickbooks\\Transformers\\VendorTransformer::transform<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

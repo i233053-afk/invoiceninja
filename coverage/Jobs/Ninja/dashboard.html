@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Jobs/Ninja</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Jobs</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Ninja</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AdjustEmailQuota.php.html#28">App\Jobs\Ninja\AdjustEmailQuota</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#27">App\Jobs\Ninja\BankTransactionSync</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckACHStatus.php.html#24">App\Jobs\Ninja\CheckACHStatus</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#29">App\Jobs\Ninja\CheckCompanyData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckDbStatus.php.html#22">App\Jobs\Ninja\CheckDbStatus</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanySizeCheck.php.html#26">App\Jobs\Ninja\CompanySizeCheck</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#29">App\Jobs\Ninja\MailWebhookSync</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueueSize.php.html#24">App\Jobs\Ninja\QueueSize</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundCancelledAccount.php.html#14">App\Jobs\Ninja\RefundCancelledAccount</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#35">App\Jobs\Ninja\SendReminders</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#27">App\Jobs\Ninja\SystemMaintenance</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskScheduler.php.html#25">App\Jobs\Ninja\TaskScheduler</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SendReminders.php.html#35">App\Jobs\Ninja\SendReminders</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#29">App\Jobs\Ninja\CheckCompanyData</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#27">App\Jobs\Ninja\BankTransactionSync</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="CompanySizeCheck.php.html#26">App\Jobs\Ninja\CompanySizeCheck</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="CheckACHStatus.php.html#24">App\Jobs\Ninja\CheckACHStatus</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="AdjustEmailQuota.php.html#28">App\Jobs\Ninja\AdjustEmailQuota</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#29">App\Jobs\Ninja\MailWebhookSync</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="RefundCancelledAccount.php.html#14">App\Jobs\Ninja\RefundCancelledAccount</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#27">App\Jobs\Ninja\SystemMaintenance</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="TaskScheduler.php.html#25">App\Jobs\Ninja\TaskScheduler</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AdjustEmailQuota.php.html#40"><abbr title="App\Jobs\Ninja\AdjustEmailQuota::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdjustEmailQuota.php.html#50"><abbr title="App\Jobs\Ninja\AdjustEmailQuota::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdjustEmailQuota.php.html#64"><abbr title="App\Jobs\Ninja\AdjustEmailQuota::adjust">adjust</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#40"><abbr title="App\Jobs\Ninja\BankTransactionSync::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#50"><abbr title="App\Jobs\Ninja\BankTransactionSync::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#69"><abbr title="App\Jobs\Ninja\BankTransactionSync::processYodlee">processYodlee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#85"><abbr title="App\Jobs\Ninja\BankTransactionSync::processNordigen">processNordigen</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckACHStatus.php.html#37"><abbr title="App\Jobs\Ninja\CheckACHStatus::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckACHStatus.php.html#47"><abbr title="App\Jobs\Ninja\CheckACHStatus::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#49"><abbr title="App\Jobs\Ninja\CheckCompanyData::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#58"><abbr title="App\Jobs\Ninja\CheckCompanyData::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#90"><abbr title="App\Jobs\Ninja\CheckCompanyData::middleware">middleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#95"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkInvoiceBalances">checkInvoiceBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#121"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkInvoicePayments">checkInvoicePayments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#148"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkPaidToDates">checkPaidToDates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#175"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkClientBalances">checkClientBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#204"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkContacts">checkContacts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#272"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkCompanyData">checkCompanyData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#314"><abbr title="App\Jobs\Ninja\CheckCompanyData::pluralizeEntityType">pluralizeEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckDbStatus.php.html#34"><abbr title="App\Jobs\Ninja\CheckDbStatus::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CheckDbStatus.php.html#44"><abbr title="App\Jobs\Ninja\CheckDbStatus::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanySizeCheck.php.html#38"><abbr title="App\Jobs\Ninja\CompanySizeCheck::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanySizeCheck.php.html#48"><abbr title="App\Jobs\Ninja\CompanySizeCheck::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#45"><abbr title="App\Jobs\Ninja\MailWebhookSync::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#55"><abbr title="App\Jobs\Ninja\MailWebhookSync::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#69"><abbr title="App\Jobs\Ninja\MailWebhookSync::scanSentEmails">scanSentEmails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#118"><abbr title="App\Jobs\Ninja\MailWebhookSync::runIterator">runIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#169"><abbr title="App\Jobs\Ninja\MailWebhookSync::middleware">middleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#174"><abbr title="App\Jobs\Ninja\MailWebhookSync::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueueSize.php.html#36"><abbr title="App\Jobs\Ninja\QueueSize::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueueSize.php.html#46"><abbr title="App\Jobs\Ninja\QueueSize::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundCancelledAccount.php.html#28"><abbr title="App\Jobs\Ninja\RefundCancelledAccount::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundCancelledAccount.php.html#38"><abbr title="App\Jobs\Ninja\RefundCancelledAccount::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RefundCancelledAccount.php.html#75"><abbr title="App\Jobs\Ninja\RefundCancelledAccount::calculateRefundAmount">calculateRefundAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#49"><abbr title="App\Jobs\Ninja\SendReminders::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#59"><abbr title="App\Jobs\Ninja\SendReminders::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#75"><abbr title="App\Jobs\Ninja\SendReminders::sendReminderEmails">sendReminderEmails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#99"><abbr title="App\Jobs\Ninja\SendReminders::checkSendSetting">checkSendSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#127"><abbr title="App\Jobs\Ninja\SendReminders::calculateNextSendDate">calculateNextSendDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#186"><abbr title="App\Jobs\Ninja\SendReminders::calculateScheduledDate">calculateScheduledDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#213"><abbr title="App\Jobs\Ninja\SendReminders::sendReminder">sendReminder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#246"><abbr title="App\Jobs\Ninja\SendReminders::calcLateFee">calcLateFee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendReminders.php.html#286"><abbr title="App\Jobs\Ninja\SendReminders::setLateFee">setLateFee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#39"><abbr title="App\Jobs\Ninja\SystemMaintenance::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#49"><abbr title="App\Jobs\Ninja\SystemMaintenance::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#68"><abbr title="App\Jobs\Ninja\SystemMaintenance::maintainPdfs">maintainPdfs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#105"><abbr title="App\Jobs\Ninja\SystemMaintenance::maintainBackups">maintainBackups</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskScheduler.php.html#39"><abbr title="App\Jobs\Ninja\TaskScheduler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskScheduler.php.html#48"><abbr title="App\Jobs\Ninja\TaskScheduler::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SendReminders.php.html#127"><abbr title="App\Jobs\Ninja\SendReminders::calculateNextSendDate">calculateNextSendDate</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="CompanySizeCheck.php.html#48"><abbr title="App\Jobs\Ninja\CompanySizeCheck::handle">handle</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="CheckACHStatus.php.html#47"><abbr title="App\Jobs\Ninja\CheckACHStatus::handle">handle</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="AdjustEmailQuota.php.html#64"><abbr title="App\Jobs\Ninja\AdjustEmailQuota::adjust">adjust</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#85"><abbr title="App\Jobs\Ninja\BankTransactionSync::processNordigen">processNordigen</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="RefundCancelledAccount.php.html#38"><abbr title="App\Jobs\Ninja\RefundCancelledAccount::handle">handle</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SendReminders.php.html#99"><abbr title="App\Jobs\Ninja\SendReminders::checkSendSetting">checkSendSetting</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SendReminders.php.html#246"><abbr title="App\Jobs\Ninja\SendReminders::calcLateFee">calcLateFee</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#272"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkCompanyData">checkCompanyData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SendReminders.php.html#186"><abbr title="App\Jobs\Ninja\SendReminders::calculateScheduledDate">calculateScheduledDate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TaskScheduler.php.html#48"><abbr title="App\Jobs\Ninja\TaskScheduler::handle">handle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#95"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkInvoiceBalances">checkInvoiceBalances</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#175"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkClientBalances">checkClientBalances</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#204"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkContacts">checkContacts</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#118"><abbr title="App\Jobs\Ninja\MailWebhookSync::runIterator">runIterator</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SendReminders.php.html#213"><abbr title="App\Jobs\Ninja\SendReminders::sendReminder">sendReminder</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SendReminders.php.html#286"><abbr title="App\Jobs\Ninja\SendReminders::setLateFee">setLateFee</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AdjustEmailQuota.php.html#50"><abbr title="App\Jobs\Ninja\AdjustEmailQuota::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#50"><abbr title="App\Jobs\Ninja\BankTransactionSync::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BankTransactionSync.php.html#69"><abbr title="App\Jobs\Ninja\BankTransactionSync::processYodlee">processYodlee</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#58"><abbr title="App\Jobs\Ninja\CheckCompanyData::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#148"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkPaidToDates">checkPaidToDates</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MailWebhookSync.php.html#55"><abbr title="App\Jobs\Ninja\MailWebhookSync::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SendReminders.php.html#59"><abbr title="App\Jobs\Ninja\SendReminders::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#105"><abbr title="App\Jobs\Ninja\SystemMaintenance::maintainBackups">maintainBackups</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#121"><abbr title="App\Jobs\Ninja\CheckCompanyData::checkInvoicePayments">checkInvoicePayments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CheckCompanyData.php.html#314"><abbr title="App\Jobs\Ninja\CheckCompanyData::pluralizeEntityType">pluralizeEntityType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SendReminders.php.html#75"><abbr title="App\Jobs\Ninja\SendReminders::sendReminderEmails">sendReminderEmails</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SystemMaintenance.php.html#68"><abbr title="App\Jobs\Ninja\SystemMaintenance::maintainPdfs">maintainPdfs</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([49,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,11,"<a href=\"AdjustEmailQuota.php.html#28\">App\\Jobs\\Ninja\\AdjustEmailQuota<\/a>"],[0,14,"<a href=\"BankTransactionSync.php.html#27\">App\\Jobs\\Ninja\\BankTransactionSync<\/a>"],[0,12,"<a href=\"CheckACHStatus.php.html#24\">App\\Jobs\\Ninja\\CheckACHStatus<\/a>"],[0,29,"<a href=\"CheckCompanyData.php.html#29\">App\\Jobs\\Ninja\\CheckCompanyData<\/a>"],[0,2,"<a href=\"CheckDbStatus.php.html#22\">App\\Jobs\\Ninja\\CheckDbStatus<\/a>"],[0,13,"<a href=\"CompanySizeCheck.php.html#26\">App\\Jobs\\Ninja\\CompanySizeCheck<\/a>"],[0,11,"<a href=\"MailWebhookSync.php.html#29\">App\\Jobs\\Ninja\\MailWebhookSync<\/a>"],[0,2,"<a href=\"QueueSize.php.html#24\">App\\Jobs\\Ninja\\QueueSize<\/a>"],[0,8,"<a href=\"RefundCancelledAccount.php.html#14\">App\\Jobs\\Ninja\\RefundCancelledAccount<\/a>"],[0,48,"<a href=\"SendReminders.php.html#35\">App\\Jobs\\Ninja\\SendReminders<\/a>"],[0,7,"<a href=\"SystemMaintenance.php.html#27\">App\\Jobs\\Ninja\\SystemMaintenance<\/a>"],[0,6,"<a href=\"TaskScheduler.php.html#25\">App\\Jobs\\Ninja\\TaskScheduler<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AdjustEmailQuota.php.html#40\">App\\Jobs\\Ninja\\AdjustEmailQuota::__construct<\/a>"],[0,3,"<a href=\"AdjustEmailQuota.php.html#50\">App\\Jobs\\Ninja\\AdjustEmailQuota::handle<\/a>"],[0,7,"<a href=\"AdjustEmailQuota.php.html#64\">App\\Jobs\\Ninja\\AdjustEmailQuota::adjust<\/a>"],[0,1,"<a href=\"BankTransactionSync.php.html#40\">App\\Jobs\\Ninja\\BankTransactionSync::__construct<\/a>"],[0,3,"<a href=\"BankTransactionSync.php.html#50\">App\\Jobs\\Ninja\\BankTransactionSync::handle<\/a>"],[0,3,"<a href=\"BankTransactionSync.php.html#69\">App\\Jobs\\Ninja\\BankTransactionSync::processYodlee<\/a>"],[0,7,"<a href=\"BankTransactionSync.php.html#85\">App\\Jobs\\Ninja\\BankTransactionSync::processNordigen<\/a>"],[0,1,"<a href=\"CheckACHStatus.php.html#37\">App\\Jobs\\Ninja\\CheckACHStatus::__construct<\/a>"],[0,11,"<a href=\"CheckACHStatus.php.html#47\">App\\Jobs\\Ninja\\CheckACHStatus::handle<\/a>"],[0,1,"<a href=\"CheckCompanyData.php.html#49\">App\\Jobs\\Ninja\\CheckCompanyData::__construct<\/a>"],[0,3,"<a href=\"CheckCompanyData.php.html#58\">App\\Jobs\\Ninja\\CheckCompanyData::handle<\/a>"],[0,1,"<a href=\"CheckCompanyData.php.html#90\">App\\Jobs\\Ninja\\CheckCompanyData::middleware<\/a>"],[0,4,"<a href=\"CheckCompanyData.php.html#95\">App\\Jobs\\Ninja\\CheckCompanyData::checkInvoiceBalances<\/a>"],[0,2,"<a href=\"CheckCompanyData.php.html#121\">App\\Jobs\\Ninja\\CheckCompanyData::checkInvoicePayments<\/a>"],[0,3,"<a href=\"CheckCompanyData.php.html#148\">App\\Jobs\\Ninja\\CheckCompanyData::checkPaidToDates<\/a>"],[0,4,"<a href=\"CheckCompanyData.php.html#175\">App\\Jobs\\Ninja\\CheckCompanyData::checkClientBalances<\/a>"],[0,4,"<a href=\"CheckCompanyData.php.html#204\">App\\Jobs\\Ninja\\CheckCompanyData::checkContacts<\/a>"],[0,5,"<a href=\"CheckCompanyData.php.html#272\">App\\Jobs\\Ninja\\CheckCompanyData::checkCompanyData<\/a>"],[0,2,"<a href=\"CheckCompanyData.php.html#314\">App\\Jobs\\Ninja\\CheckCompanyData::pluralizeEntityType<\/a>"],[0,1,"<a href=\"CheckDbStatus.php.html#34\">App\\Jobs\\Ninja\\CheckDbStatus::__construct<\/a>"],[0,1,"<a href=\"CheckDbStatus.php.html#44\">App\\Jobs\\Ninja\\CheckDbStatus::handle<\/a>"],[0,1,"<a href=\"CompanySizeCheck.php.html#38\">App\\Jobs\\Ninja\\CompanySizeCheck::__construct<\/a>"],[0,12,"<a href=\"CompanySizeCheck.php.html#48\">App\\Jobs\\Ninja\\CompanySizeCheck::handle<\/a>"],[0,1,"<a href=\"MailWebhookSync.php.html#45\">App\\Jobs\\Ninja\\MailWebhookSync::__construct<\/a>"],[0,3,"<a href=\"MailWebhookSync.php.html#55\">App\\Jobs\\Ninja\\MailWebhookSync::handle<\/a>"],[0,1,"<a href=\"MailWebhookSync.php.html#69\">App\\Jobs\\Ninja\\MailWebhookSync::scanSentEmails<\/a>"],[0,4,"<a href=\"MailWebhookSync.php.html#118\">App\\Jobs\\Ninja\\MailWebhookSync::runIterator<\/a>"],[0,1,"<a href=\"MailWebhookSync.php.html#169\">App\\Jobs\\Ninja\\MailWebhookSync::middleware<\/a>"],[0,1,"<a href=\"MailWebhookSync.php.html#174\">App\\Jobs\\Ninja\\MailWebhookSync::failed<\/a>"],[0,1,"<a href=\"QueueSize.php.html#36\">App\\Jobs\\Ninja\\QueueSize::__construct<\/a>"],[0,1,"<a href=\"QueueSize.php.html#46\">App\\Jobs\\Ninja\\QueueSize::handle<\/a>"],[0,1,"<a href=\"RefundCancelledAccount.php.html#28\">App\\Jobs\\Ninja\\RefundCancelledAccount::__construct<\/a>"],[0,6,"<a href=\"RefundCancelledAccount.php.html#38\">App\\Jobs\\Ninja\\RefundCancelledAccount::handle<\/a>"],[0,1,"<a href=\"RefundCancelledAccount.php.html#75\">App\\Jobs\\Ninja\\RefundCancelledAccount::calculateRefundAmount<\/a>"],[0,1,"<a href=\"SendReminders.php.html#49\">App\\Jobs\\Ninja\\SendReminders::__construct<\/a>"],[0,3,"<a href=\"SendReminders.php.html#59\">App\\Jobs\\Ninja\\SendReminders::handle<\/a>"],[0,2,"<a href=\"SendReminders.php.html#75\">App\\Jobs\\Ninja\\SendReminders::sendReminderEmails<\/a>"],[0,6,"<a href=\"SendReminders.php.html#99\">App\\Jobs\\Ninja\\SendReminders::checkSendSetting<\/a>"],[0,17,"<a href=\"SendReminders.php.html#127\">App\\Jobs\\Ninja\\SendReminders::calculateNextSendDate<\/a>"],[0,5,"<a href=\"SendReminders.php.html#186\">App\\Jobs\\Ninja\\SendReminders::calculateScheduledDate<\/a>"],[0,4,"<a href=\"SendReminders.php.html#213\">App\\Jobs\\Ninja\\SendReminders::sendReminder<\/a>"],[0,6,"<a href=\"SendReminders.php.html#246\">App\\Jobs\\Ninja\\SendReminders::calcLateFee<\/a>"],[0,4,"<a href=\"SendReminders.php.html#286\">App\\Jobs\\Ninja\\SendReminders::setLateFee<\/a>"],[0,1,"<a href=\"SystemMaintenance.php.html#39\">App\\Jobs\\Ninja\\SystemMaintenance::__construct<\/a>"],[0,1,"<a href=\"SystemMaintenance.php.html#49\">App\\Jobs\\Ninja\\SystemMaintenance::handle<\/a>"],[0,2,"<a href=\"SystemMaintenance.php.html#68\">App\\Jobs\\Ninja\\SystemMaintenance::maintainPdfs<\/a>"],[0,3,"<a href=\"SystemMaintenance.php.html#105\">App\\Jobs\\Ninja\\SystemMaintenance::maintainBackups<\/a>"],[0,1,"<a href=\"TaskScheduler.php.html#39\">App\\Jobs\\Ninja\\TaskScheduler::__construct<\/a>"],[0,5,"<a href=\"TaskScheduler.php.html#48\">App\\Jobs\\Ninja\\TaskScheduler::handle<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

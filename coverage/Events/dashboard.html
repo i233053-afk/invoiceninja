@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Events</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Events</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Account/AccountCreated.php.html#24">App\Events\Account\AccountCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Account/AccountDeleted.php.html#24">App\Events\Account\AccountDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Account/StripeConnectFailure.php.html#23">App\Events\Account\StripeConnectFailure</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasArchived.php.html#31">App\Events\Client\ClientWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasCreated.php.html#22">App\Events\Client\ClientWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasDeleted.php.html#22">App\Events\Client\ClientWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasMerged.php.html#22">App\Events\Client\ClientWasMerged</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasPurged.php.html#22">App\Events\Client\ClientWasPurged</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasRestored.php.html#22">App\Events\Client\ClientWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasUpdated.php.html#22">App\Events\Client\ClientWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Company/CompanyDocumentsDeleted.php.html#21">App\Events\Company\CompanyDocumentsDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact/ContactLoggedIn.php.html#25">App\Events\Contact\ContactLoggedIn</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasArchived.php.html#21">App\Events\Credit\CreditWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasCreated.php.html#24">App\Events\Credit\CreditWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasDeleted.php.html#21">App\Events\Credit\CreditWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasEmailed.php.html#21">App\Events\Credit\CreditWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasEmailedAndFailed.php.html#20">App\Events\Credit\CreditWasEmailedAndFailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasMarkedSent.php.html#22">App\Events\Credit\CreditWasMarkedSent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasRestored.php.html#22">App\Events\Credit\CreditWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasUpdated.php.html#24">App\Events\Credit\CreditWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasViewed.php.html#22">App\Events\Credit\CreditWasViewed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasArchived.php.html#25">App\Events\Design\DesignWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasCreated.php.html#23">App\Events\Design\DesignWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasDeleted.php.html#23">App\Events\Design\DesignWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasRestored.php.html#23">App\Events\Design\DesignWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasUpdated.php.html#23">App\Events\Design\DesignWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasArchived.php.html#25">App\Events\Document\DocumentWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasCreated.php.html#22">App\Events\Document\DocumentWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasDeleted.php.html#22">App\Events\Document\DocumentWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasRestored.php.html#22">App\Events\Document\DocumentWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasUpdated.php.html#22">App\Events\Document\DocumentWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasArchived.php.html#22">App\Events\Expense\ExpenseWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasCreated.php.html#22">App\Events\Expense\ExpenseWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasDeleted.php.html#22">App\Events\Expense\ExpenseWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasRestored.php.html#22">App\Events\Expense\ExpenseWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasUpdated.php.html#22">App\Events\Expense\ExpenseWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="General/EntityWasEmailed.php.html#21">App\Events\General\EntityWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="General/GenericMessage.php.html#19">App\Events\General\GenericMessage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceAutoBillFailed.php.html#22">App\Events\Invoice\InvoiceAutoBillFailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceAutoBillSuccess.php.html#22">App\Events\Invoice\InvoiceAutoBillSuccess</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceReminderWasEmailed.php.html#22">App\Events\Invoice\InvoiceReminderWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasArchived.php.html#22">App\Events\Invoice\InvoiceWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasCancelled.php.html#22">App\Events\Invoice\InvoiceWasCancelled</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasCreated.php.html#26">App\Events\Invoice\InvoiceWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasDeleted.php.html#22">App\Events\Invoice\InvoiceWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasEmailed.php.html#22">App\Events\Invoice\InvoiceWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasEmailedAndFailed.php.html#21">App\Events\Invoice\InvoiceWasEmailedAndFailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasMarkedSent.php.html#22">App\Events\Invoice\InvoiceWasMarkedSent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasPaid.php.html#27">App\Events\Invoice\InvoiceWasPaid</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasRestored.php.html#22">App\Events\Invoice\InvoiceWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasReversed.php.html#22">App\Events\Invoice\InvoiceWasReversed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasUpdated.php.html#24">App\Events\Invoice\InvoiceWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasViewed.php.html#27">App\Events\Invoice\InvoiceWasViewed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Misc/InvitationWasViewed.php.html#21">App\Events\Misc\InvitationWasViewed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/Methods/MethodDeleted.php.html#22">App\Events\Payment\Methods\MethodDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentCompleted.php.html#22">App\Events\Payment\PaymentCompleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentFailed.php.html#22">App\Events\Payment\PaymentFailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasArchived.php.html#22">App\Events\Payment\PaymentWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasCreated.php.html#22">App\Events\Payment\PaymentWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasDeleted.php.html#22">App\Events\Payment\PaymentWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasEmailed.php.html#25">App\Events\Payment\PaymentWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasEmailedAndFailed.php.html#24">App\Events\Payment\PaymentWasEmailedAndFailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasRefunded.php.html#22">App\Events\Payment\PaymentWasRefunded</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasRestored.php.html#22">App\Events\Payment\PaymentWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasUpdated.php.html#26">App\Events\Payment\PaymentWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasVoided.php.html#22">App\Events\Payment\PaymentWasVoided</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasArchived.php.html#19">App\Events\Product\ProductWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasCreated.php.html#19">App\Events\Product\ProductWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasDeleted.php.html#19">App\Events\Product\ProductWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasRestored.php.html#22">App\Events\Product\ProductWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasUpdated.php.html#19">App\Events\Product\ProductWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasAccepted.php.html#23">App\Events\PurchaseOrder\PurchaseOrderWasAccepted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasArchived.php.html#22">App\Events\PurchaseOrder\PurchaseOrderWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasCreated.php.html#22">App\Events\PurchaseOrder\PurchaseOrderWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasDeleted.php.html#22">App\Events\PurchaseOrder\PurchaseOrderWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasEmailed.php.html#22">App\Events\PurchaseOrder\PurchaseOrderWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasRestored.php.html#22">App\Events\PurchaseOrder\PurchaseOrderWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasUpdated.php.html#22">App\Events\PurchaseOrder\PurchaseOrderWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasViewed.php.html#22">App\Events\PurchaseOrder\PurchaseOrderWasViewed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteReminderWasEmailed.php.html#22">App\Events\Quote\QuoteReminderWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasApproved.php.html#22">App\Events\Quote\QuoteWasApproved</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasArchived.php.html#19">App\Events\Quote\QuoteWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasCreated.php.html#22">App\Events\Quote\QuoteWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasDeleted.php.html#22">App\Events\Quote\QuoteWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasEmailed.php.html#22">App\Events\Quote\QuoteWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasEmailedAndFailed.php.html#22">App\Events\Quote\QuoteWasEmailedAndFailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasMarkedApproved.php.html#22">App\Events\Quote\QuoteWasMarkedApproved</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasMarkedSent.php.html#22">App\Events\Quote\QuoteWasMarkedSent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasRestored.php.html#22">App\Events\Quote\QuoteWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasUpdated.php.html#22">App\Events\Quote\QuoteWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasViewed.php.html#22">App\Events\Quote\QuoteWasViewed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasArchived.php.html#22">App\Events\RecurringExpense\RecurringExpenseWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasCreated.php.html#22">App\Events\RecurringExpense\RecurringExpenseWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasDeleted.php.html#22">App\Events\RecurringExpense\RecurringExpenseWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasRestored.php.html#22">App\Events\RecurringExpense\RecurringExpenseWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasUpdated.php.html#22">App\Events\RecurringExpense\RecurringExpenseWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasArchived.php.html#22">App\Events\RecurringInvoice\RecurringInvoiceWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasCreated.php.html#22">App\Events\RecurringInvoice\RecurringInvoiceWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasDeleted.php.html#22">App\Events\RecurringInvoice\RecurringInvoiceWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasRestored.php.html#22">App\Events\RecurringInvoice\RecurringInvoiceWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasUpdated.php.html#24">App\Events\RecurringInvoice\RecurringInvoiceWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasArchived.php.html#22">App\Events\RecurringQuote\RecurringQuoteWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasCreated.php.html#22">App\Events\RecurringQuote\RecurringQuoteWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasDeleted.php.html#22">App\Events\RecurringQuote\RecurringQuoteWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasRestored.php.html#22">App\Events\RecurringQuote\RecurringQuoteWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasUpdated.php.html#24">App\Events\RecurringQuote\RecurringQuoteWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/DownloadAvailable.php.html#26">App\Events\Socket\DownloadAvailable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/RefetchEntity.php.html#26">App\Events\Socket\RefetchEntity</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement/StatementWasEmailed.php.html#24">App\Events\Statement\StatementWasEmailed</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasArchived.php.html#22">App\Events\Subscription\SubscriptionWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasCreated.php.html#11">App\Events\Subscription\SubscriptionWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasDeleted.php.html#22">App\Events\Subscription\SubscriptionWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasRestored.php.html#22">App\Events\Subscription\SubscriptionWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasUpdated.php.html#22">App\Events\Subscription\SubscriptionWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasArchived.php.html#22">App\Events\Task\TaskWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasCreated.php.html#22">App\Events\Task\TaskWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasDeleted.php.html#22">App\Events\Task\TaskWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasRestored.php.html#22">App\Events\Task\TaskWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasUpdated.php.html#22">App\Events\Task\TaskWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserLoggedIn.php.html#25">App\Events\User\UserLoggedIn</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasArchived.php.html#25">App\Events\User\UserWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasCreated.php.html#25">App\Events\User\UserWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasDeleted.php.html#25">App\Events\User\UserWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasRestored.php.html#25">App\Events\User\UserWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasUpdated.php.html#25">App\Events\User\UserWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorContactLoggedIn.php.html#25">App\Events\Vendor\VendorContactLoggedIn</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasArchived.php.html#22">App\Events\Vendor\VendorWasArchived</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasCreated.php.html#22">App\Events\Vendor\VendorWasCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasDeleted.php.html#22">App\Events\Vendor\VendorWasDeleted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasMerged.php.html#22">App\Events\Vendor\VendorWasMerged</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasRestored.php.html#22">App\Events\Vendor\VendorWasRestored</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasUpdated.php.html#22">App\Events\Vendor\VendorWasUpdated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserLoginFailed.php.html#25">App\Events\User\UserLoginFailed</a></td><td class="text-right">50%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="General/GenericMessage.php.html#19">App\Events\General\GenericMessage</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Account/AccountCreated.php.html#43"><abbr title="App\Events\Account\AccountCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Account/AccountCreated.php.html#55"><abbr title="App\Events\Account\AccountCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Account/AccountDeleted.php.html#38"><abbr title="App\Events\Account\AccountDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Account/AccountDeleted.php.html#47"><abbr title="App\Events\Account\AccountDeleted::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Account/StripeConnectFailure.php.html#29"><abbr title="App\Events\Account\StripeConnectFailure::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Account/StripeConnectFailure.php.html#33"><abbr title="App\Events\Account\StripeConnectFailure::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasArchived.php.html#53"><abbr title="App\Events\Client\ClientWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasArchived.php.html#60"><abbr title="App\Events\Client\ClientWasArchived::broadcastWith">broadcastWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasArchived.php.html#81"><abbr title="App\Events\Client\ClientWasArchived::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasCreated.php.html#42"><abbr title="App\Events\Client\ClientWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasDeleted.php.html#42"><abbr title="App\Events\Client\ClientWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasMerged.php.html#34"><abbr title="App\Events\Client\ClientWasMerged::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasPurged.php.html#34"><abbr title="App\Events\Client\ClientWasPurged::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasRestored.php.html#44"><abbr title="App\Events\Client\ClientWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Client/ClientWasUpdated.php.html#42"><abbr title="App\Events\Client\ClientWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Company/CompanyDocumentsDeleted.php.html#37"><abbr title="App\Events\Company\CompanyDocumentsDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Company/CompanyDocumentsDeleted.php.html#47"><abbr title="App\Events\Company\CompanyDocumentsDeleted::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact/ContactLoggedIn.php.html#38"><abbr title="App\Events\Contact\ContactLoggedIn::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Contact/ContactLoggedIn.php.html#50"><abbr title="App\Events\Contact\ContactLoggedIn::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasArchived.php.html#40"><abbr title="App\Events\Credit\CreditWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasCreated.php.html#44"><abbr title="App\Events\Credit\CreditWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasCreated.php.html#53"><abbr title="App\Events\Credit\CreditWasCreated::broadcastModel">broadcastModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasCreated.php.html#58"><abbr title="App\Events\Credit\CreditWasCreated::broadcastIncludes">broadcastIncludes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasDeleted.php.html#40"><abbr title="App\Events\Credit\CreditWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasEmailed.php.html#42"><abbr title="App\Events\Credit\CreditWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasEmailedAndFailed.php.html#34"><abbr title="App\Events\Credit\CreditWasEmailedAndFailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasMarkedSent.php.html#42"><abbr title="App\Events\Credit\CreditWasMarkedSent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasRestored.php.html#44"><abbr title="App\Events\Credit\CreditWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasUpdated.php.html#44"><abbr title="App\Events\Credit\CreditWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasUpdated.php.html#53"><abbr title="App\Events\Credit\CreditWasUpdated::broadcastModel">broadcastModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasUpdated.php.html#58"><abbr title="App\Events\Credit\CreditWasUpdated::broadcastIncludes">broadcastIncludes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Credit/CreditWasViewed.php.html#32"><abbr title="App\Events\Credit\CreditWasViewed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasArchived.php.html#31"><abbr title="App\Events\Design\DesignWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasArchived.php.html#40"><abbr title="App\Events\Design\DesignWasArchived::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasCreated.php.html#27"><abbr title="App\Events\Design\DesignWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasCreated.php.html#36"><abbr title="App\Events\Design\DesignWasCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasDeleted.php.html#27"><abbr title="App\Events\Design\DesignWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasDeleted.php.html#36"><abbr title="App\Events\Design\DesignWasDeleted::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasRestored.php.html#27"><abbr title="App\Events\Design\DesignWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasRestored.php.html#36"><abbr title="App\Events\Design\DesignWasRestored::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasUpdated.php.html#27"><abbr title="App\Events\Design\DesignWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Design/DesignWasUpdated.php.html#36"><abbr title="App\Events\Design\DesignWasUpdated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasArchived.php.html#47"><abbr title="App\Events\Document\DocumentWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasArchived.php.html#59"><abbr title="App\Events\Document\DocumentWasArchived::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasCreated.php.html#42"><abbr title="App\Events\Document\DocumentWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasDeleted.php.html#42"><abbr title="App\Events\Document\DocumentWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasRestored.php.html#44"><abbr title="App\Events\Document\DocumentWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Document/DocumentWasUpdated.php.html#42"><abbr title="App\Events\Document\DocumentWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasArchived.php.html#42"><abbr title="App\Events\Expense\ExpenseWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasCreated.php.html#42"><abbr title="App\Events\Expense\ExpenseWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasDeleted.php.html#42"><abbr title="App\Events\Expense\ExpenseWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasRestored.php.html#44"><abbr title="App\Events\Expense\ExpenseWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Expense/ExpenseWasUpdated.php.html#42"><abbr title="App\Events\Expense\ExpenseWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="General/EntityWasEmailed.php.html#33"><abbr title="App\Events\General\EntityWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="General/GenericMessage.php.html#27"><abbr title="App\Events\General\GenericMessage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="General/GenericMessage.php.html#38"><abbr title="App\Events\General\GenericMessage::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceAutoBillFailed.php.html#33"><abbr title="App\Events\Invoice\InvoiceAutoBillFailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceAutoBillSuccess.php.html#33"><abbr title="App\Events\Invoice\InvoiceAutoBillSuccess::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceReminderWasEmailed.php.html#26"><abbr title="App\Events\Invoice\InvoiceReminderWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasArchived.php.html#42"><abbr title="App\Events\Invoice\InvoiceWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasCancelled.php.html#42"><abbr title="App\Events\Invoice\InvoiceWasCancelled::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasCreated.php.html#48"><abbr title="App\Events\Invoice\InvoiceWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasCreated.php.html#60"><abbr title="App\Events\Invoice\InvoiceWasCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasDeleted.php.html#42"><abbr title="App\Events\Invoice\InvoiceWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasEmailed.php.html#44"><abbr title="App\Events\Invoice\InvoiceWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasEmailedAndFailed.php.html#25"><abbr title="App\Events\Invoice\InvoiceWasEmailedAndFailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasMarkedSent.php.html#42"><abbr title="App\Events\Invoice\InvoiceWasMarkedSent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasPaid.php.html#41"><abbr title="App\Events\Invoice\InvoiceWasPaid::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasPaid.php.html#46"><abbr title="App\Events\Invoice\InvoiceWasPaid::broadcastModel">broadcastModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasPaid.php.html#51"><abbr title="App\Events\Invoice\InvoiceWasPaid::broadcastIncludes">broadcastIncludes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasRestored.php.html#45"><abbr title="App\Events\Invoice\InvoiceWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasReversed.php.html#42"><abbr title="App\Events\Invoice\InvoiceWasReversed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasUpdated.php.html#46"><abbr title="App\Events\Invoice\InvoiceWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasViewed.php.html#40"><abbr title="App\Events\Invoice\InvoiceWasViewed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasViewed.php.html#45"><abbr title="App\Events\Invoice\InvoiceWasViewed::broadcastModel">broadcastModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasViewed.php.html#50"><abbr title="App\Events\Invoice\InvoiceWasViewed::broadcastManager">broadcastManager</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Invoice/InvoiceWasViewed.php.html#57"><abbr title="App\Events\Invoice\InvoiceWasViewed::broadcastIncludes">broadcastIncludes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Misc/InvitationWasViewed.php.html#44"><abbr title="App\Events\Misc\InvitationWasViewed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/Methods/MethodDeleted.php.html#44"><abbr title="App\Events\Payment\Methods\MethodDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/Methods/MethodDeleted.php.html#56"><abbr title="App\Events\Payment\Methods\MethodDeleted::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentCompleted.php.html#42"><abbr title="App\Events\Payment\PaymentCompleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentFailed.php.html#42"><abbr title="App\Events\Payment\PaymentFailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasArchived.php.html#42"><abbr title="App\Events\Payment\PaymentWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasCreated.php.html#42"><abbr title="App\Events\Payment\PaymentWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasDeleted.php.html#42"><abbr title="App\Events\Payment\PaymentWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasEmailed.php.html#39"><abbr title="App\Events\Payment\PaymentWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasEmailedAndFailed.php.html#48"><abbr title="App\Events\Payment\PaymentWasEmailedAndFailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasRefunded.php.html#45"><abbr title="App\Events\Payment\PaymentWasRefunded::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasRestored.php.html#45"><abbr title="App\Events\Payment\PaymentWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasUpdated.php.html#48"><abbr title="App\Events\Payment\PaymentWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasUpdated.php.html#57"><abbr title="App\Events\Payment\PaymentWasUpdated::broadcastModel">broadcastModel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasUpdated.php.html#62"><abbr title="App\Events\Payment\PaymentWasUpdated::broadcastIncludes">broadcastIncludes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Payment/PaymentWasVoided.php.html#42"><abbr title="App\Events\Payment\PaymentWasVoided::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasArchived.php.html#23"><abbr title="App\Events\Product\ProductWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasCreated.php.html#23"><abbr title="App\Events\Product\ProductWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasDeleted.php.html#23"><abbr title="App\Events\Product\ProductWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasRestored.php.html#26"><abbr title="App\Events\Product\ProductWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Product/ProductWasUpdated.php.html#23"><abbr title="App\Events\Product\ProductWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasAccepted.php.html#45"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasAccepted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasArchived.php.html#42"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasCreated.php.html#42"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasDeleted.php.html#42"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasEmailed.php.html#26"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasRestored.php.html#26"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasUpdated.php.html#26"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrder/PurchaseOrderWasViewed.php.html#26"><abbr title="App\Events\PurchaseOrder\PurchaseOrderWasViewed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteReminderWasEmailed.php.html#26"><abbr title="App\Events\Quote\QuoteReminderWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasApproved.php.html#44"><abbr title="App\Events\Quote\QuoteWasApproved::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasArchived.php.html#36"><abbr title="App\Events\Quote\QuoteWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasCreated.php.html#39"><abbr title="App\Events\Quote\QuoteWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasDeleted.php.html#39"><abbr title="App\Events\Quote\QuoteWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasEmailed.php.html#26"><abbr title="App\Events\Quote\QuoteWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasEmailedAndFailed.php.html#44"><abbr title="App\Events\Quote\QuoteWasEmailedAndFailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasMarkedApproved.php.html#39"><abbr title="App\Events\Quote\QuoteWasMarkedApproved::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasMarkedSent.php.html#39"><abbr title="App\Events\Quote\QuoteWasMarkedSent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasRestored.php.html#41"><abbr title="App\Events\Quote\QuoteWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasUpdated.php.html#39"><abbr title="App\Events\Quote\QuoteWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Quote/QuoteWasViewed.php.html#32"><abbr title="App\Events\Quote\QuoteWasViewed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasArchived.php.html#42"><abbr title="App\Events\RecurringExpense\RecurringExpenseWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasCreated.php.html#42"><abbr title="App\Events\RecurringExpense\RecurringExpenseWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasDeleted.php.html#42"><abbr title="App\Events\RecurringExpense\RecurringExpenseWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasRestored.php.html#44"><abbr title="App\Events\RecurringExpense\RecurringExpenseWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringExpense/RecurringExpenseWasUpdated.php.html#42"><abbr title="App\Events\RecurringExpense\RecurringExpenseWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasArchived.php.html#26"><abbr title="App\Events\RecurringInvoice\RecurringInvoiceWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasCreated.php.html#42"><abbr title="App\Events\RecurringInvoice\RecurringInvoiceWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasDeleted.php.html#26"><abbr title="App\Events\RecurringInvoice\RecurringInvoiceWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasRestored.php.html#26"><abbr title="App\Events\RecurringInvoice\RecurringInvoiceWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringInvoice/RecurringInvoiceWasUpdated.php.html#30"><abbr title="App\Events\RecurringInvoice\RecurringInvoiceWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasArchived.php.html#42"><abbr title="App\Events\RecurringQuote\RecurringQuoteWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasCreated.php.html#42"><abbr title="App\Events\RecurringQuote\RecurringQuoteWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasDeleted.php.html#26"><abbr title="App\Events\RecurringQuote\RecurringQuoteWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasRestored.php.html#26"><abbr title="App\Events\RecurringQuote\RecurringQuoteWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RecurringQuote/RecurringQuoteWasUpdated.php.html#31"><abbr title="App\Events\RecurringQuote\RecurringQuoteWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/DownloadAvailable.php.html#31"><abbr title="App\Events\Socket\DownloadAvailable::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/DownloadAvailable.php.html#35"><abbr title="App\Events\Socket\DownloadAvailable::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/DownloadAvailable.php.html#42"><abbr title="App\Events\Socket\DownloadAvailable::broadcastWith">broadcastWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/RefetchEntity.php.html#31"><abbr title="App\Events\Socket\RefetchEntity::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/RefetchEntity.php.html#35"><abbr title="App\Events\Socket\RefetchEntity::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Socket/RefetchEntity.php.html#42"><abbr title="App\Events\Socket\RefetchEntity::broadcastWith">broadcastWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement/StatementWasEmailed.php.html#30"><abbr title="App\Events\Statement\StatementWasEmailed::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Statement/StatementWasEmailed.php.html#39"><abbr title="App\Events\Statement\StatementWasEmailed::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasArchived.php.html#42"><abbr title="App\Events\Subscription\SubscriptionWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasCreated.php.html#37"><abbr title="App\Events\Subscription\SubscriptionWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasCreated.php.html#49"><abbr title="App\Events\Subscription\SubscriptionWasCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasDeleted.php.html#42"><abbr title="App\Events\Subscription\SubscriptionWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasRestored.php.html#44"><abbr title="App\Events\Subscription\SubscriptionWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Subscription/SubscriptionWasUpdated.php.html#42"><abbr title="App\Events\Subscription\SubscriptionWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasArchived.php.html#42"><abbr title="App\Events\Task\TaskWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasCreated.php.html#42"><abbr title="App\Events\Task\TaskWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasDeleted.php.html#42"><abbr title="App\Events\Task\TaskWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasRestored.php.html#44"><abbr title="App\Events\Task\TaskWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/TaskWasUpdated.php.html#42"><abbr title="App\Events\Task\TaskWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserLoggedIn.php.html#31"><abbr title="App\Events\User\UserLoggedIn::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserLoggedIn.php.html#40"><abbr title="App\Events\User\UserLoggedIn::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserLoginFailed.php.html#40"><abbr title="App\Events\User\UserLoginFailed::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasArchived.php.html#31"><abbr title="App\Events\User\UserWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasArchived.php.html#40"><abbr title="App\Events\User\UserWasArchived::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasCreated.php.html#31"><abbr title="App\Events\User\UserWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasCreated.php.html#40"><abbr title="App\Events\User\UserWasCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasDeleted.php.html#46"><abbr title="App\Events\User\UserWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasDeleted.php.html#59"><abbr title="App\Events\User\UserWasDeleted::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasRestored.php.html#46"><abbr title="App\Events\User\UserWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasRestored.php.html#59"><abbr title="App\Events\User\UserWasRestored::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasUpdated.php.html#46"><abbr title="App\Events\User\UserWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User/UserWasUpdated.php.html#59"><abbr title="App\Events\User\UserWasUpdated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorContactLoggedIn.php.html#35"><abbr title="App\Events\Vendor\VendorContactLoggedIn::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorContactLoggedIn.php.html#44"><abbr title="App\Events\Vendor\VendorContactLoggedIn::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasArchived.php.html#43"><abbr title="App\Events\Vendor\VendorWasArchived::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasCreated.php.html#42"><abbr title="App\Events\Vendor\VendorWasCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasDeleted.php.html#42"><abbr title="App\Events\Vendor\VendorWasDeleted::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasMerged.php.html#34"><abbr title="App\Events\Vendor\VendorWasMerged::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasRestored.php.html#44"><abbr title="App\Events\Vendor\VendorWasRestored::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Vendor/VendorWasUpdated.php.html#42"><abbr title="App\Events\Vendor\VendorWasUpdated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="General/GenericMessage.php.html#38"><abbr title="App\Events\General\GenericMessage::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([132,0,0,0,0,0,1,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([173,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"Account\/AccountCreated.php.html#24\">App\\Events\\Account\\AccountCreated<\/a>"],[0,2,"<a href=\"Account\/AccountDeleted.php.html#24\">App\\Events\\Account\\AccountDeleted<\/a>"],[0,2,"<a href=\"Account\/StripeConnectFailure.php.html#23\">App\\Events\\Account\\StripeConnectFailure<\/a>"],[0,3,"<a href=\"Client\/ClientWasArchived.php.html#31\">App\\Events\\Client\\ClientWasArchived<\/a>"],[0,1,"<a href=\"Client\/ClientWasCreated.php.html#22\">App\\Events\\Client\\ClientWasCreated<\/a>"],[0,1,"<a href=\"Client\/ClientWasDeleted.php.html#22\">App\\Events\\Client\\ClientWasDeleted<\/a>"],[0,1,"<a href=\"Client\/ClientWasMerged.php.html#22\">App\\Events\\Client\\ClientWasMerged<\/a>"],[0,1,"<a href=\"Client\/ClientWasPurged.php.html#22\">App\\Events\\Client\\ClientWasPurged<\/a>"],[0,1,"<a href=\"Client\/ClientWasRestored.php.html#22\">App\\Events\\Client\\ClientWasRestored<\/a>"],[0,1,"<a href=\"Client\/ClientWasUpdated.php.html#22\">App\\Events\\Client\\ClientWasUpdated<\/a>"],[0,2,"<a href=\"Company\/CompanyDocumentsDeleted.php.html#21\">App\\Events\\Company\\CompanyDocumentsDeleted<\/a>"],[0,2,"<a href=\"Contact\/ContactLoggedIn.php.html#25\">App\\Events\\Contact\\ContactLoggedIn<\/a>"],[0,1,"<a href=\"Credit\/CreditWasArchived.php.html#21\">App\\Events\\Credit\\CreditWasArchived<\/a>"],[0,3,"<a href=\"Credit\/CreditWasCreated.php.html#24\">App\\Events\\Credit\\CreditWasCreated<\/a>"],[0,1,"<a href=\"Credit\/CreditWasDeleted.php.html#21\">App\\Events\\Credit\\CreditWasDeleted<\/a>"],[0,1,"<a href=\"Credit\/CreditWasEmailed.php.html#21\">App\\Events\\Credit\\CreditWasEmailed<\/a>"],[0,1,"<a href=\"Credit\/CreditWasEmailedAndFailed.php.html#20\">App\\Events\\Credit\\CreditWasEmailedAndFailed<\/a>"],[0,1,"<a href=\"Credit\/CreditWasMarkedSent.php.html#22\">App\\Events\\Credit\\CreditWasMarkedSent<\/a>"],[0,1,"<a href=\"Credit\/CreditWasRestored.php.html#22\">App\\Events\\Credit\\CreditWasRestored<\/a>"],[0,3,"<a href=\"Credit\/CreditWasUpdated.php.html#24\">App\\Events\\Credit\\CreditWasUpdated<\/a>"],[0,1,"<a href=\"Credit\/CreditWasViewed.php.html#22\">App\\Events\\Credit\\CreditWasViewed<\/a>"],[0,2,"<a href=\"Design\/DesignWasArchived.php.html#25\">App\\Events\\Design\\DesignWasArchived<\/a>"],[0,2,"<a href=\"Design\/DesignWasCreated.php.html#23\">App\\Events\\Design\\DesignWasCreated<\/a>"],[0,2,"<a href=\"Design\/DesignWasDeleted.php.html#23\">App\\Events\\Design\\DesignWasDeleted<\/a>"],[0,2,"<a href=\"Design\/DesignWasRestored.php.html#23\">App\\Events\\Design\\DesignWasRestored<\/a>"],[0,2,"<a href=\"Design\/DesignWasUpdated.php.html#23\">App\\Events\\Design\\DesignWasUpdated<\/a>"],[0,2,"<a href=\"Document\/DocumentWasArchived.php.html#25\">App\\Events\\Document\\DocumentWasArchived<\/a>"],[0,1,"<a href=\"Document\/DocumentWasCreated.php.html#22\">App\\Events\\Document\\DocumentWasCreated<\/a>"],[0,1,"<a href=\"Document\/DocumentWasDeleted.php.html#22\">App\\Events\\Document\\DocumentWasDeleted<\/a>"],[0,1,"<a href=\"Document\/DocumentWasRestored.php.html#22\">App\\Events\\Document\\DocumentWasRestored<\/a>"],[0,1,"<a href=\"Document\/DocumentWasUpdated.php.html#22\">App\\Events\\Document\\DocumentWasUpdated<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasArchived.php.html#22\">App\\Events\\Expense\\ExpenseWasArchived<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasCreated.php.html#22\">App\\Events\\Expense\\ExpenseWasCreated<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasDeleted.php.html#22\">App\\Events\\Expense\\ExpenseWasDeleted<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasRestored.php.html#22\">App\\Events\\Expense\\ExpenseWasRestored<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasUpdated.php.html#22\">App\\Events\\Expense\\ExpenseWasUpdated<\/a>"],[0,1,"<a href=\"General\/EntityWasEmailed.php.html#21\">App\\Events\\General\\EntityWasEmailed<\/a>"],[0,4,"<a href=\"General\/GenericMessage.php.html#19\">App\\Events\\General\\GenericMessage<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceAutoBillFailed.php.html#22\">App\\Events\\Invoice\\InvoiceAutoBillFailed<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceAutoBillSuccess.php.html#22\">App\\Events\\Invoice\\InvoiceAutoBillSuccess<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceReminderWasEmailed.php.html#22\">App\\Events\\Invoice\\InvoiceReminderWasEmailed<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasArchived.php.html#22\">App\\Events\\Invoice\\InvoiceWasArchived<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasCancelled.php.html#22\">App\\Events\\Invoice\\InvoiceWasCancelled<\/a>"],[0,2,"<a href=\"Invoice\/InvoiceWasCreated.php.html#26\">App\\Events\\Invoice\\InvoiceWasCreated<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasDeleted.php.html#22\">App\\Events\\Invoice\\InvoiceWasDeleted<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasEmailed.php.html#22\">App\\Events\\Invoice\\InvoiceWasEmailed<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasEmailedAndFailed.php.html#21\">App\\Events\\Invoice\\InvoiceWasEmailedAndFailed<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasMarkedSent.php.html#22\">App\\Events\\Invoice\\InvoiceWasMarkedSent<\/a>"],[0,3,"<a href=\"Invoice\/InvoiceWasPaid.php.html#27\">App\\Events\\Invoice\\InvoiceWasPaid<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasRestored.php.html#22\">App\\Events\\Invoice\\InvoiceWasRestored<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasReversed.php.html#22\">App\\Events\\Invoice\\InvoiceWasReversed<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasUpdated.php.html#24\">App\\Events\\Invoice\\InvoiceWasUpdated<\/a>"],[0,4,"<a href=\"Invoice\/InvoiceWasViewed.php.html#27\">App\\Events\\Invoice\\InvoiceWasViewed<\/a>"],[0,1,"<a href=\"Misc\/InvitationWasViewed.php.html#21\">App\\Events\\Misc\\InvitationWasViewed<\/a>"],[0,2,"<a href=\"Payment\/Methods\/MethodDeleted.php.html#22\">App\\Events\\Payment\\Methods\\MethodDeleted<\/a>"],[0,1,"<a href=\"Payment\/PaymentCompleted.php.html#22\">App\\Events\\Payment\\PaymentCompleted<\/a>"],[0,1,"<a href=\"Payment\/PaymentFailed.php.html#22\">App\\Events\\Payment\\PaymentFailed<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasArchived.php.html#22\">App\\Events\\Payment\\PaymentWasArchived<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasCreated.php.html#22\">App\\Events\\Payment\\PaymentWasCreated<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasDeleted.php.html#22\">App\\Events\\Payment\\PaymentWasDeleted<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasEmailed.php.html#25\">App\\Events\\Payment\\PaymentWasEmailed<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasEmailedAndFailed.php.html#24\">App\\Events\\Payment\\PaymentWasEmailedAndFailed<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasRefunded.php.html#22\">App\\Events\\Payment\\PaymentWasRefunded<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasRestored.php.html#22\">App\\Events\\Payment\\PaymentWasRestored<\/a>"],[0,3,"<a href=\"Payment\/PaymentWasUpdated.php.html#26\">App\\Events\\Payment\\PaymentWasUpdated<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasVoided.php.html#22\">App\\Events\\Payment\\PaymentWasVoided<\/a>"],[0,1,"<a href=\"Product\/ProductWasArchived.php.html#19\">App\\Events\\Product\\ProductWasArchived<\/a>"],[0,1,"<a href=\"Product\/ProductWasCreated.php.html#19\">App\\Events\\Product\\ProductWasCreated<\/a>"],[0,1,"<a href=\"Product\/ProductWasDeleted.php.html#19\">App\\Events\\Product\\ProductWasDeleted<\/a>"],[0,1,"<a href=\"Product\/ProductWasRestored.php.html#22\">App\\Events\\Product\\ProductWasRestored<\/a>"],[0,1,"<a href=\"Product\/ProductWasUpdated.php.html#19\">App\\Events\\Product\\ProductWasUpdated<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasAccepted.php.html#23\">App\\Events\\PurchaseOrder\\PurchaseOrderWasAccepted<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasArchived.php.html#22\">App\\Events\\PurchaseOrder\\PurchaseOrderWasArchived<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasCreated.php.html#22\">App\\Events\\PurchaseOrder\\PurchaseOrderWasCreated<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasDeleted.php.html#22\">App\\Events\\PurchaseOrder\\PurchaseOrderWasDeleted<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasEmailed.php.html#22\">App\\Events\\PurchaseOrder\\PurchaseOrderWasEmailed<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasRestored.php.html#22\">App\\Events\\PurchaseOrder\\PurchaseOrderWasRestored<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasUpdated.php.html#22\">App\\Events\\PurchaseOrder\\PurchaseOrderWasUpdated<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasViewed.php.html#22\">App\\Events\\PurchaseOrder\\PurchaseOrderWasViewed<\/a>"],[0,1,"<a href=\"Quote\/QuoteReminderWasEmailed.php.html#22\">App\\Events\\Quote\\QuoteReminderWasEmailed<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasApproved.php.html#22\">App\\Events\\Quote\\QuoteWasApproved<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasArchived.php.html#19\">App\\Events\\Quote\\QuoteWasArchived<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasCreated.php.html#22\">App\\Events\\Quote\\QuoteWasCreated<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasDeleted.php.html#22\">App\\Events\\Quote\\QuoteWasDeleted<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasEmailed.php.html#22\">App\\Events\\Quote\\QuoteWasEmailed<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasEmailedAndFailed.php.html#22\">App\\Events\\Quote\\QuoteWasEmailedAndFailed<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasMarkedApproved.php.html#22\">App\\Events\\Quote\\QuoteWasMarkedApproved<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasMarkedSent.php.html#22\">App\\Events\\Quote\\QuoteWasMarkedSent<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasRestored.php.html#22\">App\\Events\\Quote\\QuoteWasRestored<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasUpdated.php.html#22\">App\\Events\\Quote\\QuoteWasUpdated<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasViewed.php.html#22\">App\\Events\\Quote\\QuoteWasViewed<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasArchived.php.html#22\">App\\Events\\RecurringExpense\\RecurringExpenseWasArchived<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasCreated.php.html#22\">App\\Events\\RecurringExpense\\RecurringExpenseWasCreated<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasDeleted.php.html#22\">App\\Events\\RecurringExpense\\RecurringExpenseWasDeleted<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasRestored.php.html#22\">App\\Events\\RecurringExpense\\RecurringExpenseWasRestored<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasUpdated.php.html#22\">App\\Events\\RecurringExpense\\RecurringExpenseWasUpdated<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasArchived.php.html#22\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasArchived<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasCreated.php.html#22\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasCreated<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasDeleted.php.html#22\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasDeleted<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasRestored.php.html#22\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasRestored<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasUpdated.php.html#24\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasUpdated<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasArchived.php.html#22\">App\\Events\\RecurringQuote\\RecurringQuoteWasArchived<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasCreated.php.html#22\">App\\Events\\RecurringQuote\\RecurringQuoteWasCreated<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasDeleted.php.html#22\">App\\Events\\RecurringQuote\\RecurringQuoteWasDeleted<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasRestored.php.html#22\">App\\Events\\RecurringQuote\\RecurringQuoteWasRestored<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasUpdated.php.html#24\">App\\Events\\RecurringQuote\\RecurringQuoteWasUpdated<\/a>"],[0,3,"<a href=\"Socket\/DownloadAvailable.php.html#26\">App\\Events\\Socket\\DownloadAvailable<\/a>"],[0,3,"<a href=\"Socket\/RefetchEntity.php.html#26\">App\\Events\\Socket\\RefetchEntity<\/a>"],[0,2,"<a href=\"Statement\/StatementWasEmailed.php.html#24\">App\\Events\\Statement\\StatementWasEmailed<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasArchived.php.html#22\">App\\Events\\Subscription\\SubscriptionWasArchived<\/a>"],[0,2,"<a href=\"Subscription\/SubscriptionWasCreated.php.html#11\">App\\Events\\Subscription\\SubscriptionWasCreated<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasDeleted.php.html#22\">App\\Events\\Subscription\\SubscriptionWasDeleted<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasRestored.php.html#22\">App\\Events\\Subscription\\SubscriptionWasRestored<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasUpdated.php.html#22\">App\\Events\\Subscription\\SubscriptionWasUpdated<\/a>"],[0,1,"<a href=\"Task\/TaskWasArchived.php.html#22\">App\\Events\\Task\\TaskWasArchived<\/a>"],[0,1,"<a href=\"Task\/TaskWasCreated.php.html#22\">App\\Events\\Task\\TaskWasCreated<\/a>"],[0,1,"<a href=\"Task\/TaskWasDeleted.php.html#22\">App\\Events\\Task\\TaskWasDeleted<\/a>"],[0,1,"<a href=\"Task\/TaskWasRestored.php.html#22\">App\\Events\\Task\\TaskWasRestored<\/a>"],[0,1,"<a href=\"Task\/TaskWasUpdated.php.html#22\">App\\Events\\Task\\TaskWasUpdated<\/a>"],[0,2,"<a href=\"User\/UserLoggedIn.php.html#25\">App\\Events\\User\\UserLoggedIn<\/a>"],[50,2,"<a href=\"User\/UserLoginFailed.php.html#25\">App\\Events\\User\\UserLoginFailed<\/a>"],[0,2,"<a href=\"User\/UserWasArchived.php.html#25\">App\\Events\\User\\UserWasArchived<\/a>"],[0,2,"<a href=\"User\/UserWasCreated.php.html#25\">App\\Events\\User\\UserWasCreated<\/a>"],[0,2,"<a href=\"User\/UserWasDeleted.php.html#25\">App\\Events\\User\\UserWasDeleted<\/a>"],[0,2,"<a href=\"User\/UserWasRestored.php.html#25\">App\\Events\\User\\UserWasRestored<\/a>"],[0,2,"<a href=\"User\/UserWasUpdated.php.html#25\">App\\Events\\User\\UserWasUpdated<\/a>"],[0,2,"<a href=\"Vendor\/VendorContactLoggedIn.php.html#25\">App\\Events\\Vendor\\VendorContactLoggedIn<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasArchived.php.html#22\">App\\Events\\Vendor\\VendorWasArchived<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasCreated.php.html#22\">App\\Events\\Vendor\\VendorWasCreated<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasDeleted.php.html#22\">App\\Events\\Vendor\\VendorWasDeleted<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasMerged.php.html#22\">App\\Events\\Vendor\\VendorWasMerged<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasRestored.php.html#22\">App\\Events\\Vendor\\VendorWasRestored<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasUpdated.php.html#22\">App\\Events\\Vendor\\VendorWasUpdated<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Account\/AccountCreated.php.html#43\">App\\Events\\Account\\AccountCreated::__construct<\/a>"],[0,1,"<a href=\"Account\/AccountCreated.php.html#55\">App\\Events\\Account\\AccountCreated::broadcastOn<\/a>"],[0,1,"<a href=\"Account\/AccountDeleted.php.html#38\">App\\Events\\Account\\AccountDeleted::__construct<\/a>"],[0,1,"<a href=\"Account\/AccountDeleted.php.html#47\">App\\Events\\Account\\AccountDeleted::broadcastOn<\/a>"],[0,1,"<a href=\"Account\/StripeConnectFailure.php.html#29\">App\\Events\\Account\\StripeConnectFailure::__construct<\/a>"],[0,1,"<a href=\"Account\/StripeConnectFailure.php.html#33\">App\\Events\\Account\\StripeConnectFailure::broadcastOn<\/a>"],[0,1,"<a href=\"Client\/ClientWasArchived.php.html#53\">App\\Events\\Client\\ClientWasArchived::__construct<\/a>"],[0,1,"<a href=\"Client\/ClientWasArchived.php.html#60\">App\\Events\\Client\\ClientWasArchived::broadcastWith<\/a>"],[0,1,"<a href=\"Client\/ClientWasArchived.php.html#81\">App\\Events\\Client\\ClientWasArchived::broadcastOn<\/a>"],[0,1,"<a href=\"Client\/ClientWasCreated.php.html#42\">App\\Events\\Client\\ClientWasCreated::__construct<\/a>"],[0,1,"<a href=\"Client\/ClientWasDeleted.php.html#42\">App\\Events\\Client\\ClientWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Client\/ClientWasMerged.php.html#34\">App\\Events\\Client\\ClientWasMerged::__construct<\/a>"],[0,1,"<a href=\"Client\/ClientWasPurged.php.html#34\">App\\Events\\Client\\ClientWasPurged::__construct<\/a>"],[0,1,"<a href=\"Client\/ClientWasRestored.php.html#44\">App\\Events\\Client\\ClientWasRestored::__construct<\/a>"],[0,1,"<a href=\"Client\/ClientWasUpdated.php.html#42\">App\\Events\\Client\\ClientWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Company\/CompanyDocumentsDeleted.php.html#37\">App\\Events\\Company\\CompanyDocumentsDeleted::__construct<\/a>"],[0,1,"<a href=\"Company\/CompanyDocumentsDeleted.php.html#47\">App\\Events\\Company\\CompanyDocumentsDeleted::broadcastOn<\/a>"],[0,1,"<a href=\"Contact\/ContactLoggedIn.php.html#38\">App\\Events\\Contact\\ContactLoggedIn::__construct<\/a>"],[0,1,"<a href=\"Contact\/ContactLoggedIn.php.html#50\">App\\Events\\Contact\\ContactLoggedIn::broadcastOn<\/a>"],[0,1,"<a href=\"Credit\/CreditWasArchived.php.html#40\">App\\Events\\Credit\\CreditWasArchived::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasCreated.php.html#44\">App\\Events\\Credit\\CreditWasCreated::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasCreated.php.html#53\">App\\Events\\Credit\\CreditWasCreated::broadcastModel<\/a>"],[0,1,"<a href=\"Credit\/CreditWasCreated.php.html#58\">App\\Events\\Credit\\CreditWasCreated::broadcastIncludes<\/a>"],[0,1,"<a href=\"Credit\/CreditWasDeleted.php.html#40\">App\\Events\\Credit\\CreditWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasEmailed.php.html#42\">App\\Events\\Credit\\CreditWasEmailed::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasEmailedAndFailed.php.html#34\">App\\Events\\Credit\\CreditWasEmailedAndFailed::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasMarkedSent.php.html#42\">App\\Events\\Credit\\CreditWasMarkedSent::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasRestored.php.html#44\">App\\Events\\Credit\\CreditWasRestored::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasUpdated.php.html#44\">App\\Events\\Credit\\CreditWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Credit\/CreditWasUpdated.php.html#53\">App\\Events\\Credit\\CreditWasUpdated::broadcastModel<\/a>"],[0,1,"<a href=\"Credit\/CreditWasUpdated.php.html#58\">App\\Events\\Credit\\CreditWasUpdated::broadcastIncludes<\/a>"],[0,1,"<a href=\"Credit\/CreditWasViewed.php.html#32\">App\\Events\\Credit\\CreditWasViewed::__construct<\/a>"],[0,1,"<a href=\"Design\/DesignWasArchived.php.html#31\">App\\Events\\Design\\DesignWasArchived::__construct<\/a>"],[0,1,"<a href=\"Design\/DesignWasArchived.php.html#40\">App\\Events\\Design\\DesignWasArchived::broadcastOn<\/a>"],[0,1,"<a href=\"Design\/DesignWasCreated.php.html#27\">App\\Events\\Design\\DesignWasCreated::__construct<\/a>"],[0,1,"<a href=\"Design\/DesignWasCreated.php.html#36\">App\\Events\\Design\\DesignWasCreated::broadcastOn<\/a>"],[0,1,"<a href=\"Design\/DesignWasDeleted.php.html#27\">App\\Events\\Design\\DesignWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Design\/DesignWasDeleted.php.html#36\">App\\Events\\Design\\DesignWasDeleted::broadcastOn<\/a>"],[0,1,"<a href=\"Design\/DesignWasRestored.php.html#27\">App\\Events\\Design\\DesignWasRestored::__construct<\/a>"],[0,1,"<a href=\"Design\/DesignWasRestored.php.html#36\">App\\Events\\Design\\DesignWasRestored::broadcastOn<\/a>"],[0,1,"<a href=\"Design\/DesignWasUpdated.php.html#27\">App\\Events\\Design\\DesignWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Design\/DesignWasUpdated.php.html#36\">App\\Events\\Design\\DesignWasUpdated::broadcastOn<\/a>"],[0,1,"<a href=\"Document\/DocumentWasArchived.php.html#47\">App\\Events\\Document\\DocumentWasArchived::__construct<\/a>"],[0,1,"<a href=\"Document\/DocumentWasArchived.php.html#59\">App\\Events\\Document\\DocumentWasArchived::broadcastOn<\/a>"],[0,1,"<a href=\"Document\/DocumentWasCreated.php.html#42\">App\\Events\\Document\\DocumentWasCreated::__construct<\/a>"],[0,1,"<a href=\"Document\/DocumentWasDeleted.php.html#42\">App\\Events\\Document\\DocumentWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Document\/DocumentWasRestored.php.html#44\">App\\Events\\Document\\DocumentWasRestored::__construct<\/a>"],[0,1,"<a href=\"Document\/DocumentWasUpdated.php.html#42\">App\\Events\\Document\\DocumentWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasArchived.php.html#42\">App\\Events\\Expense\\ExpenseWasArchived::__construct<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasCreated.php.html#42\">App\\Events\\Expense\\ExpenseWasCreated::__construct<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasDeleted.php.html#42\">App\\Events\\Expense\\ExpenseWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasRestored.php.html#44\">App\\Events\\Expense\\ExpenseWasRestored::__construct<\/a>"],[0,1,"<a href=\"Expense\/ExpenseWasUpdated.php.html#42\">App\\Events\\Expense\\ExpenseWasUpdated::__construct<\/a>"],[0,1,"<a href=\"General\/EntityWasEmailed.php.html#33\">App\\Events\\General\\EntityWasEmailed::__construct<\/a>"],[0,1,"<a href=\"General\/GenericMessage.php.html#27\">App\\Events\\General\\GenericMessage::__construct<\/a>"],[0,3,"<a href=\"General\/GenericMessage.php.html#38\">App\\Events\\General\\GenericMessage::broadcastOn<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceAutoBillFailed.php.html#33\">App\\Events\\Invoice\\InvoiceAutoBillFailed::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceAutoBillSuccess.php.html#33\">App\\Events\\Invoice\\InvoiceAutoBillSuccess::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceReminderWasEmailed.php.html#26\">App\\Events\\Invoice\\InvoiceReminderWasEmailed::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasArchived.php.html#42\">App\\Events\\Invoice\\InvoiceWasArchived::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasCancelled.php.html#42\">App\\Events\\Invoice\\InvoiceWasCancelled::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasCreated.php.html#48\">App\\Events\\Invoice\\InvoiceWasCreated::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasCreated.php.html#60\">App\\Events\\Invoice\\InvoiceWasCreated::broadcastOn<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasDeleted.php.html#42\">App\\Events\\Invoice\\InvoiceWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasEmailed.php.html#44\">App\\Events\\Invoice\\InvoiceWasEmailed::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasEmailedAndFailed.php.html#25\">App\\Events\\Invoice\\InvoiceWasEmailedAndFailed::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasMarkedSent.php.html#42\">App\\Events\\Invoice\\InvoiceWasMarkedSent::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasPaid.php.html#41\">App\\Events\\Invoice\\InvoiceWasPaid::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasPaid.php.html#46\">App\\Events\\Invoice\\InvoiceWasPaid::broadcastModel<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasPaid.php.html#51\">App\\Events\\Invoice\\InvoiceWasPaid::broadcastIncludes<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasRestored.php.html#45\">App\\Events\\Invoice\\InvoiceWasRestored::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasReversed.php.html#42\">App\\Events\\Invoice\\InvoiceWasReversed::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasUpdated.php.html#46\">App\\Events\\Invoice\\InvoiceWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasViewed.php.html#40\">App\\Events\\Invoice\\InvoiceWasViewed::__construct<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasViewed.php.html#45\">App\\Events\\Invoice\\InvoiceWasViewed::broadcastModel<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasViewed.php.html#50\">App\\Events\\Invoice\\InvoiceWasViewed::broadcastManager<\/a>"],[0,1,"<a href=\"Invoice\/InvoiceWasViewed.php.html#57\">App\\Events\\Invoice\\InvoiceWasViewed::broadcastIncludes<\/a>"],[0,1,"<a href=\"Misc\/InvitationWasViewed.php.html#44\">App\\Events\\Misc\\InvitationWasViewed::__construct<\/a>"],[0,1,"<a href=\"Payment\/Methods\/MethodDeleted.php.html#44\">App\\Events\\Payment\\Methods\\MethodDeleted::__construct<\/a>"],[0,1,"<a href=\"Payment\/Methods\/MethodDeleted.php.html#56\">App\\Events\\Payment\\Methods\\MethodDeleted::broadcastOn<\/a>"],[0,1,"<a href=\"Payment\/PaymentCompleted.php.html#42\">App\\Events\\Payment\\PaymentCompleted::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentFailed.php.html#42\">App\\Events\\Payment\\PaymentFailed::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasArchived.php.html#42\">App\\Events\\Payment\\PaymentWasArchived::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasCreated.php.html#42\">App\\Events\\Payment\\PaymentWasCreated::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasDeleted.php.html#42\">App\\Events\\Payment\\PaymentWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasEmailed.php.html#39\">App\\Events\\Payment\\PaymentWasEmailed::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasEmailedAndFailed.php.html#48\">App\\Events\\Payment\\PaymentWasEmailedAndFailed::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasRefunded.php.html#45\">App\\Events\\Payment\\PaymentWasRefunded::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasRestored.php.html#45\">App\\Events\\Payment\\PaymentWasRestored::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasUpdated.php.html#48\">App\\Events\\Payment\\PaymentWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasUpdated.php.html#57\">App\\Events\\Payment\\PaymentWasUpdated::broadcastModel<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasUpdated.php.html#62\">App\\Events\\Payment\\PaymentWasUpdated::broadcastIncludes<\/a>"],[0,1,"<a href=\"Payment\/PaymentWasVoided.php.html#42\">App\\Events\\Payment\\PaymentWasVoided::__construct<\/a>"],[0,1,"<a href=\"Product\/ProductWasArchived.php.html#23\">App\\Events\\Product\\ProductWasArchived::__construct<\/a>"],[0,1,"<a href=\"Product\/ProductWasCreated.php.html#23\">App\\Events\\Product\\ProductWasCreated::__construct<\/a>"],[0,1,"<a href=\"Product\/ProductWasDeleted.php.html#23\">App\\Events\\Product\\ProductWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Product\/ProductWasRestored.php.html#26\">App\\Events\\Product\\ProductWasRestored::__construct<\/a>"],[0,1,"<a href=\"Product\/ProductWasUpdated.php.html#23\">App\\Events\\Product\\ProductWasUpdated::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasAccepted.php.html#45\">App\\Events\\PurchaseOrder\\PurchaseOrderWasAccepted::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasArchived.php.html#42\">App\\Events\\PurchaseOrder\\PurchaseOrderWasArchived::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasCreated.php.html#42\">App\\Events\\PurchaseOrder\\PurchaseOrderWasCreated::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasDeleted.php.html#42\">App\\Events\\PurchaseOrder\\PurchaseOrderWasDeleted::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasEmailed.php.html#26\">App\\Events\\PurchaseOrder\\PurchaseOrderWasEmailed::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasRestored.php.html#26\">App\\Events\\PurchaseOrder\\PurchaseOrderWasRestored::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasUpdated.php.html#26\">App\\Events\\PurchaseOrder\\PurchaseOrderWasUpdated::__construct<\/a>"],[0,1,"<a href=\"PurchaseOrder\/PurchaseOrderWasViewed.php.html#26\">App\\Events\\PurchaseOrder\\PurchaseOrderWasViewed::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteReminderWasEmailed.php.html#26\">App\\Events\\Quote\\QuoteReminderWasEmailed::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasApproved.php.html#44\">App\\Events\\Quote\\QuoteWasApproved::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasArchived.php.html#36\">App\\Events\\Quote\\QuoteWasArchived::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasCreated.php.html#39\">App\\Events\\Quote\\QuoteWasCreated::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasDeleted.php.html#39\">App\\Events\\Quote\\QuoteWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasEmailed.php.html#26\">App\\Events\\Quote\\QuoteWasEmailed::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasEmailedAndFailed.php.html#44\">App\\Events\\Quote\\QuoteWasEmailedAndFailed::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasMarkedApproved.php.html#39\">App\\Events\\Quote\\QuoteWasMarkedApproved::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasMarkedSent.php.html#39\">App\\Events\\Quote\\QuoteWasMarkedSent::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasRestored.php.html#41\">App\\Events\\Quote\\QuoteWasRestored::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasUpdated.php.html#39\">App\\Events\\Quote\\QuoteWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Quote\/QuoteWasViewed.php.html#32\">App\\Events\\Quote\\QuoteWasViewed::__construct<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasArchived.php.html#42\">App\\Events\\RecurringExpense\\RecurringExpenseWasArchived::__construct<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasCreated.php.html#42\">App\\Events\\RecurringExpense\\RecurringExpenseWasCreated::__construct<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasDeleted.php.html#42\">App\\Events\\RecurringExpense\\RecurringExpenseWasDeleted::__construct<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasRestored.php.html#44\">App\\Events\\RecurringExpense\\RecurringExpenseWasRestored::__construct<\/a>"],[0,1,"<a href=\"RecurringExpense\/RecurringExpenseWasUpdated.php.html#42\">App\\Events\\RecurringExpense\\RecurringExpenseWasUpdated::__construct<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasArchived.php.html#26\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasArchived::__construct<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasCreated.php.html#42\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasCreated::__construct<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasDeleted.php.html#26\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasDeleted::__construct<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasRestored.php.html#26\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasRestored::__construct<\/a>"],[0,1,"<a href=\"RecurringInvoice\/RecurringInvoiceWasUpdated.php.html#30\">App\\Events\\RecurringInvoice\\RecurringInvoiceWasUpdated::__construct<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasArchived.php.html#42\">App\\Events\\RecurringQuote\\RecurringQuoteWasArchived::__construct<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasCreated.php.html#42\">App\\Events\\RecurringQuote\\RecurringQuoteWasCreated::__construct<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasDeleted.php.html#26\">App\\Events\\RecurringQuote\\RecurringQuoteWasDeleted::__construct<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasRestored.php.html#26\">App\\Events\\RecurringQuote\\RecurringQuoteWasRestored::__construct<\/a>"],[0,1,"<a href=\"RecurringQuote\/RecurringQuoteWasUpdated.php.html#31\">App\\Events\\RecurringQuote\\RecurringQuoteWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Socket\/DownloadAvailable.php.html#31\">App\\Events\\Socket\\DownloadAvailable::__construct<\/a>"],[0,1,"<a href=\"Socket\/DownloadAvailable.php.html#35\">App\\Events\\Socket\\DownloadAvailable::broadcastOn<\/a>"],[0,1,"<a href=\"Socket\/DownloadAvailable.php.html#42\">App\\Events\\Socket\\DownloadAvailable::broadcastWith<\/a>"],[0,1,"<a href=\"Socket\/RefetchEntity.php.html#31\">App\\Events\\Socket\\RefetchEntity::__construct<\/a>"],[0,1,"<a href=\"Socket\/RefetchEntity.php.html#35\">App\\Events\\Socket\\RefetchEntity::broadcastOn<\/a>"],[0,1,"<a href=\"Socket\/RefetchEntity.php.html#42\">App\\Events\\Socket\\RefetchEntity::broadcastWith<\/a>"],[0,1,"<a href=\"Statement\/StatementWasEmailed.php.html#30\">App\\Events\\Statement\\StatementWasEmailed::__construct<\/a>"],[0,1,"<a href=\"Statement\/StatementWasEmailed.php.html#39\">App\\Events\\Statement\\StatementWasEmailed::broadcastOn<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasArchived.php.html#42\">App\\Events\\Subscription\\SubscriptionWasArchived::__construct<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasCreated.php.html#37\">App\\Events\\Subscription\\SubscriptionWasCreated::__construct<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasCreated.php.html#49\">App\\Events\\Subscription\\SubscriptionWasCreated::broadcastOn<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasDeleted.php.html#42\">App\\Events\\Subscription\\SubscriptionWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasRestored.php.html#44\">App\\Events\\Subscription\\SubscriptionWasRestored::__construct<\/a>"],[0,1,"<a href=\"Subscription\/SubscriptionWasUpdated.php.html#42\">App\\Events\\Subscription\\SubscriptionWasUpdated::__construct<\/a>"],[0,1,"<a href=\"Task\/TaskWasArchived.php.html#42\">App\\Events\\Task\\TaskWasArchived::__construct<\/a>"],[0,1,"<a href=\"Task\/TaskWasCreated.php.html#42\">App\\Events\\Task\\TaskWasCreated::__construct<\/a>"],[0,1,"<a href=\"Task\/TaskWasDeleted.php.html#42\">App\\Events\\Task\\TaskWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Task\/TaskWasRestored.php.html#44\">App\\Events\\Task\\TaskWasRestored::__construct<\/a>"],[0,1,"<a href=\"Task\/TaskWasUpdated.php.html#42\">App\\Events\\Task\\TaskWasUpdated::__construct<\/a>"],[0,1,"<a href=\"User\/UserLoggedIn.php.html#31\">App\\Events\\User\\UserLoggedIn::__construct<\/a>"],[0,1,"<a href=\"User\/UserLoggedIn.php.html#40\">App\\Events\\User\\UserLoggedIn::broadcastOn<\/a>"],[100,1,"<a href=\"User\/UserLoginFailed.php.html#31\">App\\Events\\User\\UserLoginFailed::__construct<\/a>"],[0,1,"<a href=\"User\/UserLoginFailed.php.html#40\">App\\Events\\User\\UserLoginFailed::broadcastOn<\/a>"],[0,1,"<a href=\"User\/UserWasArchived.php.html#31\">App\\Events\\User\\UserWasArchived::__construct<\/a>"],[0,1,"<a href=\"User\/UserWasArchived.php.html#40\">App\\Events\\User\\UserWasArchived::broadcastOn<\/a>"],[0,1,"<a href=\"User\/UserWasCreated.php.html#31\">App\\Events\\User\\UserWasCreated::__construct<\/a>"],[0,1,"<a href=\"User\/UserWasCreated.php.html#40\">App\\Events\\User\\UserWasCreated::broadcastOn<\/a>"],[0,1,"<a href=\"User\/UserWasDeleted.php.html#46\">App\\Events\\User\\UserWasDeleted::__construct<\/a>"],[0,1,"<a href=\"User\/UserWasDeleted.php.html#59\">App\\Events\\User\\UserWasDeleted::broadcastOn<\/a>"],[0,1,"<a href=\"User\/UserWasRestored.php.html#46\">App\\Events\\User\\UserWasRestored::__construct<\/a>"],[0,1,"<a href=\"User\/UserWasRestored.php.html#59\">App\\Events\\User\\UserWasRestored::broadcastOn<\/a>"],[0,1,"<a href=\"User\/UserWasUpdated.php.html#46\">App\\Events\\User\\UserWasUpdated::__construct<\/a>"],[0,1,"<a href=\"User\/UserWasUpdated.php.html#59\">App\\Events\\User\\UserWasUpdated::broadcastOn<\/a>"],[0,1,"<a href=\"Vendor\/VendorContactLoggedIn.php.html#35\">App\\Events\\Vendor\\VendorContactLoggedIn::__construct<\/a>"],[0,1,"<a href=\"Vendor\/VendorContactLoggedIn.php.html#44\">App\\Events\\Vendor\\VendorContactLoggedIn::broadcastOn<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasArchived.php.html#43\">App\\Events\\Vendor\\VendorWasArchived::__construct<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasCreated.php.html#42\">App\\Events\\Vendor\\VendorWasCreated::__construct<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasDeleted.php.html#42\">App\\Events\\Vendor\\VendorWasDeleted::__construct<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasMerged.php.html#34\">App\\Events\\Vendor\\VendorWasMerged::__construct<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasRestored.php.html#44\">App\\Events\\Vendor\\VendorWasRestored::__construct<\/a>"],[0,1,"<a href=\"Vendor\/VendorWasUpdated.php.html#42\">App\\Events\\Vendor\\VendorWasUpdated::__construct<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Services/EDocument/Standards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app/Services</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">EDocument</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Standards</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FacturaEInvoice.php.html#25">App\Services\EDocument\Standards\FacturaEInvoice</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPA.php.html#46">App\Services\EDocument\Standards\FatturaPA</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#36">App\Services\EDocument\Standards\FatturaPANew</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#26">App\Services\EDocument\Standards\OrderXDocument</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#56">App\Services\EDocument\Standards\Peppol</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol/BaseCountry.php.html#18">App\Services\EDocument\Standards\Peppol\BaseCountry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol/RO.php.html#18">App\Services\EDocument\Standards\Peppol\RO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#46">App\Services\EDocument\Standards\RoEInvoice</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Settings/PropertyResolver.php.html#15">App\Services\EDocument\Standards\Settings\PropertyResolver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#28">App\Services\EDocument\Standards\Validation\Peppol\EntityLevel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#15">App\Services\EDocument\Standards\Validation\XsltDocumentValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#31">App\Services\EDocument\Standards\ZugferdEDocument</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#29">App\Services\EDocument\Standards\ZugferdEDokument</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Peppol.php.html#56">App\Services\EDocument\Standards\Peppol</a></td><td class="text-right">18632</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#31">App\Services\EDocument\Standards\ZugferdEDocument</a></td><td class="text-right">11556</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#29">App\Services\EDocument\Standards\ZugferdEDokument</a></td><td class="text-right">6972</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#46">App\Services\EDocument\Standards\RoEInvoice</a></td><td class="text-right">5852</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#25">App\Services\EDocument\Standards\FacturaEInvoice</a></td><td class="text-right">5256</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#28">App\Services\EDocument\Standards\Validation\Peppol\EntityLevel</a></td><td class="text-right">3782</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#26">App\Services\EDocument\Standards\OrderXDocument</a></td><td class="text-right">2862</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#36">App\Services\EDocument\Standards\FatturaPANew</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#15">App\Services\EDocument\Standards\Validation\XsltDocumentValidator</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Peppol/RO.php.html#18">App\Services\EDocument\Standards\Peppol\RO</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Settings/PropertyResolver.php.html#15">App\Services\EDocument\Standards\Settings\PropertyResolver</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="FatturaPA.php.html#46">App\Services\EDocument\Standards\FatturaPA</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FacturaEInvoice.php.html#155"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#159"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#184"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setFace">setFace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#207"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setPoNumber">setPoNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#218"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setDiscount">setDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#227"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setLegalTerms">setLegalTerms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#234"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setBillingPeriod">setBillingPeriod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#253"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setPayments">setPayments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#382"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildItems">buildItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#406"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildRatesForItem">buildRatesForItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#437"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::resolveTaxCode">resolveTaxCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#475"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildSeller">buildSeller</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#516"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setIndividualSeller">setIndividualSeller</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#554"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildBuyer">buildBuyer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#590"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::signDocument">signDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPA.php.html#110"><abbr title="App\Services\EDocument\Standards\FatturaPA::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPA.php.html#114"><abbr title="App\Services\EDocument\Standards\FatturaPA::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#53"><abbr title="App\Services\EDocument\Standards\FatturaPANew::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#57"><abbr title="App\Services\EDocument\Standards\FatturaPANew::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#74"><abbr title="App\Services\EDocument\Standards\FatturaPANew::getFatturaElettronica">getFatturaElettronica</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#79"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setDatiTrasmissione">setDatiTrasmissione</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#94"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setIdTrasmittente">setIdTrasmittente</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#102"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setCedentePrestatore">setCedentePrestatore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#119"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setDatiAnagrafici">setDatiAnagrafici</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#128"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setClientDetails">setClientDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#158"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setIdFiscaleIVA">setIdFiscaleIVA</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#168"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setAnagrafica">setAnagrafica</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#175"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setDatiGeneraliDocumento">setDatiGeneraliDocumento</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#187"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setDatiGenerali">setDatiGenerali</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#196"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setDettaglioPagamento">setDettaglioPagamento</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#212"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setLineItems">setLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#261"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setFatturaElettronica">setFatturaElettronica</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#270"><abbr title="App\Services\EDocument\Standards\FatturaPANew::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#38"><abbr title="App\Services\EDocument\Standards\OrderXDocument::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#42"><abbr title="App\Services\EDocument\Standards\OrderXDocument::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#212"><abbr title="App\Services\EDocument\Standards\OrderXDocument::getXml">getXml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#217"><abbr title="App\Services\EDocument\Standards\OrderXDocument::getTaxType">getTaxType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#255"><abbr title="App\Services\EDocument\Standards\OrderXDocument::addtoTaxMap">addtoTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#161"><abbr title="App\Services\EDocument\Standards\Peppol::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#175"><abbr title="App\Services\EDocument\Standards\Peppol::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#260"><abbr title="App\Services\EDocument\Standards\Peppol::decode">decode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#273"><abbr title="App\Services\EDocument\Standards\Peppol::setInvoice">setInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#312"><abbr title="App\Services\EDocument\Standards\Peppol::setSettings">setSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#326"><abbr title="App\Services\EDocument\Standards\Peppol::getInvoice">getInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#338"><abbr title="App\Services\EDocument\Standards\Peppol::toXml">toXml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#366"><abbr title="App\Services\EDocument\Standards\Peppol::toJson">toJson</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#382"><abbr title="App\Services\EDocument\Standards\Peppol::toObject">toObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#398"><abbr title="App\Services\EDocument\Standards\Peppol::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#410"><abbr title="App\Services\EDocument\Standards\Peppol::setOrderReference">setOrderReference</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#426"><abbr title="App\Services\EDocument\Standards\Peppol::addAttachments">addAttachments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#473"><abbr title="App\Services\EDocument\Standards\Peppol::getAllowanceCharges">getAllowanceCharges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#600"><abbr title="App\Services\EDocument\Standards\Peppol::getLegalMonetaryTotal">getLegalMonetaryTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#648"><abbr title="App\Services\EDocument\Standards\Peppol::getTaxType">getTaxType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#700"><abbr title="App\Services\EDocument\Standards\Peppol::resolveTaxExemptReason">resolveTaxExemptReason</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#787"><abbr title="App\Services\EDocument\Standards\Peppol::getInvoiceLines">getInvoiceLines</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#930"><abbr title="App\Services\EDocument\Standards\Peppol::calculateTotalItemDiscountAmount">calculateTotalItemDiscountAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#951"><abbr title="App\Services\EDocument\Standards\Peppol::calculateTaxMap">calculateTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#975"><abbr title="App\Services\EDocument\Standards\Peppol::getAllUsedTaxes">getAllUsedTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1016"><abbr title="App\Services\EDocument\Standards\Peppol::getAccountingSupplierParty">getAccountingSupplierParty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1098"><abbr title="App\Services\EDocument\Standards\Peppol::getAccountingCustomerParty">getAccountingCustomerParty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1189"><abbr title="App\Services\EDocument\Standards\Peppol::getDelivery">getDelivery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1229"><abbr title="App\Services\EDocument\Standards\Peppol::getTaxable">getTaxable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1287"><abbr title="App\Services\EDocument\Standards\Peppol::setInvoiceDefaults">setInvoiceDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1356"><abbr title="App\Services\EDocument\Standards\Peppol::standardPeppolRules">standardPeppolRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1374"><abbr title="App\Services\EDocument\Standards\Peppol::setPaymentTerms">setPaymentTerms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1389"><abbr title="App\Services\EDocument\Standards\Peppol::setTaxBreakdown">setTaxBreakdown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1504"><abbr title="App\Services\EDocument\Standards\Peppol::getJurisdiction">getJurisdiction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1544"><abbr title="App\Services\EDocument\Standards\Peppol::standardizeTaxSchemeId">standardizeTaxSchemeId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1569"><abbr title="App\Services\EDocument\Standards\Peppol::resolveScheme">resolveScheme</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol.php.html#1579"><abbr title="App\Services\EDocument\Standards\Peppol::getErrors">getErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol/BaseCountry.php.html#20"><abbr title="App\Services\EDocument\Standards\Peppol\BaseCountry::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol/RO.php.html#121"><abbr title="App\Services\EDocument\Standards\Peppol\RO::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol/RO.php.html#125"><abbr title="App\Services\EDocument\Standards\Peppol\RO::getStateCode">getStateCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Peppol/RO.php.html#143"><abbr title="App\Services\EDocument\Standards\Peppol\RO::getSectorCode">getSectorCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#148"><abbr title="App\Services\EDocument\Standards\RoEInvoice::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#152"><abbr title="App\Services\EDocument\Standards\RoEInvoice::resolveSubEntityCode">resolveSubEntityCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#159"><abbr title="App\Services\EDocument\Standards\RoEInvoice::resolveSectorCode">resolveSectorCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#168"><abbr title="App\Services\EDocument\Standards\RoEInvoice::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#280"><abbr title="App\Services\EDocument\Standards\RoEInvoice::createParty">createParty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#345"><abbr title="App\Services\EDocument\Standards\RoEInvoice::createInvoiceLine">createInvoiceLine</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#388"><abbr title="App\Services\EDocument\Standards\RoEInvoice::createTaxRate">createTaxRate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#411"><abbr title="App\Services\EDocument\Standards\RoEInvoice::getItemTaxable">getItemTaxable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#440"><abbr title="App\Services\EDocument\Standards\RoEInvoice::getTaxable">getTaxable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#486"><abbr title="App\Services\EDocument\Standards\RoEInvoice::costWithDiscount">costWithDiscount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#501"><abbr title="App\Services\EDocument\Standards\RoEInvoice::taxAmount">taxAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#510"><abbr title="App\Services\EDocument\Standards\RoEInvoice::resolveTaxCode">resolveTaxCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#530"><abbr title="App\Services\EDocument\Standards\RoEInvoice::generateXml">generateXml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Settings/PropertyResolver.php.html#17"><abbr title="App\Services\EDocument\Standards\Settings\PropertyResolver::resolve">resolve</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Settings/PropertyResolver.php.html#24"><abbr title="App\Services\EDocument\Standards\Settings\PropertyResolver::traverse">traverse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#90"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#94"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#105"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::checkClient">checkClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#115"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::checkCompany">checkCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#126"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::checkInvoice">checkInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#188"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::testClientState">testClientState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#229"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::testCompanyState">testCompanyState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#311"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::validString">validString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#316"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::checkNexus">checkNexus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#32"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#41"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#50"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::validateSchema">validateSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#88"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::validateXsd">validateXsd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#114"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::setXsd">setXsd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#121"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::getXsd">getXsd</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#126"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::setStyleSheets">setStyleSheets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#133"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::getStyleSheets">getStyleSheets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#138"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::getErrors">getErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#143"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::getHtml">getHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#53"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#57"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#99"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setCustomSurcharges">setCustomSurcharges</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#148"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setDocumentTaxes">setDocumentTaxes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#231"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setPaymentTerms">setPaymentTerms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#245"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocument">getDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#250"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getXml">getXml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#255"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::bootFlags">bootFlags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#293"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setDocumentSummation">setDocumentSummation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#331"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setLineItems">setLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#384"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::calculateTotalItemDiscountAmount">calculateTotalItemDiscountAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#394"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setCompanyTaxRegistration">setCompanyTaxRegistration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#403"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setPaymentMeans">setPaymentMeans</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#443"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setDeliveryAddress">setDeliveryAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#461"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setDocumentInformation">setDocumentInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#473"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setBaseDocument">setBaseDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#500"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setRoutingNumber">setRoutingNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#511"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setPoNumber">setPoNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#521"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentNumber">getDocumentNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#526"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#536"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentDate">getDocumentDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#541"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentCurrency">getDocumentCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#546"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentLevelTaxRegistration">getDocumentLevelTaxRegistration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#551"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getTaxType">getTaxType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#42"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#46"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#274"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::injectPaymentMeans">injectPaymentMeans</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#316"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::getXml">getXml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#321"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::getTaxType">getTaxType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#359"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::addtoTaxMap">addtoTaxMap</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ZugferdEDokument.php.html#46"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::run">run</abbr></a></td><td class="text-right">2862</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#42"><abbr title="App\Services\EDocument\Standards\OrderXDocument::run">run</abbr></a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#437"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::resolveTaxCode">resolveTaxCode</abbr></a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="Peppol.php.html#648"><abbr title="App\Services\EDocument\Standards\Peppol::getTaxType">getTaxType</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#551"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getTaxType">getTaxType</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#217"><abbr title="App\Services\EDocument\Standards\OrderXDocument::getTaxType">getTaxType</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#316"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::checkNexus">checkNexus</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#321"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::getTaxType">getTaxType</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#126"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::checkInvoice">checkInvoice</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#229"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::testCompanyState">testCompanyState</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Peppol.php.html#700"><abbr title="App\Services\EDocument\Standards\Peppol::resolveTaxExemptReason">resolveTaxExemptReason</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#440"><abbr title="App\Services\EDocument\Standards\RoEInvoice::getTaxable">getTaxable</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#168"><abbr title="App\Services\EDocument\Standards\RoEInvoice::run">run</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Peppol.php.html#787"><abbr title="App\Services\EDocument\Standards\Peppol::getInvoiceLines">getInvoiceLines</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#280"><abbr title="App\Services\EDocument\Standards\RoEInvoice::createParty">createParty</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#510"><abbr title="App\Services\EDocument\Standards\RoEInvoice::resolveTaxCode">resolveTaxCode</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#57"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::run">run</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#99"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setCustomSurcharges">setCustomSurcharges</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Peppol.php.html#1229"><abbr title="App\Services\EDocument\Standards\Peppol::getTaxable">getTaxable</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Peppol.php.html#1287"><abbr title="App\Services\EDocument\Standards\Peppol::setInvoiceDefaults">setInvoiceDefaults</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Validation/Peppol/EntityLevel.php.html#188"><abbr title="App\Services\EDocument\Standards\Validation\Peppol\EntityLevel::testClientState">testClientState</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#403"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setPaymentMeans">setPaymentMeans</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#274"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::injectPaymentMeans">injectPaymentMeans</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Peppol.php.html#1504"><abbr title="App\Services\EDocument\Standards\Peppol::getJurisdiction">getJurisdiction</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Peppol.php.html#473"><abbr title="App\Services\EDocument\Standards\Peppol::getAllowanceCharges">getAllowanceCharges</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#345"><abbr title="App\Services\EDocument\Standards\RoEInvoice::createInvoiceLine">createInvoiceLine</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#255"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::bootFlags">bootFlags</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#331"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setLineItems">setLineItems</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#411"><abbr title="App\Services\EDocument\Standards\RoEInvoice::getItemTaxable">getItemTaxable</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Settings/PropertyResolver.php.html#24"><abbr title="App\Services\EDocument\Standards\Settings\PropertyResolver::traverse">traverse</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#148"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setDocumentTaxes">setDocumentTaxes</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#253"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setPayments">setPayments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#50"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::validateSchema">validateSchema</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#207"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setPoNumber">setPoNumber</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#234"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setBillingPeriod">setBillingPeriod</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#406"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildRatesForItem">buildRatesForItem</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Peppol.php.html#175"><abbr title="App\Services\EDocument\Standards\Peppol::run">run</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Peppol.php.html#1389"><abbr title="App\Services\EDocument\Standards\Peppol::setTaxBreakdown">setTaxBreakdown</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#526"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#184"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setFace">setFace</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FatturaPA.php.html#114"><abbr title="App\Services\EDocument\Standards\FatturaPA::run">run</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FatturaPANew.php.html#212"><abbr title="App\Services\EDocument\Standards\FatturaPANew::setLineItems">setLineItems</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Peppol.php.html#273"><abbr title="App\Services\EDocument\Standards\Peppol::setInvoice">setInvoice</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Peppol.php.html#1098"><abbr title="App\Services\EDocument\Standards\Peppol::getAccountingCustomerParty">getAccountingCustomerParty</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Peppol.php.html#1569"><abbr title="App\Services\EDocument\Standards\Peppol::resolveScheme">resolveScheme</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Peppol/RO.php.html#125"><abbr title="App\Services\EDocument\Standards\Peppol\RO::getStateCode">getStateCode</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#554"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildBuyer">buildBuyer</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Peppol.php.html#312"><abbr title="App\Services\EDocument\Standards\Peppol::setSettings">setSettings</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Peppol.php.html#1016"><abbr title="App\Services\EDocument\Standards\Peppol::getAccountingSupplierParty">getAccountingSupplierParty</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Peppol/RO.php.html#143"><abbr title="App\Services\EDocument\Standards\Peppol\RO::getSectorCode">getSectorCode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#486"><abbr title="App\Services\EDocument\Standards\RoEInvoice::costWithDiscount">costWithDiscount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#88"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::validateXsd">validateXsd</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#293"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setDocumentSummation">setDocumentSummation</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#443"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setDeliveryAddress">setDeliveryAddress</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#473"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setBaseDocument">setBaseDocument</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#511"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setPoNumber">setPoNumber</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#218"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::setDiscount">setDiscount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#382"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildItems">buildItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#475"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::buildSeller">buildSeller</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FacturaEInvoice.php.html#590"><abbr title="App\Services\EDocument\Standards\FacturaEInvoice::signDocument">signDocument</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderXDocument.php.html#255"><abbr title="App\Services\EDocument\Standards\OrderXDocument::addtoTaxMap">addtoTaxMap</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#410"><abbr title="App\Services\EDocument\Standards\Peppol::setOrderReference">setOrderReference</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#426"><abbr title="App\Services\EDocument\Standards\Peppol::addAttachments">addAttachments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#600"><abbr title="App\Services\EDocument\Standards\Peppol::getLegalMonetaryTotal">getLegalMonetaryTotal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#930"><abbr title="App\Services\EDocument\Standards\Peppol::calculateTotalItemDiscountAmount">calculateTotalItemDiscountAmount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#951"><abbr title="App\Services\EDocument\Standards\Peppol::calculateTaxMap">calculateTaxMap</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#1189"><abbr title="App\Services\EDocument\Standards\Peppol::getDelivery">getDelivery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#1356"><abbr title="App\Services\EDocument\Standards\Peppol::standardPeppolRules">standardPeppolRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Peppol.php.html#1374"><abbr title="App\Services\EDocument\Standards\Peppol::setPaymentTerms">setPaymentTerms</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#159"><abbr title="App\Services\EDocument\Standards\RoEInvoice::resolveSectorCode">resolveSectorCode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RoEInvoice.php.html#501"><abbr title="App\Services\EDocument\Standards\RoEInvoice::taxAmount">taxAmount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Validation/XsltDocumentValidator.php.html#143"><abbr title="App\Services\EDocument\Standards\Validation\XsltDocumentValidator::getHtml">getHtml</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#384"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::calculateTotalItemDiscountAmount">calculateTotalItemDiscountAmount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#394"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setCompanyTaxRegistration">setCompanyTaxRegistration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#500"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::setRoutingNumber">setRoutingNumber</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#521"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentNumber">getDocumentNumber</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ZugferdEDocument.php.html#546"><abbr title="App\Services\EDocument\Standards\ZugferdEDocument::getDocumentLevelTaxRegistration">getDocumentLevelTaxRegistration</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ZugferdEDokument.php.html#359"><abbr title="App\Services\EDocument\Standards\ZugferdEDokument::addtoTaxMap">addtoTaxMap</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Nov 29 18:35:59 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,0,0,0,0,0,0,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([138,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,72,"<a href=\"FacturaEInvoice.php.html#25\">App\\Services\\EDocument\\Standards\\FacturaEInvoice<\/a>"],[0,5,"<a href=\"FatturaPA.php.html#46\">App\\Services\\EDocument\\Standards\\FatturaPA<\/a>"],[0,19,"<a href=\"FatturaPANew.php.html#36\">App\\Services\\EDocument\\Standards\\FatturaPANew<\/a>"],[0,53,"<a href=\"OrderXDocument.php.html#26\">App\\Services\\EDocument\\Standards\\OrderXDocument<\/a>"],[0,136,"<a href=\"Peppol.php.html#56\">App\\Services\\EDocument\\Standards\\Peppol<\/a>"],[0,1,"<a href=\"Peppol\/BaseCountry.php.html#18\">App\\Services\\EDocument\\Standards\\Peppol\\BaseCountry<\/a>"],[0,8,"<a href=\"Peppol\/RO.php.html#18\">App\\Services\\EDocument\\Standards\\Peppol\\RO<\/a>"],[0,76,"<a href=\"RoEInvoice.php.html#46\">App\\Services\\EDocument\\Standards\\RoEInvoice<\/a>"],[0,8,"<a href=\"Settings\/PropertyResolver.php.html#15\">App\\Services\\EDocument\\Standards\\Settings\\PropertyResolver<\/a>"],[100,0,"<a href=\"Validation\/Peppol\/ClientLevel.php.html#69\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\ClientLevel<\/a>"],[100,0,"<a href=\"Validation\/Peppol\/CompanyLevel.php.html#69\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\CompanyLevel<\/a>"],[0,61,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#28\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel<\/a>"],[100,0,"<a href=\"Validation\/Peppol\/InvoiceLevel.php.html#18\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\InvoiceLevel<\/a>"],[0,18,"<a href=\"Validation\/XsltDocumentValidator.php.html#15\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator<\/a>"],[0,107,"<a href=\"ZugferdEDocument.php.html#31\">App\\Services\\EDocument\\Standards\\ZugferdEDocument<\/a>"],[0,83,"<a href=\"ZugferdEDokument.php.html#29\">App\\Services\\EDocument\\Standards\\ZugferdEDokument<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"FacturaEInvoice.php.html#155\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::__construct<\/a>"],[0,1,"<a href=\"FacturaEInvoice.php.html#159\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::run<\/a>"],[0,4,"<a href=\"FacturaEInvoice.php.html#184\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::setFace<\/a>"],[0,5,"<a href=\"FacturaEInvoice.php.html#207\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::setPoNumber<\/a>"],[0,2,"<a href=\"FacturaEInvoice.php.html#218\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::setDiscount<\/a>"],[0,1,"<a href=\"FacturaEInvoice.php.html#227\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::setLegalTerms<\/a>"],[0,5,"<a href=\"FacturaEInvoice.php.html#234\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::setBillingPeriod<\/a>"],[0,6,"<a href=\"FacturaEInvoice.php.html#253\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::setPayments<\/a>"],[0,2,"<a href=\"FacturaEInvoice.php.html#382\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::buildItems<\/a>"],[0,5,"<a href=\"FacturaEInvoice.php.html#406\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::buildRatesForItem<\/a>"],[0,32,"<a href=\"FacturaEInvoice.php.html#437\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::resolveTaxCode<\/a>"],[0,2,"<a href=\"FacturaEInvoice.php.html#475\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::buildSeller<\/a>"],[0,1,"<a href=\"FacturaEInvoice.php.html#516\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::setIndividualSeller<\/a>"],[0,3,"<a href=\"FacturaEInvoice.php.html#554\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::buildBuyer<\/a>"],[0,2,"<a href=\"FacturaEInvoice.php.html#590\">App\\Services\\EDocument\\Standards\\FacturaEInvoice::signDocument<\/a>"],[0,1,"<a href=\"FatturaPA.php.html#110\">App\\Services\\EDocument\\Standards\\FatturaPA::__construct<\/a>"],[0,4,"<a href=\"FatturaPA.php.html#114\">App\\Services\\EDocument\\Standards\\FatturaPA::run<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#53\">App\\Services\\EDocument\\Standards\\FatturaPANew::__construct<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#57\">App\\Services\\EDocument\\Standards\\FatturaPANew::run<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#74\">App\\Services\\EDocument\\Standards\\FatturaPANew::getFatturaElettronica<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#79\">App\\Services\\EDocument\\Standards\\FatturaPANew::setDatiTrasmissione<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#94\">App\\Services\\EDocument\\Standards\\FatturaPANew::setIdTrasmittente<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#102\">App\\Services\\EDocument\\Standards\\FatturaPANew::setCedentePrestatore<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#119\">App\\Services\\EDocument\\Standards\\FatturaPANew::setDatiAnagrafici<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#128\">App\\Services\\EDocument\\Standards\\FatturaPANew::setClientDetails<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#158\">App\\Services\\EDocument\\Standards\\FatturaPANew::setIdFiscaleIVA<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#168\">App\\Services\\EDocument\\Standards\\FatturaPANew::setAnagrafica<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#175\">App\\Services\\EDocument\\Standards\\FatturaPANew::setDatiGeneraliDocumento<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#187\">App\\Services\\EDocument\\Standards\\FatturaPANew::setDatiGenerali<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#196\">App\\Services\\EDocument\\Standards\\FatturaPANew::setDettaglioPagamento<\/a>"],[0,4,"<a href=\"FatturaPANew.php.html#212\">App\\Services\\EDocument\\Standards\\FatturaPANew::setLineItems<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#261\">App\\Services\\EDocument\\Standards\\FatturaPANew::setFatturaElettronica<\/a>"],[0,1,"<a href=\"FatturaPANew.php.html#270\">App\\Services\\EDocument\\Standards\\FatturaPANew::init<\/a>"],[0,1,"<a href=\"OrderXDocument.php.html#38\">App\\Services\\EDocument\\Standards\\OrderXDocument::__construct<\/a>"],[0,33,"<a href=\"OrderXDocument.php.html#42\">App\\Services\\EDocument\\Standards\\OrderXDocument::run<\/a>"],[0,1,"<a href=\"OrderXDocument.php.html#212\">App\\Services\\EDocument\\Standards\\OrderXDocument::getXml<\/a>"],[0,16,"<a href=\"OrderXDocument.php.html#217\">App\\Services\\EDocument\\Standards\\OrderXDocument::getTaxType<\/a>"],[0,2,"<a href=\"OrderXDocument.php.html#255\">App\\Services\\EDocument\\Standards\\OrderXDocument::addtoTaxMap<\/a>"],[0,1,"<a href=\"Peppol.php.html#161\">App\\Services\\EDocument\\Standards\\Peppol::__construct<\/a>"],[0,5,"<a href=\"Peppol.php.html#175\">App\\Services\\EDocument\\Standards\\Peppol::run<\/a>"],[0,1,"<a href=\"Peppol.php.html#260\">App\\Services\\EDocument\\Standards\\Peppol::decode<\/a>"],[0,4,"<a href=\"Peppol.php.html#273\">App\\Services\\EDocument\\Standards\\Peppol::setInvoice<\/a>"],[0,3,"<a href=\"Peppol.php.html#312\">App\\Services\\EDocument\\Standards\\Peppol::setSettings<\/a>"],[0,1,"<a href=\"Peppol.php.html#326\">App\\Services\\EDocument\\Standards\\Peppol::getInvoice<\/a>"],[0,1,"<a href=\"Peppol.php.html#338\">App\\Services\\EDocument\\Standards\\Peppol::toXml<\/a>"],[0,1,"<a href=\"Peppol.php.html#366\">App\\Services\\EDocument\\Standards\\Peppol::toJson<\/a>"],[0,1,"<a href=\"Peppol.php.html#382\">App\\Services\\EDocument\\Standards\\Peppol::toObject<\/a>"],[0,1,"<a href=\"Peppol.php.html#398\">App\\Services\\EDocument\\Standards\\Peppol::toArray<\/a>"],[0,2,"<a href=\"Peppol.php.html#410\">App\\Services\\EDocument\\Standards\\Peppol::setOrderReference<\/a>"],[0,2,"<a href=\"Peppol.php.html#426\">App\\Services\\EDocument\\Standards\\Peppol::addAttachments<\/a>"],[0,8,"<a href=\"Peppol.php.html#473\">App\\Services\\EDocument\\Standards\\Peppol::getAllowanceCharges<\/a>"],[0,2,"<a href=\"Peppol.php.html#600\">App\\Services\\EDocument\\Standards\\Peppol::getLegalMonetaryTotal<\/a>"],[0,19,"<a href=\"Peppol.php.html#648\">App\\Services\\EDocument\\Standards\\Peppol::getTaxType<\/a>"],[0,14,"<a href=\"Peppol.php.html#700\">App\\Services\\EDocument\\Standards\\Peppol::resolveTaxExemptReason<\/a>"],[0,12,"<a href=\"Peppol.php.html#787\">App\\Services\\EDocument\\Standards\\Peppol::getInvoiceLines<\/a>"],[0,2,"<a href=\"Peppol.php.html#930\">App\\Services\\EDocument\\Standards\\Peppol::calculateTotalItemDiscountAmount<\/a>"],[0,2,"<a href=\"Peppol.php.html#951\">App\\Services\\EDocument\\Standards\\Peppol::calculateTaxMap<\/a>"],[0,1,"<a href=\"Peppol.php.html#975\">App\\Services\\EDocument\\Standards\\Peppol::getAllUsedTaxes<\/a>"],[0,3,"<a href=\"Peppol.php.html#1016\">App\\Services\\EDocument\\Standards\\Peppol::getAccountingSupplierParty<\/a>"],[0,4,"<a href=\"Peppol.php.html#1098\">App\\Services\\EDocument\\Standards\\Peppol::getAccountingCustomerParty<\/a>"],[0,2,"<a href=\"Peppol.php.html#1189\">App\\Services\\EDocument\\Standards\\Peppol::getDelivery<\/a>"],[0,10,"<a href=\"Peppol.php.html#1229\">App\\Services\\EDocument\\Standards\\Peppol::getTaxable<\/a>"],[0,10,"<a href=\"Peppol.php.html#1287\">App\\Services\\EDocument\\Standards\\Peppol::setInvoiceDefaults<\/a>"],[0,2,"<a href=\"Peppol.php.html#1356\">App\\Services\\EDocument\\Standards\\Peppol::standardPeppolRules<\/a>"],[0,2,"<a href=\"Peppol.php.html#1374\">App\\Services\\EDocument\\Standards\\Peppol::setPaymentTerms<\/a>"],[0,5,"<a href=\"Peppol.php.html#1389\">App\\Services\\EDocument\\Standards\\Peppol::setTaxBreakdown<\/a>"],[0,9,"<a href=\"Peppol.php.html#1504\">App\\Services\\EDocument\\Standards\\Peppol::getJurisdiction<\/a>"],[0,1,"<a href=\"Peppol.php.html#1544\">App\\Services\\EDocument\\Standards\\Peppol::standardizeTaxSchemeId<\/a>"],[0,4,"<a href=\"Peppol.php.html#1569\">App\\Services\\EDocument\\Standards\\Peppol::resolveScheme<\/a>"],[0,1,"<a href=\"Peppol.php.html#1579\">App\\Services\\EDocument\\Standards\\Peppol::getErrors<\/a>"],[0,1,"<a href=\"Peppol\/BaseCountry.php.html#20\">App\\Services\\EDocument\\Standards\\Peppol\\BaseCountry::__construct<\/a>"],[0,1,"<a href=\"Peppol\/RO.php.html#121\">App\\Services\\EDocument\\Standards\\Peppol\\RO::__construct<\/a>"],[0,4,"<a href=\"Peppol\/RO.php.html#125\">App\\Services\\EDocument\\Standards\\Peppol\\RO::getStateCode<\/a>"],[0,3,"<a href=\"Peppol\/RO.php.html#143\">App\\Services\\EDocument\\Standards\\Peppol\\RO::getSectorCode<\/a>"],[0,1,"<a href=\"RoEInvoice.php.html#148\">App\\Services\\EDocument\\Standards\\RoEInvoice::__construct<\/a>"],[0,1,"<a href=\"RoEInvoice.php.html#152\">App\\Services\\EDocument\\Standards\\RoEInvoice::resolveSubEntityCode<\/a>"],[0,2,"<a href=\"RoEInvoice.php.html#159\">App\\Services\\EDocument\\Standards\\RoEInvoice::resolveSectorCode<\/a>"],[0,13,"<a href=\"RoEInvoice.php.html#168\">App\\Services\\EDocument\\Standards\\RoEInvoice::run<\/a>"],[0,12,"<a href=\"RoEInvoice.php.html#280\">App\\Services\\EDocument\\Standards\\RoEInvoice::createParty<\/a>"],[0,8,"<a href=\"RoEInvoice.php.html#345\">App\\Services\\EDocument\\Standards\\RoEInvoice::createInvoiceLine<\/a>"],[0,1,"<a href=\"RoEInvoice.php.html#388\">App\\Services\\EDocument\\Standards\\RoEInvoice::createTaxRate<\/a>"],[0,7,"<a href=\"RoEInvoice.php.html#411\">App\\Services\\EDocument\\Standards\\RoEInvoice::getItemTaxable<\/a>"],[0,14,"<a href=\"RoEInvoice.php.html#440\">App\\Services\\EDocument\\Standards\\RoEInvoice::getTaxable<\/a>"],[0,3,"<a href=\"RoEInvoice.php.html#486\">App\\Services\\EDocument\\Standards\\RoEInvoice::costWithDiscount<\/a>"],[0,2,"<a href=\"RoEInvoice.php.html#501\">App\\Services\\EDocument\\Standards\\RoEInvoice::taxAmount<\/a>"],[0,11,"<a href=\"RoEInvoice.php.html#510\">App\\Services\\EDocument\\Standards\\RoEInvoice::resolveTaxCode<\/a>"],[0,1,"<a href=\"RoEInvoice.php.html#530\">App\\Services\\EDocument\\Standards\\RoEInvoice::generateXml<\/a>"],[0,1,"<a href=\"Settings\/PropertyResolver.php.html#17\">App\\Services\\EDocument\\Standards\\Settings\\PropertyResolver::resolve<\/a>"],[0,7,"<a href=\"Settings\/PropertyResolver.php.html#24\">App\\Services\\EDocument\\Standards\\Settings\\PropertyResolver::traverse<\/a>"],[0,1,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#90\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::__construct<\/a>"],[0,1,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#94\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::init<\/a>"],[0,1,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#105\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::checkClient<\/a>"],[0,1,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#115\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::checkCompany<\/a>"],[0,15,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#126\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::checkInvoice<\/a>"],[0,10,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#188\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::testClientState<\/a>"],[0,15,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#229\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::testCompanyState<\/a>"],[0,1,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#311\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::validString<\/a>"],[0,16,"<a href=\"Validation\/Peppol\/EntityLevel.php.html#316\">App\\Services\\EDocument\\Standards\\Validation\\Peppol\\EntityLevel::checkNexus<\/a>"],[0,1,"<a href=\"Validation\/XsltDocumentValidator.php.html#32\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::__construct<\/a>"],[0,1,"<a href=\"Validation\/XsltDocumentValidator.php.html#41\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::validate<\/a>"],[0,6,"<a href=\"Validation\/XsltDocumentValidator.php.html#50\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::validateSchema<\/a>"],[0,3,"<a href=\"Validation\/XsltDocumentValidator.php.html#88\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::validateXsd<\/a>"],[0,1,"<a href=\"Validation\/XsltDocumentValidator.php.html#114\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::setXsd<\/a>"],[0,1,"<a href=\"Validation\/XsltDocumentValidator.php.html#121\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::getXsd<\/a>"],[0,1,"<a href=\"Validation\/XsltDocumentValidator.php.html#126\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::setStyleSheets<\/a>"],[0,1,"<a href=\"Validation\/XsltDocumentValidator.php.html#133\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::getStyleSheets<\/a>"],[0,1,"<a href=\"Validation\/XsltDocumentValidator.php.html#138\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::getErrors<\/a>"],[0,2,"<a href=\"Validation\/XsltDocumentValidator.php.html#143\">App\\Services\\EDocument\\Standards\\Validation\\XsltDocumentValidator::getHtml<\/a>"],[0,1,"<a href=\"ZugferdEDocument.php.html#53\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::__construct<\/a>"],[0,11,"<a href=\"ZugferdEDocument.php.html#57\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::run<\/a>"],[0,11,"<a href=\"ZugferdEDocument.php.html#99\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setCustomSurcharges<\/a>"],[0,7,"<a href=\"ZugferdEDocument.php.html#148\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setDocumentTaxes<\/a>"],[0,1,"<a href=\"ZugferdEDocument.php.html#231\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setPaymentTerms<\/a>"],[0,1,"<a href=\"ZugferdEDocument.php.html#245\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getDocument<\/a>"],[0,1,"<a href=\"ZugferdEDocument.php.html#250\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getXml<\/a>"],[0,8,"<a href=\"ZugferdEDocument.php.html#255\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::bootFlags<\/a>"],[0,3,"<a href=\"ZugferdEDocument.php.html#293\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setDocumentSummation<\/a>"],[0,8,"<a href=\"ZugferdEDocument.php.html#331\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setLineItems<\/a>"],[0,2,"<a href=\"ZugferdEDocument.php.html#384\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::calculateTotalItemDiscountAmount<\/a>"],[0,2,"<a href=\"ZugferdEDocument.php.html#394\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setCompanyTaxRegistration<\/a>"],[0,10,"<a href=\"ZugferdEDocument.php.html#403\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setPaymentMeans<\/a>"],[0,3,"<a href=\"ZugferdEDocument.php.html#443\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setDeliveryAddress<\/a>"],[0,1,"<a href=\"ZugferdEDocument.php.html#461\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setDocumentInformation<\/a>"],[0,3,"<a href=\"ZugferdEDocument.php.html#473\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setBaseDocument<\/a>"],[0,2,"<a href=\"ZugferdEDocument.php.html#500\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setRoutingNumber<\/a>"],[0,3,"<a href=\"ZugferdEDocument.php.html#511\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::setPoNumber<\/a>"],[0,2,"<a href=\"ZugferdEDocument.php.html#521\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getDocumentNumber<\/a>"],[0,5,"<a href=\"ZugferdEDocument.php.html#526\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getDocumentType<\/a>"],[0,1,"<a href=\"ZugferdEDocument.php.html#536\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getDocumentDate<\/a>"],[0,1,"<a href=\"ZugferdEDocument.php.html#541\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getDocumentCurrency<\/a>"],[0,2,"<a href=\"ZugferdEDocument.php.html#546\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getDocumentLevelTaxRegistration<\/a>"],[0,18,"<a href=\"ZugferdEDocument.php.html#551\">App\\Services\\EDocument\\Standards\\ZugferdEDocument::getTaxType<\/a>"],[0,1,"<a href=\"ZugferdEDokument.php.html#42\">App\\Services\\EDocument\\Standards\\ZugferdEDokument::__construct<\/a>"],[0,53,"<a href=\"ZugferdEDokument.php.html#46\">App\\Services\\EDocument\\Standards\\ZugferdEDokument::run<\/a>"],[0,10,"<a href=\"ZugferdEDokument.php.html#274\">App\\Services\\EDocument\\Standards\\ZugferdEDokument::injectPaymentMeans<\/a>"],[0,1,"<a href=\"ZugferdEDokument.php.html#316\">App\\Services\\EDocument\\Standards\\ZugferdEDokument::getXml<\/a>"],[0,16,"<a href=\"ZugferdEDokument.php.html#321\">App\\Services\\EDocument\\Standards\\ZugferdEDokument::getTaxType<\/a>"],[0,2,"<a href=\"ZugferdEDokument.php.html#359\">App\\Services\\EDocument\\Standards\\ZugferdEDokument::addtoTaxMap<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

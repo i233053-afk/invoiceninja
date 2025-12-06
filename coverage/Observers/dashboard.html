@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Observers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Observers</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ClientContactObserver.php.html#21">App\Observers\ClientContactObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientObserver.php.html#21">App\Observers\ClientObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#8">App\Observers\CompanyGatewayObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#19">App\Observers\CompanyObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyTokenObserver.php.html#17">App\Observers\CompanyTokenObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditObserver.php.html#20">App\Observers\CreditObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#19">App\Observers\ExpenseObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#19">App\Observers\InvoiceObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationObserver.php.html#18">App\Observers\LocationObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#19">App\Observers\PaymentObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductObserver.php.html#19">App\Observers\ProductObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#19">App\Observers\ProjectObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProposalObserver.php.html#17">App\Observers\ProposalObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#19">App\Observers\PurchaseOrderObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#19">App\Observers\QuoteObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionObserver.php.html#17">App\Observers\SubscriptionObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskObserver.php.html#19">App\Observers\TaskObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#18">App\Observers\VendorContactObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorObserver.php.html#19">App\Observers\VendorObserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccountObserver.php.html#17">App\Observers\AccountObserver</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="UserObserver.php.html#19">App\Observers\UserObserver</a></td><td class="text-right">25%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ClientObserver.php.html#21">App\Observers\ClientObserver</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="CreditObserver.php.html#20">App\Observers\CreditObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#19">App\Observers\ExpenseObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#19">App\Observers\InvoiceObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="LocationObserver.php.html#18">App\Observers\LocationObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#19">App\Observers\PaymentObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ProductObserver.php.html#19">App\Observers\ProductObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#19">App\Observers\ProjectObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#19">App\Observers\PurchaseOrderObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#19">App\Observers\QuoteObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="TaskObserver.php.html#19">App\Observers\TaskObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="VendorObserver.php.html#19">App\Observers\VendorObserver</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#19">App\Observers\CompanyObserver</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="UserObserver.php.html#19">App\Observers\UserObserver</a></td><td class="text-right">109</td></tr>
+       <tr><td><a href="ClientContactObserver.php.html#21">App\Observers\ClientContactObserver</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#8">App\Observers\CompanyGatewayObserver</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#18">App\Observers\VendorContactObserver</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AccountObserver.php.html#36"><abbr title="App\Observers\AccountObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccountObserver.php.html#47"><abbr title="App\Observers\AccountObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccountObserver.php.html#58"><abbr title="App\Observers\AccountObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AccountObserver.php.html#69"><abbr title="App\Observers\AccountObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactObserver.php.html#29"><abbr title="App\Observers\ClientContactObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactObserver.php.html#40"><abbr title="App\Observers\ClientContactObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactObserver.php.html#51"><abbr title="App\Observers\ClientContactObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactObserver.php.html#95"><abbr title="App\Observers\ClientContactObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactObserver.php.html#105"><abbr title="App\Observers\ClientContactObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientObserver.php.html#61"><abbr title="App\Observers\ClientObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientObserver.php.html#88"><abbr title="App\Observers\ClientObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientObserver.php.html#126"><abbr title="App\Observers\ClientObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#16"><abbr title="App\Observers\CompanyGatewayObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#31"><abbr title="App\Observers\CompanyGatewayObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#42"><abbr title="App\Observers\CompanyGatewayObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#54"><abbr title="App\Observers\CompanyGatewayObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#69"><abbr title="App\Observers\CompanyGatewayObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#27"><abbr title="App\Observers\CompanyObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#38"><abbr title="App\Observers\CompanyObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#68"><abbr title="App\Observers\CompanyObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#79"><abbr title="App\Observers\CompanyObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#90"><abbr title="App\Observers\CompanyObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyTokenObserver.php.html#25"><abbr title="App\Observers\CompanyTokenObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyTokenObserver.php.html#36"><abbr title="App\Observers\CompanyTokenObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyTokenObserver.php.html#47"><abbr title="App\Observers\CompanyTokenObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyTokenObserver.php.html#58"><abbr title="App\Observers\CompanyTokenObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CompanyTokenObserver.php.html#69"><abbr title="App\Observers\CompanyTokenObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditObserver.php.html#30"><abbr title="App\Observers\CreditObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditObserver.php.html#47"><abbr title="App\Observers\CreditObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditObserver.php.html#74"><abbr title="App\Observers\CreditObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditObserver.php.html#95"><abbr title="App\Observers\CreditObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreditObserver.php.html#106"><abbr title="App\Observers\CreditObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#29"><abbr title="App\Observers\ExpenseObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#46"><abbr title="App\Observers\ExpenseObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#74"><abbr title="App\Observers\ExpenseObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#95"><abbr title="App\Observers\ExpenseObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#106"><abbr title="App\Observers\ExpenseObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#29"><abbr title="App\Observers\InvoiceObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#46"><abbr title="App\Observers\InvoiceObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#74"><abbr title="App\Observers\InvoiceObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#95"><abbr title="App\Observers\InvoiceObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#106"><abbr title="App\Observers\InvoiceObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationObserver.php.html#26"><abbr title="App\Observers\LocationObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationObserver.php.html#40"><abbr title="App\Observers\LocationObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationObserver.php.html#55"><abbr title="App\Observers\LocationObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationObserver.php.html#66"><abbr title="App\Observers\LocationObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LocationObserver.php.html#77"><abbr title="App\Observers\LocationObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#29"><abbr title="App\Observers\PaymentObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#46"><abbr title="App\Observers\PaymentObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#74"><abbr title="App\Observers\PaymentObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#95"><abbr title="App\Observers\PaymentObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#106"><abbr title="App\Observers\PaymentObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductObserver.php.html#29"><abbr title="App\Observers\ProductObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductObserver.php.html#46"><abbr title="App\Observers\ProductObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductObserver.php.html#74"><abbr title="App\Observers\ProductObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductObserver.php.html#95"><abbr title="App\Observers\ProductObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProductObserver.php.html#106"><abbr title="App\Observers\ProductObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#29"><abbr title="App\Observers\ProjectObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#46"><abbr title="App\Observers\ProjectObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#74"><abbr title="App\Observers\ProjectObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#95"><abbr title="App\Observers\ProjectObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#106"><abbr title="App\Observers\ProjectObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProposalObserver.php.html#25"><abbr title="App\Observers\ProposalObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProposalObserver.php.html#36"><abbr title="App\Observers\ProposalObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProposalObserver.php.html#47"><abbr title="App\Observers\ProposalObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProposalObserver.php.html#58"><abbr title="App\Observers\ProposalObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProposalObserver.php.html#69"><abbr title="App\Observers\ProposalObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#29"><abbr title="App\Observers\PurchaseOrderObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#46"><abbr title="App\Observers\PurchaseOrderObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#74"><abbr title="App\Observers\PurchaseOrderObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#95"><abbr title="App\Observers\PurchaseOrderObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#106"><abbr title="App\Observers\PurchaseOrderObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#29"><abbr title="App\Observers\QuoteObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#46"><abbr title="App\Observers\QuoteObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#74"><abbr title="App\Observers\QuoteObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#95"><abbr title="App\Observers\QuoteObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#106"><abbr title="App\Observers\QuoteObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionObserver.php.html#25"><abbr title="App\Observers\SubscriptionObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionObserver.php.html#36"><abbr title="App\Observers\SubscriptionObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionObserver.php.html#47"><abbr title="App\Observers\SubscriptionObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionObserver.php.html#58"><abbr title="App\Observers\SubscriptionObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionObserver.php.html#69"><abbr title="App\Observers\SubscriptionObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskObserver.php.html#29"><abbr title="App\Observers\TaskObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskObserver.php.html#46"><abbr title="App\Observers\TaskObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskObserver.php.html#73"><abbr title="App\Observers\TaskObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskObserver.php.html#95"><abbr title="App\Observers\TaskObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TaskObserver.php.html#106"><abbr title="App\Observers\TaskObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserObserver.php.html#67"><abbr title="App\Observers\UserObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserObserver.php.html#78"><abbr title="App\Observers\UserObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserObserver.php.html#89"><abbr title="App\Observers\UserObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#26"><abbr title="App\Observers\VendorContactObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#37"><abbr title="App\Observers\VendorContactObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#48"><abbr title="App\Observers\VendorContactObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#67"><abbr title="App\Observers\VendorContactObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#77"><abbr title="App\Observers\VendorContactObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorObserver.php.html#29"><abbr title="App\Observers\VendorObserver::created">created</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorObserver.php.html#46"><abbr title="App\Observers\VendorObserver::updated">updated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorObserver.php.html#74"><abbr title="App\Observers\VendorObserver::deleted">deleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorObserver.php.html#95"><abbr title="App\Observers\VendorObserver::restored">restored</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="VendorObserver.php.html#106"><abbr title="App\Observers\VendorObserver::forceDeleted">forceDeleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserObserver.php.html#40"><abbr title="App\Observers\UserObserver::updated">updated</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="UserObserver.php.html#27"><abbr title="App\Observers\UserObserver::created">created</abbr></a></td><td class="text-right">50%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ClientObserver.php.html#88"><abbr title="App\Observers\ClientObserver::updated">updated</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="ClientObserver.php.html#61"><abbr title="App\Observers\ClientObserver::created">created</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="CompanyObserver.php.html#38"><abbr title="App\Observers\CompanyObserver::updated">updated</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UserObserver.php.html#40"><abbr title="App\Observers\UserObserver::updated">updated</abbr></a></td><td class="text-right">38</td></tr>
+       <tr><td><a href="ClientContactObserver.php.html#51"><abbr title="App\Observers\ClientContactObserver::deleted">deleted</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="CreditObserver.php.html#47"><abbr title="App\Observers\CreditObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#46"><abbr title="App\Observers\ExpenseObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#46"><abbr title="App\Observers\InvoiceObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LocationObserver.php.html#40"><abbr title="App\Observers\LocationObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#46"><abbr title="App\Observers\PaymentObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ProductObserver.php.html#46"><abbr title="App\Observers\ProductObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#46"><abbr title="App\Observers\ProjectObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#46"><abbr title="App\Observers\PurchaseOrderObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#46"><abbr title="App\Observers\QuoteObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="TaskObserver.php.html#46"><abbr title="App\Observers\TaskObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="VendorObserver.php.html#46"><abbr title="App\Observers\VendorObserver::updated">updated</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="LocationObserver.php.html#26"><abbr title="App\Observers\LocationObserver::created">created</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ClientObserver.php.html#126"><abbr title="App\Observers\ClientObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CreditObserver.php.html#74"><abbr title="App\Observers\CreditObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#74"><abbr title="App\Observers\ExpenseObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#74"><abbr title="App\Observers\InvoiceObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#74"><abbr title="App\Observers\PaymentObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ProductObserver.php.html#74"><abbr title="App\Observers\ProductObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#74"><abbr title="App\Observers\ProjectObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#74"><abbr title="App\Observers\PurchaseOrderObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#74"><abbr title="App\Observers\QuoteObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TaskObserver.php.html#73"><abbr title="App\Observers\TaskObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="VendorObserver.php.html#74"><abbr title="App\Observers\VendorObserver::deleted">deleted</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CompanyGatewayObserver.php.html#16"><abbr title="App\Observers\CompanyGatewayObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CreditObserver.php.html#30"><abbr title="App\Observers\CreditObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ExpenseObserver.php.html#29"><abbr title="App\Observers\ExpenseObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="InvoiceObserver.php.html#29"><abbr title="App\Observers\InvoiceObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentObserver.php.html#29"><abbr title="App\Observers\PaymentObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ProductObserver.php.html#29"><abbr title="App\Observers\ProductObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ProjectObserver.php.html#29"><abbr title="App\Observers\ProjectObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PurchaseOrderObserver.php.html#29"><abbr title="App\Observers\PurchaseOrderObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QuoteObserver.php.html#29"><abbr title="App\Observers\QuoteObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TaskObserver.php.html#29"><abbr title="App\Observers\TaskObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="VendorContactObserver.php.html#48"><abbr title="App\Observers\VendorContactObserver::deleted">deleted</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="VendorObserver.php.html#29"><abbr title="App\Observers\VendorObserver::created">created</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserObserver.php.html#27"><abbr title="App\Observers\UserObserver::created">created</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([19,0,0,2,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([100,0,0,1,0,0,1,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[20,5,"<a href=\"AccountObserver.php.html#17\">App\\Observers\\AccountObserver<\/a>"],[0,9,"<a href=\"ClientContactObserver.php.html#21\">App\\Observers\\ClientContactObserver<\/a>"],[0,23,"<a href=\"ClientObserver.php.html#21\">App\\Observers\\ClientObserver<\/a>"],[0,6,"<a href=\"CompanyGatewayObserver.php.html#8\">App\\Observers\\CompanyGatewayObserver<\/a>"],[0,11,"<a href=\"CompanyObserver.php.html#19\">App\\Observers\\CompanyObserver<\/a>"],[0,5,"<a href=\"CompanyTokenObserver.php.html#17\">App\\Observers\\CompanyTokenObserver<\/a>"],[0,12,"<a href=\"CreditObserver.php.html#20\">App\\Observers\\CreditObserver<\/a>"],[0,12,"<a href=\"ExpenseObserver.php.html#19\">App\\Observers\\ExpenseObserver<\/a>"],[0,12,"<a href=\"InvoiceObserver.php.html#19\">App\\Observers\\InvoiceObserver<\/a>"],[0,12,"<a href=\"LocationObserver.php.html#18\">App\\Observers\\LocationObserver<\/a>"],[0,12,"<a href=\"PaymentObserver.php.html#19\">App\\Observers\\PaymentObserver<\/a>"],[0,12,"<a href=\"ProductObserver.php.html#19\">App\\Observers\\ProductObserver<\/a>"],[0,12,"<a href=\"ProjectObserver.php.html#19\">App\\Observers\\ProjectObserver<\/a>"],[0,5,"<a href=\"ProposalObserver.php.html#17\">App\\Observers\\ProposalObserver<\/a>"],[0,12,"<a href=\"PurchaseOrderObserver.php.html#19\">App\\Observers\\PurchaseOrderObserver<\/a>"],[0,12,"<a href=\"QuoteObserver.php.html#19\">App\\Observers\\QuoteObserver<\/a>"],[0,5,"<a href=\"SubscriptionObserver.php.html#17\">App\\Observers\\SubscriptionObserver<\/a>"],[0,12,"<a href=\"TaskObserver.php.html#19\">App\\Observers\\TaskObserver<\/a>"],[25,15,"<a href=\"UserObserver.php.html#19\">App\\Observers\\UserObserver<\/a>"],[0,6,"<a href=\"VendorContactObserver.php.html#18\">App\\Observers\\VendorContactObserver<\/a>"],[0,12,"<a href=\"VendorObserver.php.html#19\">App\\Observers\\VendorObserver<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AccountObserver.php.html#25\">App\\Observers\\AccountObserver::created<\/a>"],[0,1,"<a href=\"AccountObserver.php.html#36\">App\\Observers\\AccountObserver::updated<\/a>"],[0,1,"<a href=\"AccountObserver.php.html#47\">App\\Observers\\AccountObserver::deleted<\/a>"],[0,1,"<a href=\"AccountObserver.php.html#58\">App\\Observers\\AccountObserver::restored<\/a>"],[0,1,"<a href=\"AccountObserver.php.html#69\">App\\Observers\\AccountObserver::forceDeleted<\/a>"],[0,1,"<a href=\"ClientContactObserver.php.html#29\">App\\Observers\\ClientContactObserver::created<\/a>"],[0,1,"<a href=\"ClientContactObserver.php.html#40\">App\\Observers\\ClientContactObserver::updated<\/a>"],[0,5,"<a href=\"ClientContactObserver.php.html#51\">App\\Observers\\ClientContactObserver::deleted<\/a>"],[0,1,"<a href=\"ClientContactObserver.php.html#95\">App\\Observers\\ClientContactObserver::restored<\/a>"],[0,1,"<a href=\"ClientContactObserver.php.html#105\">App\\Observers\\ClientContactObserver::forceDeleted<\/a>"],[0,7,"<a href=\"ClientObserver.php.html#61\">App\\Observers\\ClientObserver::created<\/a>"],[0,13,"<a href=\"ClientObserver.php.html#88\">App\\Observers\\ClientObserver::updated<\/a>"],[0,3,"<a href=\"ClientObserver.php.html#126\">App\\Observers\\ClientObserver::deleted<\/a>"],[0,2,"<a href=\"CompanyGatewayObserver.php.html#16\">App\\Observers\\CompanyGatewayObserver::created<\/a>"],[0,1,"<a href=\"CompanyGatewayObserver.php.html#31\">App\\Observers\\CompanyGatewayObserver::updated<\/a>"],[0,1,"<a href=\"CompanyGatewayObserver.php.html#42\">App\\Observers\\CompanyGatewayObserver::deleted<\/a>"],[0,1,"<a href=\"CompanyGatewayObserver.php.html#54\">App\\Observers\\CompanyGatewayObserver::restored<\/a>"],[0,1,"<a href=\"CompanyGatewayObserver.php.html#69\">App\\Observers\\CompanyGatewayObserver::forceDeleted<\/a>"],[0,1,"<a href=\"CompanyObserver.php.html#27\">App\\Observers\\CompanyObserver::created<\/a>"],[0,7,"<a href=\"CompanyObserver.php.html#38\">App\\Observers\\CompanyObserver::updated<\/a>"],[0,1,"<a href=\"CompanyObserver.php.html#68\">App\\Observers\\CompanyObserver::deleted<\/a>"],[0,1,"<a href=\"CompanyObserver.php.html#79\">App\\Observers\\CompanyObserver::restored<\/a>"],[0,1,"<a href=\"CompanyObserver.php.html#90\">App\\Observers\\CompanyObserver::forceDeleted<\/a>"],[0,1,"<a href=\"CompanyTokenObserver.php.html#25\">App\\Observers\\CompanyTokenObserver::created<\/a>"],[0,1,"<a href=\"CompanyTokenObserver.php.html#36\">App\\Observers\\CompanyTokenObserver::updated<\/a>"],[0,1,"<a href=\"CompanyTokenObserver.php.html#47\">App\\Observers\\CompanyTokenObserver::deleted<\/a>"],[0,1,"<a href=\"CompanyTokenObserver.php.html#58\">App\\Observers\\CompanyTokenObserver::restored<\/a>"],[0,1,"<a href=\"CompanyTokenObserver.php.html#69\">App\\Observers\\CompanyTokenObserver::forceDeleted<\/a>"],[0,2,"<a href=\"CreditObserver.php.html#30\">App\\Observers\\CreditObserver::created<\/a>"],[0,5,"<a href=\"CreditObserver.php.html#47\">App\\Observers\\CreditObserver::updated<\/a>"],[0,3,"<a href=\"CreditObserver.php.html#74\">App\\Observers\\CreditObserver::deleted<\/a>"],[0,1,"<a href=\"CreditObserver.php.html#95\">App\\Observers\\CreditObserver::restored<\/a>"],[0,1,"<a href=\"CreditObserver.php.html#106\">App\\Observers\\CreditObserver::forceDeleted<\/a>"],[0,2,"<a href=\"ExpenseObserver.php.html#29\">App\\Observers\\ExpenseObserver::created<\/a>"],[0,5,"<a href=\"ExpenseObserver.php.html#46\">App\\Observers\\ExpenseObserver::updated<\/a>"],[0,3,"<a href=\"ExpenseObserver.php.html#74\">App\\Observers\\ExpenseObserver::deleted<\/a>"],[0,1,"<a href=\"ExpenseObserver.php.html#95\">App\\Observers\\ExpenseObserver::restored<\/a>"],[0,1,"<a href=\"ExpenseObserver.php.html#106\">App\\Observers\\ExpenseObserver::forceDeleted<\/a>"],[0,2,"<a href=\"InvoiceObserver.php.html#29\">App\\Observers\\InvoiceObserver::created<\/a>"],[0,5,"<a href=\"InvoiceObserver.php.html#46\">App\\Observers\\InvoiceObserver::updated<\/a>"],[0,3,"<a href=\"InvoiceObserver.php.html#74\">App\\Observers\\InvoiceObserver::deleted<\/a>"],[0,1,"<a href=\"InvoiceObserver.php.html#95\">App\\Observers\\InvoiceObserver::restored<\/a>"],[0,1,"<a href=\"InvoiceObserver.php.html#106\">App\\Observers\\InvoiceObserver::forceDeleted<\/a>"],[0,4,"<a href=\"LocationObserver.php.html#26\">App\\Observers\\LocationObserver::created<\/a>"],[0,5,"<a href=\"LocationObserver.php.html#40\">App\\Observers\\LocationObserver::updated<\/a>"],[0,1,"<a href=\"LocationObserver.php.html#55\">App\\Observers\\LocationObserver::deleted<\/a>"],[0,1,"<a href=\"LocationObserver.php.html#66\">App\\Observers\\LocationObserver::restored<\/a>"],[0,1,"<a href=\"LocationObserver.php.html#77\">App\\Observers\\LocationObserver::forceDeleted<\/a>"],[0,2,"<a href=\"PaymentObserver.php.html#29\">App\\Observers\\PaymentObserver::created<\/a>"],[0,5,"<a href=\"PaymentObserver.php.html#46\">App\\Observers\\PaymentObserver::updated<\/a>"],[0,3,"<a href=\"PaymentObserver.php.html#74\">App\\Observers\\PaymentObserver::deleted<\/a>"],[0,1,"<a href=\"PaymentObserver.php.html#95\">App\\Observers\\PaymentObserver::restored<\/a>"],[0,1,"<a href=\"PaymentObserver.php.html#106\">App\\Observers\\PaymentObserver::forceDeleted<\/a>"],[0,2,"<a href=\"ProductObserver.php.html#29\">App\\Observers\\ProductObserver::created<\/a>"],[0,5,"<a href=\"ProductObserver.php.html#46\">App\\Observers\\ProductObserver::updated<\/a>"],[0,3,"<a href=\"ProductObserver.php.html#74\">App\\Observers\\ProductObserver::deleted<\/a>"],[0,1,"<a href=\"ProductObserver.php.html#95\">App\\Observers\\ProductObserver::restored<\/a>"],[0,1,"<a href=\"ProductObserver.php.html#106\">App\\Observers\\ProductObserver::forceDeleted<\/a>"],[0,2,"<a href=\"ProjectObserver.php.html#29\">App\\Observers\\ProjectObserver::created<\/a>"],[0,5,"<a href=\"ProjectObserver.php.html#46\">App\\Observers\\ProjectObserver::updated<\/a>"],[0,3,"<a href=\"ProjectObserver.php.html#74\">App\\Observers\\ProjectObserver::deleted<\/a>"],[0,1,"<a href=\"ProjectObserver.php.html#95\">App\\Observers\\ProjectObserver::restored<\/a>"],[0,1,"<a href=\"ProjectObserver.php.html#106\">App\\Observers\\ProjectObserver::forceDeleted<\/a>"],[0,1,"<a href=\"ProposalObserver.php.html#25\">App\\Observers\\ProposalObserver::created<\/a>"],[0,1,"<a href=\"ProposalObserver.php.html#36\">App\\Observers\\ProposalObserver::updated<\/a>"],[0,1,"<a href=\"ProposalObserver.php.html#47\">App\\Observers\\ProposalObserver::deleted<\/a>"],[0,1,"<a href=\"ProposalObserver.php.html#58\">App\\Observers\\ProposalObserver::restored<\/a>"],[0,1,"<a href=\"ProposalObserver.php.html#69\">App\\Observers\\ProposalObserver::forceDeleted<\/a>"],[0,2,"<a href=\"PurchaseOrderObserver.php.html#29\">App\\Observers\\PurchaseOrderObserver::created<\/a>"],[0,5,"<a href=\"PurchaseOrderObserver.php.html#46\">App\\Observers\\PurchaseOrderObserver::updated<\/a>"],[0,3,"<a href=\"PurchaseOrderObserver.php.html#74\">App\\Observers\\PurchaseOrderObserver::deleted<\/a>"],[0,1,"<a href=\"PurchaseOrderObserver.php.html#95\">App\\Observers\\PurchaseOrderObserver::restored<\/a>"],[0,1,"<a href=\"PurchaseOrderObserver.php.html#106\">App\\Observers\\PurchaseOrderObserver::forceDeleted<\/a>"],[0,2,"<a href=\"QuoteObserver.php.html#29\">App\\Observers\\QuoteObserver::created<\/a>"],[0,5,"<a href=\"QuoteObserver.php.html#46\">App\\Observers\\QuoteObserver::updated<\/a>"],[0,3,"<a href=\"QuoteObserver.php.html#74\">App\\Observers\\QuoteObserver::deleted<\/a>"],[0,1,"<a href=\"QuoteObserver.php.html#95\">App\\Observers\\QuoteObserver::restored<\/a>"],[0,1,"<a href=\"QuoteObserver.php.html#106\">App\\Observers\\QuoteObserver::forceDeleted<\/a>"],[0,1,"<a href=\"SubscriptionObserver.php.html#25\">App\\Observers\\SubscriptionObserver::created<\/a>"],[0,1,"<a href=\"SubscriptionObserver.php.html#36\">App\\Observers\\SubscriptionObserver::updated<\/a>"],[0,1,"<a href=\"SubscriptionObserver.php.html#47\">App\\Observers\\SubscriptionObserver::deleted<\/a>"],[0,1,"<a href=\"SubscriptionObserver.php.html#58\">App\\Observers\\SubscriptionObserver::restored<\/a>"],[0,1,"<a href=\"SubscriptionObserver.php.html#69\">App\\Observers\\SubscriptionObserver::forceDeleted<\/a>"],[0,2,"<a href=\"TaskObserver.php.html#29\">App\\Observers\\TaskObserver::created<\/a>"],[0,5,"<a href=\"TaskObserver.php.html#46\">App\\Observers\\TaskObserver::updated<\/a>"],[0,3,"<a href=\"TaskObserver.php.html#73\">App\\Observers\\TaskObserver::deleted<\/a>"],[0,1,"<a href=\"TaskObserver.php.html#95\">App\\Observers\\TaskObserver::restored<\/a>"],[0,1,"<a href=\"TaskObserver.php.html#106\">App\\Observers\\TaskObserver::forceDeleted<\/a>"],[50,3,"<a href=\"UserObserver.php.html#27\">App\\Observers\\UserObserver::created<\/a>"],[28.57142857142857,9,"<a href=\"UserObserver.php.html#40\">App\\Observers\\UserObserver::updated<\/a>"],[0,1,"<a href=\"UserObserver.php.html#67\">App\\Observers\\UserObserver::deleted<\/a>"],[0,1,"<a href=\"UserObserver.php.html#78\">App\\Observers\\UserObserver::restored<\/a>"],[0,1,"<a href=\"UserObserver.php.html#89\">App\\Observers\\UserObserver::forceDeleted<\/a>"],[0,1,"<a href=\"VendorContactObserver.php.html#26\">App\\Observers\\VendorContactObserver::created<\/a>"],[0,1,"<a href=\"VendorContactObserver.php.html#37\">App\\Observers\\VendorContactObserver::updated<\/a>"],[0,2,"<a href=\"VendorContactObserver.php.html#48\">App\\Observers\\VendorContactObserver::deleted<\/a>"],[0,1,"<a href=\"VendorContactObserver.php.html#67\">App\\Observers\\VendorContactObserver::restored<\/a>"],[0,1,"<a href=\"VendorContactObserver.php.html#77\">App\\Observers\\VendorContactObserver::forceDeleted<\/a>"],[0,2,"<a href=\"VendorObserver.php.html#29\">App\\Observers\\VendorObserver::created<\/a>"],[0,5,"<a href=\"VendorObserver.php.html#46\">App\\Observers\\VendorObserver::updated<\/a>"],[0,3,"<a href=\"VendorObserver.php.html#74\">App\\Observers\\VendorObserver::deleted<\/a>"],[0,1,"<a href=\"VendorObserver.php.html#95\">App\\Observers\\VendorObserver::restored<\/a>"],[0,1,"<a href=\"VendorObserver.php.html#106\">App\\Observers\\VendorObserver::forceDeleted<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

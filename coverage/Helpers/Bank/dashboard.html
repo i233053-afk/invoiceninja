@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Helpers/Bank</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Helpers</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Bank</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#11">App\Helpers\Bank\Nordigen\Http\NordigenClient</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#34">App\Helpers\Bank\Nordigen\Nordigen</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/AccountTransformer.php.html#87">App\Helpers\Bank\Nordigen\Transformer\AccountTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#69">App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/AccountTransformer.php.html#66">App\Helpers\Bank\Yodlee\Transformer\AccountTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#117">App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#21">App\Helpers\Bank\Yodlee\Yodlee</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#11">App\Helpers\Bank\Nordigen\Http\NordigenClient</a></td><td class="text-right">9120</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#21">App\Helpers\Bank\Yodlee\Yodlee</a></td><td class="text-right">1806</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#34">App\Helpers\Bank\Nordigen\Nordigen</a></td><td class="text-right">1560</td></tr>
+       <tr><td><a href="Yodlee/Transformer/AccountTransformer.php.html#66">App\Helpers\Bank\Yodlee\Transformer\AccountTransformer</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#69">App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#117">App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Nordigen/Transformer/AccountTransformer.php.html#87">App\Helpers\Bank\Nordigen\Transformer\AccountTransformer</a></td><td class="text-right">156</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#17"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#32"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getRequisitions">getRequisitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#47"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getRequisition">getRequisition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#57"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::createRequisition">createRequisition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#67"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::updateRequisition">updateRequisition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#77"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::deleteRequisition">deleteRequisition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#87"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllRequisitions">getAllRequisitions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#116"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAgreements">getAgreements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#131"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAgreement">getAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#141"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::createAgreement">createAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#151"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::updateAgreement">updateAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#161"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::deleteAgreement">deleteAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#171"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllAgreements">getAllAgreements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#199"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getInstitutions">getInstitutions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#211"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getInstitution">getInstitution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#221"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getInstitutionsByCountry">getInstitutionsByCountry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#236"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllInstitutions">getAllInstitutions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#264"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getEnduserAgreements">getEnduserAgreements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#279"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getEnduserAgreement">getEnduserAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#289"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::createEnduserAgreement">createEnduserAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#299"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::updateEnduserAgreement">updateEnduserAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#309"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::deleteEnduserAgreement">deleteEnduserAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#321"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getBankAccounts">getBankAccounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#336"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getBankAccount">getBankAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#346"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountBalances">getAccountBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#356"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountDetails">getAccountDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#366"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountMetadata">getAccountMetadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#376"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountHolder">getAccountHolder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#386"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountStatus">getAccountStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#396"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllBankAccounts">getAllBankAccounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#424"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactions">getAccountTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#453"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllTransactions">getAllTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#481"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllAccountTransactions">getAllAccountTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#510"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactionsByStatus">getAccountTransactionsByStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#533"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactionsByCategory">getAccountTransactionsByCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#556"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::searchTransactions">searchTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#579"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactionsByAmount">getAccountTransactionsByAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#606"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getPayments">getPayments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#621"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getPayment">getPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#631"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::createPayment">createPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#641"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::updatePayment">updatePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#651"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::deletePayment">deletePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#663"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getMandates">getMandates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#678"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getMandate">getMandate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#688"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::createMandate">createMandate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#698"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::updateMandate">updateMandate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#708"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::deleteMandate">deleteMandate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#720"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getRefunds">getRefunds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#735"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getRefund">getRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#745"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::createRefund">createRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#757"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getEvents">getEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#772"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getEvent">getEvent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#784"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getWebhooks">getWebhooks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#799"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getWebhook">getWebhook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#809"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::createWebhook">createWebhook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#819"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::updateWebhook">updateWebhook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#829"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::deleteWebhook">deleteWebhook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#841"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::handlePaginatedResponse">handlePaginatedResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#856"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::handleResponse">handleResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#869"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::logError">logError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#882"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::setTimeout">setTimeout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#891"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::setHeaders">setHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#900"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getHttpClient">getHttpClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#42"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#56"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getInstitutions">getInstitutions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#78"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getAgreement">getAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#96"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::firstValidAgreement">firstValidAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#141"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::createAgreement">createAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#160"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::createRequisition">createRequisition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#181"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::validAgreement">validAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#195"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getRequisition">getRequisition</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#209"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getAccount">getAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#263"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::isAccountActive">isAccountActive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#294"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getTransactions">getTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#302"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::disabledAccountEmail">disabledAccountEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/AccountTransformer.php.html#89"><abbr title="App\Helpers\Bank\Nordigen\Transformer\AccountTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#75"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#80"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#94"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::transformTransaction">transformTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#166"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::convertCurrency">convertCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#181"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::formatDate">formatDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/AccountTransformer.php.html#68"><abbr title="App\Helpers\Bank\Yodlee\Transformer\AccountTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/AccountTransformer.php.html#83"><abbr title="App\Helpers\Bank\Yodlee\Transformer\AccountTransformer::transformAccount">transformAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#121"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#146"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::transformTransaction">transformTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#162"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::calculateBaseType">calculateBaseType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#173"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::convertCurrency">convertCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#45"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#60"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getFastTrackUrl">getFastTrackUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#69"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::setTestMode">setTestMode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#76"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::setDevUrl">setDevUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#85"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getEndpoint">getEndpoint</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#94"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccessToken">getAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#108"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::createUser">createUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#158"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccounts">getAccounts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#174"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccount">getAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#189"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccountSummary">getAccountSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#204"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::deleteAccount">deleteAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#219"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getTransactions">getTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#235"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getTransactionCount">getTransactionCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#250"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getTransactionCategories">getTransactionCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#265"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::bankFormRequest">bankFormRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#278"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getHeaders">getHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#287"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getFormHeaders">getFormHeaders</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#294"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::buildBody">buildBody</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Yodlee/Transformer/AccountTransformer.php.html#83"><abbr title="App\Helpers\Bank\Yodlee\Transformer\AccountTransformer::transformAccount">transformAccount</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#94"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::transformTransaction">transformTransaction</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Nordigen/Transformer/AccountTransformer.php.html#89"><abbr title="App\Helpers\Bank\Nordigen\Transformer\AccountTransformer::transform">transform</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#96"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::firstValidAgreement">firstValidAgreement</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#121"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::transform">transform</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#209"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getAccount">getAccount</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#424"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactions">getAccountTransactions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#453"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllTransactions">getAllTransactions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#141"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::createAgreement">createAgreement</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#263"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::isAccountActive">isAccountActive</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#80"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::transform">transform</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#181"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::formatDate">formatDate</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#87"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllRequisitions">getAllRequisitions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#171"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllAgreements">getAllAgreements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#236"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllInstitutions">getAllInstitutions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#396"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllBankAccounts">getAllBankAccounts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#481"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAllAccountTransactions">getAllAccountTransactions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#42"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#160"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::createRequisition">createRequisition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#181"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::validAgreement">validAgreement</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#195"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getRequisition">getRequisition</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Transformer/AccountTransformer.php.html#68"><abbr title="App\Helpers\Bank\Yodlee\Transformer\AccountTransformer::transform">transform</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#162"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::calculateBaseType">calculateBaseType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#60"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getFastTrackUrl">getFastTrackUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#94"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccessToken">getAccessToken</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#108"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::createUser">createUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#158"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccounts">getAccounts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#174"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccount">getAccount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#189"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getAccountSummary">getAccountSummary</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#204"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::deleteAccount">deleteAccount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#219"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getTransactions">getTransactions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#235"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getTransactionCount">getTransactionCount</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#250"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getTransactionCategories">getTransactionCategories</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#265"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::bankFormRequest">bankFormRequest</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#32"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getRequisitions">getRequisitions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#116"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAgreements">getAgreements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#221"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getInstitutionsByCountry">getInstitutionsByCountry</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#264"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getEnduserAgreements">getEnduserAgreements</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#321"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getBankAccounts">getBankAccounts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#510"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactionsByStatus">getAccountTransactionsByStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#533"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactionsByCategory">getAccountTransactionsByCategory</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#556"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::searchTransactions">searchTransactions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#579"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getAccountTransactionsByAmount">getAccountTransactionsByAmount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#606"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getPayments">getPayments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#663"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getMandates">getMandates</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#720"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getRefunds">getRefunds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#757"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getEvents">getEvents</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#784"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::getWebhooks">getWebhooks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#841"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::handlePaginatedResponse">handlePaginatedResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Http/NordigenClient.php.html#856"><abbr title="App\Helpers\Bank\Nordigen\Http\NordigenClient::handleResponse">handleResponse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#56"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::getInstitutions">getInstitutions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Nordigen.php.html#302"><abbr title="App\Helpers\Bank\Nordigen\Nordigen::disabledAccountEmail">disabledAccountEmail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Nordigen/Transformer/TransactionTransformer.php.html#166"><abbr title="App\Helpers\Bank\Nordigen\Transformer\TransactionTransformer::convertCurrency">convertCurrency</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#146"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::transformTransaction">transformTransaction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Yodlee/Transformer/IncomeTransformer.php.html#173"><abbr title="App\Helpers\Bank\Yodlee\Transformer\IncomeTransformer::convertCurrency">convertCurrency</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#45"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Yodlee/Yodlee.php.html#85"><abbr title="App\Helpers\Bank\Yodlee\Yodlee::getEndpoint">getEndpoint</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([105,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,95,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#11\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient<\/a>"],[0,39,"<a href=\"Nordigen\/Nordigen.php.html#34\">App\\Helpers\\Bank\\Nordigen\\Nordigen<\/a>"],[0,12,"<a href=\"Nordigen\/Transformer\/AccountTransformer.php.html#87\">App\\Helpers\\Bank\\Nordigen\\Transformer\\AccountTransformer<\/a>"],[0,29,"<a href=\"Nordigen\/Transformer\/TransactionTransformer.php.html#69\">App\\Helpers\\Bank\\Nordigen\\Transformer\\TransactionTransformer<\/a>"],[0,30,"<a href=\"Yodlee\/Transformer\/AccountTransformer.php.html#66\">App\\Helpers\\Bank\\Yodlee\\Transformer\\AccountTransformer<\/a>"],[100,0,"<a href=\"Yodlee\/Transformer\/ExpenseTransformer.php.html#76\">App\\Helpers\\Bank\\Yodlee\\Transformer\\ExpenseTransformer<\/a>"],[0,13,"<a href=\"Yodlee\/Transformer\/IncomeTransformer.php.html#117\">App\\Helpers\\Bank\\Yodlee\\Transformer\\IncomeTransformer<\/a>"],[0,42,"<a href=\"Yodlee\/Yodlee.php.html#21\">App\\Helpers\\Bank\\Yodlee\\Yodlee<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#17\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::__construct<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#32\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getRequisitions<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#47\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getRequisition<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#57\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::createRequisition<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#67\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::updateRequisition<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#77\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::deleteRequisition<\/a>"],[0,3,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#87\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAllRequisitions<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#116\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAgreements<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#131\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAgreement<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#141\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::createAgreement<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#151\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::updateAgreement<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#161\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::deleteAgreement<\/a>"],[0,3,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#171\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAllAgreements<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#199\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getInstitutions<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#211\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getInstitution<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#221\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getInstitutionsByCountry<\/a>"],[0,3,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#236\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAllInstitutions<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#264\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getEnduserAgreements<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#279\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getEnduserAgreement<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#289\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::createEnduserAgreement<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#299\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::updateEnduserAgreement<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#309\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::deleteEnduserAgreement<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#321\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getBankAccounts<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#336\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getBankAccount<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#346\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountBalances<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#356\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountDetails<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#366\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountMetadata<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#376\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountHolder<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#386\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountStatus<\/a>"],[0,3,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#396\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAllBankAccounts<\/a>"],[0,4,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#424\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountTransactions<\/a>"],[0,4,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#453\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAllTransactions<\/a>"],[0,3,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#481\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAllAccountTransactions<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#510\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountTransactionsByStatus<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#533\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountTransactionsByCategory<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#556\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::searchTransactions<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#579\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getAccountTransactionsByAmount<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#606\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getPayments<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#621\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getPayment<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#631\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::createPayment<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#641\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::updatePayment<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#651\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::deletePayment<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#663\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getMandates<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#678\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getMandate<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#688\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::createMandate<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#698\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::updateMandate<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#708\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::deleteMandate<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#720\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getRefunds<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#735\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getRefund<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#745\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::createRefund<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#757\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getEvents<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#772\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getEvent<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#784\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getWebhooks<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#799\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getWebhook<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#809\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::createWebhook<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#819\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::updateWebhook<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#829\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::deleteWebhook<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#841\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::handlePaginatedResponse<\/a>"],[0,2,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#856\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::handleResponse<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#869\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::logError<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#882\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::setTimeout<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#891\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::setHeaders<\/a>"],[0,1,"<a href=\"Nordigen\/Http\/NordigenClient.php.html#900\">App\\Helpers\\Bank\\Nordigen\\Http\\NordigenClient::getHttpClient<\/a>"],[0,3,"<a href=\"Nordigen\/Nordigen.php.html#42\">App\\Helpers\\Bank\\Nordigen\\Nordigen::__construct<\/a>"],[0,2,"<a href=\"Nordigen\/Nordigen.php.html#56\">App\\Helpers\\Bank\\Nordigen\\Nordigen::getInstitutions<\/a>"],[0,1,"<a href=\"Nordigen\/Nordigen.php.html#78\">App\\Helpers\\Bank\\Nordigen\\Nordigen::getAgreement<\/a>"],[0,8,"<a href=\"Nordigen\/Nordigen.php.html#96\">App\\Helpers\\Bank\\Nordigen\\Nordigen::firstValidAgreement<\/a>"],[0,4,"<a href=\"Nordigen\/Nordigen.php.html#141\">App\\Helpers\\Bank\\Nordigen\\Nordigen::createAgreement<\/a>"],[0,3,"<a href=\"Nordigen\/Nordigen.php.html#160\">App\\Helpers\\Bank\\Nordigen\\Nordigen::createRequisition<\/a>"],[0,3,"<a href=\"Nordigen\/Nordigen.php.html#181\">App\\Helpers\\Bank\\Nordigen\\Nordigen::validAgreement<\/a>"],[0,3,"<a href=\"Nordigen\/Nordigen.php.html#195\">App\\Helpers\\Bank\\Nordigen\\Nordigen::getRequisition<\/a>"],[0,5,"<a href=\"Nordigen\/Nordigen.php.html#209\">App\\Helpers\\Bank\\Nordigen\\Nordigen::getAccount<\/a>"],[0,4,"<a href=\"Nordigen\/Nordigen.php.html#263\">App\\Helpers\\Bank\\Nordigen\\Nordigen::isAccountActive<\/a>"],[0,1,"<a href=\"Nordigen\/Nordigen.php.html#294\">App\\Helpers\\Bank\\Nordigen\\Nordigen::getTransactions<\/a>"],[0,2,"<a href=\"Nordigen\/Nordigen.php.html#302\">App\\Helpers\\Bank\\Nordigen\\Nordigen::disabledAccountEmail<\/a>"],[0,12,"<a href=\"Nordigen\/Transformer\/AccountTransformer.php.html#89\">App\\Helpers\\Bank\\Nordigen\\Transformer\\AccountTransformer::transform<\/a>"],[0,1,"<a href=\"Nordigen\/Transformer\/TransactionTransformer.php.html#75\">App\\Helpers\\Bank\\Nordigen\\Transformer\\TransactionTransformer::__construct<\/a>"],[0,4,"<a href=\"Nordigen\/Transformer\/TransactionTransformer.php.html#80\">App\\Helpers\\Bank\\Nordigen\\Transformer\\TransactionTransformer::transform<\/a>"],[0,18,"<a href=\"Nordigen\/Transformer\/TransactionTransformer.php.html#94\">App\\Helpers\\Bank\\Nordigen\\Transformer\\TransactionTransformer::transformTransaction<\/a>"],[0,2,"<a href=\"Nordigen\/Transformer\/TransactionTransformer.php.html#166\">App\\Helpers\\Bank\\Nordigen\\Transformer\\TransactionTransformer::convertCurrency<\/a>"],[0,4,"<a href=\"Nordigen\/Transformer\/TransactionTransformer.php.html#181\">App\\Helpers\\Bank\\Nordigen\\Transformer\\TransactionTransformer::formatDate<\/a>"],[0,3,"<a href=\"Yodlee\/Transformer\/AccountTransformer.php.html#68\">App\\Helpers\\Bank\\Yodlee\\Transformer\\AccountTransformer::transform<\/a>"],[0,27,"<a href=\"Yodlee\/Transformer\/AccountTransformer.php.html#83\">App\\Helpers\\Bank\\Yodlee\\Transformer\\AccountTransformer::transformAccount<\/a>"],[0,6,"<a href=\"Yodlee\/Transformer\/IncomeTransformer.php.html#121\">App\\Helpers\\Bank\\Yodlee\\Transformer\\IncomeTransformer::transform<\/a>"],[0,2,"<a href=\"Yodlee\/Transformer\/IncomeTransformer.php.html#146\">App\\Helpers\\Bank\\Yodlee\\Transformer\\IncomeTransformer::transformTransaction<\/a>"],[0,3,"<a href=\"Yodlee\/Transformer\/IncomeTransformer.php.html#162\">App\\Helpers\\Bank\\Yodlee\\Transformer\\IncomeTransformer::calculateBaseType<\/a>"],[0,2,"<a href=\"Yodlee\/Transformer\/IncomeTransformer.php.html#173\">App\\Helpers\\Bank\\Yodlee\\Transformer\\IncomeTransformer::convertCurrency<\/a>"],[0,2,"<a href=\"Yodlee\/Yodlee.php.html#45\">App\\Helpers\\Bank\\Yodlee\\Yodlee::__construct<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#60\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getFastTrackUrl<\/a>"],[0,1,"<a href=\"Yodlee\/Yodlee.php.html#69\">App\\Helpers\\Bank\\Yodlee\\Yodlee::setTestMode<\/a>"],[0,1,"<a href=\"Yodlee\/Yodlee.php.html#76\">App\\Helpers\\Bank\\Yodlee\\Yodlee::setDevUrl<\/a>"],[0,2,"<a href=\"Yodlee\/Yodlee.php.html#85\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getEndpoint<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#94\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getAccessToken<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#108\">App\\Helpers\\Bank\\Yodlee\\Yodlee::createUser<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#158\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getAccounts<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#174\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getAccount<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#189\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getAccountSummary<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#204\">App\\Helpers\\Bank\\Yodlee\\Yodlee::deleteAccount<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#219\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getTransactions<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#235\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getTransactionCount<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#250\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getTransactionCategories<\/a>"],[0,3,"<a href=\"Yodlee\/Yodlee.php.html#265\">App\\Helpers\\Bank\\Yodlee\\Yodlee::bankFormRequest<\/a>"],[0,1,"<a href=\"Yodlee\/Yodlee.php.html#278\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getHeaders<\/a>"],[0,1,"<a href=\"Yodlee\/Yodlee.php.html#287\">App\\Helpers\\Bank\\Yodlee\\Yodlee::getFormHeaders<\/a>"],[0,1,"<a href=\"Yodlee\/Yodlee.php.html#294\">App\\Helpers\\Bank\\Yodlee\\Yodlee::buildBody<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

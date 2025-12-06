@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Services/Subscription</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/home/amna/sqe_project/invoiceninja/app/Services</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Subscription</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChangePlanInvoice.php.html#27">App\Services\Subscription\ChangePlanInvoice</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceToRecurring.php.html#23">App\Services\Subscription\InvoiceToRecurring</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#32">App\Services\Subscription\PaymentLinkService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StepService.php.html#17">App\Services\Subscription\StepService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#27">App\Services\Subscription\SubscriptionCalculator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#53">App\Services\Subscription\SubscriptionService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#21">App\Services\Subscription\SubscriptionStatus</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#21">App\Services\Subscription\UpgradePrice</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZeroCostProduct.php.html#19">App\Services\Subscription\ZeroCostProduct</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SubscriptionService.php.html#53">App\Services\Subscription\SubscriptionService</a></td><td class="text-right">29070</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#32">App\Services\Subscription\PaymentLinkService</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#27">App\Services\Subscription\SubscriptionCalculator</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#21">App\Services\Subscription\SubscriptionStatus</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#21">App\Services\Subscription\UpgradePrice</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="StepService.php.html#17">App\Services\Subscription\StepService</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="InvoiceToRecurring.php.html#23">App\Services\Subscription\InvoiceToRecurring</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ChangePlanInvoice.php.html#27">App\Services\Subscription\ChangePlanInvoice</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ZeroCostProduct.php.html#19">App\Services\Subscription\ZeroCostProduct</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChangePlanInvoice.php.html#31"><abbr title="App\Services\Subscription\ChangePlanInvoice::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChangePlanInvoice.php.html#35"><abbr title="App\Services\Subscription\ChangePlanInvoice::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChangePlanInvoice.php.html#63"><abbr title="App\Services\Subscription\ChangePlanInvoice::generateCredit">generateCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChangePlanInvoice.php.html#93"><abbr title="App\Services\Subscription\ChangePlanInvoice::generateInvoice">generateInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceToRecurring.php.html#27"><abbr title="App\Services\Subscription\InvoiceToRecurring::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceToRecurring.php.html#32"><abbr title="App\Services\Subscription\InvoiceToRecurring::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvoiceToRecurring.php.html#62"><abbr title="App\Services\Subscription\InvoiceToRecurring::setAutoBillFlag">setAutoBillFlag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#38"><abbr title="App\Services\Subscription\PaymentLinkService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#51"><abbr title="App\Services\Subscription\PaymentLinkService::completePurchase">completePurchase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#136"><abbr title="App\Services\Subscription\PaymentLinkService::isEligible">isEligible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#164"><abbr title="App\Services\Subscription\PaymentLinkService::startTrial">startTrial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#235"><abbr title="App\Services\Subscription\PaymentLinkService::calculateUpgradePriceV2">calculateUpgradePriceV2</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#246"><abbr title="App\Services\Subscription\PaymentLinkService::createChangePlanInvoice">createChangePlanInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#265"><abbr title="App\Services\Subscription\PaymentLinkService::handleNoPaymentRequired">handleNoPaymentRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#282"><abbr title="App\Services\Subscription\PaymentLinkService::planPaid">planPaid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#310"><abbr title="App\Services\Subscription\PaymentLinkService::handlePlanChange">handlePlanChange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#365"><abbr title="App\Services\Subscription\PaymentLinkService::handleRedirect">handleRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#380"><abbr title="App\Services\Subscription\PaymentLinkService::triggerWebhook">triggerWebhook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#421"><abbr title="App\Services\Subscription\PaymentLinkService::sendLoad">sendLoad</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StepService.php.html#19"><abbr title="App\Services\Subscription\StepService::mapToClassNames">mapToClassNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StepService.php.html#26"><abbr title="App\Services\Subscription\StepService::check">check</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StepService.php.html#64"><abbr title="App\Services\Subscription\StepService::mapClassNameToString">mapClassNameToString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#31"><abbr title="App\Services\Subscription\SubscriptionCalculator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#41"><abbr title="App\Services\Subscription\SubscriptionCalculator::buildPurchaseInvoice">buildPurchaseInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#69"><abbr title="App\Services\Subscription\SubscriptionCalculator::buildItems">buildItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#155"><abbr title="App\Services\Subscription\SubscriptionCalculator::isPaidUp">isPaidUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#166"><abbr title="App\Services\Subscription\SubscriptionCalculator::calcUpgradePlan">calcUpgradePlan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#198"><abbr title="App\Services\Subscription\SubscriptionCalculator::executeUpgradePlan">executeUpgradePlan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#202"><abbr title="App\Services\Subscription\SubscriptionCalculator::getRefundInvoice">getRefundInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#74"><abbr title="App\Services\Subscription\SubscriptionService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#83"><abbr title="App\Services\Subscription\SubscriptionService::completePurchase">completePurchase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#167"><abbr title="App\Services\Subscription\SubscriptionService::isEligible">isEligible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#183"><abbr title="App\Services\Subscription\SubscriptionService::handlePeppolPurchase">handlePeppolPurchase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#192"><abbr title="App\Services\Subscription\SubscriptionService::handleWhiteLabelPurchase">handleWhiteLabelPurchase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#254"><abbr title="App\Services\Subscription\SubscriptionService::startTrial">startTrial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#322"><abbr title="App\Services\Subscription\SubscriptionService::calculateUpgradePriceV2">calculateUpgradePriceV2</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#361"><abbr title="App\Services\Subscription\SubscriptionService::calculateUpgradePrice">calculateUpgradePrice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#419"><abbr title="App\Services\Subscription\SubscriptionService::calculateProRataRefundForSubscription">calculateProRataRefundForSubscription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#455"><abbr title="App\Services\Subscription\SubscriptionService::calculateProRataRefund">calculateProRataRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#490"><abbr title="App\Services\Subscription\SubscriptionService::calculateProRataRefundItems">calculateProRataRefundItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#546"><abbr title="App\Services\Subscription\SubscriptionService::calculateDiscountRatio">calculateDiscountRatio</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#561"><abbr title="App\Services\Subscription\SubscriptionService::calculateProRataCharge">calculateProRataCharge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#590"><abbr title="App\Services\Subscription\SubscriptionService::createChangePlanCreditV2">createChangePlanCreditV2</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#674"><abbr title="App\Services\Subscription\SubscriptionService::createChangePlanCredit">createChangePlanCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#746"><abbr title="App\Services\Subscription\SubscriptionService::changePlanPaymentCheck">changePlanPaymentCheck</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#791"><abbr title="App\Services\Subscription\SubscriptionService::createChangePlanInvoice">createChangePlanInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#830"><abbr title="App\Services\Subscription\SubscriptionService::handlePlanChange">handlePlanChange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#875"><abbr title="App\Services\Subscription\SubscriptionService::createNewRecurringInvoice">createNewRecurringInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#904"><abbr title="App\Services\Subscription\SubscriptionService::createCredit">createCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#937"><abbr title="App\Services\Subscription\SubscriptionService::proRataInvoice">proRataInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#969"><abbr title="App\Services\Subscription\SubscriptionService::changePlanInvoice">changePlanInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1001"><abbr title="App\Services\Subscription\SubscriptionService::createInvoiceV2">createInvoiceV2</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1037"><abbr title="App\Services\Subscription\SubscriptionService::createInvoice">createInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1066"><abbr title="App\Services\Subscription\SubscriptionService::convertInvoiceToRecurring">convertInvoiceToRecurring</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1099"><abbr title="App\Services\Subscription\SubscriptionService::convertInvoiceToRecurringBundle">convertInvoiceToRecurringBundle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1126"><abbr title="App\Services\Subscription\SubscriptionService::setAutoBillFlag">setAutoBillFlag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1140"><abbr title="App\Services\Subscription\SubscriptionService::triggerWebhook">triggerWebhook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1181"><abbr title="App\Services\Subscription\SubscriptionService::fireNotifications">fireNotifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1191"><abbr title="App\Services\Subscription\SubscriptionService::products">products</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1211"><abbr title="App\Services\Subscription\SubscriptionService::recurring_products">recurring_products</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1232"><abbr title="App\Services\Subscription\SubscriptionService::optional_products">optional_products</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1252"><abbr title="App\Services\Subscription\SubscriptionService::optional_recurring_products">optional_recurring_products</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1279"><abbr title="App\Services\Subscription\SubscriptionService::getPlans">getPlans</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1295"><abbr title="App\Services\Subscription\SubscriptionService::handleCancellation">handleCancellation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1378"><abbr title="App\Services\Subscription\SubscriptionService::getDaysInFrequency">getDaysInFrequency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1418"><abbr title="App\Services\Subscription\SubscriptionService::getNextDateForFrequency">getNextDateForFrequency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1459"><abbr title="App\Services\Subscription\SubscriptionService::handleNoPaymentFlow">handleNoPaymentFlow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1499"><abbr title="App\Services\Subscription\SubscriptionService::handleNoPaymentRequired">handleNoPaymentRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1515"><abbr title="App\Services\Subscription\SubscriptionService::handleRedirect">handleRedirect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1529"><abbr title="App\Services\Subscription\SubscriptionService::planPaid">planPaid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#23"><abbr title="App\Services\Subscription\SubscriptionStatus::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#39"><abbr title="App\Services\Subscription\SubscriptionStatus::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#53"><abbr title="App\Services\Subscription\SubscriptionStatus::getProRataRefund">getProRataRefund</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#82"><abbr title="App\Services\Subscription\SubscriptionStatus::getProRataRatio">getProRataRatio</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#118"><abbr title="App\Services\Subscription\SubscriptionStatus::checkInGoodStanding">checkInGoodStanding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#144"><abbr title="App\Services\Subscription\SubscriptionStatus::checkTrial">checkTrial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#176"><abbr title="App\Services\Subscription\SubscriptionStatus::checkRefundable">checkRefundable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#206"><abbr title="App\Services\Subscription\SubscriptionStatus::setRefundable">setRefundable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#219"><abbr title="App\Services\Subscription\SubscriptionStatus::setIsTrial">setIsTrial</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#31"><abbr title="App\Services\Subscription\UpgradePrice::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#35"><abbr title="App\Services\Subscription\UpgradePrice::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#52"><abbr title="App\Services\Subscription\UpgradePrice::calculateUpgrade">calculateUpgrade</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#73"><abbr title="App\Services\Subscription\UpgradePrice::getRefundableAmount">getRefundableAmount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#82"><abbr title="App\Services\Subscription\UpgradePrice::getCredits">getCredits</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZeroCostProduct.php.html#33"><abbr title="App\Services\Subscription\ZeroCostProduct::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ZeroCostProduct.php.html#40"><abbr title="App\Services\Subscription\ZeroCostProduct::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SubscriptionService.php.html#1378"><abbr title="App\Services\Subscription\SubscriptionService::getDaysInFrequency">getDaysInFrequency</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1418"><abbr title="App\Services\Subscription\SubscriptionService::getNextDateForFrequency">getNextDateForFrequency</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#83"><abbr title="App\Services\Subscription\SubscriptionService::completePurchase">completePurchase</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#164"><abbr title="App\Services\Subscription\PaymentLinkService::startTrial">startTrial</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#421"><abbr title="App\Services\Subscription\PaymentLinkService::sendLoad">sendLoad</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#69"><abbr title="App\Services\Subscription\SubscriptionCalculator::buildItems">buildItems</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#254"><abbr title="App\Services\Subscription\SubscriptionService::startTrial">startTrial</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#490"><abbr title="App\Services\Subscription\SubscriptionService::calculateProRataRefundItems">calculateProRataRefundItems</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#51"><abbr title="App\Services\Subscription\PaymentLinkService::completePurchase">completePurchase</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="StepService.php.html#26"><abbr title="App\Services\Subscription\StepService::check">check</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#674"><abbr title="App\Services\Subscription\SubscriptionService::createChangePlanCredit">createChangePlanCredit</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1295"><abbr title="App\Services\Subscription\SubscriptionService::handleCancellation">handleCancellation</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#380"><abbr title="App\Services\Subscription\PaymentLinkService::triggerWebhook">triggerWebhook</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#361"><abbr title="App\Services\Subscription\SubscriptionService::calculateUpgradePrice">calculateUpgradePrice</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1037"><abbr title="App\Services\Subscription\SubscriptionService::createInvoice">createInvoice</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1140"><abbr title="App\Services\Subscription\SubscriptionService::triggerWebhook">triggerWebhook</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#176"><abbr title="App\Services\Subscription\SubscriptionStatus::checkRefundable">checkRefundable</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#365"><abbr title="App\Services\Subscription\PaymentLinkService::handleRedirect">handleRedirect</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#192"><abbr title="App\Services\Subscription\SubscriptionService::handleWhiteLabelPurchase">handleWhiteLabelPurchase</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#419"><abbr title="App\Services\Subscription\SubscriptionService::calculateProRataRefundForSubscription">calculateProRataRefundForSubscription</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#455"><abbr title="App\Services\Subscription\SubscriptionService::calculateProRataRefund">calculateProRataRefund</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#590"><abbr title="App\Services\Subscription\SubscriptionService::createChangePlanCreditV2">createChangePlanCreditV2</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1515"><abbr title="App\Services\Subscription\SubscriptionService::handleRedirect">handleRedirect</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#73"><abbr title="App\Services\Subscription\UpgradePrice::getRefundableAmount">getRefundableAmount</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#746"><abbr title="App\Services\Subscription\SubscriptionService::changePlanPaymentCheck">changePlanPaymentCheck</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#144"><abbr title="App\Services\Subscription\SubscriptionStatus::checkTrial">checkTrial</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ChangePlanInvoice.php.html#35"><abbr title="App\Services\Subscription\ChangePlanInvoice::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceToRecurring.php.html#32"><abbr title="App\Services\Subscription\InvoiceToRecurring::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InvoiceToRecurring.php.html#62"><abbr title="App\Services\Subscription\InvoiceToRecurring::setAutoBillFlag">setAutoBillFlag</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#282"><abbr title="App\Services\Subscription\PaymentLinkService::planPaid">planPaid</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#41"><abbr title="App\Services\Subscription\SubscriptionCalculator::buildPurchaseInvoice">buildPurchaseInvoice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionCalculator.php.html#166"><abbr title="App\Services\Subscription\SubscriptionCalculator::calcUpgradePlan">calcUpgradePlan</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#791"><abbr title="App\Services\Subscription\SubscriptionService::createChangePlanInvoice">createChangePlanInvoice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1126"><abbr title="App\Services\Subscription\SubscriptionService::setAutoBillFlag">setAutoBillFlag</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1191"><abbr title="App\Services\Subscription\SubscriptionService::products">products</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1211"><abbr title="App\Services\Subscription\SubscriptionService::recurring_products">recurring_products</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1232"><abbr title="App\Services\Subscription\SubscriptionService::optional_products">optional_products</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1252"><abbr title="App\Services\Subscription\SubscriptionService::optional_recurring_products">optional_recurring_products</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1529"><abbr title="App\Services\Subscription\SubscriptionService::planPaid">planPaid</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ZeroCostProduct.php.html#40"><abbr title="App\Services\Subscription\ZeroCostProduct::run">run</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#265"><abbr title="App\Services\Subscription\PaymentLinkService::handleNoPaymentRequired">handleNoPaymentRequired</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentLinkService.php.html#310"><abbr title="App\Services\Subscription\PaymentLinkService::handlePlanChange">handlePlanChange</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#183"><abbr title="App\Services\Subscription\SubscriptionService::handlePeppolPurchase">handlePeppolPurchase</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#322"><abbr title="App\Services\Subscription\SubscriptionService::calculateUpgradePriceV2">calculateUpgradePriceV2</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#546"><abbr title="App\Services\Subscription\SubscriptionService::calculateDiscountRatio">calculateDiscountRatio</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#830"><abbr title="App\Services\Subscription\SubscriptionService::handlePlanChange">handlePlanChange</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#904"><abbr title="App\Services\Subscription\SubscriptionService::createCredit">createCredit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#969"><abbr title="App\Services\Subscription\SubscriptionService::changePlanInvoice">changePlanInvoice</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1001"><abbr title="App\Services\Subscription\SubscriptionService::createInvoiceV2">createInvoiceV2</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1066"><abbr title="App\Services\Subscription\SubscriptionService::convertInvoiceToRecurring">convertInvoiceToRecurring</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1099"><abbr title="App\Services\Subscription\SubscriptionService::convertInvoiceToRecurringBundle">convertInvoiceToRecurringBundle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1459"><abbr title="App\Services\Subscription\SubscriptionService::handleNoPaymentFlow">handleNoPaymentFlow</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionService.php.html#1499"><abbr title="App\Services\Subscription\SubscriptionService::handleNoPaymentRequired">handleNoPaymentRequired</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#53"><abbr title="App\Services\Subscription\SubscriptionStatus::getProRataRefund">getProRataRefund</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubscriptionStatus.php.html#82"><abbr title="App\Services\Subscription\SubscriptionStatus::getProRataRatio">getProRataRatio</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#35"><abbr title="App\Services\Subscription\UpgradePrice::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UpgradePrice.php.html#82"><abbr title="App\Services\Subscription\UpgradePrice::getCredits">getCredits</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Nov 29 18:35:59 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([9,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([86,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,6,"<a href=\"ChangePlanInvoice.php.html#27\">App\\Services\\Subscription\\ChangePlanInvoice<\/a>"],[0,7,"<a href=\"InvoiceToRecurring.php.html#23\">App\\Services\\Subscription\\InvoiceToRecurring<\/a>"],[0,48,"<a href=\"PaymentLinkService.php.html#32\">App\\Services\\Subscription\\PaymentLinkService<\/a>"],[0,10,"<a href=\"StepService.php.html#17\">App\\Services\\Subscription\\StepService<\/a>"],[0,19,"<a href=\"SubscriptionCalculator.php.html#27\">App\\Services\\Subscription\\SubscriptionCalculator<\/a>"],[0,170,"<a href=\"SubscriptionService.php.html#53\">App\\Services\\Subscription\\SubscriptionService<\/a>"],[0,19,"<a href=\"SubscriptionStatus.php.html#21\">App\\Services\\Subscription\\SubscriptionStatus<\/a>"],[0,11,"<a href=\"UpgradePrice.php.html#21\">App\\Services\\Subscription\\UpgradePrice<\/a>"],[0,4,"<a href=\"ZeroCostProduct.php.html#19\">App\\Services\\Subscription\\ZeroCostProduct<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ChangePlanInvoice.php.html#31\">App\\Services\\Subscription\\ChangePlanInvoice::__construct<\/a>"],[0,3,"<a href=\"ChangePlanInvoice.php.html#35\">App\\Services\\Subscription\\ChangePlanInvoice::run<\/a>"],[0,1,"<a href=\"ChangePlanInvoice.php.html#63\">App\\Services\\Subscription\\ChangePlanInvoice::generateCredit<\/a>"],[0,1,"<a href=\"ChangePlanInvoice.php.html#93\">App\\Services\\Subscription\\ChangePlanInvoice::generateInvoice<\/a>"],[0,1,"<a href=\"InvoiceToRecurring.php.html#27\">App\\Services\\Subscription\\InvoiceToRecurring::__construct<\/a>"],[0,3,"<a href=\"InvoiceToRecurring.php.html#32\">App\\Services\\Subscription\\InvoiceToRecurring::run<\/a>"],[0,3,"<a href=\"InvoiceToRecurring.php.html#62\">App\\Services\\Subscription\\InvoiceToRecurring::setAutoBillFlag<\/a>"],[0,1,"<a href=\"PaymentLinkService.php.html#38\">App\\Services\\Subscription\\PaymentLinkService::__construct<\/a>"],[0,8,"<a href=\"PaymentLinkService.php.html#51\">App\\Services\\Subscription\\PaymentLinkService::completePurchase<\/a>"],[0,1,"<a href=\"PaymentLinkService.php.html#136\">App\\Services\\Subscription\\PaymentLinkService::isEligible<\/a>"],[0,9,"<a href=\"PaymentLinkService.php.html#164\">App\\Services\\Subscription\\PaymentLinkService::startTrial<\/a>"],[0,1,"<a href=\"PaymentLinkService.php.html#235\">App\\Services\\Subscription\\PaymentLinkService::calculateUpgradePriceV2<\/a>"],[0,1,"<a href=\"PaymentLinkService.php.html#246\">App\\Services\\Subscription\\PaymentLinkService::createChangePlanInvoice<\/a>"],[0,2,"<a href=\"PaymentLinkService.php.html#265\">App\\Services\\Subscription\\PaymentLinkService::handleNoPaymentRequired<\/a>"],[0,3,"<a href=\"PaymentLinkService.php.html#282\">App\\Services\\Subscription\\PaymentLinkService::planPaid<\/a>"],[0,2,"<a href=\"PaymentLinkService.php.html#310\">App\\Services\\Subscription\\PaymentLinkService::handlePlanChange<\/a>"],[0,5,"<a href=\"PaymentLinkService.php.html#365\">App\\Services\\Subscription\\PaymentLinkService::handleRedirect<\/a>"],[0,6,"<a href=\"PaymentLinkService.php.html#380\">App\\Services\\Subscription\\PaymentLinkService::triggerWebhook<\/a>"],[0,9,"<a href=\"PaymentLinkService.php.html#421\">App\\Services\\Subscription\\PaymentLinkService::sendLoad<\/a>"],[0,1,"<a href=\"StepService.php.html#19\">App\\Services\\Subscription\\StepService::mapToClassNames<\/a>"],[0,8,"<a href=\"StepService.php.html#26\">App\\Services\\Subscription\\StepService::check<\/a>"],[0,1,"<a href=\"StepService.php.html#64\">App\\Services\\Subscription\\StepService::mapClassNameToString<\/a>"],[0,1,"<a href=\"SubscriptionCalculator.php.html#31\">App\\Services\\Subscription\\SubscriptionCalculator::__construct<\/a>"],[0,3,"<a href=\"SubscriptionCalculator.php.html#41\">App\\Services\\Subscription\\SubscriptionCalculator::buildPurchaseInvoice<\/a>"],[0,9,"<a href=\"SubscriptionCalculator.php.html#69\">App\\Services\\Subscription\\SubscriptionCalculator::buildItems<\/a>"],[0,1,"<a href=\"SubscriptionCalculator.php.html#155\">App\\Services\\Subscription\\SubscriptionCalculator::isPaidUp<\/a>"],[0,3,"<a href=\"SubscriptionCalculator.php.html#166\">App\\Services\\Subscription\\SubscriptionCalculator::calcUpgradePlan<\/a>"],[0,1,"<a href=\"SubscriptionCalculator.php.html#198\">App\\Services\\Subscription\\SubscriptionCalculator::executeUpgradePlan<\/a>"],[0,1,"<a href=\"SubscriptionCalculator.php.html#202\">App\\Services\\Subscription\\SubscriptionCalculator::getRefundInvoice<\/a>"],[0,1,"<a href=\"SubscriptionService.php.html#74\">App\\Services\\Subscription\\SubscriptionService::__construct<\/a>"],[0,12,"<a href=\"SubscriptionService.php.html#83\">App\\Services\\Subscription\\SubscriptionService::completePurchase<\/a>"],[0,1,"<a href=\"SubscriptionService.php.html#167\">App\\Services\\Subscription\\SubscriptionService::isEligible<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#183\">App\\Services\\Subscription\\SubscriptionService::handlePeppolPurchase<\/a>"],[0,5,"<a href=\"SubscriptionService.php.html#192\">App\\Services\\Subscription\\SubscriptionService::handleWhiteLabelPurchase<\/a>"],[0,9,"<a href=\"SubscriptionService.php.html#254\">App\\Services\\Subscription\\SubscriptionService::startTrial<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#322\">App\\Services\\Subscription\\SubscriptionService::calculateUpgradePriceV2<\/a>"],[0,6,"<a href=\"SubscriptionService.php.html#361\">App\\Services\\Subscription\\SubscriptionService::calculateUpgradePrice<\/a>"],[0,5,"<a href=\"SubscriptionService.php.html#419\">App\\Services\\Subscription\\SubscriptionService::calculateProRataRefundForSubscription<\/a>"],[0,5,"<a href=\"SubscriptionService.php.html#455\">App\\Services\\Subscription\\SubscriptionService::calculateProRataRefund<\/a>"],[0,9,"<a href=\"SubscriptionService.php.html#490\">App\\Services\\Subscription\\SubscriptionService::calculateProRataRefundItems<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#546\">App\\Services\\Subscription\\SubscriptionService::calculateDiscountRatio<\/a>"],[0,1,"<a href=\"SubscriptionService.php.html#561\">App\\Services\\Subscription\\SubscriptionService::calculateProRataCharge<\/a>"],[0,5,"<a href=\"SubscriptionService.php.html#590\">App\\Services\\Subscription\\SubscriptionService::createChangePlanCreditV2<\/a>"],[0,8,"<a href=\"SubscriptionService.php.html#674\">App\\Services\\Subscription\\SubscriptionService::createChangePlanCredit<\/a>"],[0,4,"<a href=\"SubscriptionService.php.html#746\">App\\Services\\Subscription\\SubscriptionService::changePlanPaymentCheck<\/a>"],[0,3,"<a href=\"SubscriptionService.php.html#791\">App\\Services\\Subscription\\SubscriptionService::createChangePlanInvoice<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#830\">App\\Services\\Subscription\\SubscriptionService::handlePlanChange<\/a>"],[0,1,"<a href=\"SubscriptionService.php.html#875\">App\\Services\\Subscription\\SubscriptionService::createNewRecurringInvoice<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#904\">App\\Services\\Subscription\\SubscriptionService::createCredit<\/a>"],[0,1,"<a href=\"SubscriptionService.php.html#937\">App\\Services\\Subscription\\SubscriptionService::proRataInvoice<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#969\">App\\Services\\Subscription\\SubscriptionService::changePlanInvoice<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#1001\">App\\Services\\Subscription\\SubscriptionService::createInvoiceV2<\/a>"],[0,6,"<a href=\"SubscriptionService.php.html#1037\">App\\Services\\Subscription\\SubscriptionService::createInvoice<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#1066\">App\\Services\\Subscription\\SubscriptionService::convertInvoiceToRecurring<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#1099\">App\\Services\\Subscription\\SubscriptionService::convertInvoiceToRecurringBundle<\/a>"],[0,3,"<a href=\"SubscriptionService.php.html#1126\">App\\Services\\Subscription\\SubscriptionService::setAutoBillFlag<\/a>"],[0,6,"<a href=\"SubscriptionService.php.html#1140\">App\\Services\\Subscription\\SubscriptionService::triggerWebhook<\/a>"],[0,1,"<a href=\"SubscriptionService.php.html#1181\">App\\Services\\Subscription\\SubscriptionService::fireNotifications<\/a>"],[0,3,"<a href=\"SubscriptionService.php.html#1191\">App\\Services\\Subscription\\SubscriptionService::products<\/a>"],[0,3,"<a href=\"SubscriptionService.php.html#1211\">App\\Services\\Subscription\\SubscriptionService::recurring_products<\/a>"],[0,3,"<a href=\"SubscriptionService.php.html#1232\">App\\Services\\Subscription\\SubscriptionService::optional_products<\/a>"],[0,3,"<a href=\"SubscriptionService.php.html#1252\">App\\Services\\Subscription\\SubscriptionService::optional_recurring_products<\/a>"],[0,1,"<a href=\"SubscriptionService.php.html#1279\">App\\Services\\Subscription\\SubscriptionService::getPlans<\/a>"],[0,7,"<a href=\"SubscriptionService.php.html#1295\">App\\Services\\Subscription\\SubscriptionService::handleCancellation<\/a>"],[0,14,"<a href=\"SubscriptionService.php.html#1378\">App\\Services\\Subscription\\SubscriptionService::getDaysInFrequency<\/a>"],[0,14,"<a href=\"SubscriptionService.php.html#1418\">App\\Services\\Subscription\\SubscriptionService::getNextDateForFrequency<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#1459\">App\\Services\\Subscription\\SubscriptionService::handleNoPaymentFlow<\/a>"],[0,2,"<a href=\"SubscriptionService.php.html#1499\">App\\Services\\Subscription\\SubscriptionService::handleNoPaymentRequired<\/a>"],[0,5,"<a href=\"SubscriptionService.php.html#1515\">App\\Services\\Subscription\\SubscriptionService::handleRedirect<\/a>"],[0,3,"<a href=\"SubscriptionService.php.html#1529\">App\\Services\\Subscription\\SubscriptionService::planPaid<\/a>"],[0,1,"<a href=\"SubscriptionStatus.php.html#23\">App\\Services\\Subscription\\SubscriptionStatus::__construct<\/a>"],[0,1,"<a href=\"SubscriptionStatus.php.html#39\">App\\Services\\Subscription\\SubscriptionStatus::run<\/a>"],[0,2,"<a href=\"SubscriptionStatus.php.html#53\">App\\Services\\Subscription\\SubscriptionStatus::getProRataRefund<\/a>"],[0,2,"<a href=\"SubscriptionStatus.php.html#82\">App\\Services\\Subscription\\SubscriptionStatus::getProRataRatio<\/a>"],[0,1,"<a href=\"SubscriptionStatus.php.html#118\">App\\Services\\Subscription\\SubscriptionStatus::checkInGoodStanding<\/a>"],[0,4,"<a href=\"SubscriptionStatus.php.html#144\">App\\Services\\Subscription\\SubscriptionStatus::checkTrial<\/a>"],[0,6,"<a href=\"SubscriptionStatus.php.html#176\">App\\Services\\Subscription\\SubscriptionStatus::checkRefundable<\/a>"],[0,1,"<a href=\"SubscriptionStatus.php.html#206\">App\\Services\\Subscription\\SubscriptionStatus::setRefundable<\/a>"],[0,1,"<a href=\"SubscriptionStatus.php.html#219\">App\\Services\\Subscription\\SubscriptionStatus::setIsTrial<\/a>"],[0,1,"<a href=\"UpgradePrice.php.html#31\">App\\Services\\Subscription\\UpgradePrice::__construct<\/a>"],[0,2,"<a href=\"UpgradePrice.php.html#35\">App\\Services\\Subscription\\UpgradePrice::run<\/a>"],[0,1,"<a href=\"UpgradePrice.php.html#52\">App\\Services\\Subscription\\UpgradePrice::calculateUpgrade<\/a>"],[0,5,"<a href=\"UpgradePrice.php.html#73\">App\\Services\\Subscription\\UpgradePrice::getRefundableAmount<\/a>"],[0,2,"<a href=\"UpgradePrice.php.html#82\">App\\Services\\Subscription\\UpgradePrice::getCredits<\/a>"],[0,1,"<a href=\"ZeroCostProduct.php.html#33\">App\\Services\\Subscription\\ZeroCostProduct::__construct<\/a>"],[0,3,"<a href=\"ZeroCostProduct.php.html#40\">App\\Services\\Subscription\\ZeroCostProduct::run<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

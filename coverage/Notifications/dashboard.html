@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Notifications</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Notifications</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#20">App\Notifications\Admin\EntitySentNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#19">App\Notifications\Admin\EntityViewedNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#19">App\Notifications\Admin\NewPaymentNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactRequestCancellation.php.html#25">App\Notifications\ClientContactRequestCancellation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactResetPassword.php.html#23">App\Notifications\ClientContactResetPassword</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewAccountCreated.php.html#23">App\Notifications\NewAccountCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientAccountNotFound.php.html#18">App\Notifications\Ninja\ClientAccountNotFound</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientBillingFlag.php.html#18">App\Notifications\Ninja\ClientBillingFlag</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainFailureNotification.php.html#18">App\Notifications\Ninja\DomainFailureNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewalFailureNotification.php.html#18">App\Notifications\Ninja\DomainRenewalFailureNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewedNotification.php.html#18">App\Notifications\Ninja\DomainRenewedNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailBounceNotification.php.html#18">App\Notifications\Ninja\EmailBounceNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQualityNotification.php.html#19">App\Notifications\Ninja\EmailQualityNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQuotaNotification.php.html#18">App\Notifications\Ninja\EmailQuotaNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailSpamNotification.php.html#19">App\Notifications\Ninja\EmailSpamNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#18">App\Notifications\Ninja\GenericNinjaAdminNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GmailCredentialNotification.php.html#18">App\Notifications\Ninja\GmailCredentialNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountCreated.php.html#23">App\Notifications\Ninja\NewAccountCreated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountNotification.php.html#20">App\Notifications\Ninja\NewAccountNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/PayPalUnlinkedTransaction.php.html#20">App\Notifications\Ninja\PayPalUnlinkedTransaction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/RenewalFailureNotification.php.html#18">App\Notifications\Ninja\RenewalFailureNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/SpamNotification.php.html#18">App\Notifications\Ninja\SpamNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/UserQualityNotification.php.html#19">App\Notifications\Ninja\UserQualityNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ResetPasswordNotification.php.html#9">App\Notifications\ResetPasswordNotification</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Ninja/SpamNotification.php.html#18">App\Notifications\Ninja\SpamNotification</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#19">App\Notifications\Admin\NewPaymentNotification</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#20">App\Notifications\Admin\EntitySentNotification</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#19">App\Notifications\Admin\EntityViewedNotification</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#18">App\Notifications\Ninja\GenericNinjaAdminNotification</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#43"><abbr title="App\Notifications\Admin\EntitySentNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#61"><abbr title="App\Notifications\Admin\EntitySentNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#72"><abbr title="App\Notifications\Admin\EntitySentNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#82"><abbr title="App\Notifications\Admin\EntitySentNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#87"><abbr title="App\Notifications\Admin\EntitySentNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#43"><abbr title="App\Notifications\Admin\EntityViewedNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#61"><abbr title="App\Notifications\Admin\EntityViewedNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#72"><abbr title="App\Notifications\Admin\EntityViewedNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#82"><abbr title="App\Notifications\Admin\EntityViewedNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#89"><abbr title="App\Notifications\Admin\EntityViewedNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#36"><abbr title="App\Notifications\Admin\NewPaymentNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#51"><abbr title="App\Notifications\Admin\NewPaymentNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#62"><abbr title="App\Notifications\Admin\NewPaymentNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#72"><abbr title="App\Notifications\Admin\NewPaymentNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#79"><abbr title="App\Notifications\Admin\NewPaymentNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactRequestCancellation.php.html#45"><abbr title="App\Notifications\ClientContactRequestCancellation::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactRequestCancellation.php.html#57"><abbr title="App\Notifications\ClientContactRequestCancellation::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactRequestCancellation.php.html#68"><abbr title="App\Notifications\ClientContactRequestCancellation::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactRequestCancellation.php.html#78"><abbr title="App\Notifications\ClientContactRequestCancellation::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactRequestCancellation.php.html#85"><abbr title="App\Notifications\ClientContactRequestCancellation::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactRequestCancellation.php.html#105"><abbr title="App\Notifications\ClientContactRequestCancellation::toMailUsing">toMailUsing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactResetPassword.php.html#46"><abbr title="App\Notifications\ClientContactResetPassword::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactResetPassword.php.html#57"><abbr title="App\Notifications\ClientContactResetPassword::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactResetPassword.php.html#68"><abbr title="App\Notifications\ClientContactResetPassword::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ClientContactResetPassword.php.html#78"><abbr title="App\Notifications\ClientContactResetPassword::toMailUsing">toMailUsing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewAccountCreated.php.html#38"><abbr title="App\Notifications\NewAccountCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewAccountCreated.php.html#51"><abbr title="App\Notifications\NewAccountCreated::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewAccountCreated.php.html#62"><abbr title="App\Notifications\NewAccountCreated::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewAccountCreated.php.html#72"><abbr title="App\Notifications\NewAccountCreated::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NewAccountCreated.php.html#79"><abbr title="App\Notifications\NewAccountCreated::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientAccountNotFound.php.html#26"><abbr title="App\Notifications\Ninja\ClientAccountNotFound::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientAccountNotFound.php.html#36"><abbr title="App\Notifications\Ninja\ClientAccountNotFound::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientAccountNotFound.php.html#47"><abbr title="App\Notifications\Ninja\ClientAccountNotFound::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientAccountNotFound.php.html#57"><abbr title="App\Notifications\Ninja\ClientAccountNotFound::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientAccountNotFound.php.html#64"><abbr title="App\Notifications\Ninja\ClientAccountNotFound::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientBillingFlag.php.html#26"><abbr title="App\Notifications\Ninja\ClientBillingFlag::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientBillingFlag.php.html#36"><abbr title="App\Notifications\Ninja\ClientBillingFlag::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientBillingFlag.php.html#46"><abbr title="App\Notifications\Ninja\ClientBillingFlag::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientBillingFlag.php.html#56"><abbr title="App\Notifications\Ninja\ClientBillingFlag::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/ClientBillingFlag.php.html#63"><abbr title="App\Notifications\Ninja\ClientBillingFlag::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainFailureNotification.php.html#28"><abbr title="App\Notifications\Ninja\DomainFailureNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainFailureNotification.php.html#39"><abbr title="App\Notifications\Ninja\DomainFailureNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainFailureNotification.php.html#50"><abbr title="App\Notifications\Ninja\DomainFailureNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainFailureNotification.php.html#60"><abbr title="App\Notifications\Ninja\DomainFailureNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainFailureNotification.php.html#67"><abbr title="App\Notifications\Ninja\DomainFailureNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewalFailureNotification.php.html#28"><abbr title="App\Notifications\Ninja\DomainRenewalFailureNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewalFailureNotification.php.html#39"><abbr title="App\Notifications\Ninja\DomainRenewalFailureNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewalFailureNotification.php.html#50"><abbr title="App\Notifications\Ninja\DomainRenewalFailureNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewalFailureNotification.php.html#60"><abbr title="App\Notifications\Ninja\DomainRenewalFailureNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewalFailureNotification.php.html#67"><abbr title="App\Notifications\Ninja\DomainRenewalFailureNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewedNotification.php.html#28"><abbr title="App\Notifications\Ninja\DomainRenewedNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewedNotification.php.html#39"><abbr title="App\Notifications\Ninja\DomainRenewedNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewedNotification.php.html#50"><abbr title="App\Notifications\Ninja\DomainRenewedNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewedNotification.php.html#60"><abbr title="App\Notifications\Ninja\DomainRenewedNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/DomainRenewedNotification.php.html#67"><abbr title="App\Notifications\Ninja\DomainRenewedNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailBounceNotification.php.html#26"><abbr title="App\Notifications\Ninja\EmailBounceNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailBounceNotification.php.html#36"><abbr title="App\Notifications\Ninja\EmailBounceNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailBounceNotification.php.html#47"><abbr title="App\Notifications\Ninja\EmailBounceNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailBounceNotification.php.html#57"><abbr title="App\Notifications\Ninja\EmailBounceNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailBounceNotification.php.html#64"><abbr title="App\Notifications\Ninja\EmailBounceNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQualityNotification.php.html#31"><abbr title="App\Notifications\Ninja\EmailQualityNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQualityNotification.php.html#43"><abbr title="App\Notifications\Ninja\EmailQualityNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQualityNotification.php.html#53"><abbr title="App\Notifications\Ninja\EmailQualityNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQualityNotification.php.html#63"><abbr title="App\Notifications\Ninja\EmailQualityNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQualityNotification.php.html#70"><abbr title="App\Notifications\Ninja\EmailQualityNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQuotaNotification.php.html#27"><abbr title="App\Notifications\Ninja\EmailQuotaNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQuotaNotification.php.html#38"><abbr title="App\Notifications\Ninja\EmailQuotaNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQuotaNotification.php.html#49"><abbr title="App\Notifications\Ninja\EmailQuotaNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQuotaNotification.php.html#59"><abbr title="App\Notifications\Ninja\EmailQuotaNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailQuotaNotification.php.html#66"><abbr title="App\Notifications\Ninja\EmailQuotaNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailSpamNotification.php.html#26"><abbr title="App\Notifications\Ninja\EmailSpamNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailSpamNotification.php.html#36"><abbr title="App\Notifications\Ninja\EmailSpamNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailSpamNotification.php.html#46"><abbr title="App\Notifications\Ninja\EmailSpamNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailSpamNotification.php.html#56"><abbr title="App\Notifications\Ninja\EmailSpamNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/EmailSpamNotification.php.html#63"><abbr title="App\Notifications\Ninja\EmailSpamNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#20"><abbr title="App\Notifications\Ninja\GenericNinjaAdminNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#30"><abbr title="App\Notifications\Ninja\GenericNinjaAdminNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#40"><abbr title="App\Notifications\Ninja\GenericNinjaAdminNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#50"><abbr title="App\Notifications\Ninja\GenericNinjaAdminNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#57"><abbr title="App\Notifications\Ninja\GenericNinjaAdminNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GmailCredentialNotification.php.html#27"><abbr title="App\Notifications\Ninja\GmailCredentialNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GmailCredentialNotification.php.html#38"><abbr title="App\Notifications\Ninja\GmailCredentialNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GmailCredentialNotification.php.html#49"><abbr title="App\Notifications\Ninja\GmailCredentialNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GmailCredentialNotification.php.html#59"><abbr title="App\Notifications\Ninja\GmailCredentialNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/GmailCredentialNotification.php.html#66"><abbr title="App\Notifications\Ninja\GmailCredentialNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountCreated.php.html#38"><abbr title="App\Notifications\Ninja\NewAccountCreated::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountCreated.php.html#51"><abbr title="App\Notifications\Ninja\NewAccountCreated::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountCreated.php.html#62"><abbr title="App\Notifications\Ninja\NewAccountCreated::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountCreated.php.html#72"><abbr title="App\Notifications\Ninja\NewAccountCreated::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountCreated.php.html#79"><abbr title="App\Notifications\Ninja\NewAccountCreated::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountNotification.php.html#32"><abbr title="App\Notifications\Ninja\NewAccountNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountNotification.php.html#44"><abbr title="App\Notifications\Ninja\NewAccountNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountNotification.php.html#55"><abbr title="App\Notifications\Ninja\NewAccountNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountNotification.php.html#65"><abbr title="App\Notifications\Ninja\NewAccountNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/NewAccountNotification.php.html#72"><abbr title="App\Notifications\Ninja\NewAccountNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/PayPalUnlinkedTransaction.php.html#28"><abbr title="App\Notifications\Ninja\PayPalUnlinkedTransaction::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/PayPalUnlinkedTransaction.php.html#38"><abbr title="App\Notifications\Ninja\PayPalUnlinkedTransaction::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/PayPalUnlinkedTransaction.php.html#49"><abbr title="App\Notifications\Ninja\PayPalUnlinkedTransaction::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/PayPalUnlinkedTransaction.php.html#59"><abbr title="App\Notifications\Ninja\PayPalUnlinkedTransaction::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/PayPalUnlinkedTransaction.php.html#66"><abbr title="App\Notifications\Ninja\PayPalUnlinkedTransaction::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/RenewalFailureNotification.php.html#26"><abbr title="App\Notifications\Ninja\RenewalFailureNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/RenewalFailureNotification.php.html#36"><abbr title="App\Notifications\Ninja\RenewalFailureNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/RenewalFailureNotification.php.html#47"><abbr title="App\Notifications\Ninja\RenewalFailureNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/RenewalFailureNotification.php.html#57"><abbr title="App\Notifications\Ninja\RenewalFailureNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/RenewalFailureNotification.php.html#64"><abbr title="App\Notifications\Ninja\RenewalFailureNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/SpamNotification.php.html#28"><abbr title="App\Notifications\Ninja\SpamNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/SpamNotification.php.html#39"><abbr title="App\Notifications\Ninja\SpamNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/SpamNotification.php.html#50"><abbr title="App\Notifications\Ninja\SpamNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/SpamNotification.php.html#60"><abbr title="App\Notifications\Ninja\SpamNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/SpamNotification.php.html#67"><abbr title="App\Notifications\Ninja\SpamNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/UserQualityNotification.php.html#31"><abbr title="App\Notifications\Ninja\UserQualityNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/UserQualityNotification.php.html#43"><abbr title="App\Notifications\Ninja\UserQualityNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/UserQualityNotification.php.html#54"><abbr title="App\Notifications\Ninja\UserQualityNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/UserQualityNotification.php.html#64"><abbr title="App\Notifications\Ninja\UserQualityNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Ninja/UserQualityNotification.php.html#71"><abbr title="App\Notifications\Ninja\UserQualityNotification::toSlack">toSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ResetPasswordNotification.php.html#20"><abbr title="App\Notifications\ResetPasswordNotification::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ResetPasswordNotification.php.html#31"><abbr title="App\Notifications\ResetPasswordNotification::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ResetPasswordNotification.php.html#42"><abbr title="App\Notifications\ResetPasswordNotification::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ResetPasswordNotification.php.html#52"><abbr title="App\Notifications\ResetPasswordNotification::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Ninja/SpamNotification.php.html#67"><abbr title="App\Notifications\Ninja\SpamNotification::toSlack">toSlack</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Admin/EntitySentNotification.php.html#61"><abbr title="App\Notifications\Admin\EntitySentNotification::via">via</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/EntityViewedNotification.php.html#61"><abbr title="App\Notifications\Admin\EntityViewedNotification::via">via</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#51"><abbr title="App\Notifications\Admin\NewPaymentNotification::via">via</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Admin/NewPaymentNotification.php.html#79"><abbr title="App\Notifications\Admin\NewPaymentNotification::toSlack">toSlack</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Ninja/GenericNinjaAdminNotification.php.html#57"><abbr title="App\Notifications\Ninja\GenericNinjaAdminNotification::toSlack">toSlack</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([24,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([119,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,6,"<a href=\"Admin\/EntitySentNotification.php.html#20\">App\\Notifications\\Admin\\EntitySentNotification<\/a>"],[0,6,"<a href=\"Admin\/EntityViewedNotification.php.html#19\">App\\Notifications\\Admin\\EntityViewedNotification<\/a>"],[0,7,"<a href=\"Admin\/NewPaymentNotification.php.html#19\">App\\Notifications\\Admin\\NewPaymentNotification<\/a>"],[0,6,"<a href=\"ClientContactRequestCancellation.php.html#25\">App\\Notifications\\ClientContactRequestCancellation<\/a>"],[0,4,"<a href=\"ClientContactResetPassword.php.html#23\">App\\Notifications\\ClientContactResetPassword<\/a>"],[0,5,"<a href=\"NewAccountCreated.php.html#23\">App\\Notifications\\NewAccountCreated<\/a>"],[0,5,"<a href=\"Ninja\/ClientAccountNotFound.php.html#18\">App\\Notifications\\Ninja\\ClientAccountNotFound<\/a>"],[0,5,"<a href=\"Ninja\/ClientBillingFlag.php.html#18\">App\\Notifications\\Ninja\\ClientBillingFlag<\/a>"],[0,5,"<a href=\"Ninja\/DomainFailureNotification.php.html#18\">App\\Notifications\\Ninja\\DomainFailureNotification<\/a>"],[0,5,"<a href=\"Ninja\/DomainRenewalFailureNotification.php.html#18\">App\\Notifications\\Ninja\\DomainRenewalFailureNotification<\/a>"],[0,5,"<a href=\"Ninja\/DomainRenewedNotification.php.html#18\">App\\Notifications\\Ninja\\DomainRenewedNotification<\/a>"],[0,5,"<a href=\"Ninja\/EmailBounceNotification.php.html#18\">App\\Notifications\\Ninja\\EmailBounceNotification<\/a>"],[0,5,"<a href=\"Ninja\/EmailQualityNotification.php.html#19\">App\\Notifications\\Ninja\\EmailQualityNotification<\/a>"],[0,5,"<a href=\"Ninja\/EmailQuotaNotification.php.html#18\">App\\Notifications\\Ninja\\EmailQuotaNotification<\/a>"],[0,5,"<a href=\"Ninja\/EmailSpamNotification.php.html#19\">App\\Notifications\\Ninja\\EmailSpamNotification<\/a>"],[0,6,"<a href=\"Ninja\/GenericNinjaAdminNotification.php.html#18\">App\\Notifications\\Ninja\\GenericNinjaAdminNotification<\/a>"],[0,5,"<a href=\"Ninja\/GmailCredentialNotification.php.html#18\">App\\Notifications\\Ninja\\GmailCredentialNotification<\/a>"],[0,5,"<a href=\"Ninja\/NewAccountCreated.php.html#23\">App\\Notifications\\Ninja\\NewAccountCreated<\/a>"],[0,5,"<a href=\"Ninja\/NewAccountNotification.php.html#20\">App\\Notifications\\Ninja\\NewAccountNotification<\/a>"],[0,5,"<a href=\"Ninja\/PayPalUnlinkedTransaction.php.html#20\">App\\Notifications\\Ninja\\PayPalUnlinkedTransaction<\/a>"],[0,5,"<a href=\"Ninja\/RenewalFailureNotification.php.html#18\">App\\Notifications\\Ninja\\RenewalFailureNotification<\/a>"],[0,11,"<a href=\"Ninja\/SpamNotification.php.html#18\">App\\Notifications\\Ninja\\SpamNotification<\/a>"],[0,5,"<a href=\"Ninja\/UserQualityNotification.php.html#19\">App\\Notifications\\Ninja\\UserQualityNotification<\/a>"],[0,4,"<a href=\"ResetPasswordNotification.php.html#9\">App\\Notifications\\ResetPasswordNotification<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Admin\/EntitySentNotification.php.html#43\">App\\Notifications\\Admin\\EntitySentNotification::__construct<\/a>"],[0,2,"<a href=\"Admin\/EntitySentNotification.php.html#61\">App\\Notifications\\Admin\\EntitySentNotification::via<\/a>"],[0,1,"<a href=\"Admin\/EntitySentNotification.php.html#72\">App\\Notifications\\Admin\\EntitySentNotification::toMail<\/a>"],[0,1,"<a href=\"Admin\/EntitySentNotification.php.html#82\">App\\Notifications\\Admin\\EntitySentNotification::toArray<\/a>"],[0,1,"<a href=\"Admin\/EntitySentNotification.php.html#87\">App\\Notifications\\Admin\\EntitySentNotification::toSlack<\/a>"],[0,1,"<a href=\"Admin\/EntityViewedNotification.php.html#43\">App\\Notifications\\Admin\\EntityViewedNotification::__construct<\/a>"],[0,2,"<a href=\"Admin\/EntityViewedNotification.php.html#61\">App\\Notifications\\Admin\\EntityViewedNotification::via<\/a>"],[0,1,"<a href=\"Admin\/EntityViewedNotification.php.html#72\">App\\Notifications\\Admin\\EntityViewedNotification::toMail<\/a>"],[0,1,"<a href=\"Admin\/EntityViewedNotification.php.html#82\">App\\Notifications\\Admin\\EntityViewedNotification::toArray<\/a>"],[0,1,"<a href=\"Admin\/EntityViewedNotification.php.html#89\">App\\Notifications\\Admin\\EntityViewedNotification::toSlack<\/a>"],[0,1,"<a href=\"Admin\/NewPaymentNotification.php.html#36\">App\\Notifications\\Admin\\NewPaymentNotification::__construct<\/a>"],[0,2,"<a href=\"Admin\/NewPaymentNotification.php.html#51\">App\\Notifications\\Admin\\NewPaymentNotification::via<\/a>"],[0,1,"<a href=\"Admin\/NewPaymentNotification.php.html#62\">App\\Notifications\\Admin\\NewPaymentNotification::toMail<\/a>"],[0,1,"<a href=\"Admin\/NewPaymentNotification.php.html#72\">App\\Notifications\\Admin\\NewPaymentNotification::toArray<\/a>"],[0,2,"<a href=\"Admin\/NewPaymentNotification.php.html#79\">App\\Notifications\\Admin\\NewPaymentNotification::toSlack<\/a>"],[0,1,"<a href=\"ClientContactRequestCancellation.php.html#45\">App\\Notifications\\ClientContactRequestCancellation::__construct<\/a>"],[0,1,"<a href=\"ClientContactRequestCancellation.php.html#57\">App\\Notifications\\ClientContactRequestCancellation::via<\/a>"],[0,1,"<a href=\"ClientContactRequestCancellation.php.html#68\">App\\Notifications\\ClientContactRequestCancellation::toMail<\/a>"],[0,1,"<a href=\"ClientContactRequestCancellation.php.html#78\">App\\Notifications\\ClientContactRequestCancellation::toArray<\/a>"],[0,1,"<a href=\"ClientContactRequestCancellation.php.html#85\">App\\Notifications\\ClientContactRequestCancellation::toSlack<\/a>"],[0,1,"<a href=\"ClientContactRequestCancellation.php.html#105\">App\\Notifications\\ClientContactRequestCancellation::toMailUsing<\/a>"],[0,1,"<a href=\"ClientContactResetPassword.php.html#46\">App\\Notifications\\ClientContactResetPassword::__construct<\/a>"],[0,1,"<a href=\"ClientContactResetPassword.php.html#57\">App\\Notifications\\ClientContactResetPassword::via<\/a>"],[0,1,"<a href=\"ClientContactResetPassword.php.html#68\">App\\Notifications\\ClientContactResetPassword::toMail<\/a>"],[0,1,"<a href=\"ClientContactResetPassword.php.html#78\">App\\Notifications\\ClientContactResetPassword::toMailUsing<\/a>"],[0,1,"<a href=\"NewAccountCreated.php.html#38\">App\\Notifications\\NewAccountCreated::__construct<\/a>"],[0,1,"<a href=\"NewAccountCreated.php.html#51\">App\\Notifications\\NewAccountCreated::via<\/a>"],[0,1,"<a href=\"NewAccountCreated.php.html#62\">App\\Notifications\\NewAccountCreated::toMail<\/a>"],[0,1,"<a href=\"NewAccountCreated.php.html#72\">App\\Notifications\\NewAccountCreated::toArray<\/a>"],[0,1,"<a href=\"NewAccountCreated.php.html#79\">App\\Notifications\\NewAccountCreated::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/ClientAccountNotFound.php.html#26\">App\\Notifications\\Ninja\\ClientAccountNotFound::__construct<\/a>"],[0,1,"<a href=\"Ninja\/ClientAccountNotFound.php.html#36\">App\\Notifications\\Ninja\\ClientAccountNotFound::via<\/a>"],[0,1,"<a href=\"Ninja\/ClientAccountNotFound.php.html#47\">App\\Notifications\\Ninja\\ClientAccountNotFound::toMail<\/a>"],[0,1,"<a href=\"Ninja\/ClientAccountNotFound.php.html#57\">App\\Notifications\\Ninja\\ClientAccountNotFound::toArray<\/a>"],[0,1,"<a href=\"Ninja\/ClientAccountNotFound.php.html#64\">App\\Notifications\\Ninja\\ClientAccountNotFound::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/ClientBillingFlag.php.html#26\">App\\Notifications\\Ninja\\ClientBillingFlag::__construct<\/a>"],[0,1,"<a href=\"Ninja\/ClientBillingFlag.php.html#36\">App\\Notifications\\Ninja\\ClientBillingFlag::via<\/a>"],[0,1,"<a href=\"Ninja\/ClientBillingFlag.php.html#46\">App\\Notifications\\Ninja\\ClientBillingFlag::toMail<\/a>"],[0,1,"<a href=\"Ninja\/ClientBillingFlag.php.html#56\">App\\Notifications\\Ninja\\ClientBillingFlag::toArray<\/a>"],[0,1,"<a href=\"Ninja\/ClientBillingFlag.php.html#63\">App\\Notifications\\Ninja\\ClientBillingFlag::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/DomainFailureNotification.php.html#28\">App\\Notifications\\Ninja\\DomainFailureNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/DomainFailureNotification.php.html#39\">App\\Notifications\\Ninja\\DomainFailureNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/DomainFailureNotification.php.html#50\">App\\Notifications\\Ninja\\DomainFailureNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/DomainFailureNotification.php.html#60\">App\\Notifications\\Ninja\\DomainFailureNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/DomainFailureNotification.php.html#67\">App\\Notifications\\Ninja\\DomainFailureNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewalFailureNotification.php.html#28\">App\\Notifications\\Ninja\\DomainRenewalFailureNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewalFailureNotification.php.html#39\">App\\Notifications\\Ninja\\DomainRenewalFailureNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewalFailureNotification.php.html#50\">App\\Notifications\\Ninja\\DomainRenewalFailureNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewalFailureNotification.php.html#60\">App\\Notifications\\Ninja\\DomainRenewalFailureNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewalFailureNotification.php.html#67\">App\\Notifications\\Ninja\\DomainRenewalFailureNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewedNotification.php.html#28\">App\\Notifications\\Ninja\\DomainRenewedNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewedNotification.php.html#39\">App\\Notifications\\Ninja\\DomainRenewedNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewedNotification.php.html#50\">App\\Notifications\\Ninja\\DomainRenewedNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewedNotification.php.html#60\">App\\Notifications\\Ninja\\DomainRenewedNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/DomainRenewedNotification.php.html#67\">App\\Notifications\\Ninja\\DomainRenewedNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/EmailBounceNotification.php.html#26\">App\\Notifications\\Ninja\\EmailBounceNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/EmailBounceNotification.php.html#36\">App\\Notifications\\Ninja\\EmailBounceNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/EmailBounceNotification.php.html#47\">App\\Notifications\\Ninja\\EmailBounceNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/EmailBounceNotification.php.html#57\">App\\Notifications\\Ninja\\EmailBounceNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/EmailBounceNotification.php.html#64\">App\\Notifications\\Ninja\\EmailBounceNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/EmailQualityNotification.php.html#31\">App\\Notifications\\Ninja\\EmailQualityNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/EmailQualityNotification.php.html#43\">App\\Notifications\\Ninja\\EmailQualityNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/EmailQualityNotification.php.html#53\">App\\Notifications\\Ninja\\EmailQualityNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/EmailQualityNotification.php.html#63\">App\\Notifications\\Ninja\\EmailQualityNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/EmailQualityNotification.php.html#70\">App\\Notifications\\Ninja\\EmailQualityNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/EmailQuotaNotification.php.html#27\">App\\Notifications\\Ninja\\EmailQuotaNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/EmailQuotaNotification.php.html#38\">App\\Notifications\\Ninja\\EmailQuotaNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/EmailQuotaNotification.php.html#49\">App\\Notifications\\Ninja\\EmailQuotaNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/EmailQuotaNotification.php.html#59\">App\\Notifications\\Ninja\\EmailQuotaNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/EmailQuotaNotification.php.html#66\">App\\Notifications\\Ninja\\EmailQuotaNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/EmailSpamNotification.php.html#26\">App\\Notifications\\Ninja\\EmailSpamNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/EmailSpamNotification.php.html#36\">App\\Notifications\\Ninja\\EmailSpamNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/EmailSpamNotification.php.html#46\">App\\Notifications\\Ninja\\EmailSpamNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/EmailSpamNotification.php.html#56\">App\\Notifications\\Ninja\\EmailSpamNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/EmailSpamNotification.php.html#63\">App\\Notifications\\Ninja\\EmailSpamNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/GenericNinjaAdminNotification.php.html#20\">App\\Notifications\\Ninja\\GenericNinjaAdminNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/GenericNinjaAdminNotification.php.html#30\">App\\Notifications\\Ninja\\GenericNinjaAdminNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/GenericNinjaAdminNotification.php.html#40\">App\\Notifications\\Ninja\\GenericNinjaAdminNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/GenericNinjaAdminNotification.php.html#50\">App\\Notifications\\Ninja\\GenericNinjaAdminNotification::toArray<\/a>"],[0,2,"<a href=\"Ninja\/GenericNinjaAdminNotification.php.html#57\">App\\Notifications\\Ninja\\GenericNinjaAdminNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/GmailCredentialNotification.php.html#27\">App\\Notifications\\Ninja\\GmailCredentialNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/GmailCredentialNotification.php.html#38\">App\\Notifications\\Ninja\\GmailCredentialNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/GmailCredentialNotification.php.html#49\">App\\Notifications\\Ninja\\GmailCredentialNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/GmailCredentialNotification.php.html#59\">App\\Notifications\\Ninja\\GmailCredentialNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/GmailCredentialNotification.php.html#66\">App\\Notifications\\Ninja\\GmailCredentialNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountCreated.php.html#38\">App\\Notifications\\Ninja\\NewAccountCreated::__construct<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountCreated.php.html#51\">App\\Notifications\\Ninja\\NewAccountCreated::via<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountCreated.php.html#62\">App\\Notifications\\Ninja\\NewAccountCreated::toMail<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountCreated.php.html#72\">App\\Notifications\\Ninja\\NewAccountCreated::toArray<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountCreated.php.html#79\">App\\Notifications\\Ninja\\NewAccountCreated::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountNotification.php.html#32\">App\\Notifications\\Ninja\\NewAccountNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountNotification.php.html#44\">App\\Notifications\\Ninja\\NewAccountNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountNotification.php.html#55\">App\\Notifications\\Ninja\\NewAccountNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountNotification.php.html#65\">App\\Notifications\\Ninja\\NewAccountNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/NewAccountNotification.php.html#72\">App\\Notifications\\Ninja\\NewAccountNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/PayPalUnlinkedTransaction.php.html#28\">App\\Notifications\\Ninja\\PayPalUnlinkedTransaction::__construct<\/a>"],[0,1,"<a href=\"Ninja\/PayPalUnlinkedTransaction.php.html#38\">App\\Notifications\\Ninja\\PayPalUnlinkedTransaction::via<\/a>"],[0,1,"<a href=\"Ninja\/PayPalUnlinkedTransaction.php.html#49\">App\\Notifications\\Ninja\\PayPalUnlinkedTransaction::toMail<\/a>"],[0,1,"<a href=\"Ninja\/PayPalUnlinkedTransaction.php.html#59\">App\\Notifications\\Ninja\\PayPalUnlinkedTransaction::toArray<\/a>"],[0,1,"<a href=\"Ninja\/PayPalUnlinkedTransaction.php.html#66\">App\\Notifications\\Ninja\\PayPalUnlinkedTransaction::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/RenewalFailureNotification.php.html#26\">App\\Notifications\\Ninja\\RenewalFailureNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/RenewalFailureNotification.php.html#36\">App\\Notifications\\Ninja\\RenewalFailureNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/RenewalFailureNotification.php.html#47\">App\\Notifications\\Ninja\\RenewalFailureNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/RenewalFailureNotification.php.html#57\">App\\Notifications\\Ninja\\RenewalFailureNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/RenewalFailureNotification.php.html#64\">App\\Notifications\\Ninja\\RenewalFailureNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/SpamNotification.php.html#28\">App\\Notifications\\Ninja\\SpamNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/SpamNotification.php.html#39\">App\\Notifications\\Ninja\\SpamNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/SpamNotification.php.html#50\">App\\Notifications\\Ninja\\SpamNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/SpamNotification.php.html#60\">App\\Notifications\\Ninja\\SpamNotification::toArray<\/a>"],[0,7,"<a href=\"Ninja\/SpamNotification.php.html#67\">App\\Notifications\\Ninja\\SpamNotification::toSlack<\/a>"],[0,1,"<a href=\"Ninja\/UserQualityNotification.php.html#31\">App\\Notifications\\Ninja\\UserQualityNotification::__construct<\/a>"],[0,1,"<a href=\"Ninja\/UserQualityNotification.php.html#43\">App\\Notifications\\Ninja\\UserQualityNotification::via<\/a>"],[0,1,"<a href=\"Ninja\/UserQualityNotification.php.html#54\">App\\Notifications\\Ninja\\UserQualityNotification::toMail<\/a>"],[0,1,"<a href=\"Ninja\/UserQualityNotification.php.html#64\">App\\Notifications\\Ninja\\UserQualityNotification::toArray<\/a>"],[0,1,"<a href=\"Ninja\/UserQualityNotification.php.html#71\">App\\Notifications\\Ninja\\UserQualityNotification::toSlack<\/a>"],[0,1,"<a href=\"ResetPasswordNotification.php.html#20\">App\\Notifications\\ResetPasswordNotification::__construct<\/a>"],[0,1,"<a href=\"ResetPasswordNotification.php.html#31\">App\\Notifications\\ResetPasswordNotification::via<\/a>"],[0,1,"<a href=\"ResetPasswordNotification.php.html#42\">App\\Notifications\\ResetPasswordNotification::toMail<\/a>"],[0,1,"<a href=\"ResetPasswordNotification.php.html#52\">App\\Notifications\\ResetPasswordNotification::toArray<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Console</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Console</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Commands/CheckData.php.html#83">App\Console\Commands\CheckData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#65">App\Console\Commands\CreateSingleAccount</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#49">App\Console\Commands\CreateTestData</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PostUpdate.php.html#20">App\Console\Commands\PostUpdate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#56">App\Console\Commands\DemoMode</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#30">App\Console\Commands\SendRemindersCron</a></td><td class="text-right">1%</td></tr>
+       <tr><td><a href="Commands/BackupUpdate.php.html#25">App\Console\Commands\BackupUpdate</a></td><td class="text-right">1%</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#36">App\Console\Commands\ImportMigrations</a></td><td class="text-right">1%</td></tr>
+       <tr><td><a href="Commands/CreateAccount.php.html#31">App\Console\Commands\CreateAccount</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#23">App\Console\Commands\TypeCheck</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#18">App\Console\Commands\MobileLocalization</a></td><td class="text-right">2%</td></tr>
+       <tr><td><a href="Commands/OpenApiYaml.php.html#19">App\Console\Commands\OpenApiYaml</a></td><td class="text-right">3%</td></tr>
+       <tr><td><a href="Commands/HostedMigrations.php.html#30">App\Console\Commands\HostedMigrations</a></td><td class="text-right">3%</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#20">App\Console\Commands\TranslationsExport</a></td><td class="text-right">3%</td></tr>
+       <tr><td><a href="Kernel.php.html#45">App\Console\Kernel</a></td><td class="text-right">3%</td></tr>
+       <tr><td><a href="Commands/ReactBuilder.php.html#17">App\Console\Commands\ReactBuilder</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="Commands/S3Cleanup.php.html#20">App\Console\Commands\S3Cleanup</a></td><td class="text-right">6%</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#18">App\Console\Commands\EncryptNinja</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="Commands/SendTestEmails.php.html#21">App\Console\Commands\SendTestEmails</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="Commands/HostedUsers.php.html#19">App\Console\Commands\HostedUsers</a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="Commands/DesignUpdate.php.html#20">App\Console\Commands\DesignUpdate</a></td><td class="text-right">26%</td></tr>
+       <tr><td><a href="Commands/RecurringCommand.php.html#18">App\Console\Commands\RecurringCommand</a></td><td class="text-right">50%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Commands/CheckData.php.html#83">App\Console\Commands\CheckData</a></td><td class="text-right">18906</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#65">App\Console\Commands\CreateSingleAccount</a></td><td class="text-right">8190</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#49">App\Console\Commands\CreateTestData</a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#56">App\Console\Commands\DemoMode</a></td><td class="text-right">920</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#30">App\Console\Commands\SendRemindersCron</a></td><td class="text-right">491</td></tr>
+       <tr><td><a href="Commands/BackupUpdate.php.html#25">App\Console\Commands\BackupUpdate</a></td><td class="text-right">330</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#18">App\Console\Commands\MobileLocalization</a></td><td class="text-right">223</td></tr>
+       <tr><td><a href="Commands/OpenApiYaml.php.html#19">App\Console\Commands\OpenApiYaml</a></td><td class="text-right">218</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#23">App\Console\Commands\TypeCheck</a></td><td class="text-right">171</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#36">App\Console\Commands\ImportMigrations</a></td><td class="text-right">125</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#20">App\Console\Commands\TranslationsExport</a></td><td class="text-right">118</td></tr>
+       <tr><td><a href="Kernel.php.html#45">App\Console\Kernel</a></td><td class="text-right">98</td></tr>
+       <tr><td><a href="Commands/HostedMigrations.php.html#30">App\Console\Commands\HostedMigrations</a></td><td class="text-right">81</td></tr>
+       <tr><td><a href="Commands/ReactBuilder.php.html#17">App\Console\Commands\ReactBuilder</a></td><td class="text-right">60</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#18">App\Console\Commands\EncryptNinja</a></td><td class="text-right">59</td></tr>
+       <tr><td><a href="Commands/S3Cleanup.php.html#20">App\Console\Commands\S3Cleanup</a></td><td class="text-right">35</td></tr>
+       <tr><td><a href="Commands/PostUpdate.php.html#20">App\Console\Commands\PostUpdate</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/DesignUpdate.php.html#20">App\Console\Commands\DesignUpdate</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/HostedUsers.php.html#19">App\Console\Commands\HostedUsers</a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="Commands/SendTestEmails.php.html#21">App\Console\Commands\SendTestEmails</a></td><td class="text-right">10</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Commands/BackupUpdate.php.html#56"><abbr title="App\Console\Commands\BackupUpdate::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/BackupUpdate.php.html#80"><abbr title="App\Console\Commands\BackupUpdate::handleOnDb">handleOnDb</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#108"><abbr title="App\Console\Commands\CheckData::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#177"><abbr title="App\Console\Commands\CheckData::logMessage">logMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#184"><abbr title="App\Console\Commands\CheckData::checkTaskTimeLogs">checkTaskTimeLogs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#215"><abbr title="App\Console\Commands\CheckData::checkCompanyTokens">checkCompanyTokens</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#241"><abbr title="App\Console\Commands\CheckData::checkOauthSanity">checkOauthSanity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#248"><abbr title="App\Console\Commands\CheckData::checkDuplicateRecurringInvoices">checkDuplicateRecurringInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#263"><abbr title="App\Console\Commands\CheckData::checkOAuth">checkOAuth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#307"><abbr title="App\Console\Commands\CheckData::checkContacts">checkContacts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#364"><abbr title="App\Console\Commands\CheckData::checkVendorContacts">checkVendorContacts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#412"><abbr title="App\Console\Commands\CheckData::checkInvitations">checkInvitations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#442"><abbr title="App\Console\Commands\CheckData::checkUserState">checkUserState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#452"><abbr title="App\Console\Commands\CheckData::checkEntityInvitations">checkEntityInvitations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#547"><abbr title="App\Console\Commands\CheckData::fixInvitations">fixInvitations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#569"><abbr title="App\Console\Commands\CheckData::clientPaidToDateQuery">clientPaidToDateQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#591"><abbr title="App\Console\Commands\CheckData::updateClientPaymentBalances">updateClientPaymentBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#605"><abbr title="App\Console\Commands\CheckData::clientCreditPaymentables">clientCreditPaymentables</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#624"><abbr title="App\Console\Commands\CheckData::clientCreditPaymentablesNew">clientCreditPaymentablesNew</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#646"><abbr title="App\Console\Commands\CheckData::checkPaidToDatesNew">checkPaidToDatesNew</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#682"><abbr title="App\Console\Commands\CheckData::clientBalanceQuery">clientBalanceQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#703"><abbr title="App\Console\Commands\CheckData::checkClientBalances">checkClientBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#733"><abbr title="App\Console\Commands\CheckData::checkClientBalanceEdgeCases">checkClientBalanceEdgeCases</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#775"><abbr title="App\Console\Commands\CheckData::invoiceBalanceQuery">invoiceBalanceQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#796"><abbr title="App\Console\Commands\CheckData::checkInvoiceBalances">checkInvoiceBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#838"><abbr title="App\Console\Commands\CheckData::checkLedgerBalances">checkLedgerBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#870"><abbr title="App\Console\Commands\CheckData::checkLogoFiles">checkLogoFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#877"><abbr title="App\Console\Commands\CheckData::getArguments">getArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#885"><abbr title="App\Console\Commands\CheckData::getOptions">getOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#895"><abbr title="App\Console\Commands\CheckData::checkCompanyData">checkCompanyData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#939"><abbr title="App\Console\Commands\CheckData::pluralizeEntityType">pluralizeEntityType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#948"><abbr title="App\Console\Commands\CheckData::checkAccountStatuses">checkAccountStatuses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#970"><abbr title="App\Console\Commands\CheckData::checkClientSettings">checkClientSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1076"><abbr title="App\Console\Commands\CheckData::checkVendorSettings">checkVendorSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1090"><abbr title="App\Console\Commands\CheckData::checkBalanceVsPaidStatus">checkBalanceVsPaidStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1126"><abbr title="App\Console\Commands\CheckData::checkNinjaPortalUrls">checkNinjaPortalUrls</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1165"><abbr title="App\Console\Commands\CheckData::fixBankTransactions">fixBankTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1185"><abbr title="App\Console\Commands\CheckData::checkContactEmailAndSendEmailStatus">checkContactEmailAndSendEmailStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1204"><abbr title="App\Console\Commands\CheckData::checkSubdomainsSet">checkSubdomainsSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1222"><abbr title="App\Console\Commands\CheckData::checkPaymentCurrency">checkPaymentCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1247"><abbr title="App\Console\Commands\CheckData::checkExpenseCurrency">checkExpenseCurrency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1263"><abbr title="App\Console\Commands\CheckData::cleanInvoiceLineItems">cleanInvoiceLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateAccount.php.html#56"><abbr title="App\Console\Commands\CreateAccount::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateAccount.php.html#63"><abbr title="App\Console\Commands\CreateAccount::createAccount">createAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#86"><abbr title="App\Console\Commands\CreateSingleAccount::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#119"><abbr title="App\Console\Commands\CreateSingleAccount::createRoninAccount">createRoninAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#130"><abbr title="App\Console\Commands\CreateSingleAccount::createSmallAccount">createSmallAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#410"><abbr title="App\Console\Commands\CreateSingleAccount::createSubsData">createSubsData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#643"><abbr title="App\Console\Commands\CreateSingleAccount::createClient">createClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#680"><abbr title="App\Console\Commands\CreateSingleAccount::createExpense">createExpense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#689"><abbr title="App\Console\Commands\CreateSingleAccount::createVendor">createVendor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#711"><abbr title="App\Console\Commands\CreateSingleAccount::createTask">createTask</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#728"><abbr title="App\Console\Commands\CreateSingleAccount::createTimeLog">createTimeLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#751"><abbr title="App\Console\Commands\CreateSingleAccount::createProject">createProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#770"><abbr title="App\Console\Commands\CreateSingleAccount::createInvoice">createInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#820"><abbr title="App\Console\Commands\CreateSingleAccount::createCredit">createCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#845"><abbr title="App\Console\Commands\CreateSingleAccount::createQuote">createQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#888"><abbr title="App\Console\Commands\CreateSingleAccount::buildCreditItem">buildCreditItem</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#913"><abbr title="App\Console\Commands\CreateSingleAccount::buildLineItems">buildLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#953"><abbr title="App\Console\Commands\CreateSingleAccount::createGateways">createGateways</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#1229"><abbr title="App\Console\Commands\CreateSingleAccount::createRecurringInvoice">createRecurringInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#1273"><abbr title="App\Console\Commands\CreateSingleAccount::countryClients">countryClients</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#73"><abbr title="App\Console\Commands\CreateTestData::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#95"><abbr title="App\Console\Commands\CreateTestData::createSmallAccount">createSmallAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#190"><abbr title="App\Console\Commands\CreateTestData::createMediumAccount">createMediumAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#286"><abbr title="App\Console\Commands\CreateTestData::createLargeAccount">createLargeAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#383"><abbr title="App\Console\Commands\CreateTestData::createClient">createClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#425"><abbr title="App\Console\Commands\CreateTestData::createExpense">createExpense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#434"><abbr title="App\Console\Commands\CreateTestData::createVendor">createVendor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#463"><abbr title="App\Console\Commands\CreateTestData::createTask">createTask</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#478"><abbr title="App\Console\Commands\CreateTestData::createProject">createProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#493"><abbr title="App\Console\Commands\CreateTestData::createInvoice">createInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#554"><abbr title="App\Console\Commands\CreateTestData::createCredit">createCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#593"><abbr title="App\Console\Commands\CreateTestData::createQuote">createQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#635"><abbr title="App\Console\Commands\CreateTestData::buildLineItems">buildLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#78"><abbr title="App\Console\Commands\DemoMode::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#104"><abbr title="App\Console\Commands\DemoMode::createSmallAccount">createSmallAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#262"><abbr title="App\Console\Commands\DemoMode::createClient">createClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#299"><abbr title="App\Console\Commands\DemoMode::createExpense">createExpense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#313"><abbr title="App\Console\Commands\DemoMode::createVendor">createVendor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#338"><abbr title="App\Console\Commands\DemoMode::createTask">createTask</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#352"><abbr title="App\Console\Commands\DemoMode::createProject">createProject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#364"><abbr title="App\Console\Commands\DemoMode::createInvoice">createInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#428"><abbr title="App\Console\Commands\DemoMode::createRecurringInvoice">createRecurringInvoice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#481"><abbr title="App\Console\Commands\DemoMode::createCredit">createCredit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#529"><abbr title="App\Console\Commands\DemoMode::createQuote">createQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#585"><abbr title="App\Console\Commands\DemoMode::buildLineItems">buildLineItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#54"><abbr title="App\Console\Commands\EncryptNinja::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#66"><abbr title="App\Console\Commands\EncryptNinja::encryptFiles">encryptFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#75"><abbr title="App\Console\Commands\EncryptNinja::decryptFiles">decryptFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HostedMigrations.php.html#64"><abbr title="App\Console\Commands\HostedMigrations::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/HostedUsers.php.html#49"><abbr title="App\Console\Commands\HostedUsers::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#75"><abbr title="App\Console\Commands\ImportMigrations::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#118"><abbr title="App\Console\Commands\ImportMigrations::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#152"><abbr title="App\Console\Commands\ImportMigrations::getAccount">getAccount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#157"><abbr title="App\Console\Commands\ImportMigrations::getCompany">getCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#49"><abbr title="App\Console\Commands\MobileLocalization::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#63"><abbr title="App\Console\Commands\MobileLocalization::laravelResources">laravelResources</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#77"><abbr title="App\Console\Commands\MobileLocalization::flutterResources">flutterResources</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#106"><abbr title="App\Console\Commands\MobileLocalization::getResources">getResources</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#123"><abbr title="App\Console\Commands\MobileLocalization::getOptions">getOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/OpenApiYaml.php.html#55"><abbr title="App\Console\Commands\OpenApiYaml::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/PostUpdate.php.html#44"><abbr title="App\Console\Commands\PostUpdate::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/ReactBuilder.php.html#48"><abbr title="App\Console\Commands\ReactBuilder::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/RecurringCommand.php.html#49"><abbr title="App\Console\Commands\RecurringCommand::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/S3Cleanup.php.html#52"><abbr title="App\Console\Commands\S3Cleanup::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/S3Cleanup.php.html#82"><abbr title="App\Console\Commands\S3Cleanup::logMessage">logMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#63"><abbr title="App\Console\Commands\SendRemindersCron::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#107"><abbr title="App\Console\Commands\SendRemindersCron::calcLateFee">calcLateFee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#147"><abbr title="App\Console\Commands\SendRemindersCron::setLateFee">setLateFee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#194"><abbr title="App\Console\Commands\SendRemindersCron::webHookOverdueInvoices">webHookOverdueInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#208"><abbr title="App\Console\Commands\SendRemindersCron::webHookExpiredQuotes">webHookExpiredQuotes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#212"><abbr title="App\Console\Commands\SendRemindersCron::executeWebhooks">executeWebhooks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/SendTestEmails.php.html#52"><abbr title="App\Console\Commands\SendTestEmails::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#101"><abbr title="App\Console\Commands\TranslationsExport::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#114"><abbr title="App\Console\Commands\TranslationsExport::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#137"><abbr title="App\Console\Commands\TranslationsExport::export">export</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#153"><abbr title="App\Console\Commands\TranslationsExport::logMessage">logMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#59"><abbr title="App\Console\Commands\TypeCheck::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#100"><abbr title="App\Console\Commands\TypeCheck::checkClient">checkClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#110"><abbr title="App\Console\Commands\TypeCheck::checkCompany">checkCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#117"><abbr title="App\Console\Commands\TypeCheck::checkAll">checkAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#142"><abbr title="App\Console\Commands\TypeCheck::logMessage">logMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Kernel.php.html#53"><abbr title="App\Console\Kernel::schedule">schedule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Commands/DesignUpdate.php.html#71"><abbr title="App\Console\Commands\DesignUpdate::handleOnDb">handleOnDb</abbr></a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="Commands/DesignUpdate.php.html#51"><abbr title="App\Console\Commands\DesignUpdate::handle">handle</abbr></a></td><td class="text-right">42%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#953"><abbr title="App\Console\Commands\CreateSingleAccount::createGateways">createGateways</abbr></a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="Commands/OpenApiYaml.php.html#55"><abbr title="App\Console\Commands\OpenApiYaml::handle">handle</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Commands/BackupUpdate.php.html#80"><abbr title="App\Console\Commands\BackupUpdate::handleOnDb">handleOnDb</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#108"><abbr title="App\Console\Commands\CheckData::handle">handle</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#452"><abbr title="App\Console\Commands\CheckData::checkEntityInvitations">checkEntityInvitations</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#130"><abbr title="App\Console\Commands\CreateSingleAccount::createSmallAccount">createSmallAccount</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Kernel.php.html#53"><abbr title="App\Console\Kernel::schedule">schedule</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#307"><abbr title="App\Console\Commands\CheckData::checkContacts">checkContacts</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#410"><abbr title="App\Console\Commands\CreateSingleAccount::createSubsData">createSubsData</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Commands/HostedMigrations.php.html#64"><abbr title="App\Console\Commands\HostedMigrations::handle">handle</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Commands/TypeCheck.php.html#59"><abbr title="App\Console\Commands\TypeCheck::handle">handle</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#184"><abbr title="App\Console\Commands\CheckData::checkTaskTimeLogs">checkTaskTimeLogs</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#364"><abbr title="App\Console\Commands\CheckData::checkVendorContacts">checkVendorContacts</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#796"><abbr title="App\Console\Commands\CheckData::checkInvoiceBalances">checkInvoiceBalances</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#493"><abbr title="App\Console\Commands\CreateTestData::createInvoice">createInvoice</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Commands/ReactBuilder.php.html#48"><abbr title="App\Console\Commands\ReactBuilder::handle">handle</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#263"><abbr title="App\Console\Commands\CheckData::checkOAuth">checkOAuth</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#86"><abbr title="App\Console\Commands\CreateSingleAccount::handle">handle</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#770"><abbr title="App\Console\Commands\CreateSingleAccount::createInvoice">createInvoice</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#75"><abbr title="App\Console\Commands\ImportMigrations::handle">handle</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#63"><abbr title="App\Console\Commands\SendRemindersCron::handle">handle</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#107"><abbr title="App\Console\Commands\SendRemindersCron::calcLateFee">calcLateFee</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#215"><abbr title="App\Console\Commands\CheckData::checkCompanyTokens">checkCompanyTokens</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#733"><abbr title="App\Console\Commands\CheckData::checkClientBalanceEdgeCases">checkClientBalanceEdgeCases</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#838"><abbr title="App\Console\Commands\CheckData::checkLedgerBalances">checkLedgerBalances</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#895"><abbr title="App\Console\Commands\CheckData::checkCompanyData">checkCompanyData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1090"><abbr title="App\Console\Commands\CheckData::checkBalanceVsPaidStatus">checkBalanceVsPaidStatus</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1126"><abbr title="App\Console\Commands\CheckData::checkNinjaPortalUrls">checkNinjaPortalUrls</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#913"><abbr title="App\Console\Commands\CreateSingleAccount::buildLineItems">buildLineItems</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#1229"><abbr title="App\Console\Commands\CreateSingleAccount::createRecurringInvoice">createRecurringInvoice</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#635"><abbr title="App\Console\Commands\CreateTestData::buildLineItems">buildLineItems</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#104"><abbr title="App\Console\Commands\DemoMode::createSmallAccount">createSmallAccount</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#77"><abbr title="App\Console\Commands\MobileLocalization::flutterResources">flutterResources</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/PostUpdate.php.html#44"><abbr title="App\Console\Commands\PostUpdate::handle">handle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Commands/BackupUpdate.php.html#56"><abbr title="App\Console\Commands\BackupUpdate::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#412"><abbr title="App\Console\Commands\CheckData::checkInvitations">checkInvitations</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#646"><abbr title="App\Console\Commands\CheckData::checkPaidToDatesNew">checkPaidToDatesNew</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#703"><abbr title="App\Console\Commands\CheckData::checkClientBalances">checkClientBalances</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#845"><abbr title="App\Console\Commands\CreateSingleAccount::createQuote">createQuote</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#95"><abbr title="App\Console\Commands\CreateTestData::createSmallAccount">createSmallAccount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#190"><abbr title="App\Console\Commands\CreateTestData::createMediumAccount">createMediumAccount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#286"><abbr title="App\Console\Commands\CreateTestData::createLargeAccount">createLargeAccount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#554"><abbr title="App\Console\Commands\CreateTestData::createCredit">createCredit</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#593"><abbr title="App\Console\Commands\CreateTestData::createQuote">createQuote</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#364"><abbr title="App\Console\Commands\DemoMode::createInvoice">createInvoice</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#63"><abbr title="App\Console\Commands\MobileLocalization::laravelResources">laravelResources</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/S3Cleanup.php.html#52"><abbr title="App\Console\Commands\S3Cleanup::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#147"><abbr title="App\Console\Commands\SendRemindersCron::setLateFee">setLateFee</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#248"><abbr title="App\Console\Commands\CheckData::checkDuplicateRecurringInvoices">checkDuplicateRecurringInvoices</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#547"><abbr title="App\Console\Commands\CheckData::fixInvitations">fixInvitations</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#948"><abbr title="App\Console\Commands\CheckData::checkAccountStatuses">checkAccountStatuses</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1222"><abbr title="App\Console\Commands\CheckData::checkPaymentCurrency">checkPaymentCurrency</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#728"><abbr title="App\Console\Commands\CreateSingleAccount::createTimeLog">createTimeLog</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/CreateTestData.php.html#73"><abbr title="App\Console\Commands\CreateTestData::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#78"><abbr title="App\Console\Commands\DemoMode::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#428"><abbr title="App\Console\Commands\DemoMode::createRecurringInvoice">createRecurringInvoice</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#481"><abbr title="App\Console\Commands\DemoMode::createCredit">createCredit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#529"><abbr title="App\Console\Commands\DemoMode::createQuote">createQuote</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#54"><abbr title="App\Console\Commands\EncryptNinja::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/HostedUsers.php.html#49"><abbr title="App\Console\Commands\HostedUsers::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/MobileLocalization.php.html#49"><abbr title="App\Console\Commands\MobileLocalization::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/SendRemindersCron.php.html#194"><abbr title="App\Console\Commands\SendRemindersCron::webHookOverdueInvoices">webHookOverdueInvoices</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#101"><abbr title="App\Console\Commands\TranslationsExport::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#114"><abbr title="App\Console\Commands\TranslationsExport::import">import</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/TranslationsExport.php.html#137"><abbr title="App\Console\Commands\TranslationsExport::export">export</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#939"><abbr title="App\Console\Commands\CheckData::pluralizeEntityType">pluralizeEntityType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#970"><abbr title="App\Console\Commands\CheckData::checkClientSettings">checkClientSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1076"><abbr title="App\Console\Commands\CheckData::checkVendorSettings">checkVendorSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1165"><abbr title="App\Console\Commands\CheckData::fixBankTransactions">fixBankTransactions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1185"><abbr title="App\Console\Commands\CheckData::checkContactEmailAndSendEmailStatus">checkContactEmailAndSendEmailStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/CheckData.php.html#1204"><abbr title="App\Console\Commands\CheckData::checkSubdomainsSet">checkSubdomainsSet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/CreateSingleAccount.php.html#751"><abbr title="App\Console\Commands\CreateSingleAccount::createProject">createProject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#262"><abbr title="App\Console\Commands\DemoMode::createClient">createClient</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/DemoMode.php.html#585"><abbr title="App\Console\Commands\DemoMode::buildLineItems">buildLineItems</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#66"><abbr title="App\Console\Commands\EncryptNinja::encryptFiles">encryptFiles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/EncryptNinja.php.html#75"><abbr title="App\Console\Commands\EncryptNinja::decryptFiles">decryptFiles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/ImportMigrations.php.html#157"><abbr title="App\Console\Commands\ImportMigrations::getCompany">getCompany</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/SendTestEmails.php.html#52"><abbr title="App\Console\Commands\SendTestEmails::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Commands/DesignUpdate.php.html#71"><abbr title="App\Console\Commands\DesignUpdate::handleOnDb">handleOnDb</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Commands/DesignUpdate.php.html#51"><abbr title="App\Console\Commands\DesignUpdate::handle">handle</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,15,1,1,0,0,1,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([124,1,0,0,0,1,0,0,0,0,0,18], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[1.1904761904761905,18,"<a href=\"Commands\/BackupUpdate.php.html#25\">App\\Console\\Commands\\BackupUpdate<\/a>"],[0,137,"<a href=\"Commands\/CheckData.php.html#83\">App\\Console\\Commands\\CheckData<\/a>"],[2,3,"<a href=\"Commands\/CreateAccount.php.html#31\">App\\Console\\Commands\\CreateAccount<\/a>"],[0,90,"<a href=\"Commands\/CreateSingleAccount.php.html#65\">App\\Console\\Commands\\CreateSingleAccount<\/a>"],[0,40,"<a href=\"Commands\/CreateTestData.php.html#49\">App\\Console\\Commands\\CreateTestData<\/a>"],[0.3401360544217687,30,"<a href=\"Commands\/DemoMode.php.html#56\">App\\Console\\Commands\\DemoMode<\/a>"],[26.31578947368421,6,"<a href=\"Commands\/DesignUpdate.php.html#20\">App\\Console\\Commands\\DesignUpdate<\/a>"],[7.142857142857142,8,"<a href=\"Commands\/EncryptNinja.php.html#18\">App\\Console\\Commands\\EncryptNinja<\/a>"],[3.7037037037037033,9,"<a href=\"Commands\/HostedMigrations.php.html#30\">App\\Console\\Commands\\HostedMigrations<\/a>"],[11.11111111111111,4,"<a href=\"Commands\/HostedUsers.php.html#19\">App\\Console\\Commands\\HostedUsers<\/a>"],[1.7857142857142856,11,"<a href=\"Commands\/ImportMigrations.php.html#36\">App\\Console\\Commands\\ImportMigrations<\/a>"],[2.4390243902439024,15,"<a href=\"Commands\/MobileLocalization.php.html#18\">App\\Console\\Commands\\MobileLocalization<\/a>"],[3.225806451612903,15,"<a href=\"Commands\/OpenApiYaml.php.html#19\">App\\Console\\Commands\\OpenApiYaml<\/a>"],[0,5,"<a href=\"Commands\/PostUpdate.php.html#20\">App\\Console\\Commands\\PostUpdate<\/a>"],[6.25,8,"<a href=\"Commands\/ReactBuilder.php.html#17\">App\\Console\\Commands\\ReactBuilder<\/a>"],[50,2,"<a href=\"Commands\/RecurringCommand.php.html#18\">App\\Console\\Commands\\RecurringCommand<\/a>"],[6.25,6,"<a href=\"Commands\/S3Cleanup.php.html#20\">App\\Console\\Commands\\S3Cleanup<\/a>"],[1,22,"<a href=\"Commands\/SendRemindersCron.php.html#30\">App\\Console\\Commands\\SendRemindersCron<\/a>"],[7.142857142857142,3,"<a href=\"Commands\/SendTestEmails.php.html#21\">App\\Console\\Commands\\SendTestEmails<\/a>"],[3.8461538461538463,11,"<a href=\"Commands\/TranslationsExport.php.html#20\">App\\Console\\Commands\\TranslationsExport<\/a>"],[2.1739130434782608,13,"<a href=\"Commands\/TypeCheck.php.html#23\">App\\Console\\Commands\\TypeCheck<\/a>"],[3.8461538461538463,10,"<a href=\"Kernel.php.html#45\">App\\Console\\Kernel<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Commands\/BackupUpdate.php.html#46\">App\\Console\\Commands\\BackupUpdate::__construct<\/a>"],[0,4,"<a href=\"Commands\/BackupUpdate.php.html#56\">App\\Console\\Commands\\BackupUpdate::handle<\/a>"],[0,13,"<a href=\"Commands\/BackupUpdate.php.html#80\">App\\Console\\Commands\\BackupUpdate::handleOnDb<\/a>"],[0,13,"<a href=\"Commands\/CheckData.php.html#108\">App\\Console\\Commands\\CheckData::handle<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#177\">App\\Console\\Commands\\CheckData::logMessage<\/a>"],[0,7,"<a href=\"Commands\/CheckData.php.html#184\">App\\Console\\Commands\\CheckData::checkTaskTimeLogs<\/a>"],[0,5,"<a href=\"Commands\/CheckData.php.html#215\">App\\Console\\Commands\\CheckData::checkCompanyTokens<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#241\">App\\Console\\Commands\\CheckData::checkOauthSanity<\/a>"],[0,3,"<a href=\"Commands\/CheckData.php.html#248\">App\\Console\\Commands\\CheckData::checkDuplicateRecurringInvoices<\/a>"],[0,6,"<a href=\"Commands\/CheckData.php.html#263\">App\\Console\\Commands\\CheckData::checkOAuth<\/a>"],[0,8,"<a href=\"Commands\/CheckData.php.html#307\">App\\Console\\Commands\\CheckData::checkContacts<\/a>"],[0,7,"<a href=\"Commands\/CheckData.php.html#364\">App\\Console\\Commands\\CheckData::checkVendorContacts<\/a>"],[0,4,"<a href=\"Commands\/CheckData.php.html#412\">App\\Console\\Commands\\CheckData::checkInvitations<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#442\">App\\Console\\Commands\\CheckData::checkUserState<\/a>"],[0,9,"<a href=\"Commands\/CheckData.php.html#452\">App\\Console\\Commands\\CheckData::checkEntityInvitations<\/a>"],[0,3,"<a href=\"Commands\/CheckData.php.html#547\">App\\Console\\Commands\\CheckData::fixInvitations<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#569\">App\\Console\\Commands\\CheckData::clientPaidToDateQuery<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#591\">App\\Console\\Commands\\CheckData::updateClientPaymentBalances<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#605\">App\\Console\\Commands\\CheckData::clientCreditPaymentables<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#624\">App\\Console\\Commands\\CheckData::clientCreditPaymentablesNew<\/a>"],[0,4,"<a href=\"Commands\/CheckData.php.html#646\">App\\Console\\Commands\\CheckData::checkPaidToDatesNew<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#682\">App\\Console\\Commands\\CheckData::clientBalanceQuery<\/a>"],[0,4,"<a href=\"Commands\/CheckData.php.html#703\">App\\Console\\Commands\\CheckData::checkClientBalances<\/a>"],[0,5,"<a href=\"Commands\/CheckData.php.html#733\">App\\Console\\Commands\\CheckData::checkClientBalanceEdgeCases<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#775\">App\\Console\\Commands\\CheckData::invoiceBalanceQuery<\/a>"],[0,7,"<a href=\"Commands\/CheckData.php.html#796\">App\\Console\\Commands\\CheckData::checkInvoiceBalances<\/a>"],[0,5,"<a href=\"Commands\/CheckData.php.html#838\">App\\Console\\Commands\\CheckData::checkLedgerBalances<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#870\">App\\Console\\Commands\\CheckData::checkLogoFiles<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#877\">App\\Console\\Commands\\CheckData::getArguments<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#885\">App\\Console\\Commands\\CheckData::getOptions<\/a>"],[0,5,"<a href=\"Commands\/CheckData.php.html#895\">App\\Console\\Commands\\CheckData::checkCompanyData<\/a>"],[0,2,"<a href=\"Commands\/CheckData.php.html#939\">App\\Console\\Commands\\CheckData::pluralizeEntityType<\/a>"],[0,3,"<a href=\"Commands\/CheckData.php.html#948\">App\\Console\\Commands\\CheckData::checkAccountStatuses<\/a>"],[0,2,"<a href=\"Commands\/CheckData.php.html#970\">App\\Console\\Commands\\CheckData::checkClientSettings<\/a>"],[0,2,"<a href=\"Commands\/CheckData.php.html#1076\">App\\Console\\Commands\\CheckData::checkVendorSettings<\/a>"],[0,5,"<a href=\"Commands\/CheckData.php.html#1090\">App\\Console\\Commands\\CheckData::checkBalanceVsPaidStatus<\/a>"],[0,5,"<a href=\"Commands\/CheckData.php.html#1126\">App\\Console\\Commands\\CheckData::checkNinjaPortalUrls<\/a>"],[0,2,"<a href=\"Commands\/CheckData.php.html#1165\">App\\Console\\Commands\\CheckData::fixBankTransactions<\/a>"],[0,2,"<a href=\"Commands\/CheckData.php.html#1185\">App\\Console\\Commands\\CheckData::checkContactEmailAndSendEmailStatus<\/a>"],[0,2,"<a href=\"Commands\/CheckData.php.html#1204\">App\\Console\\Commands\\CheckData::checkSubdomainsSet<\/a>"],[0,3,"<a href=\"Commands\/CheckData.php.html#1222\">App\\Console\\Commands\\CheckData::checkPaymentCurrency<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#1247\">App\\Console\\Commands\\CheckData::checkExpenseCurrency<\/a>"],[0,1,"<a href=\"Commands\/CheckData.php.html#1263\">App\\Console\\Commands\\CheckData::cleanInvoiceLineItems<\/a>"],[100,1,"<a href=\"Commands\/CreateAccount.php.html#46\">App\\Console\\Commands\\CreateAccount::__construct<\/a>"],[0,1,"<a href=\"Commands\/CreateAccount.php.html#56\">App\\Console\\Commands\\CreateAccount::handle<\/a>"],[0,1,"<a href=\"Commands\/CreateAccount.php.html#63\">App\\Console\\Commands\\CreateAccount::createAccount<\/a>"],[0,6,"<a href=\"Commands\/CreateSingleAccount.php.html#86\">App\\Console\\Commands\\CreateSingleAccount::handle<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#119\">App\\Console\\Commands\\CreateSingleAccount::createRoninAccount<\/a>"],[0,9,"<a href=\"Commands\/CreateSingleAccount.php.html#130\">App\\Console\\Commands\\CreateSingleAccount::createSmallAccount<\/a>"],[0,8,"<a href=\"Commands\/CreateSingleAccount.php.html#410\">App\\Console\\Commands\\CreateSingleAccount::createSubsData<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#643\">App\\Console\\Commands\\CreateSingleAccount::createClient<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#680\">App\\Console\\Commands\\CreateSingleAccount::createExpense<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#689\">App\\Console\\Commands\\CreateSingleAccount::createVendor<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#711\">App\\Console\\Commands\\CreateSingleAccount::createTask<\/a>"],[0,3,"<a href=\"Commands\/CreateSingleAccount.php.html#728\">App\\Console\\Commands\\CreateSingleAccount::createTimeLog<\/a>"],[0,2,"<a href=\"Commands\/CreateSingleAccount.php.html#751\">App\\Console\\Commands\\CreateSingleAccount::createProject<\/a>"],[0,6,"<a href=\"Commands\/CreateSingleAccount.php.html#770\">App\\Console\\Commands\\CreateSingleAccount::createInvoice<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#820\">App\\Console\\Commands\\CreateSingleAccount::createCredit<\/a>"],[0,4,"<a href=\"Commands\/CreateSingleAccount.php.html#845\">App\\Console\\Commands\\CreateSingleAccount::createQuote<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#888\">App\\Console\\Commands\\CreateSingleAccount::buildCreditItem<\/a>"],[0,5,"<a href=\"Commands\/CreateSingleAccount.php.html#913\">App\\Console\\Commands\\CreateSingleAccount::buildLineItems<\/a>"],[0,34,"<a href=\"Commands\/CreateSingleAccount.php.html#953\">App\\Console\\Commands\\CreateSingleAccount::createGateways<\/a>"],[0,5,"<a href=\"Commands\/CreateSingleAccount.php.html#1229\">App\\Console\\Commands\\CreateSingleAccount::createRecurringInvoice<\/a>"],[0,1,"<a href=\"Commands\/CreateSingleAccount.php.html#1273\">App\\Console\\Commands\\CreateSingleAccount::countryClients<\/a>"],[0,3,"<a href=\"Commands\/CreateTestData.php.html#73\">App\\Console\\Commands\\CreateTestData::handle<\/a>"],[0,4,"<a href=\"Commands\/CreateTestData.php.html#95\">App\\Console\\Commands\\CreateTestData::createSmallAccount<\/a>"],[0,4,"<a href=\"Commands\/CreateTestData.php.html#190\">App\\Console\\Commands\\CreateTestData::createMediumAccount<\/a>"],[0,4,"<a href=\"Commands\/CreateTestData.php.html#286\">App\\Console\\Commands\\CreateTestData::createLargeAccount<\/a>"],[0,1,"<a href=\"Commands\/CreateTestData.php.html#383\">App\\Console\\Commands\\CreateTestData::createClient<\/a>"],[0,1,"<a href=\"Commands\/CreateTestData.php.html#425\">App\\Console\\Commands\\CreateTestData::createExpense<\/a>"],[0,1,"<a href=\"Commands\/CreateTestData.php.html#434\">App\\Console\\Commands\\CreateTestData::createVendor<\/a>"],[0,1,"<a href=\"Commands\/CreateTestData.php.html#463\">App\\Console\\Commands\\CreateTestData::createTask<\/a>"],[0,1,"<a href=\"Commands\/CreateTestData.php.html#478\">App\\Console\\Commands\\CreateTestData::createProject<\/a>"],[0,7,"<a href=\"Commands\/CreateTestData.php.html#493\">App\\Console\\Commands\\CreateTestData::createInvoice<\/a>"],[0,4,"<a href=\"Commands\/CreateTestData.php.html#554\">App\\Console\\Commands\\CreateTestData::createCredit<\/a>"],[0,4,"<a href=\"Commands\/CreateTestData.php.html#593\">App\\Console\\Commands\\CreateTestData::createQuote<\/a>"],[0,5,"<a href=\"Commands\/CreateTestData.php.html#635\">App\\Console\\Commands\\CreateTestData::buildLineItems<\/a>"],[100,1,"<a href=\"Commands\/DemoMode.php.html#68\">App\\Console\\Commands\\DemoMode::__construct<\/a>"],[0,3,"<a href=\"Commands\/DemoMode.php.html#78\">App\\Console\\Commands\\DemoMode::handle<\/a>"],[0,5,"<a href=\"Commands\/DemoMode.php.html#104\">App\\Console\\Commands\\DemoMode::createSmallAccount<\/a>"],[0,2,"<a href=\"Commands\/DemoMode.php.html#262\">App\\Console\\Commands\\DemoMode::createClient<\/a>"],[0,1,"<a href=\"Commands\/DemoMode.php.html#299\">App\\Console\\Commands\\DemoMode::createExpense<\/a>"],[0,1,"<a href=\"Commands\/DemoMode.php.html#313\">App\\Console\\Commands\\DemoMode::createVendor<\/a>"],[0,1,"<a href=\"Commands\/DemoMode.php.html#338\">App\\Console\\Commands\\DemoMode::createTask<\/a>"],[0,1,"<a href=\"Commands\/DemoMode.php.html#352\">App\\Console\\Commands\\DemoMode::createProject<\/a>"],[0,4,"<a href=\"Commands\/DemoMode.php.html#364\">App\\Console\\Commands\\DemoMode::createInvoice<\/a>"],[0,3,"<a href=\"Commands\/DemoMode.php.html#428\">App\\Console\\Commands\\DemoMode::createRecurringInvoice<\/a>"],[0,3,"<a href=\"Commands\/DemoMode.php.html#481\">App\\Console\\Commands\\DemoMode::createCredit<\/a>"],[0,3,"<a href=\"Commands\/DemoMode.php.html#529\">App\\Console\\Commands\\DemoMode::createQuote<\/a>"],[0,2,"<a href=\"Commands\/DemoMode.php.html#585\">App\\Console\\Commands\\DemoMode::buildLineItems<\/a>"],[100,1,"<a href=\"Commands\/DesignUpdate.php.html#41\">App\\Console\\Commands\\DesignUpdate::__construct<\/a>"],[42.857142857142854,3,"<a href=\"Commands\/DesignUpdate.php.html#51\">App\\Console\\Commands\\DesignUpdate::handle<\/a>"],[9.090909090909092,2,"<a href=\"Commands\/DesignUpdate.php.html#71\">App\\Console\\Commands\\DesignUpdate::handleOnDb<\/a>"],[100,1,"<a href=\"Commands\/EncryptNinja.php.html#44\">App\\Console\\Commands\\EncryptNinja::__construct<\/a>"],[0,3,"<a href=\"Commands\/EncryptNinja.php.html#54\">App\\Console\\Commands\\EncryptNinja::handle<\/a>"],[0,2,"<a href=\"Commands\/EncryptNinja.php.html#66\">App\\Console\\Commands\\EncryptNinja::encryptFiles<\/a>"],[0,2,"<a href=\"Commands\/EncryptNinja.php.html#75\">App\\Console\\Commands\\EncryptNinja::decryptFiles<\/a>"],[100,1,"<a href=\"Commands\/HostedMigrations.php.html#54\">App\\Console\\Commands\\HostedMigrations::__construct<\/a>"],[0,8,"<a href=\"Commands\/HostedMigrations.php.html#64\">App\\Console\\Commands\\HostedMigrations::handle<\/a>"],[100,1,"<a href=\"Commands\/HostedUsers.php.html#40\">App\\Console\\Commands\\HostedUsers::__construct<\/a>"],[0,3,"<a href=\"Commands\/HostedUsers.php.html#49\">App\\Console\\Commands\\HostedUsers::handle<\/a>"],[100,1,"<a href=\"Commands\/ImportMigrations.php.html#65\">App\\Console\\Commands\\ImportMigrations::__construct<\/a>"],[0,6,"<a href=\"Commands\/ImportMigrations.php.html#75\">App\\Console\\Commands\\ImportMigrations::handle<\/a>"],[0,1,"<a href=\"Commands\/ImportMigrations.php.html#118\">App\\Console\\Commands\\ImportMigrations::getUser<\/a>"],[0,1,"<a href=\"Commands\/ImportMigrations.php.html#152\">App\\Console\\Commands\\ImportMigrations::getAccount<\/a>"],[0,2,"<a href=\"Commands\/ImportMigrations.php.html#157\">App\\Console\\Commands\\ImportMigrations::getCompany<\/a>"],[100,1,"<a href=\"Commands\/MobileLocalization.php.html#39\">App\\Console\\Commands\\MobileLocalization::__construct<\/a>"],[0,3,"<a href=\"Commands\/MobileLocalization.php.html#49\">App\\Console\\Commands\\MobileLocalization::handle<\/a>"],[0,4,"<a href=\"Commands\/MobileLocalization.php.html#63\">App\\Console\\Commands\\MobileLocalization::laravelResources<\/a>"],[0,5,"<a href=\"Commands\/MobileLocalization.php.html#77\">App\\Console\\Commands\\MobileLocalization::flutterResources<\/a>"],[0,1,"<a href=\"Commands\/MobileLocalization.php.html#106\">App\\Console\\Commands\\MobileLocalization::getResources<\/a>"],[0,1,"<a href=\"Commands\/MobileLocalization.php.html#123\">App\\Console\\Commands\\MobileLocalization::getOptions<\/a>"],[100,1,"<a href=\"Commands\/OpenApiYaml.php.html#45\">App\\Console\\Commands\\OpenApiYaml::__construct<\/a>"],[0,14,"<a href=\"Commands\/OpenApiYaml.php.html#55\">App\\Console\\Commands\\OpenApiYaml::handle<\/a>"],[0,5,"<a href=\"Commands\/PostUpdate.php.html#44\">App\\Console\\Commands\\PostUpdate::handle<\/a>"],[100,1,"<a href=\"Commands\/ReactBuilder.php.html#38\">App\\Console\\Commands\\ReactBuilder::__construct<\/a>"],[0,7,"<a href=\"Commands\/ReactBuilder.php.html#48\">App\\Console\\Commands\\ReactBuilder::handle<\/a>"],[100,1,"<a href=\"Commands\/RecurringCommand.php.html#39\">App\\Console\\Commands\\RecurringCommand::__construct<\/a>"],[0,1,"<a href=\"Commands\/RecurringCommand.php.html#49\">App\\Console\\Commands\\RecurringCommand::handle<\/a>"],[100,1,"<a href=\"Commands\/S3Cleanup.php.html#43\">App\\Console\\Commands\\S3Cleanup::__construct<\/a>"],[0,4,"<a href=\"Commands\/S3Cleanup.php.html#52\">App\\Console\\Commands\\S3Cleanup::handle<\/a>"],[0,1,"<a href=\"Commands\/S3Cleanup.php.html#82\">App\\Console\\Commands\\S3Cleanup::logMessage<\/a>"],[100,1,"<a href=\"Commands\/SendRemindersCron.php.html#54\">App\\Console\\Commands\\SendRemindersCron::__construct<\/a>"],[0,6,"<a href=\"Commands\/SendRemindersCron.php.html#63\">App\\Console\\Commands\\SendRemindersCron::handle<\/a>"],[0,6,"<a href=\"Commands\/SendRemindersCron.php.html#107\">App\\Console\\Commands\\SendRemindersCron::calcLateFee<\/a>"],[0,4,"<a href=\"Commands\/SendRemindersCron.php.html#147\">App\\Console\\Commands\\SendRemindersCron::setLateFee<\/a>"],[0,3,"<a href=\"Commands\/SendRemindersCron.php.html#194\">App\\Console\\Commands\\SendRemindersCron::webHookOverdueInvoices<\/a>"],[0,1,"<a href=\"Commands\/SendRemindersCron.php.html#208\">App\\Console\\Commands\\SendRemindersCron::webHookExpiredQuotes<\/a>"],[0,1,"<a href=\"Commands\/SendRemindersCron.php.html#212\">App\\Console\\Commands\\SendRemindersCron::executeWebhooks<\/a>"],[100,1,"<a href=\"Commands\/SendTestEmails.php.html#42\">App\\Console\\Commands\\SendTestEmails::__construct<\/a>"],[0,2,"<a href=\"Commands\/SendTestEmails.php.html#52\">App\\Console\\Commands\\SendTestEmails::handle<\/a>"],[100,1,"<a href=\"Commands\/TranslationsExport.php.html#91\">App\\Console\\Commands\\TranslationsExport::__construct<\/a>"],[0,3,"<a href=\"Commands\/TranslationsExport.php.html#101\">App\\Console\\Commands\\TranslationsExport::handle<\/a>"],[0,3,"<a href=\"Commands\/TranslationsExport.php.html#114\">App\\Console\\Commands\\TranslationsExport::import<\/a>"],[0,3,"<a href=\"Commands\/TranslationsExport.php.html#137\">App\\Console\\Commands\\TranslationsExport::export<\/a>"],[0,1,"<a href=\"Commands\/TranslationsExport.php.html#153\">App\\Console\\Commands\\TranslationsExport::logMessage<\/a>"],[100,1,"<a href=\"Commands\/TypeCheck.php.html#49\">App\\Console\\Commands\\TypeCheck::__construct<\/a>"],[0,8,"<a href=\"Commands\/TypeCheck.php.html#59\">App\\Console\\Commands\\TypeCheck::handle<\/a>"],[0,1,"<a href=\"Commands\/TypeCheck.php.html#100\">App\\Console\\Commands\\TypeCheck::checkClient<\/a>"],[0,1,"<a href=\"Commands\/TypeCheck.php.html#110\">App\\Console\\Commands\\TypeCheck::checkCompany<\/a>"],[0,1,"<a href=\"Commands\/TypeCheck.php.html#117\">App\\Console\\Commands\\TypeCheck::checkAll<\/a>"],[0,1,"<a href=\"Commands\/TypeCheck.php.html#142\">App\\Console\\Commands\\TypeCheck::logMessage<\/a>"],[0,9,"<a href=\"Kernel.php.html#53\">App\\Console\\Kernel::schedule<\/a>"],[100,1,"<a href=\"Kernel.php.html#177\">App\\Console\\Kernel::commands<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

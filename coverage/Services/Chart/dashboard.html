@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/amna/sqe_project/invoiceninja/app/Services/Chart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.11" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/amna/sqe_project/invoiceninja/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Services</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Chart</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChartService.php.html#25">App\Services\Chart\ChartService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#20">App\Services\Chart\ChartServiceLegacy</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#25">App\Services\Chart\ChartCalculations</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#20">App\Services\Chart\ChartQueries</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#20">App\Services\Chart\ChartQueriesLegacy</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChartCalculations.php.html#25">App\Services\Chart\ChartCalculations</a></td><td class="text-right">4290</td></tr>
+       <tr><td><a href="ChartService.php.html#25">App\Services\Chart\ChartService</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="ChartQueries.php.html#20">App\Services\Chart\ChartQueries</a></td><td class="text-right">1332</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#20">App\Services\Chart\ChartServiceLegacy</a></td><td class="text-right">306</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChartService.php.html#30"><abbr title="App\Services\Chart\ChartService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#38"><abbr title="App\Services\Chart\ChartService::getCurrencyCodes">getCurrencyCodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#82"><abbr title="App\Services\Chart\ChartService::chart_summary">chart_summary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#109"><abbr title="App\Services\Chart\ChartService::totals">totals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#151"><abbr title="App\Services\Chart\ChartService::getInvoices">getInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#159"><abbr title="App\Services\Chart\ChartService::getRevenue">getRevenue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#167"><abbr title="App\Services\Chart\ChartService::getOutstanding">getOutstanding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#175"><abbr title="App\Services\Chart\ChartService::getExpenses">getExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#187"><abbr title="App\Services\Chart\ChartService::addCurrencyCodes">addCurrencyCodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#201"><abbr title="App\Services\Chart\ChartService::getCode">getCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartService.php.html#233"><abbr title="App\Services\Chart\ChartService::getCalculatedField">getCalculatedField</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#26"><abbr title="App\Services\Chart\ChartServiceLegacy::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#35"><abbr title="App\Services\Chart\ChartServiceLegacy::getCurrencyCodes">getCurrencyCodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#73"><abbr title="App\Services\Chart\ChartServiceLegacy::chart_summary">chart_summary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#92"><abbr title="App\Services\Chart\ChartServiceLegacy::totals">totals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#111"><abbr title="App\Services\Chart\ChartServiceLegacy::getRevenue">getRevenue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#119"><abbr title="App\Services\Chart\ChartServiceLegacy::getOutstanding">getOutstanding</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#127"><abbr title="App\Services\Chart\ChartServiceLegacy::getExpenses">getExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#139"><abbr title="App\Services\Chart\ChartServiceLegacy::addCurrencyCodes">addCurrencyCodes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#153"><abbr title="App\Services\Chart\ChartServiceLegacy::getCode">getCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#27"><abbr title="App\Services\Chart\ChartCalculations::getActiveInvoices">getActiveInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#52"><abbr title="App\Services\Chart\ChartCalculations::getOutstandingInvoices">getOutstandingInvoices</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#77"><abbr title="App\Services\Chart\ChartCalculations::getCompletedPayments">getCompletedPayments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#102"><abbr title="App\Services\Chart\ChartCalculations::getRefundedPayments">getRefundedPayments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#127"><abbr title="App\Services\Chart\ChartCalculations::getActiveQuotes">getActiveQuotes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#155"><abbr title="App\Services\Chart\ChartCalculations::getUnapprovedQuotes">getUnapprovedQuotes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#183"><abbr title="App\Services\Chart\ChartCalculations::getLoggedTasks">getLoggedTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#192"><abbr title="App\Services\Chart\ChartCalculations::getPaidTasks">getPaidTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#203"><abbr title="App\Services\Chart\ChartCalculations::getInvoicedTasks">getInvoicedTasks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#216"><abbr title="App\Services\Chart\ChartCalculations::getLoggedExpenses">getLoggedExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#227"><abbr title="App\Services\Chart\ChartCalculations::getPendingExpenses">getPendingExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#238"><abbr title="App\Services\Chart\ChartCalculations::getInvoicedExpenses">getInvoicedExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#249"><abbr title="App\Services\Chart\ChartCalculations::getPaidExpenses">getPaidExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#260"><abbr title="App\Services\Chart\ChartCalculations::getInvoicedPaidExpenses">getInvoicedPaidExpenses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#268"><abbr title="App\Services\Chart\ChartCalculations::expenseCalculations">expenseCalculations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#286"><abbr title="App\Services\Chart\ChartCalculations::expenseCalculator">expenseCalculator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#308"><abbr title="App\Services\Chart\ChartCalculations::expenseQuery">expenseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#323"><abbr title="App\Services\Chart\ChartCalculations::taskMoneyCalculator">taskMoneyCalculator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#342"><abbr title="App\Services\Chart\ChartCalculations::taskQuery">taskQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#357"><abbr title="App\Services\Chart\ChartCalculations::taskCalculations">taskCalculations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#25"><abbr title="App\Services\Chart\ChartQueries::getExpenseQuery">getExpenseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#52"><abbr title="App\Services\Chart\ChartQueries::getAggregateExpenseQuery">getAggregateExpenseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#94"><abbr title="App\Services\Chart\ChartQueries::getAggregateExpenseChartQuery">getAggregateExpenseChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#144"><abbr title="App\Services\Chart\ChartQueries::getExpenseChartQuery">getExpenseChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#186"><abbr title="App\Services\Chart\ChartQueries::getPaymentQuery">getPaymentQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#211"><abbr title="App\Services\Chart\ChartQueries::getAggregatePaymentQuery">getAggregatePaymentQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#237"><abbr title="App\Services\Chart\ChartQueries::getAggregatePaymentChartQuery">getAggregatePaymentChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#263"><abbr title="App\Services\Chart\ChartQueries::getPaymentChartQuery">getPaymentChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#297"><abbr title="App\Services\Chart\ChartQueries::getOutstandingQuery">getOutstandingQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#322"><abbr title="App\Services\Chart\ChartQueries::getAggregateOutstandingQuery">getAggregateOutstandingQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#347"><abbr title="App\Services\Chart\ChartQueries::getAggregateRevenueQuery">getAggregateRevenueQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#368"><abbr title="App\Services\Chart\ChartQueries::getRevenueQuery">getRevenueQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#390"><abbr title="App\Services\Chart\ChartQueries::getAggregateInvoicesQuery">getAggregateInvoicesQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#417"><abbr title="App\Services\Chart\ChartQueries::getInvoicesQuery">getInvoicesQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#442"><abbr title="App\Services\Chart\ChartQueries::getAggregateOutstandingChartQuery">getAggregateOutstandingChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#467"><abbr title="App\Services\Chart\ChartQueries::getOutstandingChartQuery">getOutstandingChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#498"><abbr title="App\Services\Chart\ChartQueries::getAggregateInvoiceChartQuery">getAggregateInvoiceChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueries.php.html#523"><abbr title="App\Services\Chart\ChartQueries::getInvoiceChartQuery">getInvoiceChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#25"><abbr title="App\Services\Chart\ChartQueriesLegacy::getExpenseQuery">getExpenseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#39"><abbr title="App\Services\Chart\ChartQueriesLegacy::getExpenseChartQuery">getExpenseChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#64"><abbr title="App\Services\Chart\ChartQueriesLegacy::getPaymentQuery">getPaymentQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#82"><abbr title="App\Services\Chart\ChartQueriesLegacy::getPaymentChartQuery">getPaymentChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#108"><abbr title="App\Services\Chart\ChartQueriesLegacy::getOutstandingQuery">getOutstandingQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#127"><abbr title="App\Services\Chart\ChartQueriesLegacy::getRevenueQuery">getRevenueQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartQueriesLegacy.php.html#146"><abbr title="App\Services\Chart\ChartQueriesLegacy::getInvoiceChartQuery">getInvoiceChartQuery</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChartService.php.html#233"><abbr title="App\Services\Chart\ChartService::getCalculatedField">getCalculatedField</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="ChartService.php.html#109"><abbr title="App\Services\Chart\ChartService::totals">totals</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#357"><abbr title="App\Services\Chart\ChartCalculations::taskCalculations">taskCalculations</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#27"><abbr title="App\Services\Chart\ChartCalculations::getActiveInvoices">getActiveInvoices</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#52"><abbr title="App\Services\Chart\ChartCalculations::getOutstandingInvoices">getOutstandingInvoices</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#77"><abbr title="App\Services\Chart\ChartCalculations::getCompletedPayments">getCompletedPayments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#102"><abbr title="App\Services\Chart\ChartCalculations::getRefundedPayments">getRefundedPayments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#127"><abbr title="App\Services\Chart\ChartCalculations::getActiveQuotes">getActiveQuotes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#155"><abbr title="App\Services\Chart\ChartCalculations::getUnapprovedQuotes">getUnapprovedQuotes</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#92"><abbr title="App\Services\Chart\ChartServiceLegacy::totals">totals</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#268"><abbr title="App\Services\Chart\ChartCalculations::expenseCalculations">expenseCalculations</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ChartService.php.html#38"><abbr title="App\Services\Chart\ChartService::getCurrencyCodes">getCurrencyCodes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartService.php.html#82"><abbr title="App\Services\Chart\ChartService::chart_summary">chart_summary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartService.php.html#187"><abbr title="App\Services\Chart\ChartService::addCurrencyCodes">addCurrencyCodes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartService.php.html#201"><abbr title="App\Services\Chart\ChartService::getCode">getCode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#35"><abbr title="App\Services\Chart\ChartServiceLegacy::getCurrencyCodes">getCurrencyCodes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#73"><abbr title="App\Services\Chart\ChartServiceLegacy::chart_summary">chart_summary</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#139"><abbr title="App\Services\Chart\ChartServiceLegacy::addCurrencyCodes">addCurrencyCodes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartServiceLegacy.php.html#153"><abbr title="App\Services\Chart\ChartServiceLegacy::getCode">getCode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#308"><abbr title="App\Services\Chart\ChartCalculations::expenseQuery">expenseQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartCalculations.php.html#342"><abbr title="App\Services\Chart\ChartCalculations::taskQuery">taskQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#25"><abbr title="App\Services\Chart\ChartQueries::getExpenseQuery">getExpenseQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#52"><abbr title="App\Services\Chart\ChartQueries::getAggregateExpenseQuery">getAggregateExpenseQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#94"><abbr title="App\Services\Chart\ChartQueries::getAggregateExpenseChartQuery">getAggregateExpenseChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#144"><abbr title="App\Services\Chart\ChartQueries::getExpenseChartQuery">getExpenseChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#186"><abbr title="App\Services\Chart\ChartQueries::getPaymentQuery">getPaymentQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#211"><abbr title="App\Services\Chart\ChartQueries::getAggregatePaymentQuery">getAggregatePaymentQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#237"><abbr title="App\Services\Chart\ChartQueries::getAggregatePaymentChartQuery">getAggregatePaymentChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#263"><abbr title="App\Services\Chart\ChartQueries::getPaymentChartQuery">getPaymentChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#297"><abbr title="App\Services\Chart\ChartQueries::getOutstandingQuery">getOutstandingQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#322"><abbr title="App\Services\Chart\ChartQueries::getAggregateOutstandingQuery">getAggregateOutstandingQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#347"><abbr title="App\Services\Chart\ChartQueries::getAggregateRevenueQuery">getAggregateRevenueQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#368"><abbr title="App\Services\Chart\ChartQueries::getRevenueQuery">getRevenueQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#390"><abbr title="App\Services\Chart\ChartQueries::getAggregateInvoicesQuery">getAggregateInvoicesQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#417"><abbr title="App\Services\Chart\ChartQueries::getInvoicesQuery">getInvoicesQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#442"><abbr title="App\Services\Chart\ChartQueries::getAggregateOutstandingChartQuery">getAggregateOutstandingChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#467"><abbr title="App\Services\Chart\ChartQueries::getOutstandingChartQuery">getOutstandingChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#498"><abbr title="App\Services\Chart\ChartQueries::getAggregateInvoiceChartQuery">getAggregateInvoiceChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartQueries.php.html#523"><abbr title="App\Services\Chart\ChartQueries::getInvoiceChartQuery">getInvoiceChartQuery</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.4.15</a> and <a href="https://phpunit.de/">PHPUnit 11.5.35</a> at Sat Dec 6 5:54:48 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([65,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,38,"<a href=\"ChartService.php.html#25\">App\\Services\\Chart\\ChartService<\/a>"],[0,17,"<a href=\"ChartServiceLegacy.php.html#20\">App\\Services\\Chart\\ChartServiceLegacy<\/a>"],[0,65,"<a href=\"ChartCalculations.php.html#25\">App\\Services\\Chart\\ChartCalculations<\/a>"],[0,36,"<a href=\"ChartQueries.php.html#20\">App\\Services\\Chart\\ChartQueries<\/a>"],[0,7,"<a href=\"ChartQueriesLegacy.php.html#20\">App\\Services\\Chart\\ChartQueriesLegacy<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ChartService.php.html#30\">App\\Services\\Chart\\ChartService::__construct<\/a>"],[0,2,"<a href=\"ChartService.php.html#38\">App\\Services\\Chart\\ChartService::getCurrencyCodes<\/a>"],[0,2,"<a href=\"ChartService.php.html#82\">App\\Services\\Chart\\ChartService::chart_summary<\/a>"],[0,10,"<a href=\"ChartService.php.html#109\">App\\Services\\Chart\\ChartService::totals<\/a>"],[0,1,"<a href=\"ChartService.php.html#151\">App\\Services\\Chart\\ChartService::getInvoices<\/a>"],[0,1,"<a href=\"ChartService.php.html#159\">App\\Services\\Chart\\ChartService::getRevenue<\/a>"],[0,1,"<a href=\"ChartService.php.html#167\">App\\Services\\Chart\\ChartService::getOutstanding<\/a>"],[0,1,"<a href=\"ChartService.php.html#175\">App\\Services\\Chart\\ChartService::getExpenses<\/a>"],[0,2,"<a href=\"ChartService.php.html#187\">App\\Services\\Chart\\ChartService::addCurrencyCodes<\/a>"],[0,2,"<a href=\"ChartService.php.html#201\">App\\Services\\Chart\\ChartService::getCode<\/a>"],[0,15,"<a href=\"ChartService.php.html#233\">App\\Services\\Chart\\ChartService::getCalculatedField<\/a>"],[0,1,"<a href=\"ChartServiceLegacy.php.html#26\">App\\Services\\Chart\\ChartServiceLegacy::__construct<\/a>"],[0,2,"<a href=\"ChartServiceLegacy.php.html#35\">App\\Services\\Chart\\ChartServiceLegacy::getCurrencyCodes<\/a>"],[0,2,"<a href=\"ChartServiceLegacy.php.html#73\">App\\Services\\Chart\\ChartServiceLegacy::chart_summary<\/a>"],[0,5,"<a href=\"ChartServiceLegacy.php.html#92\">App\\Services\\Chart\\ChartServiceLegacy::totals<\/a>"],[0,1,"<a href=\"ChartServiceLegacy.php.html#111\">App\\Services\\Chart\\ChartServiceLegacy::getRevenue<\/a>"],[0,1,"<a href=\"ChartServiceLegacy.php.html#119\">App\\Services\\Chart\\ChartServiceLegacy::getOutstanding<\/a>"],[0,1,"<a href=\"ChartServiceLegacy.php.html#127\">App\\Services\\Chart\\ChartServiceLegacy::getExpenses<\/a>"],[0,2,"<a href=\"ChartServiceLegacy.php.html#139\">App\\Services\\Chart\\ChartServiceLegacy::addCurrencyCodes<\/a>"],[0,2,"<a href=\"ChartServiceLegacy.php.html#153\">App\\Services\\Chart\\ChartServiceLegacy::getCode<\/a>"],[0,6,"<a href=\"ChartCalculations.php.html#27\">App\\Services\\Chart\\ChartCalculations::getActiveInvoices<\/a>"],[0,6,"<a href=\"ChartCalculations.php.html#52\">App\\Services\\Chart\\ChartCalculations::getOutstandingInvoices<\/a>"],[0,6,"<a href=\"ChartCalculations.php.html#77\">App\\Services\\Chart\\ChartCalculations::getCompletedPayments<\/a>"],[0,6,"<a href=\"ChartCalculations.php.html#102\">App\\Services\\Chart\\ChartCalculations::getRefundedPayments<\/a>"],[0,6,"<a href=\"ChartCalculations.php.html#127\">App\\Services\\Chart\\ChartCalculations::getActiveQuotes<\/a>"],[0,6,"<a href=\"ChartCalculations.php.html#155\">App\\Services\\Chart\\ChartCalculations::getUnapprovedQuotes<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#183\">App\\Services\\Chart\\ChartCalculations::getLoggedTasks<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#192\">App\\Services\\Chart\\ChartCalculations::getPaidTasks<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#203\">App\\Services\\Chart\\ChartCalculations::getInvoicedTasks<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#216\">App\\Services\\Chart\\ChartCalculations::getLoggedExpenses<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#227\">App\\Services\\Chart\\ChartCalculations::getPendingExpenses<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#238\">App\\Services\\Chart\\ChartCalculations::getInvoicedExpenses<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#249\">App\\Services\\Chart\\ChartCalculations::getPaidExpenses<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#260\">App\\Services\\Chart\\ChartCalculations::getInvoicedPaidExpenses<\/a>"],[0,5,"<a href=\"ChartCalculations.php.html#268\">App\\Services\\Chart\\ChartCalculations::expenseCalculations<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#286\">App\\Services\\Chart\\ChartCalculations::expenseCalculator<\/a>"],[0,2,"<a href=\"ChartCalculations.php.html#308\">App\\Services\\Chart\\ChartCalculations::expenseQuery<\/a>"],[0,1,"<a href=\"ChartCalculations.php.html#323\">App\\Services\\Chart\\ChartCalculations::taskMoneyCalculator<\/a>"],[0,2,"<a href=\"ChartCalculations.php.html#342\">App\\Services\\Chart\\ChartCalculations::taskQuery<\/a>"],[0,10,"<a href=\"ChartCalculations.php.html#357\">App\\Services\\Chart\\ChartCalculations::taskCalculations<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#25\">App\\Services\\Chart\\ChartQueries::getExpenseQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#52\">App\\Services\\Chart\\ChartQueries::getAggregateExpenseQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#94\">App\\Services\\Chart\\ChartQueries::getAggregateExpenseChartQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#144\">App\\Services\\Chart\\ChartQueries::getExpenseChartQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#186\">App\\Services\\Chart\\ChartQueries::getPaymentQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#211\">App\\Services\\Chart\\ChartQueries::getAggregatePaymentQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#237\">App\\Services\\Chart\\ChartQueries::getAggregatePaymentChartQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#263\">App\\Services\\Chart\\ChartQueries::getPaymentChartQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#297\">App\\Services\\Chart\\ChartQueries::getOutstandingQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#322\">App\\Services\\Chart\\ChartQueries::getAggregateOutstandingQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#347\">App\\Services\\Chart\\ChartQueries::getAggregateRevenueQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#368\">App\\Services\\Chart\\ChartQueries::getRevenueQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#390\">App\\Services\\Chart\\ChartQueries::getAggregateInvoicesQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#417\">App\\Services\\Chart\\ChartQueries::getInvoicesQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#442\">App\\Services\\Chart\\ChartQueries::getAggregateOutstandingChartQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#467\">App\\Services\\Chart\\ChartQueries::getOutstandingChartQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#498\">App\\Services\\Chart\\ChartQueries::getAggregateInvoiceChartQuery<\/a>"],[0,2,"<a href=\"ChartQueries.php.html#523\">App\\Services\\Chart\\ChartQueries::getInvoiceChartQuery<\/a>"],[0,1,"<a href=\"ChartQueriesLegacy.php.html#25\">App\\Services\\Chart\\ChartQueriesLegacy::getExpenseQuery<\/a>"],[0,1,"<a href=\"ChartQueriesLegacy.php.html#39\">App\\Services\\Chart\\ChartQueriesLegacy::getExpenseChartQuery<\/a>"],[0,1,"<a href=\"ChartQueriesLegacy.php.html#64\">App\\Services\\Chart\\ChartQueriesLegacy::getPaymentQuery<\/a>"],[0,1,"<a href=\"ChartQueriesLegacy.php.html#82\">App\\Services\\Chart\\ChartQueriesLegacy::getPaymentChartQuery<\/a>"],[0,1,"<a href=\"ChartQueriesLegacy.php.html#108\">App\\Services\\Chart\\ChartQueriesLegacy::getOutstandingQuery<\/a>"],[0,1,"<a href=\"ChartQueriesLegacy.php.html#127\">App\\Services\\Chart\\ChartQueriesLegacy::getRevenueQuery<\/a>"],[0,1,"<a href=\"ChartQueriesLegacy.php.html#146\">App\\Services\\Chart\\ChartQueriesLegacy::getInvoiceChartQuery<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
