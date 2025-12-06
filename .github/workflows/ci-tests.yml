@@ -35,6 +35,11 @@ jobs:
         extensions: mbstring, bcmath, mysql, xdebug
         coverage: xdebug
 
+ - name: Create storage directories
+      run: |
+        mkdir -p storage/framework/{cache,sessions,views}
+        mkdir -p storage/logs
+
     - name: Copy .env
       run: cp .env.testing .env
 

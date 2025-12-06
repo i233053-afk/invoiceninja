@@ -7,18 +7,7 @@
 
    <testsuites>
     <testsuite name="Application Test Suite">
-        <directory suffix="Test.php">./tests/Unit</directory>
-        <directory suffix="Test.php">./tests/casts</directory>
-	<directory suffix="Test.php">./tests/Console</directory>
-        <directory suffix="Test.php">./tests/Feature</directory>
-        <directory suffix="Test.php">./tests/Integration</directory>
-        <directory suffix="Test.php">./tests/Payment</directory>
-        <directory suffix="Test.php">./tests/Pdf</directory>
-        <directory suffix="Test.php">./tests/DataMapper</directory>
-        <directory suffix="Test.php">./tests/Events</directory>
-        <directory suffix="Test.php">./tests/Export</directory>
-        <directory suffix="Test.php">./tests/Filters</directory>
-        <directory suffix="Test.php">./tests/Helpers</directory>
+       <directory suffix="Test.php">./tests/</directory>
     </testsuite>
 </testsuites>
 

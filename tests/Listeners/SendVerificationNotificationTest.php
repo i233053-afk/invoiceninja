@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\listeners;
+namespace Tests\Listeners;
 
 use Tests\TestCase;
 use Mockery;

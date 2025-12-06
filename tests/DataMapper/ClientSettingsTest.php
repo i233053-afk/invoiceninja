@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit\DataMapper;
+namespace Tests\DataMapper;
 
 use PHPUnit\Framework\TestCase;
 use App\DataMapper\ClientSettings;
