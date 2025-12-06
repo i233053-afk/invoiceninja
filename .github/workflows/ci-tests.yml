@@ -80,13 +80,8 @@ jobs:
       - name: Run migrations and seed database
         run: php artisan migrate --force && php artisan db:seed
 
-      - name: Run PHPUnit tests with coverage
-        run: php artisan test --coverage-clover coverage.xml || true
-
-      - name: Generate HTML coverage report
-        run: |
-          mkdir -p coverage-html
-          php vendor/bin/phpcov merge coverage.xml --html coverage-html
+      - name: Run PHPUnit tests with HTML coverage
+        run: php artisan test --coverage-html=coverage-html || true
 
       - name: Upload HTML coverage report
         uses: actions/upload-artifact@v4
