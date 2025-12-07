@@ -10,18 +10,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout code
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Step 2: Setup SSH
       - name: Setup SSH
         run: |
+          # Create SSH directory
           mkdir -p $HOME/.ssh
+          
+          # Write private key safely
           cat <<EOF > $HOME/.ssh/id_rsa
 ${{ secrets.SSH_PRIVATE_KEY }}
 EOF
           chmod 600 $HOME/.ssh/id_rsa
-          ssh-keyscan -H $(echo "${{ secrets.PROD_SERVER }}" | cut -d@ -f2) >> $HOME/.ssh/known_hosts
+          
+          # Add remote host to known_hosts safely
+          REMOTE_HOST="${{ secrets.PROD_SERVER#*@ }}"
+          ssh-keyscan -H "$REMOTE_HOST" >> $HOME/.ssh/known_hosts
+          
+          # Optional: Verify SSH connection
+          ssh -o StrictHostKeyChecking=no -i $HOME/.ssh/id_rsa "${{ secrets.PROD_SERVER }}" "echo 'SSH connection successful'"
 
+      # Step 3: Deploy to server
       - name: Deploy to Server
         run: |
-          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" . "${{ secrets.PROD_SERVER }}:/home/amna/invoice-ninja"
+          rsync -avz --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            -e "ssh -o StrictHostKeyChecking=no -i $HOME/.ssh/id_rsa" \
+            . "${{ secrets.PROD_SERVER }}:/home/amna/invoice-ninja"
