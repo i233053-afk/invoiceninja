@@ -15,6 +15,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\MockAccountData;
 use Tests\TestCase;
 
+
 /**
  * 
  *  \App\Http\Controllers\Shop\ProfileController
@@ -24,12 +25,21 @@ class ShopProfileTest extends TestCase
     use MockAccountData;
     use DatabaseTransactions;
 
-    protected function setUp(): void
-    {
-        parent::setUp();
+protected function setUp(): void
+{
+    parent::setUp();
 
-        $this->makeTestData();
-    }
+    app()->setLocale('en');
+
+    $this->makeTestData();
+
+    $settings = $this->company->settings;
+    $settings->language_id = 1; // English
+    $settings->translations = new \stdClass(); // <-- THIS FIXES YOUR TEST
+    $this->company->settings = $settings;
+    $this->company->save();
+}
+
 
     public function testProfileDisplays()
     {

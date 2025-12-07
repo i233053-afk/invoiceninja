@@ -1,0 +1,91 @@
+name: CI Test Pipeline
+
+on:
+  push:
+    branches: [ "ci-cd-setup" ]
+  pull_request:
+    branches: [ "ci-cd-setup" ]
+
+jobs:
+  laravel-tests:
+    runs-on: ubuntu-latest
+
+    services:
+      mariadb:
+        image: mariadb:10.6
+        ports:
+          - 3306:3306
+        env:
+          MYSQL_ALLOW_EMPTY_PASSWORD: no
+          MYSQL_USER: invoicetest
+          MYSQL_PASSWORD: testpassword
+          MYSQL_DATABASE: invoice_ninja_test
+          MYSQL_ROOT_PASSWORD: root
+        options: >-
+          --health-cmd="mysqladmin ping --silent"
+          --health-interval=5s
+          --health-timeout=2s
+          --health-retries=3
+      redis:
+        image: redis
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd="redis-cli ping"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+          extensions: mbstring, bcmath, mysql, redis, xdebug
+          coverage: xdebug
+
+      - name: Create storage directories
+        run: |
+          mkdir -p storage/framework/{cache,sessions,views}
+          mkdir -p storage/logs
+
+      - name: Copy .env
+        run: cp .env.testing .env
+
+      - name: Update .env database values
+        run: |
+          echo "DB_CONNECTION=mysql" >> .env
+          echo "DB_HOST=127.0.0.1" >> .env
+          echo "DB_PORT=3306" >> .env
+          echo "DB_DATABASE=invoice_ninja_test" >> .env
+          echo "DB_USERNAME=invoicetest" >> .env
+          echo "DB_PASSWORD=testpassword" >> .env
+
+      - name: Wait for MariaDB to be ready
+        run: |
+          until mysqladmin ping -h 127.0.0.1 -P 3306 --silent; do
+            echo "Waiting for database..."
+            sleep 2
+          done
+
+      - name: Composer install
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Generate Laravel key
+        run: php artisan key:generate
+
+      - name: Run migrations and seed database
+        run: php artisan migrate --force && php artisan db:seed
+
+      - name: Run PHPUnit tests with HTML coverage
+        run: php artisan test --coverage-html=coverage-html || true
+
+      - name: Upload HTML coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: phpunit-coverage-html
+          path: coverage-html
+
