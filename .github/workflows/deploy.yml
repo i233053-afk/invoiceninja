@@ -19,9 +19,9 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
 
-          # Add server to known_hosts
-          SERVER_IP=$(echo "${{ secrets.PROD_SERVER }}" | cut -d@ -f2)
-          ssh-keyscan -H "$SERVER_IP" >> ~/.ssh/known_hosts
+          # Safe extraction of server host
+          SERVER_HOST="${{ secrets.PROD_SERVER#*@ }}"
+          ssh-keyscan -H "$SERVER_HOST" >> ~/.ssh/known_hosts
 
       - name: Deploy to Server
         run: |
