@@ -15,10 +15,15 @@ jobs:
 
       - name: Setup SSH
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H $(echo "${{ secrets.PROD_SERVER }}" | cut -d@ -f2) >> ~/.ssh/known_hosts
+          # Create SSH directory
+          mkdir -p $HOME/.ssh
+          
+          # Add private key safely
+          printf "%s\n" "${{ secrets.SSH_PRIVATE_KEY }}" > $HOME/.ssh/id_rsa
+          chmod 600 $HOME/.ssh/id_rsa
+          
+          # Add server to known hosts
+          ssh-keyscan -H $(echo "${{ secrets.PROD_SERVER }}" | cut -d@ -f2) >> $HOME/.ssh/known_hosts
 
       - name: Deploy to Server
         run: |
